@@ -1,0 +1,1201 @@
+doc_cliente,nombre,segmento,distrito,ciudad,fecha_alta
+C-00001,Rosa Vargas,Nuevo,Paucarpata,Arequipa,2022-05-31
+C-00002,Andres Espinoza,Frecuente,San Sebastian,Cusco,2020-02-15
+C-00003,Milagros Chavez,Frecuente,Surquillo,Lima,2024-10-30
+C-00004,Rosa Espinoza,Frecuente,Callao,Lima,2021-01-24
+C-00005,Luis Castillo,Premium,Santiago,Cusco,2021-01-28
+C-00006,Luis Zegarra,Ocasional,Wanchaq,Cusco,2024-02-17
+C-00007,Manuel Vargas,Frecuente,Callao,Lima,2019-08-24
+C-00008,Manuel Del Aguila,Nuevo,Paucarpata,Arequipa,2022-11-02
+C-00009,Karina Castillo,Ocasional,San Miguel,Lima,2020-06-15
+C-00010,Luis Ramos,Frecuente,Pueblo Libre,Lima,2025-10-28
+C-00011,Elena Ramos,Premium,Barranco,Lima,2025-06-02
+C-00012,Milagros Chavez,Premium,Pueblo Libre,Lima,2020-09-19
+C-00013,Raul Ticona,Nuevo,San Jeronimo,Cusco,2021-07-18
+C-00014,Julio Mamani,Nuevo,Callao,Lima,2022-08-29
+C-00015,Andres Flores,Ocasional,San Sebastian,Cusco,2019-08-27
+C-00016,Jorge Paredes,Ocasional,Jose Luis Bustamante,Arequipa,2025-12-02
+C-00017,Cesar Quispe,Premium,Jesus Maria,Lima,2023-08-05
+C-00018,Jorge Mamani,Nuevo,La Molina,Lima,2025-12-08
+C-00019,Elena Espinoza,Premium,Santiago,Cusco,2020-11-11
+C-00020,Elena Ccahuana,Ocasional,Jose Luis Bustamante,Arequipa,2022-10-03
+C-00021,Gabriela Flores,Premium,Cayma,Arequipa,2025-01-20
+C-00022,Patricia Mamani,Frecuente,Los Olivos,Lima,2024-10-12
+C-00023,Rosa Vargas,Frecuente,Comas,Lima,2021-08-05
+C-00024,Jorge Ninaquispe,Ocasional,Barranco,Lima,2020-10-06
+C-00025,Milagros Quispe,Premium,Surquillo,Lima,2024-11-28
+C-00026,Gabriela Bautista,Ocasional,Callao,Lima,2019-01-29
+C-00027,Miguel Quispe,Frecuente,San Isidro,Lima,2021-09-07
+C-00028,Jorge Ticona,Frecuente,Comas,Lima,2023-08-22
+C-00029,Gabriela Del Aguila,Ocasional,Centro,Trujillo,2024-02-13
+C-00030,Patricia Paredes,Nuevo,San Miguel,Lima,2020-09-18
+C-00031,Fernando Huaman,Premium,San Jeronimo,Cusco,2025-12-14
+C-00032,Lucia Castillo,Nuevo,La Esperanza,Trujillo,2021-08-25
+C-00033,Silvia Paredes,Nuevo,San Borja,Lima,2023-07-29
+C-00034,Milagros Salazar,Nuevo,Comas,Lima,2023-12-16
+C-00035,Ricardo Flores,Frecuente,Jesus Maria,Lima,2020-05-07
+C-00036,Elena Flores,Ocasional,Miraflores,Lima,2021-11-06
+C-00037,Patricia Rojas,Premium,San Borja,Lima,2023-12-01
+C-00038,Fernando Ccahuana,Ocasional,La Esperanza,Trujillo,2020-02-10
+C-00039,Manuel Huaman,Nuevo,La Molina,Lima,2024-01-08
+C-00040,Patricia Espinoza,Premium,Miraflores,Lima,2021-07-13
+C-00041,Julio Vargas,Frecuente,Ate,Lima,2025-01-18
+C-00042,Silvia Chavez,Premium,Jose Luis Bustamante,Arequipa,2024-07-30
+C-00043,Cesar Espinoza,Nuevo,Surquillo,Lima,2022-01-22
+C-00044,Miguel Del Aguila,Ocasional,Callao,Lima,2020-11-28
+C-00045,Manuel Del Aguila,Nuevo,Los Olivos,Lima,2025-10-08
+C-00046,Miguel Ticona,Nuevo,Lince,Lima,2021-01-16
+C-00047,Luis Ccahuana,Frecuente,Chorrillos,Lima,2021-03-28
+C-00048,Elena Rojas,Frecuente,San Isidro,Lima,2019-11-08
+C-00049,Fernando Mamani,Frecuente,San Isidro,Lima,2021-07-05
+C-00050,Sofia Ramos,Premium,Sachaca,Arequipa,2021-11-10
+C-00051,Julio Mamani,Ocasional,Sachaca,Arequipa,2023-12-10
+C-00052,Elena Flores,Ocasional,San Borja,Lima,2022-11-24
+C-00053,Fernando Rojas,Ocasional,Huanchaco,Trujillo,2019-10-03
+C-00054,Ana Zegarra,Frecuente,Ate,Lima,2022-02-02
+C-00055,Gabriela Bautista,Premium,Magdalena,Lima,2020-05-24
+C-00056,Ricardo Del Aguila,Premium,Magdalena,Lima,2021-05-31
+C-00057,Luis Del Aguila,Nuevo,Santiago,Cusco,2020-06-13
+C-00058,Patricia Bautista,Premium,Victor Larco,Trujillo,2020-09-03
+C-00059,Raul Ninaquispe,Ocasional,Centro,Trujillo,2023-05-05
+C-00060,Milagros Paredes,Frecuente,Callao,Lima,2021-11-06
+C-00061,Karina Mamani,Nuevo,Santiago,Cusco,2021-07-06
+C-00062,Lucia Zegarra,Nuevo,San Juan de Lurigancho,Lima,2023-03-06
+C-00063,Karina Del Aguila,Premium,Jesus Maria,Lima,2023-12-09
+C-00064,Lucia Vargas,Nuevo,Yanahuara,Arequipa,2020-03-07
+C-00065,Miguel Del Aguila,Frecuente,Callao,Lima,2025-03-27
+C-00066,Lucia Paredes,Premium,Jose Luis Bustamante,Arequipa,2023-11-07
+C-00067,Gabriela Ticona,Frecuente,Sachaca,Arequipa,2025-04-08
+C-00068,Jorge Salazar,Frecuente,Victor Larco,Trujillo,2024-06-10
+C-00069,Patricia Castillo,Nuevo,Jose Luis Bustamante,Arequipa,2025-12-20
+C-00070,Luis Ramos,Nuevo,San Juan de Lurigancho,Lima,2021-02-22
+C-00071,Manuel Vargas,Nuevo,Centro,Trujillo,2022-04-23
+C-00072,Rosa Rojas,Ocasional,Sachaca,Arequipa,2024-08-18
+C-00073,Lucia Mamani,Premium,Jesus Maria,Lima,2021-02-27
+C-00074,Raul Rojas,Nuevo,Surco,Lima,2023-12-24
+C-00075,Fernando Mamani,Nuevo,Wanchaq,Cusco,2023-12-26
+C-00076,Raul Ccahuana,Frecuente,Santiago,Cusco,2022-05-18
+C-00077,Gabriela Espinoza,Premium,Huanchaco,Trujillo,2020-11-30
+C-00078,Sofia Rojas,Frecuente,San Borja,Lima,2024-08-28
+C-00079,Rosa Flores,Nuevo,Ate,Lima,2019-08-18
+C-00080,Manuel Castillo,Nuevo,Lince,Lima,2025-02-05
+C-00081,Silvia Salazar,Ocasional,El Porvenir,Trujillo,2022-08-23
+C-00082,Ricardo Espinoza,Nuevo,Santiago,Cusco,2024-01-13
+C-00083,Karina Quispe,Ocasional,Centro,Trujillo,2022-02-16
+C-00084,Manuel Zegarra,Ocasional,Cercado,Arequipa,2022-08-06
+C-00085,Patricia Ramos,Ocasional,Yanahuara,Arequipa,2022-12-05
+C-00086,Raul Ninaquispe,Frecuente,San Miguel,Lima,2025-12-09
+C-00087,Diego Chavez,Frecuente,Centro Historico,Cusco,2023-06-24
+C-00088,Diego Chavez,Premium,Los Olivos,Lima,2024-03-24
+C-00089,Diego Chavez,Nuevo,La Molina,Lima,2019-07-07
+C-00090,Cesar Del Aguila,Premium,Jesus Maria,Lima,2019-01-19
+C-00091,Lucia Zegarra,Nuevo,Huanchaco,Trujillo,2019-10-12
+C-00092,Rosa Ticona,Premium,Huanchaco,Trujillo,2021-10-13
+C-00093,Diego Bautista,Ocasional,Los Olivos,Lima,2025-02-19
+C-00094,Rosa Ramos,Nuevo,Pueblo Libre,Lima,2023-06-14
+C-00095,Fernando Zegarra,Ocasional,La Molina,Lima,2022-02-28
+C-00096,Luis Del Aguila,Premium,Chorrillos,Lima,2025-04-08
+C-00097,Lucia Ccahuana,Nuevo,San Sebastian,Cusco,2020-04-27
+C-00098,Karina Zegarra,Ocasional,Surquillo,Lima,2021-03-10
+C-00099,Lucia Del Aguila,Premium,San Isidro,Lima,2021-03-17
+C-00100,Gabriela Mamani,Premium,Callao,Lima,2021-05-07
+C-00101,Fernando Castillo,Ocasional,Cayma,Arequipa,2021-07-15
+C-00102,Andres Quispe,Frecuente,Barranco,Lima,2022-11-20
+C-00103,Raul Ticona,Nuevo,Callao,Lima,2025-07-08
+C-00104,Manuel Chavez,Premium,Pueblo Libre,Lima,2020-12-31
+C-00105,Cesar Flores,Ocasional,Jose Luis Bustamante,Arequipa,2022-04-08
+C-00106,Luis Zegarra,Ocasional,San Sebastian,Cusco,2024-03-09
+C-00107,Milagros Ramos,Nuevo,Los Olivos,Lima,2022-12-29
+C-00108,Miguel Del Aguila,Frecuente,Cercado,Arequipa,2019-08-08
+C-00109,Elena Rojas,Nuevo,Los Olivos,Lima,2019-06-15
+C-00110,Miguel Flores,Frecuente,Santiago,Cusco,2021-10-13
+C-00111,Manuel Espinoza,Frecuente,San Borja,Lima,2022-05-28
+C-00112,Karina Ticona,Premium,Surquillo,Lima,2020-06-29
+C-00113,Milagros Chavez,Frecuente,Centro,Trujillo,2019-10-29
+C-00114,Gabriela Ccahuana,Premium,La Molina,Lima,2024-02-14
+C-00115,Diego Chavez,Frecuente,Victor Larco,Trujillo,2025-10-05
+C-00116,Diego Quispe,Premium,El Porvenir,Trujillo,2025-07-27
+C-00117,Ricardo Vargas,Ocasional,Ate,Lima,2025-06-10
+C-00118,Luis Flores,Frecuente,Callao,Lima,2020-08-06
+C-00119,Cesar Quispe,Frecuente,Jose Luis Bustamante,Arequipa,2020-12-13
+C-00120,Gabriela Castillo,Ocasional,San Juan de Lurigancho,Lima,2023-03-20
+C-00121,Gabriela Vargas,Frecuente,Sachaca,Arequipa,2019-09-11
+C-00122,Andres Quispe,Premium,Wanchaq,Cusco,2021-05-09
+C-00123,Andres Mamani,Ocasional,Cayma,Arequipa,2024-03-19
+C-00124,Rosa Espinoza,Frecuente,Barranco,Lima,2022-11-10
+C-00125,Gabriela Ninaquispe,Nuevo,Jesus Maria,Lima,2021-04-11
+C-00126,Diego Paredes,Premium,Miraflores,Lima,2022-05-16
+C-00127,Silvia Zegarra,Ocasional,Victor Larco,Trujillo,2024-08-06
+C-00128,Ana Zegarra,Premium,Centro Historico,Cusco,2022-11-02
+C-00129,Manuel Quispe,Nuevo,Victor Larco,Trujillo,2022-01-03
+C-00130,Jorge Del Aguila,Premium,Surco,Lima,2025-07-30
+C-00131,Luis Chavez,Ocasional,La Esperanza,Trujillo,2019-03-21
+C-00132,Silvia Huaman,Nuevo,Comas,Lima,2025-09-23
+C-00133,Rosa Mamani,Ocasional,Comas,Lima,2019-12-05
+C-00134,Andres Rojas,Premium,Santiago,Cusco,2020-11-17
+C-00135,Rosa Vargas,Premium,Magdalena,Lima,2024-02-17
+C-00136,Cesar Castillo,Ocasional,Cercado,Arequipa,2024-10-19
+C-00137,Fernando Del Aguila,Nuevo,San Borja,Lima,2022-09-19
+C-00138,Diego Ramos,Premium,Wanchaq,Cusco,2019-10-29
+C-00139,Patricia Flores,Premium,Centro,Trujillo,2025-10-19
+C-00140,Rosa Castillo,Nuevo,Cayma,Arequipa,2022-12-15
+C-00141,Andres Flores,Frecuente,San Miguel,Lima,2025-10-30
+C-00142,Diego Huaman,Nuevo,San Jeronimo,Cusco,2021-12-11
+C-00143,Julio Paredes,Ocasional,Sachaca,Arequipa,2023-10-10
+C-00144,Patricia Ninaquispe,Premium,Surco,Lima,2023-06-05
+C-00145,Manuel Zegarra,Nuevo,San Isidro,Lima,2021-10-20
+C-00146,Elena Ticona,Premium,Magdalena,Lima,2023-09-22
+C-00147,Elena Huaman,Ocasional,Wanchaq,Cusco,2023-12-25
+C-00148,Jorge Ticona,Premium,Callao,Lima,2019-02-24
+C-00149,Patricia Espinoza,Nuevo,Centro Historico,Cusco,2023-10-09
+C-00150,Elena Ccahuana,Nuevo,Victor Larco,Trujillo,2020-07-12
+C-00151,Gabriela Rojas,Ocasional,San Juan de Lurigancho,Lima,2023-02-02
+C-00152,Cesar Mamani,Ocasional,Cercado,Arequipa,2022-06-02
+C-00153,Fernando Ccahuana,Ocasional,Callao,Lima,2021-07-23
+C-00154,Lucia Bautista,Nuevo,El Porvenir,Trujillo,2020-05-22
+C-00155,Elena Flores,Frecuente,Cayma,Arequipa,2020-02-18
+C-00156,Karina Zegarra,Premium,San Borja,Lima,2020-03-26
+C-00157,Raul Huaman,Ocasional,San Jeronimo,Cusco,2022-01-06
+C-00158,Sofia Ticona,Nuevo,Wanchaq,Cusco,2021-08-24
+C-00159,Elena Flores,Ocasional,San Isidro,Lima,2019-11-04
+C-00160,Milagros Castillo,Ocasional,San Jeronimo,Cusco,2025-03-30
+C-00161,Diego Ramos,Frecuente,Jose Luis Bustamante,Arequipa,2019-10-08
+C-00162,Diego Ramos,Ocasional,Los Olivos,Lima,2019-12-02
+C-00163,Carmen Zegarra,Ocasional,Victor Larco,Trujillo,2023-04-18
+C-00164,Sofia Del Aguila,Premium,Barranco,Lima,2019-01-11
+C-00165,Silvia Mamani,Frecuente,Jesus Maria,Lima,2024-06-25
+C-00166,Ricardo Ninaquispe,Nuevo,Santiago,Cusco,2024-09-09
+C-00167,Elena Ramos,Frecuente,San Isidro,Lima,2020-07-13
+C-00168,Milagros Ramos,Nuevo,San Borja,Lima,2019-05-24
+C-00169,Elena Castillo,Nuevo,San Miguel,Lima,2021-01-14
+C-00170,Ricardo Espinoza,Ocasional,Paucarpata,Arequipa,2023-01-21
+C-00171,Elena Paredes,Ocasional,Santiago,Cusco,2025-04-08
+C-00172,Patricia Bautista,Nuevo,La Molina,Lima,2019-11-12
+C-00173,Sofia Paredes,Frecuente,Comas,Lima,2020-07-24
+C-00174,Manuel Bautista,Nuevo,Los Olivos,Lima,2024-10-06
+C-00175,Silvia Bautista,Ocasional,Huanchaco,Trujillo,2024-01-17
+C-00176,Cesar Zegarra,Nuevo,Jesus Maria,Lima,2021-07-31
+C-00177,Julio Ramos,Premium,La Molina,Lima,2025-02-20
+C-00178,Raul Paredes,Premium,Barranco,Lima,2025-11-15
+C-00179,Sofia Espinoza,Premium,Surquillo,Lima,2020-01-12
+C-00180,Ricardo Huaman,Ocasional,Lince,Lima,2021-04-09
+C-00181,Rosa Quispe,Ocasional,Wanchaq,Cusco,2021-03-22
+C-00182,Elena Del Aguila,Ocasional,Pueblo Libre,Lima,2022-09-04
+C-00183,Andres Ramos,Ocasional,Cercado,Arequipa,2019-10-01
+C-00184,Raul Rojas,Premium,Cayma,Arequipa,2025-09-18
+C-00185,Andres Ninaquispe,Premium,San Jeronimo,Cusco,2021-02-24
+C-00186,Sofia Flores,Premium,San Sebastian,Cusco,2024-02-03
+C-00187,Jorge Ccahuana,Frecuente,Cercado,Arequipa,2020-03-03
+C-00188,Gabriela Chavez,Frecuente,Ate,Lima,2023-04-01
+C-00189,Carmen Del Aguila,Premium,Victor Larco,Trujillo,2021-12-31
+C-00190,Gabriela Ramos,Frecuente,Chorrillos,Lima,2019-03-31
+C-00191,Miguel Vargas,Ocasional,Jesus Maria,Lima,2021-01-31
+C-00192,Jorge Ticona,Frecuente,Santiago,Cusco,2020-10-14
+C-00193,Luis Bautista,Nuevo,Comas,Lima,2024-12-09
+C-00194,Cesar Mamani,Premium,Comas,Lima,2020-09-01
+C-00195,Ricardo Zegarra,Nuevo,San Borja,Lima,2022-06-13
+C-00196,Diego Bautista,Ocasional,Barranco,Lima,2021-09-03
+C-00197,Patricia Zegarra,Nuevo,Magdalena,Lima,2019-04-17
+C-00198,Milagros Huaman,Premium,Wanchaq,Cusco,2019-08-28
+C-00199,Luis Mamani,Ocasional,San Jeronimo,Cusco,2024-03-05
+C-00200,Sofia Paredes,Frecuente,Cayma,Arequipa,2020-02-01
+C-00201,Silvia Bautista,Frecuente,Ate,Lima,2021-05-26
+C-00202,Ricardo Chavez,Premium,Victor Larco,Trujillo,2024-11-24
+C-00203,Luis Paredes,Frecuente,Comas,Lima,2020-08-26
+C-00204,Luis Ccahuana,Ocasional,Pueblo Libre,Lima,2024-07-05
+C-00205,Milagros Castillo,Ocasional,La Esperanza,Trujillo,2019-01-14
+C-00206,Andres Vargas,Nuevo,San Miguel,Lima,2021-06-21
+C-00207,Diego Ticona,Nuevo,Yanahuara,Arequipa,2024-02-25
+C-00208,Jorge Quispe,Ocasional,Los Olivos,Lima,2023-04-22
+C-00209,Elena Huaman,Premium,Chorrillos,Lima,2023-06-07
+C-00210,Carmen Mamani,Ocasional,Cayma,Arequipa,2023-08-18
+C-00211,Carmen Paredes,Premium,Ate,Lima,2020-12-05
+C-00212,Diego Salazar,Premium,San Isidro,Lima,2020-10-14
+C-00213,Karina Quispe,Ocasional,Sachaca,Arequipa,2024-03-23
+C-00214,Ricardo Ccahuana,Ocasional,Wanchaq,Cusco,2025-08-18
+C-00215,Lucia Chavez,Frecuente,La Molina,Lima,2025-12-19
+C-00216,Diego Vargas,Ocasional,Jesus Maria,Lima,2019-09-20
+C-00217,Lucia Ticona,Frecuente,Jose Luis Bustamante,Arequipa,2024-01-20
+C-00218,Manuel Espinoza,Ocasional,Santiago,Cusco,2021-03-24
+C-00219,Julio Del Aguila,Nuevo,Victor Larco,Trujillo,2023-06-17
+C-00220,Silvia Mamani,Ocasional,Lince,Lima,2019-03-01
+C-00221,Patricia Ticona,Premium,Sachaca,Arequipa,2019-11-03
+C-00222,Lucia Del Aguila,Frecuente,Surquillo,Lima,2019-09-23
+C-00223,Manuel Bautista,Premium,Centro Historico,Cusco,2021-04-21
+C-00224,Gabriela Quispe,Premium,San Jeronimo,Cusco,2019-04-24
+C-00225,Jorge Ninaquispe,Ocasional,Lince,Lima,2024-07-17
+C-00226,Julio Huaman,Premium,Barranco,Lima,2022-07-01
+C-00227,Manuel Mamani,Premium,San Borja,Lima,2020-09-02
+C-00228,Jorge Huaman,Nuevo,Wanchaq,Cusco,2021-08-24
+C-00229,Silvia Ninaquispe,Nuevo,Victor Larco,Trujillo,2021-09-23
+C-00230,Diego Vargas,Ocasional,La Esperanza,Trujillo,2022-09-17
+C-00231,Cesar Ccahuana,Premium,Cercado,Arequipa,2024-07-09
+C-00232,Carmen Vargas,Frecuente,Lince,Lima,2019-12-13
+C-00233,Carmen Ninaquispe,Nuevo,La Molina,Lima,2022-09-06
+C-00234,Diego Chavez,Nuevo,Callao,Lima,2024-01-13
+C-00235,Rosa Salazar,Nuevo,Jose Luis Bustamante,Arequipa,2024-08-03
+C-00236,Cesar Quispe,Frecuente,Victor Larco,Trujillo,2023-04-03
+C-00237,Sofia Ramos,Nuevo,San Juan de Lurigancho,Lima,2024-06-21
+C-00238,Lucia Zegarra,Premium,Callao,Lima,2021-09-21
+C-00239,Karina Ticona,Nuevo,Barranco,Lima,2021-09-02
+C-00240,Lucia Flores,Nuevo,Comas,Lima,2022-04-23
+C-00241,Milagros Paredes,Frecuente,Chorrillos,Lima,2025-08-07
+C-00242,Jorge Ninaquispe,Ocasional,Chorrillos,Lima,2021-11-14
+C-00243,Jorge Rojas,Frecuente,San Jeronimo,Cusco,2022-04-09
+C-00244,Julio Mamani,Premium,Huanchaco,Trujillo,2019-09-02
+C-00245,Rosa Espinoza,Nuevo,San Sebastian,Cusco,2020-08-02
+C-00246,Diego Salazar,Frecuente,Los Olivos,Lima,2022-11-28
+C-00247,Milagros Rojas,Ocasional,Chorrillos,Lima,2021-08-08
+C-00248,Milagros Ramos,Premium,Santiago,Cusco,2023-11-27
+C-00249,Patricia Huaman,Frecuente,Centro,Trujillo,2025-12-22
+C-00250,Gabriela Mamani,Premium,Ate,Lima,2019-08-25
+C-00251,Gabriela Mamani,Premium,Yanahuara,Arequipa,2019-10-09
+C-00252,Gabriela Bautista,Premium,Chorrillos,Lima,2019-12-30
+C-00253,Miguel Quispe,Premium,San Jeronimo,Cusco,2020-04-11
+C-00254,Luis Mamani,Premium,Miraflores,Lima,2022-04-20
+C-00255,Fernando Ccahuana,Frecuente,Cercado,Arequipa,2022-05-15
+C-00256,Milagros Ccahuana,Frecuente,Barranco,Lima,2020-09-18
+C-00257,Andres Quispe,Premium,San Jeronimo,Cusco,2024-09-28
+C-00258,Sofia Castillo,Premium,Callao,Lima,2021-02-08
+C-00259,Milagros Ninaquispe,Frecuente,Comas,Lima,2025-10-08
+C-00260,Rosa Paredes,Frecuente,Surquillo,Lima,2022-01-03
+C-00261,Ana Bautista,Frecuente,San Isidro,Lima,2020-12-25
+C-00262,Lucia Huaman,Nuevo,El Porvenir,Trujillo,2020-11-13
+C-00263,Ricardo Del Aguila,Nuevo,Cercado,Arequipa,2023-01-22
+C-00264,Andres Mamani,Ocasional,San Sebastian,Cusco,2022-06-24
+C-00265,Gabriela Vargas,Premium,Surco,Lima,2021-05-05
+C-00266,Miguel Bautista,Frecuente,Lince,Lima,2020-01-03
+C-00267,Milagros Chavez,Nuevo,San Juan de Lurigancho,Lima,2020-08-22
+C-00268,Ana Espinoza,Premium,Jose Luis Bustamante,Arequipa,2024-04-24
+C-00269,Andres Paredes,Frecuente,Sachaca,Arequipa,2024-12-16
+C-00270,Andres Zegarra,Nuevo,Centro Historico,Cusco,2020-08-03
+C-00271,Carmen Flores,Frecuente,Lince,Lima,2019-08-31
+C-00272,Raul Ccahuana,Nuevo,Jose Luis Bustamante,Arequipa,2025-06-28
+C-00273,Silvia Ramos,Frecuente,San Jeronimo,Cusco,2023-08-09
+C-00274,Miguel Flores,Frecuente,Barranco,Lima,2023-01-09
+C-00275,Elena Paredes,Frecuente,Magdalena,Lima,2023-06-04
+C-00276,Carmen Flores,Premium,San Miguel,Lima,2024-02-08
+C-00277,Karina Huaman,Frecuente,Lince,Lima,2019-07-06
+C-00278,Luis Bautista,Premium,Jose Luis Bustamante,Arequipa,2023-07-15
+C-00279,Ana Espinoza,Frecuente,Jose Luis Bustamante,Arequipa,2023-07-11
+C-00280,Ana Ticona,Premium,Callao,Lima,2022-05-08
+C-00281,Jorge Mamani,Premium,Lince,Lima,2021-12-09
+C-00282,Milagros Castillo,Premium,La Molina,Lima,2023-06-27
+C-00283,Milagros Ninaquispe,Nuevo,Magdalena,Lima,2023-05-25
+C-00284,Andres Bautista,Premium,Miraflores,Lima,2019-10-25
+C-00285,Ricardo Zegarra,Nuevo,Sachaca,Arequipa,2019-08-04
+C-00286,Cesar Espinoza,Premium,Jesus Maria,Lima,2019-03-11
+C-00287,Jorge Flores,Nuevo,Lince,Lima,2019-07-02
+C-00288,Andres Mamani,Ocasional,Santiago,Cusco,2020-11-18
+C-00289,Ana Castillo,Nuevo,Jesus Maria,Lima,2021-11-22
+C-00290,Lucia Salazar,Frecuente,Sachaca,Arequipa,2023-01-03
+C-00291,Ana Mamani,Nuevo,Cayma,Arequipa,2019-01-11
+C-00292,Gabriela Mamani,Nuevo,Victor Larco,Trujillo,2024-06-07
+C-00293,Manuel Ccahuana,Nuevo,Jesus Maria,Lima,2022-02-06
+C-00294,Andres Ninaquispe,Frecuente,San Borja,Lima,2021-01-20
+C-00295,Lucia Paredes,Premium,San Miguel,Lima,2022-08-11
+C-00296,Manuel Rojas,Nuevo,Comas,Lima,2020-12-20
+C-00297,Julio Huaman,Premium,Yanahuara,Arequipa,2021-02-28
+C-00298,Raul Bautista,Frecuente,Chorrillos,Lima,2021-07-21
+C-00299,Gabriela Zegarra,Frecuente,Wanchaq,Cusco,2021-09-13
+C-00300,Lucia Rojas,Nuevo,El Porvenir,Trujillo,2019-07-29
+C-00301,Andres Ticona,Ocasional,Miraflores,Lima,2024-12-06
+C-00302,Patricia Salazar,Premium,Jesus Maria,Lima,2024-02-26
+C-00303,Karina Salazar,Premium,Jesus Maria,Lima,2020-02-16
+C-00304,Andres Quispe,Nuevo,Centro,Trujillo,2019-05-14
+C-00305,Silvia Vargas,Nuevo,Los Olivos,Lima,2019-03-31
+C-00306,Luis Zegarra,Ocasional,Magdalena,Lima,2025-06-23
+C-00307,Carmen Ramos,Premium,Centro,Trujillo,2019-12-24
+C-00308,Diego Ninaquispe,Premium,La Esperanza,Trujillo,2023-12-29
+C-00309,Fernando Ninaquispe,Premium,San Jeronimo,Cusco,2025-02-14
+C-00310,Gabriela Mamani,Nuevo,Chorrillos,Lima,2025-08-12
+C-00311,Milagros Ccahuana,Frecuente,Jesus Maria,Lima,2022-09-22
+C-00312,Lucia Flores,Frecuente,Lince,Lima,2021-09-20
+C-00313,Rosa Quispe,Ocasional,Paucarpata,Arequipa,2024-07-28
+C-00314,Patricia Salazar,Nuevo,Paucarpata,Arequipa,2023-04-04
+C-00315,Silvia Castillo,Nuevo,Surco,Lima,2024-02-20
+C-00316,Manuel Flores,Nuevo,Sachaca,Arequipa,2023-02-13
+C-00317,Sofia Del Aguila,Nuevo,Santiago,Cusco,2025-11-07
+C-00318,Karina Espinoza,Premium,Ate,Lima,2020-11-16
+C-00319,Rosa Huaman,Premium,San Isidro,Lima,2025-02-24
+C-00320,Lucia Flores,Ocasional,El Porvenir,Trujillo,2019-08-01
+C-00321,Ricardo Bautista,Ocasional,Jesus Maria,Lima,2025-04-03
+C-00322,Lucia Ticona,Ocasional,Victor Larco,Trujillo,2020-09-19
+C-00323,Jorge Bautista,Nuevo,Chorrillos,Lima,2024-07-19
+C-00324,Karina Ticona,Ocasional,San Isidro,Lima,2025-01-04
+C-00325,Cesar Castillo,Frecuente,Lince,Lima,2024-10-03
+C-00326,Carmen Flores,Nuevo,Ate,Lima,2019-09-17
+C-00327,Miguel Ticona,Ocasional,Ate,Lima,2022-10-06
+C-00328,Gabriela Salazar,Premium,Miraflores,Lima,2024-01-14
+C-00329,Jorge Espinoza,Nuevo,La Esperanza,Trujillo,2019-07-08
+C-00330,Raul Salazar,Premium,El Porvenir,Trujillo,2021-05-19
+C-00331,Jorge Chavez,Nuevo,Santiago,Cusco,2021-02-16
+C-00332,Manuel Flores,Nuevo,Barranco,Lima,2019-07-11
+C-00333,Patricia Espinoza,Frecuente,Callao,Lima,2019-02-05
+C-00334,Ricardo Rojas,Nuevo,La Molina,Lima,2022-10-15
+C-00335,Andres Del Aguila,Ocasional,Sachaca,Arequipa,2023-06-18
+C-00336,Lucia Del Aguila,Ocasional,Cercado,Arequipa,2023-02-11
+C-00337,Ricardo Quispe,Premium,Comas,Lima,2024-03-23
+C-00338,Luis Paredes,Nuevo,La Esperanza,Trujillo,2023-02-12
+C-00339,Jorge Mamani,Premium,Magdalena,Lima,2022-05-09
+C-00340,Lucia Castillo,Frecuente,Huanchaco,Trujillo,2021-05-09
+C-00341,Manuel Vargas,Ocasional,Centro Historico,Cusco,2024-07-11
+C-00342,Cesar Zegarra,Nuevo,Magdalena,Lima,2022-01-22
+C-00343,Patricia Flores,Frecuente,Cayma,Arequipa,2019-10-01
+C-00344,Diego Rojas,Nuevo,San Juan de Lurigancho,Lima,2025-02-22
+C-00345,Luis Paredes,Ocasional,Surco,Lima,2022-05-10
+C-00346,Julio Espinoza,Premium,San Borja,Lima,2024-04-07
+C-00347,Lucia Vargas,Ocasional,Surco,Lima,2022-06-26
+C-00348,Ricardo Huaman,Ocasional,Cayma,Arequipa,2025-10-14
+C-00349,Raul Paredes,Ocasional,Los Olivos,Lima,2022-04-23
+C-00350,Jorge Huaman,Nuevo,Centro,Trujillo,2022-11-19
+C-00351,Diego Flores,Premium,Paucarpata,Arequipa,2021-08-21
+C-00352,Carmen Castillo,Premium,San Sebastian,Cusco,2025-10-09
+C-00353,Sofia Del Aguila,Frecuente,Lince,Lima,2023-07-10
+C-00354,Ricardo Quispe,Ocasional,Pueblo Libre,Lima,2020-10-21
+C-00355,Diego Salazar,Premium,Jesus Maria,Lima,2024-05-23
+C-00356,Carmen Huaman,Ocasional,Centro Historico,Cusco,2025-07-01
+C-00357,Raul Paredes,Frecuente,San Isidro,Lima,2025-10-20
+C-00358,Diego Ticona,Ocasional,San Miguel,Lima,2025-02-21
+C-00359,Lucia Mamani,Ocasional,Chorrillos,Lima,2024-05-29
+C-00360,Julio Zegarra,Premium,Jose Luis Bustamante,Arequipa,2023-06-05
+C-00361,Elena Zegarra,Nuevo,San Jeronimo,Cusco,2022-03-01
+C-00362,Jorge Vargas,Premium,Callao,Lima,2022-04-23
+C-00363,Ricardo Castillo,Frecuente,Barranco,Lima,2021-10-17
+C-00364,Gabriela Huaman,Ocasional,Yanahuara,Arequipa,2023-04-28
+C-00365,Lucia Ticona,Nuevo,Callao,Lima,2025-11-04
+C-00366,Luis Flores,Frecuente,Lince,Lima,2021-12-01
+C-00367,Diego Castillo,Nuevo,Chorrillos,Lima,2020-10-28
+C-00368,Cesar Paredes,Nuevo,Paucarpata,Arequipa,2022-12-10
+C-00369,Ricardo Flores,Ocasional,Sachaca,Arequipa,2021-04-19
+C-00370,Miguel Mamani,Ocasional,Pueblo Libre,Lima,2022-08-09
+C-00371,Raul Bautista,Ocasional,El Porvenir,Trujillo,2023-07-01
+C-00372,Jorge Flores,Nuevo,Centro Historico,Cusco,2020-07-14
+C-00373,Manuel Castillo,Frecuente,Sachaca,Arequipa,2021-04-17
+C-00374,Ricardo Huaman,Ocasional,San Borja,Lima,2025-04-12
+C-00375,Elena Bautista,Ocasional,San Borja,Lima,2022-04-21
+C-00376,Ricardo Ticona,Frecuente,Chorrillos,Lima,2021-03-06
+C-00377,Carmen Paredes,Ocasional,San Isidro,Lima,2024-11-02
+C-00378,Rosa Ccahuana,Frecuente,San Miguel,Lima,2024-06-15
+C-00379,Gabriela Ramos,Nuevo,Cayma,Arequipa,2019-12-17
+C-00380,Cesar Vargas,Premium,Cercado,Arequipa,2019-10-27
+C-00381,Patricia Vargas,Ocasional,San Borja,Lima,2019-04-18
+C-00382,Luis Zegarra,Premium,San Jeronimo,Cusco,2025-09-07
+C-00383,Miguel Ticona,Nuevo,Cayma,Arequipa,2021-03-08
+C-00384,Fernando Salazar,Nuevo,Callao,Lima,2024-06-06
+C-00385,Ana Flores,Nuevo,La Esperanza,Trujillo,2023-10-03
+C-00386,Elena Ramos,Ocasional,Jesus Maria,Lima,2022-04-16
+C-00387,Manuel Espinoza,Nuevo,Huanchaco,Trujillo,2020-11-25
+C-00388,Andres Del Aguila,Frecuente,San Sebastian,Cusco,2025-09-06
+C-00389,Luis Del Aguila,Frecuente,La Esperanza,Trujillo,2025-05-24
+C-00390,Elena Ninaquispe,Premium,La Molina,Lima,2022-12-07
+C-00391,Sofia Paredes,Premium,Cercado,Arequipa,2019-03-07
+C-00392,Milagros Paredes,Premium,Barranco,Lima,2024-10-05
+C-00393,Rosa Mamani,Ocasional,Jose Luis Bustamante,Arequipa,2025-05-04
+C-00394,Andres Ramos,Nuevo,Wanchaq,Cusco,2021-07-03
+C-00395,Rosa Mamani,Frecuente,Jesus Maria,Lima,2022-10-24
+C-00396,Patricia Vargas,Nuevo,Barranco,Lima,2019-08-03
+C-00397,Julio Ccahuana,Frecuente,Yanahuara,Arequipa,2024-05-24
+C-00398,Jorge Ccahuana,Premium,Yanahuara,Arequipa,2023-08-12
+C-00399,Miguel Zegarra,Ocasional,Huanchaco,Trujillo,2022-07-14
+C-00400,Manuel Ccahuana,Premium,Sachaca,Arequipa,2023-06-23
+C-00401,Ricardo Ticona,Premium,Cayma,Arequipa,2023-11-01
+C-00402,Carmen Ccahuana,Frecuente,Chorrillos,Lima,2020-02-07
+C-00403,Andres Mamani,Premium,Victor Larco,Trujillo,2020-12-30
+C-00404,Cesar Zegarra,Premium,San Isidro,Lima,2024-04-22
+C-00405,Jorge Ticona,Nuevo,Wanchaq,Cusco,2022-02-20
+C-00406,Lucia Quispe,Premium,La Esperanza,Trujillo,2024-03-18
+C-00407,Lucia Ticona,Premium,Surquillo,Lima,2019-03-21
+C-00408,Milagros Quispe,Frecuente,Comas,Lima,2022-11-22
+C-00409,Milagros Mamani,Nuevo,Miraflores,Lima,2025-04-18
+C-00410,Carmen Mamani,Frecuente,Callao,Lima,2021-12-29
+C-00411,Patricia Flores,Premium,Santiago,Cusco,2025-10-15
+C-00412,Elena Chavez,Ocasional,San Borja,Lima,2020-06-30
+C-00413,Sofia Ccahuana,Nuevo,Lince,Lima,2022-09-18
+C-00414,Fernando Vargas,Nuevo,Wanchaq,Cusco,2025-10-16
+C-00415,Jorge Espinoza,Premium,San Sebastian,Cusco,2025-01-12
+C-00416,Gabriela Huaman,Frecuente,Paucarpata,Arequipa,2020-01-20
+C-00417,Elena Ninaquispe,Nuevo,Wanchaq,Cusco,2025-03-02
+C-00418,Silvia Huaman,Ocasional,San Miguel,Lima,2021-10-20
+C-00419,Cesar Del Aguila,Frecuente,Cayma,Arequipa,2024-04-15
+C-00420,Jorge Ccahuana,Nuevo,Pueblo Libre,Lima,2024-03-02
+C-00421,Raul Del Aguila,Frecuente,Victor Larco,Trujillo,2022-01-30
+C-00422,Raul Ccahuana,Ocasional,Los Olivos,Lima,2023-11-08
+C-00423,Jorge Flores,Nuevo,Centro,Trujillo,2020-04-01
+C-00424,Elena Mamani,Premium,Centro,Trujillo,2020-06-19
+C-00425,Miguel Ramos,Nuevo,Centro Historico,Cusco,2019-07-12
+C-00426,Lucia Salazar,Premium,Santiago,Cusco,2023-05-16
+C-00427,Andres Paredes,Frecuente,Wanchaq,Cusco,2020-02-26
+C-00428,Silvia Huaman,Premium,Yanahuara,Arequipa,2020-06-05
+C-00429,Lucia Ramos,Ocasional,Jesus Maria,Lima,2021-12-18
+C-00430,Milagros Del Aguila,Frecuente,Jose Luis Bustamante,Arequipa,2020-12-04
+C-00431,Karina Ticona,Ocasional,Wanchaq,Cusco,2019-10-10
+C-00432,Diego Ticona,Frecuente,San Sebastian,Cusco,2025-06-27
+C-00433,Diego Del Aguila,Ocasional,San Miguel,Lima,2023-03-11
+C-00434,Elena Quispe,Ocasional,La Molina,Lima,2020-04-03
+C-00435,Fernando Bautista,Ocasional,Ate,Lima,2020-02-01
+C-00436,Manuel Bautista,Ocasional,San Jeronimo,Cusco,2024-05-20
+C-00437,Manuel Ticona,Frecuente,Los Olivos,Lima,2024-12-22
+C-00438,Karina Salazar,Nuevo,Magdalena,Lima,2024-11-10
+C-00439,Manuel Ramos,Premium,Huanchaco,Trujillo,2024-10-21
+C-00440,Patricia Quispe,Nuevo,El Porvenir,Trujillo,2023-05-03
+C-00441,Carmen Ticona,Frecuente,Cercado,Arequipa,2023-11-16
+C-00442,Raul Vargas,Frecuente,Huanchaco,Trujillo,2021-10-09
+C-00443,Fernando Quispe,Ocasional,Yanahuara,Arequipa,2020-02-19
+C-00444,Manuel Castillo,Frecuente,San Miguel,Lima,2019-09-10
+C-00445,Raul Espinoza,Nuevo,Barranco,Lima,2022-09-11
+C-00446,Jorge Chavez,Premium,San Miguel,Lima,2019-02-27
+C-00447,Silvia Salazar,Premium,Paucarpata,Arequipa,2019-11-01
+C-00448,Cesar Espinoza,Frecuente,Magdalena,Lima,2022-09-06
+C-00449,Diego Paredes,Nuevo,Cercado,Arequipa,2021-03-12
+C-00450,Karina Mamani,Ocasional,San Miguel,Lima,2023-07-19
+C-00451,Manuel Ninaquispe,Frecuente,Santiago,Cusco,2024-02-19
+C-00452,Carmen Del Aguila,Ocasional,La Molina,Lima,2019-04-14
+C-00453,Manuel Huaman,Frecuente,San Jeronimo,Cusco,2024-12-25
+C-00454,Elena Castillo,Nuevo,Barranco,Lima,2023-01-25
+C-00455,Manuel Rojas,Premium,Surquillo,Lima,2020-03-30
+C-00456,Patricia Ramos,Frecuente,Los Olivos,Lima,2024-08-09
+C-00457,Fernando Mamani,Nuevo,Santiago,Cusco,2025-03-21
+C-00458,Patricia Mamani,Nuevo,El Porvenir,Trujillo,2022-12-27
+C-00459,Luis Del Aguila,Ocasional,San Miguel,Lima,2022-08-05
+C-00460,Miguel Zegarra,Premium,El Porvenir,Trujillo,2022-02-02
+C-00461,Andres Paredes,Nuevo,San Sebastian,Cusco,2025-10-17
+C-00462,Ricardo Mamani,Nuevo,San Miguel,Lima,2025-04-01
+C-00463,Cesar Chavez,Frecuente,San Miguel,Lima,2020-08-24
+C-00464,Julio Bautista,Ocasional,San Miguel,Lima,2021-10-02
+C-00465,Luis Ccahuana,Ocasional,San Miguel,Lima,2021-12-31
+C-00466,Elena Ticona,Nuevo,Centro Historico,Cusco,2020-11-10
+C-00467,Ricardo Ccahuana,Ocasional,Chorrillos,Lima,2020-10-16
+C-00468,Rosa Flores,Premium,San Sebastian,Cusco,2022-05-11
+C-00469,Luis Ramos,Ocasional,Paucarpata,Arequipa,2020-08-28
+C-00470,Ricardo Salazar,Premium,Comas,Lima,2023-08-18
+C-00471,Ana Huaman,Premium,Los Olivos,Lima,2025-02-24
+C-00472,Cesar Chavez,Premium,Lince,Lima,2019-03-30
+C-00473,Milagros Vargas,Nuevo,Victor Larco,Trujillo,2020-12-15
+C-00474,Patricia Flores,Ocasional,El Porvenir,Trujillo,2021-02-13
+C-00475,Andres Paredes,Frecuente,San Jeronimo,Cusco,2019-08-09
+C-00476,Elena Ccahuana,Frecuente,San Borja,Lima,2022-09-10
+C-00477,Julio Ninaquispe,Ocasional,Wanchaq,Cusco,2024-12-02
+C-00478,Cesar Castillo,Frecuente,Wanchaq,Cusco,2020-03-11
+C-00479,Cesar Mamani,Ocasional,Jesus Maria,Lima,2022-07-29
+C-00480,Sofia Ramos,Ocasional,Surco,Lima,2019-07-21
+C-00481,Julio Paredes,Ocasional,Barranco,Lima,2021-06-17
+C-00482,Sofia Espinoza,Ocasional,La Esperanza,Trujillo,2019-09-20
+C-00483,Luis Paredes,Frecuente,Surco,Lima,2021-08-27
+C-00484,Carmen Zegarra,Frecuente,Yanahuara,Arequipa,2021-02-11
+C-00485,Julio Salazar,Ocasional,Miraflores,Lima,2019-06-14
+C-00486,Andres Mamani,Frecuente,San Jeronimo,Cusco,2024-07-24
+C-00487,Julio Zegarra,Nuevo,El Porvenir,Trujillo,2024-08-12
+C-00488,Lucia Ramos,Nuevo,San Jeronimo,Cusco,2022-12-30
+C-00489,Ricardo Paredes,Ocasional,Centro,Trujillo,2022-11-13
+C-00490,Jorge Espinoza,Ocasional,El Porvenir,Trujillo,2022-02-16
+C-00491,Milagros Chavez,Premium,Barranco,Lima,2024-10-24
+C-00492,Manuel Ramos,Nuevo,San Isidro,Lima,2023-04-25
+C-00493,Diego Zegarra,Premium,Callao,Lima,2023-11-26
+C-00494,Jorge Del Aguila,Frecuente,San Sebastian,Cusco,2020-08-26
+C-00495,Cesar Ccahuana,Premium,Pueblo Libre,Lima,2022-01-13
+C-00496,Jorge Ticona,Nuevo,San Miguel,Lima,2019-03-15
+C-00497,Manuel Salazar,Frecuente,Jose Luis Bustamante,Arequipa,2021-06-12
+C-00498,Ana Flores,Premium,Yanahuara,Arequipa,2024-03-09
+C-00499,Raul Ticona,Frecuente,Los Olivos,Lima,2020-04-24
+C-00500,Karina Paredes,Frecuente,Surquillo,Lima,2023-09-22
+C-00501,Jorge Mamani,Frecuente,Callao,Lima,2024-07-11
+C-00502,Ana Zegarra,Ocasional,Lince,Lima,2024-06-27
+C-00503,Carmen Ramos,Ocasional,San Isidro,Lima,2024-03-21
+C-00504,Manuel Ticona,Premium,Chorrillos,Lima,2022-06-22
+C-00505,Julio Quispe,Nuevo,Barranco,Lima,2025-01-19
+C-00506,Andres Castillo,Premium,La Esperanza,Trujillo,2019-06-15
+C-00507,Jorge Chavez,Ocasional,Ate,Lima,2020-09-30
+C-00508,Luis Salazar,Premium,Lince,Lima,2021-01-15
+C-00509,Jorge Bautista,Frecuente,Cercado,Arequipa,2025-06-05
+C-00510,Gabriela Rojas,Nuevo,Cercado,Arequipa,2020-07-23
+C-00511,Sofia Ticona,Nuevo,Pueblo Libre,Lima,2021-07-06
+C-00512,Patricia Ccahuana,Ocasional,Paucarpata,Arequipa,2019-01-26
+C-00513,Sofia Castillo,Premium,Victor Larco,Trujillo,2023-09-21
+C-00514,Ricardo Ramos,Ocasional,La Esperanza,Trujillo,2024-06-18
+C-00515,Cesar Paredes,Nuevo,Victor Larco,Trujillo,2024-07-24
+C-00516,Rosa Castillo,Nuevo,Sachaca,Arequipa,2022-02-11
+C-00517,Elena Chavez,Nuevo,Comas,Lima,2022-02-20
+C-00518,Diego Huaman,Frecuente,Wanchaq,Cusco,2023-09-09
+C-00519,Raul Ticona,Nuevo,Victor Larco,Trujillo,2025-04-30
+C-00520,Ricardo Ninaquispe,Ocasional,El Porvenir,Trujillo,2023-10-18
+C-00521,Rosa Huaman,Premium,San Isidro,Lima,2021-05-24
+C-00522,Raul Espinoza,Frecuente,Callao,Lima,2021-08-17
+C-00523,Jorge Ramos,Nuevo,Surquillo,Lima,2021-02-20
+C-00524,Milagros Ticona,Nuevo,Centro,Trujillo,2025-11-07
+C-00525,Rosa Quispe,Premium,La Molina,Lima,2024-04-04
+C-00526,Raul Zegarra,Ocasional,Sachaca,Arequipa,2022-01-05
+C-00527,Julio Salazar,Premium,Sachaca,Arequipa,2019-11-07
+C-00528,Lucia Quispe,Premium,Magdalena,Lima,2019-07-01
+C-00529,Elena Castillo,Nuevo,Jesus Maria,Lima,2019-06-11
+C-00530,Julio Paredes,Premium,La Molina,Lima,2020-09-17
+C-00531,Diego Huaman,Premium,La Molina,Lima,2022-02-02
+C-00532,Silvia Paredes,Ocasional,Paucarpata,Arequipa,2021-05-27
+C-00533,Manuel Ramos,Nuevo,El Porvenir,Trujillo,2022-08-24
+C-00534,Elena Del Aguila,Ocasional,Victor Larco,Trujillo,2024-05-30
+C-00535,Raul Bautista,Ocasional,La Esperanza,Trujillo,2022-02-20
+C-00536,Lucia Paredes,Premium,San Jeronimo,Cusco,2021-08-04
+C-00537,Patricia Vargas,Nuevo,Centro Historico,Cusco,2023-04-15
+C-00538,Julio Quispe,Frecuente,Victor Larco,Trujillo,2019-07-08
+C-00539,Manuel Ticona,Frecuente,San Sebastian,Cusco,2020-04-15
+C-00540,Gabriela Ramos,Frecuente,San Miguel,Lima,2025-02-05
+C-00541,Julio Ramos,Nuevo,Barranco,Lima,2020-03-20
+C-00542,Jorge Mamani,Ocasional,Pueblo Libre,Lima,2022-10-31
+C-00543,Carmen Zegarra,Premium,Paucarpata,Arequipa,2025-01-26
+C-00544,Elena Castillo,Ocasional,Callao,Lima,2020-08-22
+C-00545,Luis Paredes,Premium,Magdalena,Lima,2021-08-21
+C-00546,Lucia Huaman,Nuevo,Cayma,Arequipa,2025-03-05
+C-00547,Silvia Rojas,Ocasional,Miraflores,Lima,2024-03-11
+C-00548,Lucia Castillo,Nuevo,Surco,Lima,2023-11-05
+C-00549,Gabriela Espinoza,Ocasional,Barranco,Lima,2019-04-17
+C-00550,Gabriela Espinoza,Premium,San Borja,Lima,2023-05-20
+C-00551,Elena Flores,Frecuente,Callao,Lima,2021-11-18
+C-00552,Diego Del Aguila,Frecuente,Paucarpata,Arequipa,2024-01-17
+C-00553,Cesar Quispe,Frecuente,Santiago,Cusco,2022-02-14
+C-00554,Ricardo Ticona,Ocasional,Huanchaco,Trujillo,2022-09-16
+C-00555,Miguel Salazar,Ocasional,Comas,Lima,2025-06-14
+C-00556,Diego Ninaquispe,Premium,Jose Luis Bustamante,Arequipa,2024-05-14
+C-00557,Raul Huaman,Frecuente,Wanchaq,Cusco,2022-07-04
+C-00558,Rosa Castillo,Premium,Huanchaco,Trujillo,2019-02-11
+C-00559,Lucia Espinoza,Premium,Los Olivos,Lima,2019-07-18
+C-00560,Julio Flores,Frecuente,Surco,Lima,2024-11-18
+C-00561,Cesar Ramos,Ocasional,Centro Historico,Cusco,2019-06-21
+C-00562,Elena Ticona,Ocasional,Comas,Lima,2019-10-04
+C-00563,Miguel Ninaquispe,Ocasional,La Esperanza,Trujillo,2021-11-02
+C-00564,Miguel Vargas,Premium,Yanahuara,Arequipa,2025-11-02
+C-00565,Milagros Mamani,Frecuente,Centro Historico,Cusco,2021-01-09
+C-00566,Milagros Quispe,Frecuente,Cercado,Arequipa,2019-03-28
+C-00567,Patricia Ninaquispe,Ocasional,Cercado,Arequipa,2022-01-04
+C-00568,Sofia Castillo,Nuevo,Paucarpata,Arequipa,2023-07-04
+C-00569,Lucia Espinoza,Nuevo,Wanchaq,Cusco,2021-06-21
+C-00570,Carmen Ninaquispe,Frecuente,San Juan de Lurigancho,Lima,2020-01-23
+C-00571,Sofia Zegarra,Premium,Lince,Lima,2022-02-13
+C-00572,Silvia Ninaquispe,Premium,Jose Luis Bustamante,Arequipa,2020-06-03
+C-00573,Elena Ticona,Nuevo,Santiago,Cusco,2023-11-27
+C-00574,Luis Bautista,Premium,Ate,Lima,2019-11-23
+C-00575,Diego Zegarra,Nuevo,Jesus Maria,Lima,2022-04-15
+C-00576,Milagros Chavez,Premium,Miraflores,Lima,2022-04-21
+C-00577,Miguel Flores,Ocasional,Centro Historico,Cusco,2024-04-21
+C-00578,Jorge Del Aguila,Nuevo,San Miguel,Lima,2022-04-14
+C-00579,Miguel Del Aguila,Ocasional,Lince,Lima,2023-06-12
+C-00580,Jorge Bautista,Ocasional,Callao,Lima,2020-06-16
+C-00581,Carmen Bautista,Premium,Callao,Lima,2019-08-02
+C-00582,Carmen Ticona,Ocasional,Santiago,Cusco,2019-11-15
+C-00583,Rosa Flores,Frecuente,Lince,Lima,2020-03-07
+C-00584,Jorge Huaman,Ocasional,San Miguel,Lima,2019-06-26
+C-00585,Karina Bautista,Nuevo,Jose Luis Bustamante,Arequipa,2024-07-22
+C-00586,Ricardo Zegarra,Frecuente,Comas,Lima,2025-05-10
+C-00587,Elena Mamani,Nuevo,Jose Luis Bustamante,Arequipa,2019-05-30
+C-00588,Jorge Rojas,Frecuente,Magdalena,Lima,2024-02-16
+C-00589,Julio Bautista,Premium,Wanchaq,Cusco,2024-09-25
+C-00590,Elena Salazar,Premium,San Isidro,Lima,2024-09-23
+C-00591,Sofia Paredes,Premium,San Miguel,Lima,2024-07-03
+C-00592,Cesar Del Aguila,Ocasional,Santiago,Cusco,2025-05-12
+C-00593,Lucia Ramos,Premium,Barranco,Lima,2025-08-06
+C-00594,Patricia Chavez,Frecuente,Santiago,Cusco,2019-06-20
+C-00595,Diego Del Aguila,Ocasional,Huanchaco,Trujillo,2024-06-18
+C-00596,Ana Quispe,Premium,San Miguel,Lima,2019-06-29
+C-00597,Silvia Vargas,Nuevo,Surco,Lima,2019-11-19
+C-00598,Carmen Ninaquispe,Frecuente,Yanahuara,Arequipa,2020-09-30
+C-00599,Rosa Zegarra,Premium,Jose Luis Bustamante,Arequipa,2022-11-15
+C-00600,Patricia Mamani,Frecuente,Cercado,Arequipa,2021-07-25
+C-00601,Rosa Ticona,Frecuente,La Esperanza,Trujillo,2021-12-27
+C-00602,Raul Rojas,Frecuente,Jesus Maria,Lima,2024-07-15
+C-00603,Fernando Del Aguila,Nuevo,Santiago,Cusco,2020-01-21
+C-00604,Ricardo Mamani,Ocasional,Miraflores,Lima,2020-01-22
+C-00605,Cesar Huaman,Frecuente,Cayma,Arequipa,2022-08-13
+C-00606,Julio Vargas,Premium,San Juan de Lurigancho,Lima,2019-08-27
+C-00607,Rosa Salazar,Frecuente,San Sebastian,Cusco,2020-04-15
+C-00608,Milagros Paredes,Frecuente,San Borja,Lima,2025-01-27
+C-00609,Carmen Huaman,Premium,Jesus Maria,Lima,2021-07-04
+C-00610,Diego Quispe,Frecuente,San Sebastian,Cusco,2022-03-13
+C-00611,Silvia Bautista,Premium,Centro,Trujillo,2019-07-19
+C-00612,Silvia Huaman,Nuevo,Wanchaq,Cusco,2023-03-03
+C-00613,Andres Rojas,Ocasional,Huanchaco,Trujillo,2025-08-22
+C-00614,Elena Ticona,Nuevo,San Jeronimo,Cusco,2022-06-22
+C-00615,Carmen Huaman,Ocasional,Magdalena,Lima,2025-02-10
+C-00616,Lucia Ninaquispe,Frecuente,Miraflores,Lima,2021-12-27
+C-00617,Ricardo Ccahuana,Frecuente,Sachaca,Arequipa,2022-01-02
+C-00618,Gabriela Flores,Nuevo,San Miguel,Lima,2021-10-05
+C-00619,Elena Rojas,Premium,Huanchaco,Trujillo,2023-07-11
+C-00620,Ricardo Espinoza,Frecuente,Cercado,Arequipa,2023-12-06
+C-00621,Ana Zegarra,Premium,San Juan de Lurigancho,Lima,2023-09-24
+C-00622,Ricardo Huaman,Premium,Huanchaco,Trujillo,2021-07-24
+C-00623,Fernando Huaman,Ocasional,Cercado,Arequipa,2019-03-15
+C-00624,Fernando Paredes,Premium,Centro Historico,Cusco,2023-09-19
+C-00625,Raul Chavez,Nuevo,El Porvenir,Trujillo,2022-07-18
+C-00626,Fernando Ccahuana,Premium,El Porvenir,Trujillo,2023-05-20
+C-00627,Raul Castillo,Nuevo,Surco,Lima,2022-09-28
+C-00628,Gabriela Ramos,Ocasional,Pueblo Libre,Lima,2019-03-19
+C-00629,Luis Castillo,Frecuente,Callao,Lima,2023-05-28
+C-00630,Sofia Huaman,Frecuente,Comas,Lima,2021-03-05
+C-00631,Silvia Bautista,Frecuente,Victor Larco,Trujillo,2021-10-30
+C-00632,Ana Vargas,Frecuente,Sachaca,Arequipa,2022-09-13
+C-00633,Manuel Vargas,Nuevo,Chorrillos,Lima,2022-06-19
+C-00634,Sofia Del Aguila,Premium,Yanahuara,Arequipa,2024-03-28
+C-00635,Raul Ramos,Nuevo,Callao,Lima,2025-03-12
+C-00636,Raul Zegarra,Nuevo,Santiago,Cusco,2025-03-31
+C-00637,Patricia Ccahuana,Frecuente,Centro Historico,Cusco,2022-02-08
+C-00638,Lucia Ccahuana,Premium,La Esperanza,Trujillo,2024-09-10
+C-00639,Miguel Ticona,Ocasional,El Porvenir,Trujillo,2023-11-21
+C-00640,Julio Salazar,Nuevo,La Esperanza,Trujillo,2022-11-20
+C-00641,Silvia Vargas,Nuevo,San Sebastian,Cusco,2024-12-25
+C-00642,Diego Bautista,Ocasional,San Isidro,Lima,2021-07-12
+C-00643,Fernando Ticona,Premium,La Esperanza,Trujillo,2025-08-18
+C-00644,Raul Mamani,Nuevo,La Molina,Lima,2021-09-28
+C-00645,Rosa Ticona,Nuevo,Surquillo,Lima,2021-03-06
+C-00646,Jorge Paredes,Nuevo,Ate,Lima,2022-11-12
+C-00647,Ana Ccahuana,Premium,Wanchaq,Cusco,2019-01-04
+C-00648,Manuel Espinoza,Ocasional,Yanahuara,Arequipa,2020-08-31
+C-00649,Andres Bautista,Frecuente,Jesus Maria,Lima,2020-05-04
+C-00650,Elena Ticona,Nuevo,Pueblo Libre,Lima,2023-11-15
+C-00651,Karina Ramos,Frecuente,Victor Larco,Trujillo,2021-05-08
+C-00652,Cesar Ccahuana,Premium,La Esperanza,Trujillo,2020-01-12
+C-00653,Cesar Mamani,Ocasional,Centro Historico,Cusco,2023-09-25
+C-00654,Silvia Quispe,Frecuente,San Jeronimo,Cusco,2021-10-04
+C-00655,Andres Del Aguila,Premium,Chorrillos,Lima,2025-02-07
+C-00656,Carmen Zegarra,Premium,Los Olivos,Lima,2021-02-05
+C-00657,Ricardo Chavez,Nuevo,Yanahuara,Arequipa,2020-06-27
+C-00658,Carmen Del Aguila,Premium,Magdalena,Lima,2023-11-02
+C-00659,Ana Del Aguila,Ocasional,Huanchaco,Trujillo,2024-03-29
+C-00660,Sofia Del Aguila,Nuevo,San Jeronimo,Cusco,2025-07-17
+C-00661,Fernando Ramos,Frecuente,Surquillo,Lima,2019-02-24
+C-00662,Rosa Ticona,Ocasional,Magdalena,Lima,2023-08-16
+C-00663,Gabriela Ramos,Premium,Miraflores,Lima,2024-11-20
+C-00664,Jorge Salazar,Nuevo,San Juan de Lurigancho,Lima,2020-04-01
+C-00665,Cesar Quispe,Ocasional,La Molina,Lima,2022-05-13
+C-00666,Fernando Huaman,Frecuente,Wanchaq,Cusco,2021-03-10
+C-00667,Miguel Espinoza,Frecuente,Paucarpata,Arequipa,2019-11-23
+C-00668,Andres Zegarra,Nuevo,La Esperanza,Trujillo,2025-03-12
+C-00669,Andres Rojas,Ocasional,La Esperanza,Trujillo,2022-05-28
+C-00670,Cesar Mamani,Frecuente,Chorrillos,Lima,2025-05-15
+C-00671,Andres Rojas,Frecuente,San Isidro,Lima,2023-04-28
+C-00672,Fernando Castillo,Ocasional,Jose Luis Bustamante,Arequipa,2021-10-18
+C-00673,Ricardo Rojas,Nuevo,La Esperanza,Trujillo,2019-07-07
+C-00674,Gabriela Vargas,Frecuente,Huanchaco,Trujillo,2024-08-18
+C-00675,Elena Flores,Premium,Miraflores,Lima,2021-04-11
+C-00676,Fernando Espinoza,Ocasional,Miraflores,Lima,2024-06-18
+C-00677,Diego Zegarra,Frecuente,Surquillo,Lima,2024-08-08
+C-00678,Ricardo Quispe,Premium,El Porvenir,Trujillo,2020-03-29
+C-00679,Manuel Rojas,Ocasional,Santiago,Cusco,2024-06-06
+C-00680,Carmen Ticona,Premium,El Porvenir,Trujillo,2019-12-18
+C-00681,Milagros Bautista,Frecuente,El Porvenir,Trujillo,2025-08-16
+C-00682,Julio Huaman,Ocasional,San Borja,Lima,2019-12-20
+C-00683,Miguel Vargas,Ocasional,Huanchaco,Trujillo,2020-12-24
+C-00684,Jorge Ninaquispe,Nuevo,Chorrillos,Lima,2019-11-21
+C-00685,Rosa Paredes,Premium,San Juan de Lurigancho,Lima,2025-07-06
+C-00686,Lucia Flores,Ocasional,Cayma,Arequipa,2019-06-15
+C-00687,Silvia Espinoza,Frecuente,San Jeronimo,Cusco,2025-09-27
+C-00688,Luis Huaman,Premium,Barranco,Lima,2024-12-11
+C-00689,Manuel Vargas,Ocasional,Centro Historico,Cusco,2020-07-12
+C-00690,Jorge Salazar,Nuevo,Centro,Trujillo,2022-02-11
+C-00691,Jorge Quispe,Ocasional,San Juan de Lurigancho,Lima,2019-01-17
+C-00692,Milagros Paredes,Nuevo,Callao,Lima,2020-10-22
+C-00693,Andres Huaman,Nuevo,La Esperanza,Trujillo,2023-10-20
+C-00694,Ricardo Vargas,Frecuente,Callao,Lima,2021-02-19
+C-00695,Raul Huaman,Ocasional,San Juan de Lurigancho,Lima,2021-06-14
+C-00696,Raul Ramos,Ocasional,Miraflores,Lima,2021-09-27
+C-00697,Sofia Del Aguila,Nuevo,Lince,Lima,2019-05-23
+C-00698,Carmen Quispe,Ocasional,Surquillo,Lima,2022-09-17
+C-00699,Carmen Chavez,Ocasional,Jesus Maria,Lima,2019-10-19
+C-00700,Julio Huaman,Premium,Paucarpata,Arequipa,2019-08-03
+C-00701,Rosa Chavez,Ocasional,Chorrillos,Lima,2022-05-16
+C-00702,Diego Ninaquispe,Ocasional,Paucarpata,Arequipa,2020-12-19
+C-00703,Karina Paredes,Ocasional,Barranco,Lima,2020-02-23
+C-00704,Sofia Rojas,Premium,Centro Historico,Cusco,2019-03-01
+C-00705,Andres Quispe,Ocasional,Santiago,Cusco,2024-10-26
+C-00706,Jorge Ramos,Premium,Wanchaq,Cusco,2023-03-01
+C-00707,Milagros Ccahuana,Nuevo,La Molina,Lima,2019-04-08
+C-00708,Raul Espinoza,Premium,Comas,Lima,2020-08-31
+C-00709,Rosa Chavez,Ocasional,Miraflores,Lima,2025-12-17
+C-00710,Raul Chavez,Ocasional,Ate,Lima,2022-07-18
+C-00711,Silvia Del Aguila,Nuevo,Santiago,Cusco,2020-11-08
+C-00712,Raul Ramos,Frecuente,Centro Historico,Cusco,2020-07-29
+C-00713,Milagros Zegarra,Ocasional,San Juan de Lurigancho,Lima,2025-03-05
+C-00714,Andres Salazar,Frecuente,Paucarpata,Arequipa,2025-09-21
+C-00715,Diego Quispe,Frecuente,San Jeronimo,Cusco,2024-11-23
+C-00716,Milagros Flores,Frecuente,Comas,Lima,2021-04-16
+C-00717,Fernando Ticona,Ocasional,Victor Larco,Trujillo,2025-01-17
+C-00718,Lucia Salazar,Premium,Centro,Trujillo,2020-11-11
+C-00719,Andres Castillo,Ocasional,La Molina,Lima,2021-06-20
+C-00720,Gabriela Ninaquispe,Nuevo,San Juan de Lurigancho,Lima,2020-01-24
+C-00721,Manuel Paredes,Nuevo,La Molina,Lima,2020-08-17
+C-00722,Lucia Salazar,Premium,Miraflores,Lima,2022-06-21
+C-00723,Miguel Del Aguila,Ocasional,Cayma,Arequipa,2019-12-07
+C-00724,Andres Rojas,Premium,Chorrillos,Lima,2023-02-21
+C-00725,Andres Flores,Nuevo,Comas,Lima,2022-02-01
+C-00726,Andres Castillo,Ocasional,La Esperanza,Trujillo,2024-12-17
+C-00727,Andres Del Aguila,Nuevo,Huanchaco,Trujillo,2024-10-18
+C-00728,Manuel Zegarra,Premium,Callao,Lima,2022-02-25
+C-00729,Carmen Ccahuana,Premium,San Isidro,Lima,2021-08-09
+C-00730,Elena Ramos,Nuevo,Surquillo,Lima,2022-12-02
+C-00731,Fernando Mamani,Nuevo,Jose Luis Bustamante,Arequipa,2019-06-11
+C-00732,Manuel Del Aguila,Nuevo,La Esperanza,Trujillo,2025-09-05
+C-00733,Carmen Ccahuana,Ocasional,La Molina,Lima,2020-08-18
+C-00734,Gabriela Del Aguila,Nuevo,Paucarpata,Arequipa,2024-08-03
+C-00735,Andres Zegarra,Frecuente,El Porvenir,Trujillo,2019-04-04
+C-00736,Diego Espinoza,Ocasional,Comas,Lima,2022-10-08
+C-00737,Julio Espinoza,Premium,San Jeronimo,Cusco,2020-04-19
+C-00738,Jorge Huaman,Ocasional,Victor Larco,Trujillo,2020-06-05
+C-00739,Jorge Del Aguila,Ocasional,Comas,Lima,2021-01-21
+C-00740,Cesar Zegarra,Premium,Lince,Lima,2024-11-02
+C-00741,Rosa Vargas,Nuevo,Magdalena,Lima,2022-01-06
+C-00742,Diego Ninaquispe,Frecuente,San Juan de Lurigancho,Lima,2021-05-14
+C-00743,Milagros Quispe,Premium,Ate,Lima,2019-12-07
+C-00744,Ana Paredes,Frecuente,Lince,Lima,2022-03-31
+C-00745,Luis Huaman,Nuevo,San Miguel,Lima,2022-12-02
+C-00746,Fernando Huaman,Nuevo,Centro,Trujillo,2021-03-09
+C-00747,Elena Flores,Ocasional,Wanchaq,Cusco,2022-07-03
+C-00748,Diego Ninaquispe,Premium,Victor Larco,Trujillo,2025-12-19
+C-00749,Karina Bautista,Premium,Comas,Lima,2025-01-20
+C-00750,Luis Rojas,Premium,San Isidro,Lima,2023-02-23
+C-00751,Karina Ramos,Nuevo,Comas,Lima,2019-03-21
+C-00752,Julio Ticona,Frecuente,Magdalena,Lima,2019-09-10
+C-00753,Miguel Paredes,Frecuente,Barranco,Lima,2025-02-13
+C-00754,Julio Rojas,Premium,Cercado,Arequipa,2024-07-02
+C-00755,Jorge Ccahuana,Frecuente,Victor Larco,Trujillo,2021-07-04
+C-00756,Manuel Zegarra,Nuevo,La Esperanza,Trujillo,2021-09-01
+C-00757,Miguel Rojas,Nuevo,Chorrillos,Lima,2021-01-09
+C-00758,Gabriela Ramos,Nuevo,Callao,Lima,2021-08-05
+C-00759,Miguel Quispe,Nuevo,Cercado,Arequipa,2025-07-10
+C-00760,Gabriela Huaman,Nuevo,La Molina,Lima,2022-05-25
+C-00761,Jorge Vargas,Frecuente,Victor Larco,Trujillo,2019-07-26
+C-00762,Karina Vargas,Ocasional,Callao,Lima,2023-07-29
+C-00763,Manuel Ccahuana,Ocasional,Jesus Maria,Lima,2025-12-14
+C-00764,Manuel Zegarra,Nuevo,San Sebastian,Cusco,2021-11-01
+C-00765,Patricia Rojas,Premium,La Esperanza,Trujillo,2025-11-20
+C-00766,Manuel Chavez,Premium,La Molina,Lima,2023-09-02
+C-00767,Jorge Salazar,Premium,Ate,Lima,2022-04-22
+C-00768,Raul Castillo,Frecuente,San Miguel,Lima,2024-12-01
+C-00769,Sofia Espinoza,Nuevo,Jose Luis Bustamante,Arequipa,2019-03-26
+C-00770,Gabriela Ninaquispe,Frecuente,La Esperanza,Trujillo,2021-05-14
+C-00771,Rosa Chavez,Nuevo,Miraflores,Lima,2023-10-16
+C-00772,Karina Flores,Premium,San Jeronimo,Cusco,2022-10-05
+C-00773,Cesar Ccahuana,Ocasional,Santiago,Cusco,2020-04-02
+C-00774,Miguel Paredes,Frecuente,Los Olivos,Lima,2024-10-04
+C-00775,Silvia Flores,Ocasional,Victor Larco,Trujillo,2019-04-23
+C-00776,Sofia Huaman,Ocasional,Cercado,Arequipa,2022-07-12
+C-00777,Milagros Del Aguila,Frecuente,Magdalena,Lima,2022-06-15
+C-00778,Luis Ccahuana,Ocasional,Miraflores,Lima,2024-10-20
+C-00779,Diego Ninaquispe,Nuevo,Surquillo,Lima,2022-08-06
+C-00780,Raul Ticona,Premium,Comas,Lima,2020-01-16
+C-00781,Manuel Flores,Frecuente,San Jeronimo,Cusco,2024-11-15
+C-00782,Rosa Bautista,Frecuente,Surquillo,Lima,2024-02-22
+C-00783,Ana Flores,Ocasional,Centro,Trujillo,2025-03-31
+C-00784,Luis Ccahuana,Ocasional,Wanchaq,Cusco,2023-01-09
+C-00785,Manuel Del Aguila,Nuevo,Los Olivos,Lima,2025-06-05
+C-00786,Milagros Flores,Premium,Ate,Lima,2022-12-18
+C-00787,Karina Del Aguila,Nuevo,Cercado,Arequipa,2020-07-08
+C-00788,Cesar Ramos,Nuevo,San Borja,Lima,2024-12-07
+C-00789,Julio Salazar,Frecuente,Cayma,Arequipa,2024-07-12
+C-00790,Silvia Chavez,Premium,Miraflores,Lima,2022-02-05
+C-00791,Silvia Mamani,Frecuente,Paucarpata,Arequipa,2019-05-21
+C-00792,Lucia Espinoza,Ocasional,Surquillo,Lima,2022-12-25
+C-00793,Lucia Flores,Ocasional,San Jeronimo,Cusco,2022-04-30
+C-00794,Ana Del Aguila,Nuevo,Barranco,Lima,2024-09-28
+C-00795,Silvia Mamani,Premium,Comas,Lima,2025-10-08
+C-00796,Rosa Espinoza,Ocasional,Lince,Lima,2022-12-05
+C-00797,Patricia Ramos,Nuevo,Pueblo Libre,Lima,2025-01-12
+C-00798,Elena Bautista,Frecuente,El Porvenir,Trujillo,2023-10-30
+C-00799,Manuel Paredes,Premium,Miraflores,Lima,2022-01-11
+C-00800,Lucia Paredes,Ocasional,Paucarpata,Arequipa,2020-09-17
+C-00801,Andres Mamani,Frecuente,Centro,Trujillo,2023-04-30
+C-00802,Julio Salazar,Ocasional,Huanchaco,Trujillo,2021-11-10
+C-00803,Karina Del Aguila,Nuevo,Centro Historico,Cusco,2025-03-27
+C-00804,Andres Huaman,Premium,Jose Luis Bustamante,Arequipa,2025-05-05
+C-00805,Rosa Mamani,Ocasional,Wanchaq,Cusco,2024-03-31
+C-00806,Andres Paredes,Ocasional,San Isidro,Lima,2019-05-02
+C-00807,Fernando Flores,Premium,Sachaca,Arequipa,2023-02-27
+C-00808,Milagros Zegarra,Premium,San Borja,Lima,2023-08-04
+C-00809,Ricardo Espinoza,Nuevo,Paucarpata,Arequipa,2020-12-09
+C-00810,Raul Vargas,Frecuente,El Porvenir,Trujillo,2019-11-16
+C-00811,Karina Del Aguila,Ocasional,Lince,Lima,2025-11-30
+C-00812,Luis Espinoza,Nuevo,Wanchaq,Cusco,2020-10-16
+C-00813,Sofia Paredes,Ocasional,Miraflores,Lima,2019-12-26
+C-00814,Cesar Ticona,Ocasional,Los Olivos,Lima,2020-01-26
+C-00815,Fernando Chavez,Nuevo,Lince,Lima,2021-02-22
+C-00816,Cesar Castillo,Ocasional,Los Olivos,Lima,2023-02-21
+C-00817,Sofia Del Aguila,Ocasional,Surco,Lima,2022-02-21
+C-00818,Rosa Flores,Premium,San Borja,Lima,2022-11-09
+C-00819,Fernando Huaman,Premium,San Miguel,Lima,2020-12-28
+C-00820,Rosa Salazar,Nuevo,Centro,Trujillo,2024-02-18
+C-00821,Elena Mamani,Frecuente,Comas,Lima,2022-06-13
+C-00822,Fernando Ccahuana,Nuevo,Yanahuara,Arequipa,2020-04-30
+C-00823,Rosa Mamani,Frecuente,Surquillo,Lima,2025-11-17
+C-00824,Manuel Huaman,Frecuente,Cercado,Arequipa,2025-01-16
+C-00825,Karina Quispe,Premium,Comas,Lima,2025-07-28
+C-00826,Sofia Ticona,Frecuente,San Isidro,Lima,2021-05-11
+C-00827,Sofia Mamani,Ocasional,San Miguel,Lima,2022-08-07
+C-00828,Silvia Quispe,Nuevo,Chorrillos,Lima,2023-04-30
+C-00829,Andres Mamani,Frecuente,Centro,Trujillo,2022-06-25
+C-00830,Jorge Castillo,Ocasional,Chorrillos,Lima,2019-01-24
+C-00831,Ana Castillo,Frecuente,Yanahuara,Arequipa,2025-03-09
+C-00832,Fernando Mamani,Frecuente,Chorrillos,Lima,2020-05-13
+C-00833,Elena Vargas,Nuevo,Surco,Lima,2019-12-05
+C-00834,Patricia Espinoza,Nuevo,San Sebastian,Cusco,2022-06-24
+C-00835,Carmen Ccahuana,Nuevo,Los Olivos,Lima,2021-06-07
+C-00836,Gabriela Paredes,Nuevo,Paucarpata,Arequipa,2019-08-30
+C-00837,Karina Ticona,Frecuente,Victor Larco,Trujillo,2023-02-26
+C-00838,Elena Castillo,Frecuente,San Isidro,Lima,2025-05-24
+C-00839,Miguel Mamani,Frecuente,San Jeronimo,Cusco,2021-04-10
+C-00840,Ricardo Mamani,Nuevo,Surco,Lima,2023-02-03
+C-00841,Patricia Paredes,Ocasional,Los Olivos,Lima,2021-09-20
+C-00842,Julio Ccahuana,Frecuente,Huanchaco,Trujillo,2023-06-18
+C-00843,Elena Paredes,Frecuente,Centro Historico,Cusco,2023-11-25
+C-00844,Miguel Ticona,Ocasional,Pueblo Libre,Lima,2022-09-15
+C-00845,Elena Zegarra,Ocasional,Cercado,Arequipa,2024-05-10
+C-00846,Silvia Ninaquispe,Premium,Centro Historico,Cusco,2025-04-23
+C-00847,Patricia Flores,Nuevo,Surquillo,Lima,2025-09-23
+C-00848,Gabriela Del Aguila,Ocasional,Callao,Lima,2024-10-08
+C-00849,Carmen Del Aguila,Nuevo,Sachaca,Arequipa,2024-02-20
+C-00850,Rosa Huaman,Frecuente,San Juan de Lurigancho,Lima,2019-01-16
+C-00851,Ricardo Ccahuana,Nuevo,Cercado,Arequipa,2021-05-19
+C-00852,Jorge Rojas,Nuevo,Surquillo,Lima,2023-09-02
+C-00853,Luis Ramos,Ocasional,Barranco,Lima,2021-05-01
+C-00854,Manuel Ccahuana,Nuevo,Cercado,Arequipa,2020-06-22
+C-00855,Lucia Ccahuana,Frecuente,Centro Historico,Cusco,2024-09-04
+C-00856,Elena Vargas,Premium,Jose Luis Bustamante,Arequipa,2021-01-26
+C-00857,Patricia Rojas,Premium,Comas,Lima,2024-10-09
+C-00858,Silvia Castillo,Frecuente,Barranco,Lima,2023-10-09
+C-00859,Rosa Mamani,Ocasional,Centro,Trujillo,2021-07-19
+C-00860,Sofia Del Aguila,Premium,Yanahuara,Arequipa,2023-11-10
+C-00861,Ana Chavez,Premium,Wanchaq,Cusco,2022-05-06
+C-00862,Cesar Bautista,Frecuente,Centro Historico,Cusco,2019-01-24
+C-00863,Diego Salazar,Frecuente,Comas,Lima,2025-12-16
+C-00864,Patricia Ticona,Nuevo,Lince,Lima,2023-08-23
+C-00865,Sofia Vargas,Frecuente,Jose Luis Bustamante,Arequipa,2022-11-22
+C-00866,Miguel Zegarra,Frecuente,Surco,Lima,2019-01-30
+C-00867,Jorge Ccahuana,Frecuente,Miraflores,Lima,2021-02-13
+C-00868,Andres Espinoza,Ocasional,Chorrillos,Lima,2024-12-04
+C-00869,Ana Paredes,Ocasional,Barranco,Lima,2020-02-14
+C-00870,Julio Chavez,Frecuente,San Miguel,Lima,2024-07-27
+C-00871,Elena Del Aguila,Nuevo,El Porvenir,Trujillo,2023-02-22
+C-00872,Miguel Espinoza,Frecuente,Chorrillos,Lima,2024-10-22
+C-00873,Gabriela Quispe,Ocasional,Ate,Lima,2023-12-19
+C-00874,Milagros Chavez,Frecuente,Callao,Lima,2022-11-09
+C-00875,Lucia Huaman,Nuevo,Cercado,Arequipa,2019-09-13
+C-00876,Silvia Flores,Ocasional,Cayma,Arequipa,2020-10-07
+C-00877,Andres Zegarra,Nuevo,Victor Larco,Trujillo,2020-08-31
+C-00878,Milagros Ramos,Nuevo,Comas,Lima,2022-12-18
+C-00879,Rosa Flores,Premium,San Juan de Lurigancho,Lima,2022-04-27
+C-00880,Gabriela Castillo,Ocasional,Magdalena,Lima,2022-12-24
+C-00881,Lucia Chavez,Ocasional,El Porvenir,Trujillo,2022-08-01
+C-00882,Andres Castillo,Premium,Santiago,Cusco,2024-12-03
+C-00883,Patricia Chavez,Frecuente,San Isidro,Lima,2022-12-24
+C-00884,Julio Ccahuana,Nuevo,San Juan de Lurigancho,Lima,2024-03-21
+C-00885,Patricia Zegarra,Ocasional,El Porvenir,Trujillo,2025-09-23
+C-00886,Carmen Espinoza,Premium,Jose Luis Bustamante,Arequipa,2025-10-07
+C-00887,Karina Salazar,Premium,Surco,Lima,2025-03-08
+C-00888,Rosa Ccahuana,Ocasional,San Isidro,Lima,2021-06-28
+C-00889,Miguel Huaman,Ocasional,Comas,Lima,2023-02-27
+C-00890,Silvia Ninaquispe,Ocasional,Santiago,Cusco,2022-05-31
+C-00891,Gabriela Rojas,Premium,Chorrillos,Lima,2024-12-26
+C-00892,Lucia Vargas,Frecuente,San Juan de Lurigancho,Lima,2025-03-21
+C-00893,Ana Huaman,Ocasional,La Molina,Lima,2024-01-07
+C-00894,Carmen Mamani,Frecuente,Lince,Lima,2023-04-16
+C-00895,Rosa Quispe,Ocasional,Sachaca,Arequipa,2021-06-25
+C-00896,Sofia Ccahuana,Premium,Ate,Lima,2024-08-23
+C-00897,Jorge Chavez,Ocasional,San Miguel,Lima,2019-10-24
+C-00898,Miguel Chavez,Frecuente,Pueblo Libre,Lima,2019-03-15
+C-00899,Luis Mamani,Premium,Centro Historico,Cusco,2024-06-16
+C-00900,Raul Paredes,Ocasional,Victor Larco,Trujillo,2023-08-31
+C-00901,Milagros Bautista,Nuevo,Centro,Trujillo,2019-02-20
+C-00902,Milagros Castillo,Nuevo,Cayma,Arequipa,2020-08-07
+C-00903,Raul Quispe,Premium,Pueblo Libre,Lima,2025-12-03
+C-00904,Silvia Vargas,Nuevo,Magdalena,Lima,2019-03-05
+C-00905,Andres Rojas,Frecuente,La Esperanza,Trujillo,2025-03-13
+C-00906,Luis Ramos,Nuevo,Paucarpata,Arequipa,2022-05-12
+C-00907,Sofia Castillo,Nuevo,Comas,Lima,2020-10-26
+C-00908,Patricia Ninaquispe,Nuevo,Magdalena,Lima,2023-05-04
+C-00909,Elena Paredes,Frecuente,Comas,Lima,2023-12-29
+C-00910,Carmen Ccahuana,Frecuente,Sachaca,Arequipa,2021-06-27
+C-00911,Lucia Chavez,Ocasional,Jesus Maria,Lima,2021-12-17
+C-00912,Elena Flores,Ocasional,Cercado,Arequipa,2024-09-12
+C-00913,Miguel Flores,Nuevo,San Borja,Lima,2022-11-22
+C-00914,Rosa Rojas,Premium,Callao,Lima,2025-02-15
+C-00915,Miguel Rojas,Nuevo,Surquillo,Lima,2022-08-21
+C-00916,Diego Bautista,Nuevo,Pueblo Libre,Lima,2024-04-18
+C-00917,Diego Ccahuana,Premium,Wanchaq,Cusco,2023-05-05
+C-00918,Jorge Ccahuana,Premium,El Porvenir,Trujillo,2021-05-07
+C-00919,Raul Ramos,Nuevo,Surquillo,Lima,2022-05-19
+C-00920,Karina Ninaquispe,Premium,Surco,Lima,2022-01-19
+C-00921,Sofia Quispe,Frecuente,San Jeronimo,Cusco,2020-11-11
+C-00922,Manuel Ramos,Ocasional,Lince,Lima,2025-11-06
+C-00923,Silvia Quispe,Premium,Barranco,Lima,2021-05-31
+C-00924,Karina Castillo,Nuevo,Surquillo,Lima,2021-07-16
+C-00925,Ana Espinoza,Nuevo,Cayma,Arequipa,2019-11-27
+C-00926,Andres Ccahuana,Frecuente,El Porvenir,Trujillo,2025-01-03
+C-00927,Milagros Del Aguila,Ocasional,Callao,Lima,2025-04-14
+C-00928,Carmen Huaman,Ocasional,Chorrillos,Lima,2019-05-09
+C-00929,Luis Ramos,Ocasional,Jose Luis Bustamante,Arequipa,2022-03-24
+C-00930,Karina Bautista,Premium,Barranco,Lima,2025-12-16
+C-00931,Milagros Paredes,Nuevo,El Porvenir,Trujillo,2021-02-22
+C-00932,Julio Mamani,Premium,El Porvenir,Trujillo,2024-02-28
+C-00933,Gabriela Ninaquispe,Nuevo,Yanahuara,Arequipa,2025-06-22
+C-00934,Silvia Ticona,Nuevo,Sachaca,Arequipa,2020-07-14
+C-00935,Karina Ccahuana,Nuevo,Comas,Lima,2021-12-14
+C-00936,Jorge Espinoza,Frecuente,Cercado,Arequipa,2020-09-05
+C-00937,Patricia Chavez,Nuevo,Pueblo Libre,Lima,2025-09-03
+C-00938,Gabriela Paredes,Ocasional,Cayma,Arequipa,2020-01-21
+C-00939,Ana Mamani,Nuevo,Victor Larco,Trujillo,2025-03-20
+C-00940,Milagros Quispe,Ocasional,San Juan de Lurigancho,Lima,2022-01-15
+C-00941,Luis Flores,Frecuente,Centro Historico,Cusco,2021-04-20
+C-00942,Milagros Paredes,Ocasional,Wanchaq,Cusco,2022-10-23
+C-00943,Carmen Ticona,Ocasional,Jose Luis Bustamante,Arequipa,2023-09-30
+C-00944,Ricardo Ninaquispe,Frecuente,San Juan de Lurigancho,Lima,2019-10-27
+C-00945,Jorge Chavez,Nuevo,La Molina,Lima,2025-09-02
+C-00946,Lucia Rojas,Nuevo,La Molina,Lima,2025-01-13
+C-00947,Carmen Quispe,Frecuente,Cercado,Arequipa,2022-09-10
+C-00948,Manuel Zegarra,Frecuente,Surco,Lima,2024-09-26
+C-00949,Jorge Mamani,Premium,Chorrillos,Lima,2025-05-03
+C-00950,Raul Paredes,Ocasional,Lince,Lima,2022-05-25
+C-00951,Miguel Espinoza,Frecuente,Pueblo Libre,Lima,2019-05-08
+C-00952,Ana Del Aguila,Nuevo,San Sebastian,Cusco,2021-04-12
+C-00953,Jorge Mamani,Ocasional,San Borja,Lima,2022-09-15
+C-00954,Elena Zegarra,Premium,Yanahuara,Arequipa,2021-12-17
+C-00955,Miguel Bautista,Frecuente,Cercado,Arequipa,2023-05-23
+C-00956,Elena Ticona,Ocasional,Chorrillos,Lima,2023-06-19
+C-00957,Silvia Ramos,Premium,San Isidro,Lima,2022-05-14
+C-00958,Diego Ticona,Frecuente,Miraflores,Lima,2023-06-28
+C-00959,Ricardo Ninaquispe,Premium,San Juan de Lurigancho,Lima,2025-08-04
+C-00960,Sofia Vargas,Frecuente,Magdalena,Lima,2025-07-24
+C-00961,Cesar Vargas,Premium,Jose Luis Bustamante,Arequipa,2022-01-25
+C-00962,Carmen Ccahuana,Ocasional,Huanchaco,Trujillo,2024-10-11
+C-00963,Rosa Salazar,Frecuente,La Esperanza,Trujillo,2020-12-18
+C-00964,Julio Ccahuana,Ocasional,Lince,Lima,2023-11-25
+C-00965,Luis Salazar,Ocasional,Surco,Lima,2021-11-20
+C-00966,Jorge Bautista,Premium,Surco,Lima,2019-09-17
+C-00967,Fernando Mamani,Frecuente,Victor Larco,Trujillo,2024-08-11
+C-00968,Ana Vargas,Ocasional,La Esperanza,Trujillo,2022-02-17
+C-00969,Patricia Paredes,Nuevo,Comas,Lima,2025-11-26
+C-00970,Elena Bautista,Premium,La Molina,Lima,2025-08-05
+C-00971,Cesar Quispe,Ocasional,San Miguel,Lima,2020-03-22
+C-00972,Elena Ninaquispe,Frecuente,Paucarpata,Arequipa,2020-12-05
+C-00973,Lucia Zegarra,Nuevo,Jose Luis Bustamante,Arequipa,2020-02-01
+C-00974,Jorge Quispe,Ocasional,Jose Luis Bustamante,Arequipa,2020-04-25
+C-00975,Cesar Mamani,Frecuente,San Juan de Lurigancho,Lima,2019-11-14
+C-00976,Rosa Ramos,Nuevo,Lince,Lima,2020-04-24
+C-00977,Karina Ninaquispe,Ocasional,Ate,Lima,2024-04-05
+C-00978,Milagros Bautista,Premium,Surquillo,Lima,2020-07-12
+C-00979,Fernando Paredes,Nuevo,San Jeronimo,Cusco,2022-03-21
+C-00980,Raul Rojas,Premium,Callao,Lima,2022-01-25
+C-00981,Carmen Mamani,Frecuente,Ate,Lima,2021-02-24
+C-00982,Ana Castillo,Premium,Wanchaq,Cusco,2023-05-03
+C-00983,Silvia Huaman,Nuevo,Centro,Trujillo,2023-02-23
+C-00984,Milagros Huaman,Nuevo,Lince,Lima,2022-08-24
+C-00985,Karina Bautista,Nuevo,Surco,Lima,2022-02-15
+C-00986,Andres Salazar,Ocasional,Ate,Lima,2021-01-05
+C-00987,Milagros Zegarra,Nuevo,Victor Larco,Trujillo,2022-08-04
+C-00988,Milagros Quispe,Premium,La Esperanza,Trujillo,2019-07-03
+C-00989,Fernando Salazar,Ocasional,Barranco,Lima,2022-05-30
+C-00990,Diego Paredes,Nuevo,Callao,Lima,2025-07-07
+C-00991,Ana Espinoza,Nuevo,Paucarpata,Arequipa,2019-03-19
+C-00992,Sofia Del Aguila,Frecuente,Los Olivos,Lima,2022-12-02
+C-00993,Raul Bautista,Nuevo,Centro,Trujillo,2020-05-01
+C-00994,Karina Ninaquispe,Nuevo,Surco,Lima,2022-05-26
+C-00995,Karina Paredes,Ocasional,Wanchaq,Cusco,2023-10-17
+C-00996,Luis Zegarra,Premium,San Juan de Lurigancho,Lima,2020-10-27
+C-00997,Carmen Chavez,Frecuente,Los Olivos,Lima,2024-11-13
+C-00998,Manuel Quispe,Premium,Wanchaq,Cusco,2019-05-09
+C-00999,Julio Castillo,Nuevo,El Porvenir,Trujillo,2022-04-02
+C-01000,Karina Flores,Nuevo,Centro,Trujillo,2020-10-27
+C-01001,Luis Mamani,Premium,Huanchaco,Trujillo,2020-11-16
+C-01002,Andres Ninaquispe,Ocasional,Surquillo,Lima,2025-01-09
+C-01003,Diego Ninaquispe,Premium,Jose Luis Bustamante,Arequipa,2022-09-18
+C-01004,Carmen Ticona,Ocasional,Sachaca,Arequipa,2019-04-26
+C-01005,Jorge Salazar,Frecuente,Santiago,Cusco,2022-07-11
+C-01006,Patricia Ticona,Premium,Santiago,Cusco,2021-01-09
+C-01007,Fernando Rojas,Premium,Cayma,Arequipa,2023-11-01
+C-01008,Patricia Espinoza,Frecuente,El Porvenir,Trujillo,2021-12-18
+C-01009,Andres Huaman,Nuevo,Cayma,Arequipa,2024-08-28
+C-01010,Miguel Rojas,Nuevo,Callao,Lima,2021-03-15
+C-01011,Jorge Quispe,Nuevo,Yanahuara,Arequipa,2023-08-23
+C-01012,Julio Mamani,Frecuente,Surquillo,Lima,2025-03-27
+C-01013,Sofia Flores,Frecuente,San Miguel,Lima,2022-03-11
+C-01014,Jorge Ramos,Ocasional,Cercado,Arequipa,2025-11-09
+C-01015,Miguel Rojas,Ocasional,Surco,Lima,2021-09-28
+C-01016,Fernando Flores,Premium,Huanchaco,Trujillo,2020-05-25
+C-01017,Carmen Ccahuana,Ocasional,San Jeronimo,Cusco,2021-12-14
+C-01018,Silvia Ramos,Nuevo,Yanahuara,Arequipa,2024-11-06
+C-01019,Karina Ramos,Ocasional,Pueblo Libre,Lima,2021-08-14
+C-01020,Raul Huaman,Ocasional,Sachaca,Arequipa,2020-04-10
+C-01021,Raul Chavez,Premium,Barranco,Lima,2021-08-25
+C-01022,Jorge Bautista,Nuevo,San Juan de Lurigancho,Lima,2022-04-11
+C-01023,Julio Quispe,Premium,San Juan de Lurigancho,Lima,2023-03-31
+C-01024,Rosa Castillo,Premium,Santiago,Cusco,2024-10-17
+C-01025,Fernando Salazar,Frecuente,Jesus Maria,Lima,2020-12-03
+C-01026,Lucia Espinoza,Nuevo,Jesus Maria,Lima,2021-12-16
+C-01027,Lucia Vargas,Ocasional,Surquillo,Lima,2025-01-04
+C-01028,Karina Espinoza,Ocasional,Wanchaq,Cusco,2020-10-15
+C-01029,Luis Vargas,Ocasional,Sachaca,Arequipa,2020-06-07
+C-01030,Cesar Flores,Premium,Chorrillos,Lima,2020-02-18
+C-01031,Silvia Huaman,Nuevo,Magdalena,Lima,2022-07-07
+C-01032,Raul Espinoza,Premium,Comas,Lima,2023-01-31
+C-01033,Lucia Huaman,Frecuente,Pueblo Libre,Lima,2022-04-12
+C-01034,Luis Paredes,Nuevo,Surquillo,Lima,2025-04-18
+C-01035,Cesar Ninaquispe,Ocasional,Surco,Lima,2020-01-21
+C-01036,Ana Zegarra,Nuevo,Jose Luis Bustamante,Arequipa,2021-09-13
+C-01037,Karina Huaman,Premium,Surco,Lima,2019-05-04
+C-01038,Fernando Mamani,Nuevo,La Molina,Lima,2023-02-27
+C-01039,Elena Zegarra,Frecuente,El Porvenir,Trujillo,2021-08-29
+C-01040,Rosa Chavez,Nuevo,San Jeronimo,Cusco,2025-11-07
+C-01041,Manuel Ccahuana,Premium,La Molina,Lima,2021-03-25
+C-01042,Elena Zegarra,Nuevo,Cayma,Arequipa,2021-05-15
+C-01043,Ana Del Aguila,Frecuente,San Borja,Lima,2020-01-25
+C-01044,Manuel Salazar,Nuevo,Chorrillos,Lima,2025-08-06
+C-01045,Milagros Flores,Nuevo,Magdalena,Lima,2019-07-28
+C-01046,Fernando Salazar,Premium,Surco,Lima,2024-07-28
+C-01047,Karina Quispe,Premium,Cayma,Arequipa,2021-06-23
+C-01048,Jorge Salazar,Premium,Huanchaco,Trujillo,2020-12-05
+C-01049,Silvia Salazar,Premium,Los Olivos,Lima,2021-06-04
+C-01050,Silvia Huaman,Frecuente,Paucarpata,Arequipa,2021-10-04
+C-01051,Raul Castillo,Nuevo,San Jeronimo,Cusco,2022-06-17
+C-01052,Milagros Ramos,Ocasional,Los Olivos,Lima,2021-07-02
+C-01053,Silvia Ticona,Ocasional,Sachaca,Arequipa,2021-09-23
+C-01054,Raul Chavez,Premium,Callao,Lima,2019-07-07
+C-01055,Fernando Mamani,Ocasional,San Sebastian,Cusco,2021-11-06
+C-01056,Silvia Quispe,Nuevo,La Molina,Lima,2021-02-17
+C-01057,Ana Espinoza,Nuevo,Yanahuara,Arequipa,2025-07-29
+C-01058,Sofia Ramos,Nuevo,Miraflores,Lima,2020-03-24
+C-01059,Gabriela Paredes,Frecuente,Los Olivos,Lima,2019-10-24
+C-01060,Diego Ticona,Nuevo,San Miguel,Lima,2024-08-17
+C-01061,Diego Bautista,Frecuente,Santiago,Cusco,2025-04-20
+C-01062,Gabriela Flores,Premium,Centro,Trujillo,2019-12-01
+C-01063,Lucia Espinoza,Premium,Lince,Lima,2022-03-08
+C-01064,Ana Huaman,Nuevo,La Molina,Lima,2025-03-28
+C-01065,Karina Castillo,Premium,San Jeronimo,Cusco,2021-07-30
+C-01066,Gabriela Flores,Frecuente,El Porvenir,Trujillo,2024-05-08
+C-01067,Sofia Salazar,Premium,Centro,Trujillo,2020-12-09
+C-01068,Diego Rojas,Premium,Lince,Lima,2021-10-18
+C-01069,Silvia Vargas,Nuevo,Magdalena,Lima,2022-08-10
+C-01070,Sofia Paredes,Nuevo,Surquillo,Lima,2022-05-13
+C-01071,Julio Paredes,Frecuente,Huanchaco,Trujillo,2021-11-10
+C-01072,Manuel Ramos,Ocasional,Pueblo Libre,Lima,2024-11-24
+C-01073,Andres Ramos,Premium,Santiago,Cusco,2022-02-20
+C-01074,Diego Ticona,Frecuente,Ate,Lima,2023-09-20
+C-01075,Patricia Huaman,Frecuente,Miraflores,Lima,2020-04-19
+C-01076,Sofia Ccahuana,Nuevo,Centro,Trujillo,2024-04-04
+C-01077,Julio Chavez,Premium,Huanchaco,Trujillo,2023-03-24
+C-01078,Karina Vargas,Frecuente,Huanchaco,Trujillo,2023-11-15
+C-01079,Gabriela Flores,Nuevo,Lince,Lima,2019-03-24
+C-01080,Milagros Rojas,Premium,Wanchaq,Cusco,2025-07-08
+C-01081,Julio Salazar,Ocasional,Paucarpata,Arequipa,2023-01-29
+C-01082,Milagros Espinoza,Premium,San Sebastian,Cusco,2021-03-10
+C-01083,Julio Zegarra,Premium,El Porvenir,Trujillo,2020-12-01
+C-01084,Andres Bautista,Premium,San Juan de Lurigancho,Lima,2020-01-18
+C-01085,Carmen Bautista,Premium,El Porvenir,Trujillo,2023-12-23
+C-01086,Lucia Chavez,Premium,Centro,Trujillo,2022-04-07
+C-01087,Manuel Flores,Ocasional,Pueblo Libre,Lima,2025-01-23
+C-01088,Cesar Zegarra,Frecuente,Jose Luis Bustamante,Arequipa,2021-05-19
+C-01089,Julio Espinoza,Frecuente,Jesus Maria,Lima,2023-03-02
+C-01090,Julio Chavez,Frecuente,Los Olivos,Lima,2022-09-28
+C-01091,Ricardo Quispe,Ocasional,Pueblo Libre,Lima,2023-12-27
+C-01092,Silvia Flores,Ocasional,Centro Historico,Cusco,2023-03-11
+C-01093,Elena Salazar,Frecuente,San Juan de Lurigancho,Lima,2019-11-01
+C-01094,Fernando Bautista,Ocasional,Huanchaco,Trujillo,2025-04-27
+C-01095,Lucia Huaman,Premium,Pueblo Libre,Lima,2025-01-05
+C-01096,Fernando Rojas,Frecuente,San Miguel,Lima,2020-02-14
+C-01097,Jorge Rojas,Premium,Victor Larco,Trujillo,2025-05-09
+C-01098,Elena Rojas,Premium,San Jeronimo,Cusco,2022-03-15
+C-01099,Luis Vargas,Frecuente,Santiago,Cusco,2025-05-08
+C-01100,Rosa Ccahuana,Ocasional,Ate,Lima,2021-12-10
+C-01101,Milagros Zegarra,Ocasional,San Juan de Lurigancho,Lima,2025-01-31
+C-01102,Manuel Castillo,Frecuente,San Borja,Lima,2021-11-30
+C-01103,Karina Ninaquispe,Premium,La Esperanza,Trujillo,2020-07-08
+C-01104,Julio Ticona,Nuevo,Sachaca,Arequipa,2021-04-09
+C-01105,Miguel Espinoza,Ocasional,San Miguel,Lima,2022-10-17
+C-01106,Silvia Quispe,Nuevo,San Borja,Lima,2022-01-18
+C-01107,Gabriela Quispe,Premium,San Sebastian,Cusco,2019-02-24
+C-01108,Manuel Bautista,Ocasional,Jesus Maria,Lima,2025-04-03
+C-01109,Ricardo Salazar,Ocasional,El Porvenir,Trujillo,2020-11-02
+C-01110,Diego Ramos,Frecuente,Ate,Lima,2019-11-14
+C-01111,Fernando Espinoza,Premium,Magdalena,Lima,2025-03-04
+C-01112,Silvia Huaman,Nuevo,Lince,Lima,2025-12-10
+C-01113,Manuel Mamani,Nuevo,Magdalena,Lima,2024-11-06
+C-01114,Julio Chavez,Premium,Magdalena,Lima,2021-10-29
+C-01115,Carmen Paredes,Nuevo,Barranco,Lima,2019-02-18
+C-01116,Julio Paredes,Premium,Santiago,Cusco,2022-07-07
+C-01117,Cesar Espinoza,Frecuente,Surco,Lima,2023-03-21
+C-01118,Raul Quispe,Ocasional,Callao,Lima,2025-05-12
+C-01119,Andres Castillo,Frecuente,Surquillo,Lima,2020-11-16
+C-01120,Luis Del Aguila,Nuevo,Jose Luis Bustamante,Arequipa,2024-07-31
+C-01121,Luis Chavez,Premium,Jose Luis Bustamante,Arequipa,2025-01-29
+C-01122,Rosa Espinoza,Premium,San Miguel,Lima,2025-03-14
+C-01123,Ricardo Ramos,Frecuente,Paucarpata,Arequipa,2021-01-09
+C-01124,Julio Zegarra,Nuevo,San Juan de Lurigancho,Lima,2019-03-07
+C-01125,Sofia Ccahuana,Premium,San Jeronimo,Cusco,2024-11-12
+C-01126,Jorge Quispe,Nuevo,Victor Larco,Trujillo,2022-11-13
+C-01127,Milagros Ninaquispe,Nuevo,San Jeronimo,Cusco,2021-05-31
+C-01128,Julio Ticona,Ocasional,San Sebastian,Cusco,2019-08-23
+C-01129,Miguel Bautista,Nuevo,Surquillo,Lima,2021-10-08
+C-01130,Ricardo Huaman,Frecuente,Huanchaco,Trujillo,2022-02-09
+C-01131,Andres Rojas,Ocasional,Yanahuara,Arequipa,2020-02-13
+C-01132,Patricia Espinoza,Frecuente,Surco,Lima,2025-03-23
+C-01133,Ana Ticona,Ocasional,San Borja,Lima,2025-03-07
+C-01134,Manuel Flores,Ocasional,Miraflores,Lima,2025-09-11
+C-01135,Luis Espinoza,Frecuente,Centro,Trujillo,2023-04-23
+C-01136,Patricia Salazar,Frecuente,Santiago,Cusco,2025-02-17
+C-01137,Karina Flores,Ocasional,Paucarpata,Arequipa,2024-07-02
+C-01138,Silvia Espinoza,Premium,Santiago,Cusco,2025-05-16
+C-01139,Julio Ninaquispe,Nuevo,El Porvenir,Trujillo,2021-09-18
+C-01140,Manuel Quispe,Nuevo,Cercado,Arequipa,2024-03-01
+C-01141,Rosa Vargas,Nuevo,La Molina,Lima,2024-07-16
+C-01142,Patricia Mamani,Ocasional,Lince,Lima,2022-07-30
+C-01143,Miguel Zegarra,Frecuente,Paucarpata,Arequipa,2024-08-24
+C-01144,Ana Paredes,Frecuente,Comas,Lima,2024-07-14
+C-01145,Sofia Ccahuana,Frecuente,Ate,Lima,2023-08-31
+C-01146,Karina Mamani,Nuevo,Chorrillos,Lima,2023-01-26
+C-01147,Sofia Bautista,Nuevo,Callao,Lima,2024-03-31
+C-01148,Ricardo Flores,Premium,San Miguel,Lima,2021-05-04
+C-01149,Julio Espinoza,Frecuente,San Borja,Lima,2019-01-20
+C-01150,Jorge Flores,Nuevo,San Miguel,Lima,2025-03-22
+C-01151,Ana Zegarra,Ocasional,Cercado,Arequipa,2021-06-14
+C-01152,Gabriela Flores,Nuevo,San Isidro,Lima,2019-10-20
+C-01153,Karina Quispe,Ocasional,Chorrillos,Lima,2024-09-05
+C-01154,Diego Huaman,Premium,San Juan de Lurigancho,Lima,2022-04-07
+C-01155,Silvia Mamani,Ocasional,Barranco,Lima,2024-02-10
+C-01156,Karina Del Aguila,Ocasional,Centro,Trujillo,2021-09-07
+C-01157,Silvia Vargas,Nuevo,Pueblo Libre,Lima,2022-12-09
+C-01158,Silvia Chavez,Frecuente,Sachaca,Arequipa,2024-09-09
+C-01159,Diego Huaman,Frecuente,Centro,Trujillo,2019-06-29
+C-01160,Elena Mamani,Ocasional,Centro Historico,Cusco,2025-07-15
+C-01161,Raul Mamani,Frecuente,Pueblo Libre,Lima,2021-07-13
+C-01162,Sofia Ccahuana,Ocasional,Pueblo Libre,Lima,2023-05-01
+C-01163,Patricia Zegarra,Frecuente,Surco,Lima,2021-06-13
+C-01164,Fernando Bautista,Frecuente,Callao,Lima,2020-08-02
+C-01165,Ana Castillo,Frecuente,San Miguel,Lima,2023-03-15
+C-01166,Fernando Salazar,Ocasional,El Porvenir,Trujillo,2025-02-02
+C-01167,Karina Espinoza,Frecuente,San Isidro,Lima,2022-09-01
+C-01168,Gabriela Paredes,Nuevo,Centro Historico,Cusco,2020-03-25
+C-01169,Luis Vargas,Ocasional,Chorrillos,Lima,2020-05-24
+C-01170,Sofia Rojas,Ocasional,Jesus Maria,Lima,2022-11-18
+C-01171,Jorge Ninaquispe,Premium,San Isidro,Lima,2020-04-23
+C-01172,Silvia Huaman,Frecuente,Surquillo,Lima,2024-10-10
+C-01173,Andres Flores,Nuevo,Yanahuara,Arequipa,2024-01-04
+C-01174,Luis Del Aguila,Nuevo,Yanahuara,Arequipa,2025-10-29
+C-01175,Manuel Ramos,Ocasional,Chorrillos,Lima,2025-08-26
+C-01176,Milagros Ramos,Ocasional,San Juan de Lurigancho,Lima,2025-08-15
+C-01177,Andres Ramos,Premium,Surco,Lima,2021-03-12
+C-01178,Milagros Ramos,Frecuente,Callao,Lima,2020-12-21
+C-01179,Lucia Chavez,Frecuente,La Esperanza,Trujillo,2020-02-20
+C-01180,Diego Ninaquispe,Nuevo,San Sebastian,Cusco,2023-04-05
+C-01181,Luis Del Aguila,Ocasional,Chorrillos,Lima,2024-04-27
+C-01182,Luis Ramos,Ocasional,San Isidro,Lima,2024-06-12
+C-01183,Patricia Salazar,Frecuente,San Borja,Lima,2021-05-20
+C-01184,Karina Chavez,Ocasional,San Jeronimo,Cusco,2025-07-14
+C-01185,Sofia Zegarra,Nuevo,Ate,Lima,2024-12-24
+C-01186,Ana Ninaquispe,Premium,San Miguel,Lima,2021-10-07
+C-01187,Fernando Flores,Ocasional,San Miguel,Lima,2020-05-26
+C-01188,Fernando Chavez,Frecuente,Jose Luis Bustamante,Arequipa,2025-11-23
+C-01189,Fernando Quispe,Ocasional,Santiago,Cusco,2022-08-13
+C-01190,Luis Ccahuana,Premium,San Borja,Lima,2024-02-21
+C-01191,Carmen Huaman,Ocasional,Jose Luis Bustamante,Arequipa,2024-11-21
+C-01192,Milagros Huaman,Ocasional,Pueblo Libre,Lima,2024-04-12
+C-01193,Miguel Bautista,Ocasional,Huanchaco,Trujillo,2024-07-16
+C-01194,Ricardo Del Aguila,Premium,San Jeronimo,Cusco,2023-11-28
+C-01195,Fernando Chavez,Ocasional,San Borja,Lima,2022-09-23
+C-01196,Carmen Vargas,Frecuente,El Porvenir,Trujillo,2021-08-21
+C-01197,Manuel Ninaquispe,Nuevo,Miraflores,Lima,2022-10-14
+C-01198,Fernando Vargas,Frecuente,Ate,Lima,2025-09-10
+C-01199,Lucia Del Aguila,Nuevo,El Porvenir,Trujillo,2019-12-20
+C-01200,Milagros Mamani,Nuevo,Centro,Trujillo,2024-07-04

@@ -1,0 +1,414 @@
+
+==============================================================================
+PASO 1: CONEXION Y CARGA DE LAS FUENTES
+==============================================================================
+
+--- 1.1 Conteo de filas por fuente ----------------------------------------
+         fuente  filas
+       clientes    600
+     inventario   9676
+      productos     52
+    promociones      7
+        tiendas     12
+ventas_cabecera  19408
+ ventas_detalle  66214
+
+==============================================================================
+PASO 2: PERFILADO DE LAS FUENTES
+==============================================================================
+
+--- 2.1 Como estan escritas las categorias --------------------------------
+       categoria  productos
+       Abarrotes          7
+        BEBIDAS           4
+           Bazar          2
+         Bebidas          4
+          Carnes          4
+      Congelados          3
+Cuidado personal          4
+         LACTEOS          1
+         Lacteos          9
+        Limpieza          6
+       Panaderia          5
+       abarrotes          3
+
+--- 2.2 Claves duplicadas en el maestro de productos ----------------------
+     sku  veces
+SKU01042      2
+
+--- 2.3 Datos obligatorios faltantes: productos sin costo -----------------
+     sku   nombre_producto  precio_lista  costo_unitario
+SKU01203 Pan integral 500g           8.4             NaN
+SKU01231   Pollo entero kg          11.9             NaN
+
+--- 2.4 Comprobantes sin cliente identificado -----------------------------
+ comprobantes_sin_cliente  pct
+                     7516 38.7
+
+--- 2.5 Periodo cubierto por los datos ------------------------------------
+     desde      hasta  dias_con_venta
+2025-01-01 2026-06-30             546
+
+==============================================================================
+PASO 4: DIMENSION TIEMPO
+==============================================================================
+
+--- 4.1 Control de la dimension tiempo ------------------------------------
+ filas      desde      hasta
+   730 2025-01-01 2026-12-31
+
+==============================================================================
+PASO 5: DIMENSIONES PRODUCTO, TIENDA, CLIENTE, PROMOCION Y TRANSACCION
+==============================================================================
+
+--- 5.1 Verificacion del conformado de categorias -------------------------
+       categoria  productos
+       Abarrotes         10
+           Bazar          2
+         Bebidas          8
+          Carnes          4
+      Congelados          3
+Cuidado personal          4
+         Lacteos          9
+        Limpieza          6
+       Panaderia          5
+
+--- 5.2 Cifras de control de las dimensiones ------------------------------
+      dimension  filas
+    dim_cliente    601
+   dim_producto     52
+  dim_promocion      8
+     dim_tiempo    730
+     dim_tienda     13
+dim_transaccion      9
+
+==============================================================================
+PASO 6: CARGA DE HECHO_VENTAS
+==============================================================================
+
+==============================================================================
+PASO 7: VERIFICACION DE LA CARGA
+==============================================================================
+
+--- 7.1 Cuadre de filas y de importes -------------------------------------
+ filas_hecho  filas_origen  bruto_datamart  bruto_origen  descuento_datamart  neto_datamart  diferencia
+       66214         66214      1249553.68    1249553.68            19870.48      1229683.2         0.0
+
+--- 7.2 Busqueda de hechos huerfanos (debe dar cero en todas) -------------
+dimension  huerfanos
+ producto          0
+   tienda          0
+  cliente          0
+   tiempo          0
+
+--- 7.3 Peso de los valores desconocidos ----------------------------------
+ lineas_totales  lineas_sin_cliente  pct_sin_cliente
+          66214             25440.0             38.4
+
+==============================================================================
+PASO 8: OPERACIONES OLAP
+==============================================================================
+
+--- 8.1 ROLL-UP: agregacion con subtotales por region y categoria (2026) --
+       region         categoria  venta_neta    margen  pct_margen
+     Arequipa   Subtotal region    71923.50  18873.82        26.2
+     Arequipa         Abarrotes    15551.22   3678.27        23.7
+     Arequipa             Bazar     2644.44    814.84        30.8
+     Arequipa           Bebidas     5773.78   1476.28        25.6
+     Arequipa            Carnes     9725.93   2188.80        22.5
+     Arequipa        Congelados     5583.05   1515.45        27.1
+     Arequipa  Cuidado personal     6983.66   1968.46        28.2
+     Arequipa           Lacteos     9711.67   2663.42        27.4
+     Arequipa          Limpieza    10422.38   2735.08        26.2
+     Arequipa         Panaderia     5527.37   1833.22        33.2
+        Cusco   Subtotal region    20104.00   5227.59        26.0
+        Cusco         Abarrotes     4579.30   1079.70        23.6
+        Cusco             Bazar      515.10    160.20        31.1
+        Cusco           Bebidas     1460.54    368.89        25.3
+        Cusco            Carnes     2569.22    588.69        22.9
+        Cusco        Congelados     1815.04    486.14        26.8
+        Cusco  Cuidado personal     2168.34    603.54        27.8
+        Cusco           Lacteos     2298.85    632.80        27.5
+        Cusco          Limpieza     3490.42    909.02        26.0
+        Cusco         Panaderia     1207.19    398.61        33.0
+  La Libertad   Subtotal region    73233.93  19158.12        26.2
+  La Libertad         Abarrotes    16231.39   3799.49        23.4
+  La Libertad             Bazar     2336.83    723.83        31.0
+  La Libertad           Bebidas     5239.08   1326.98        25.3
+  La Libertad            Carnes    10499.61   2421.77        23.1
+  La Libertad        Congelados     6152.44   1664.84        27.1
+  La Libertad  Cuidado personal     7177.85   2020.05        28.1
+  La Libertad           Lacteos     8615.59   2365.69        27.5
+  La Libertad          Limpieza    11724.40   3100.30        26.4
+  La Libertad         Panaderia     5256.74   1735.17        33.0
+         Lima   Subtotal region   234630.41  61264.08        26.1
+         Lima         Abarrotes    51671.79  12184.19        23.6
+         Lima             Bazar     6940.44   2179.54        31.4
+         Lima           Bebidas    17970.76   4489.56        25.0
+         Lima            Carnes    31271.62   7109.77        22.7
+         Lima        Congelados    18761.25   5069.45        27.0
+         Lima  Cuidado personal    21615.88   6073.28        28.1
+         Lima           Lacteos    32183.11   8795.71        27.3
+         Lima          Limpieza    37423.49   9822.49        26.2
+         Lima         Panaderia    16792.07   5540.09        33.0
+TOTAL GENERAL   Subtotal region   399891.84 104523.61        26.1
+
+--- 8.1b Comprobacion: promedio de porcentajes vs. division de sumas ------
+ promedio_de_pct  pct_correcto
+           27.69         26.14
+
+--- 8.2 DRILL-DOWN: de categoria anual a mes y subcategoria (Lacteos 2026) 
+anio_mes subcategoria  venta_neta
+ 2026-01       Leches     2539.98
+ 2026-01       Quesos     3524.18
+ 2026-01      Yogures     3357.43
+ 2026-02       Leches     2592.57
+ 2026-02       Quesos     3642.30
+ 2026-02      Yogures     2763.87
+ 2026-03       Leches     2725.26
+ 2026-03       Quesos     3275.84
+ 2026-03      Yogures     2369.67
+ 2026-04       Leches     2624.20
+ 2026-04       Quesos     2911.48
+ 2026-04      Yogures     2699.06
+ 2026-05       Leches     2513.37
+ 2026-05       Quesos     3271.34
+ 2026-05      Yogures     3528.89
+ 2026-06       Leches     2491.88
+ 2026-06       Quesos     3162.32
+ 2026-06      Yogures     2815.58
+
+--- 8.3 SLICE: fijamos una sola dimension (anio 2026) ---------------------
+     region  venta_neta
+       Lima   234630.41
+La Libertad    73233.93
+   Arequipa    71923.50
+      Cusco    20104.00
+
+--- 8.3b DICE: restringimos zona, categoria y trimestre simultaneamente ---
+zona_comercial categoria nombre_mes  venta_neta
+    Lima Norte   Bebidas      Abril      982.07
+    Lima Norte   Bebidas       Mayo     1050.06
+    Lima Norte   Bebidas      Junio      914.94
+    Lima Norte   Lacteos      Abril     1490.79
+    Lima Norte   Lacteos       Mayo     1686.51
+    Lima Norte   Lacteos      Junio     1216.33
+      Lima Sur   Bebidas      Abril      913.39
+      Lima Sur   Bebidas       Mayo      887.30
+      Lima Sur   Bebidas      Junio      822.17
+      Lima Sur   Lacteos      Abril     1594.07
+      Lima Sur   Lacteos       Mayo     1872.80
+      Lima Sur   Lacteos      Junio     1823.56
+
+--- 8.4 PIVOT: categorias en filas, trimestres en columnas (2026) ---------
+       categoria       T1       T2
+       Abarrotes 43691.57 44342.13
+           Bazar  6211.16  6225.65
+         Bebidas 14560.67 15883.49
+          Carnes 27651.71 26414.67
+      Congelados 16526.43 15785.35
+Cuidado personal 17856.99 20088.74
+         Lacteos 26791.10 26018.12
+        Limpieza 30695.75 32364.94
+       Panaderia 14950.74 13832.63
+
+--- 8.5 Comparativo contra el mismo periodo del anio anterior -------------
+ anio  mes        categoria  venta_neta  venta_anio_anterior  variacion_pct
+ 2026    1        Abarrotes    15210.20             15351.70           -0.9
+ 2026    2        Abarrotes    13694.93             13416.00            2.1
+ 2026    3        Abarrotes    14786.44             15268.25           -3.2
+ 2026    4        Abarrotes    13744.38             13815.59           -0.5
+ 2026    5        Abarrotes    15519.31             13210.01           17.5
+ 2026    6        Abarrotes    15078.44             14296.07            5.5
+ 2026    1            Bazar     2365.83              2312.05            2.3
+ 2026    2            Bazar     1805.97              1552.75           16.3
+ 2026    3            Bazar     2039.36              2106.95           -3.2
+ 2026    4            Bazar     2033.29              2187.87           -7.1
+ 2026    5            Bazar     2189.64              2236.71           -2.1
+ 2026    6            Bazar     2002.72              1795.56           11.5
+ 2026    1          Bebidas     4563.41              6164.57          -26.0
+ 2026    2          Bebidas     4307.78              4857.00          -11.3
+ 2026    3          Bebidas     5689.48              5442.37            4.5
+ 2026    4          Bebidas     5542.03              5665.87           -2.2
+ 2026    5          Bebidas     5451.26              5410.51            0.8
+ 2026    6          Bebidas     4890.20              5916.15          -17.3
+ 2026    1           Carnes     9197.53              9210.52           -0.1
+ 2026    2           Carnes     8635.13              7948.63            8.6
+ 2026    3           Carnes     9819.05              8839.86           11.1
+ 2026    4           Carnes     8413.01              8396.02            0.2
+ 2026    5           Carnes    10109.72             10233.35           -1.2
+ 2026    6           Carnes     7891.94              9108.10          -13.4
+ 2026    1       Congelados     5452.17              6062.50          -10.1
+ 2026    2       Congelados     5378.53              5417.04           -0.7
+ 2026    3       Congelados     5695.73              5750.91           -1.0
+ 2026    4       Congelados     5450.87              6944.91          -21.5
+ 2026    5       Congelados     5657.44              5713.04           -1.0
+ 2026    6       Congelados     4677.04              5514.22          -15.2
+ 2026    1 Cuidado personal     6066.81              6719.46           -9.7
+ 2026    2 Cuidado personal     5446.24              5935.67           -8.2
+ 2026    3 Cuidado personal     6343.94              7206.64          -12.0
+ 2026    4 Cuidado personal     6721.29              6174.26            8.9
+ 2026    5 Cuidado personal     7558.33              6821.58           10.8
+ 2026    6 Cuidado personal     5809.12              6619.58          -12.2
+ 2026    1          Lacteos     9421.59              9804.67           -3.9
+ 2026    2          Lacteos     8998.74              8307.11            8.3
+ 2026    3          Lacteos     8370.77             10496.04          -20.2
+ 2026    4          Lacteos     8234.74              8168.02            0.8
+ 2026    5          Lacteos     9313.60              8691.09            7.2
+ 2026    6          Lacteos     8469.78              9075.25           -6.7
+ 2026    1         Limpieza     9643.07             10761.48          -10.4
+ 2026    2         Limpieza     9306.79              9281.57            0.3
+ 2026    3         Limpieza    11745.89             11606.45            1.2
+ 2026    4         Limpieza     9561.45              9852.43           -3.0
+ 2026    5         Limpieza    12331.59             11403.38            8.1
+ 2026    6         Limpieza    10471.90             11206.21           -6.6
+ 2026    1        Panaderia     5447.52              5206.86            4.6
+ 2026    2        Panaderia     4196.21              4110.66            2.1
+ 2026    3        Panaderia     5307.01              5636.97           -5.9
+ 2026    4        Panaderia     4833.24              4835.11           -0.0
+ 2026    5        Panaderia     5108.60              5489.38           -6.9
+ 2026    6        Panaderia     3890.79              4532.71          -14.2
+
+--- 8.6 Analisis del programa de fidelizacion -----------------------------
+anio_mes  venta_total  venta_fidelizada  pct_fidelizada
+ 2025-01     71593.81          28526.72            39.8
+ 2025-02     60826.43          21036.54            34.6
+ 2025-03     72354.44          24948.08            34.5
+ 2025-04     66040.08          24417.62            37.0
+ 2025-05     69209.05          24879.15            35.9
+ 2025-06     68063.85          24091.35            35.4
+ 2025-07     72919.13          25613.49            35.1
+ 2025-08     70456.48          27544.50            39.1
+ 2025-09     67891.35          25901.45            38.2
+ 2025-10     61499.59          23273.75            37.8
+ 2025-11     70842.16          28346.31            40.0
+ 2025-12     78094.99          27229.00            34.9
+ 2026-01     67368.13          24139.59            35.8
+ 2026-02     61770.32          23044.61            37.3
+ 2026-03     69797.67          25810.73            37.0
+ 2026-04     64534.30          23484.55            36.4
+ 2026-05     73239.49          27635.76            37.7
+ 2026-06     63181.93          23119.14            36.6
+
+==============================================================================
+PREGUNTAS DE ANALISIS
+==============================================================================
+
+--- P1. Region con mayor venta neta 2026 y categoria de mayor margen % ----
+     region  venta_neta  pct_margen
+       Lima   234630.41       26.11
+La Libertad    73233.93       26.16
+   Arequipa    71923.50       26.24
+      Cusco    20104.00       26.00
+       categoria  venta_neta  pct_margen
+       Panaderia    28783.37       33.03
+           Bazar    12436.81       31.18
+Cuidado personal    37945.73       28.11
+         Lacteos    52809.22       27.38
+      Congelados    32311.78       27.04
+        Limpieza    63060.69       26.27
+         Bebidas    30444.16       25.17
+       Abarrotes    88033.70       23.56
+          Carnes    54066.38       22.77
+
+--- P2. Fidelizacion: efecto de la fila de cliente no identificado --------
+ pct_sobre_venta_total  pct_sobre_venta_identificada  pct_venta_no_identificada
+                 36.84                         59.69                      38.28
+
+--- P3. Impacto de haber usado INNER JOIN con dim_cliente -----------------
+ neto_con_left_join  neto_con_inner_join  filas_con_left_join  filas_con_inner_join  pct_venta_perdida
+          1229683.2            759016.23                66214               40774.0              38.28
+
+--- P4. Efecto de los dos productos con costo imputado sobre el margen ----
+categoria  pct_margen_reportado  pct_margen_sin_imputados  pct_venta_imputada
+   Carnes                 21.66                     20.56               16.18
+Panaderia                 31.91                     33.07               20.46
+
+==============================================================================
+ACTIVIDAD PROPUESTA: HECHO_INVENTARIO Y DRILL-ACROSS
+==============================================================================
+
+--- 11.1 Cuadre de filas y de cierres mensuales ---------------------------
+ filas_hecho  filas_origen  cierres_mensuales  valorizado_total  valorizado_origen
+        9676          9676                 18        4916208.99         4916208.99
+
+--- 11.2 Huerfanos en hecho_inventario (debe dar cero) --------------------
+dimension  huerfanos
+ producto          0
+   tienda          0
+   tiempo          0
+
+--- 11.3 Demostracion de la semiaditividad del stock (2025) ---------------
+ suma_incorrecta_del_anio
+                 410776.0
+ stock_promedio_mensual  stock_ultimo_cierre
+                34231.0              33686.0
+
+--- 11.4 DRILL-ACROSS: rotacion por mes y categoria (1er semestre 2026) ---
+anio_mes        categoria  unidades_vendidas  stock_cierre  indice_rotacion
+ 2026-01        Abarrotes             1291.0        6272.0            0.206
+ 2026-01            Bazar              305.0        1244.0            0.245
+ 2026-01          Bebidas              933.0        5079.0            0.184
+ 2026-01           Carnes              501.0        2507.0            0.200
+ 2026-01       Congelados              355.0        2077.0            0.171
+ 2026-01 Cuidado personal              481.0        2495.0            0.193
+ 2026-01          Lacteos             1140.0        6041.0            0.189
+ 2026-01         Limpieza              691.0        4287.0            0.161
+ 2026-01        Panaderia              639.0        4093.0            0.156
+ 2026-02        Abarrotes             1123.0        6239.0            0.180
+ 2026-02            Bazar              226.0        1379.0            0.164
+ 2026-02          Bebidas              895.0        5075.0            0.176
+ 2026-02           Carnes              447.0        2938.0            0.152
+ 2026-02       Congelados              368.0        1808.0            0.204
+ 2026-02 Cuidado personal              423.0        3101.0            0.136
+ 2026-02          Lacteos             1084.0        6188.0            0.175
+ 2026-02         Limpieza              670.0        4248.0            0.158
+ 2026-02        Panaderia              528.0        3014.0            0.175
+ 2026-03        Abarrotes             1225.0        6445.0            0.190
+ 2026-03            Bazar              250.0        1274.0            0.196
+ 2026-03          Bebidas              982.0        5971.0            0.164
+ 2026-03           Carnes              520.0        2832.0            0.184
+ 2026-03       Congelados              370.0        1931.0            0.192
+ 2026-03 Cuidado personal              481.0        2677.0            0.180
+ 2026-03          Lacteos             1045.0        5763.0            0.181
+ 2026-03         Limpieza              857.0        4105.0            0.209
+ 2026-03        Panaderia              624.0        3187.0            0.196
+ 2026-04        Abarrotes             1153.0        7491.0            0.154
+ 2026-04            Bazar              264.0        1494.0            0.177
+ 2026-04          Bebidas              962.0        5658.0            0.170
+ 2026-04           Carnes              459.0        2927.0            0.157
+ 2026-04       Congelados              375.0        2017.0            0.186
+ 2026-04 Cuidado personal              529.0        2246.0            0.236
+ 2026-04          Lacteos             1091.0        5630.0            0.194
+ 2026-04         Limpieza              657.0        4310.0            0.152
+ 2026-04        Panaderia              593.0        3532.0            0.168
+ 2026-05        Abarrotes             1239.0        6784.0            0.183
+ 2026-05            Bazar              266.0        1106.0            0.241
+ 2026-05          Bebidas              923.0        4758.0            0.194
+ 2026-05           Carnes              538.0        2641.0            0.204
+ 2026-05       Congelados              385.0        1721.0            0.224
+ 2026-05 Cuidado personal              564.0        2299.0            0.245
+ 2026-05          Lacteos             1149.0        6216.0            0.185
+ 2026-05         Limpieza              835.0        4113.0            0.203
+ 2026-05        Panaderia              611.0        3395.0            0.180
+ 2026-06        Abarrotes             1182.0        6390.0            0.185
+ 2026-06            Bazar              252.0        1601.0            0.157
+ 2026-06          Bebidas              873.0        5238.0            0.167
+ 2026-06           Carnes              417.0        2864.0            0.146
+ 2026-06       Congelados              309.0        2045.0            0.151
+ 2026-06 Cuidado personal              445.0        2032.0            0.219
+ 2026-06          Lacteos             1036.0        6375.0            0.163
+ 2026-06         Limpieza              699.0        4016.0            0.174
+ 2026-06        Panaderia              493.0        3546.0            0.139
+
+--- 11.5 Las tres categorias de menor rotacion (1er semestre 2026) --------
+       categoria  unidades_vendidas  stock_promedio_mensual  indice_rotacion
+       Panaderia             3488.0                  3461.0            1.008
+          Carnes             2882.0                  2785.0            1.035
+         Bebidas             5568.0                  5297.0            1.051
+        Limpieza             4409.0                  4180.0            1.055
+         Lacteos             6545.0                  6036.0            1.084
+       Abarrotes             7213.0                  6604.0            1.092
+      Congelados             2162.0                  1933.0            1.118
+           Bazar             1563.0                  1350.0            1.158
+Cuidado personal             2923.0                  2475.0            1.181

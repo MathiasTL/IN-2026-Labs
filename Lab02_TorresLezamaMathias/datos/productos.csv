@@ -1,0 +1,53 @@
+sku,nombre_producto,marca,subcategoria,categoria,linea,unidad_medida,precio_lista,costo_unitario
+SKU01007,Leche entera 1L,Gloria,Leches,Lacteos,Alimentos,UN,4.90,3.55
+SKU01014,Leche deslactosada 1L,Laive,Leches,LACTEOS,Alimentos,UN,5.60,4.10
+SKU01021,Leche evaporada 400g,Gloria,Leches,Lacteos,Alimentos,UN,4.20,3.05
+SKU01028,Leche chocolatada 1L,Laive,Leches,Lacteos,Alimentos,UN,6.10,4.45
+SKU01035,Yogurt fresa 1L,Gloria,Yogures,Lacteos,Alimentos,UN,7.50,5.40
+SKU01042,Yogurt griego 500g,Laive,Yogures,Lacteos,Alimentos,UN,9.80,7.05
+SKU01049,Yogurt vainilla 1L,Gloria,Yogures,Lacteos,Alimentos,UN,7.50,5.40
+SKU01056,Queso fresco 500g,Bonle,Quesos,Lacteos,Alimentos,UN,12.90,9.30
+SKU01063,Queso edam 250g,Laive,Quesos,Lacteos,Alimentos,UN,15.40,11.20
+SKU01070,Gaseosa cola 3L,Inca Kola,Gaseosas,BEBIDAS ,Bebidas,UN,9.90,7.10
+SKU01077,Gaseosa cola 1.5L,Coca Cola,Gaseosas,BEBIDAS ,Bebidas,UN,6.50,4.70
+SKU01084,Gaseosa naranja 3L,Fanta,Gaseosas,Bebidas,Bebidas,UN,8.90,6.40
+SKU01091,Agua mineral 2.5L,San Luis,Aguas,BEBIDAS ,Bebidas,UN,4.50,3.10
+SKU01098,Agua con gas 625ml,San Mateo,Aguas,BEBIDAS ,Bebidas,UN,2.80,1.90
+SKU01105,Jugo de naranja 1L,Frugos,Jugos,Bebidas,Bebidas,UN,5.40,3.90
+SKU01112,Nectar durazno 1L,Pulp,Jugos,Bebidas,Bebidas,UN,4.30,3.05
+SKU01119,Bebida isotonica 500ml,Sporade,Jugos,Bebidas,Bebidas,UN,3.20,2.20
+SKU01126,Arroz extra 5kg,Costeno,Granos,Abarrotes,Alimentos,UN,26.90,21.40
+SKU01133,Arroz superior 5kg,Paisana,Granos,Abarrotes,Alimentos,UN,24.50,19.30
+SKU01140,Lenteja 500g,Costeno,Granos,abarrotes,Alimentos,UN,5.90,4.20
+SKU01147,Frijol canario 500g,Paisana,Granos,Abarrotes,Alimentos,UN,7.40,5.30
+SKU01154,Aceite vegetal 1L,Primor,Aceites,Abarrotes,Alimentos,UN,9.20,7.00
+SKU01161,Aceite de oliva 500ml,Olivos,Aceites,Abarrotes,Alimentos,UN,28.90,22.40
+SKU01168,Fideo spaghetti 500g,Don Vittorio,Pastas,Abarrotes,Alimentos,UN,4.10,2.90
+SKU01175,Fideo tallarin 500g,Molitalia,Pastas,Abarrotes,Alimentos,UN,3.60,2.55
+SKU01182,Azucar rubia 1kg,Cartavio,Azucar y sal,abarrotes,Alimentos,UN,4.80,3.60
+SKU01189,Sal de mesa 1kg,Emsal,Azucar y sal,abarrotes,Alimentos,UN,2.10,1.40
+SKU01196,Pan de molde blanco,Bimbo,Panes,Panaderia,Alimentos,UN,6.90,4.90
+SKU01203,Pan integral 500g,Bimbo,Panes,Panaderia,Alimentos,UN,8.40,
+SKU01210,Pan francia unidad,MercaAndina,Panes,Panaderia,Alimentos,UN,0.40,0.22
+SKU01217,Queque marmoleado,MercaAndina,Pasteleria,Panaderia,Alimentos,UN,13.90,9.10
+SKU01224,Alfajores 6 un,MercaAndina,Pasteleria,Panaderia,Alimentos,UN,10.50,6.80
+SKU01231,Pollo entero kg,San Fernando,Aves,Carnes,Alimentos,KG,11.90,
+SKU01238,Pechuga de pollo kg,San Fernando,Aves,Carnes,Alimentos,KG,17.50,13.90
+SKU01245,Carne molida res kg,Redondos,Res y cerdo,Carnes,Alimentos,KG,24.90,19.60
+SKU01252,Chuleta de cerdo kg,Redondos,Res y cerdo,Carnes,Alimentos,KG,19.80,15.40
+SKU01259,Nuggets de pollo 600g,San Fernando,Congelados,Congelados,Alimentos,UN,18.90,14.20
+SKU01266,Helado vainilla 1L,Donofrio,Congelados,Congelados,Alimentos,UN,15.90,11.30
+SKU01273,Papa precocida 1kg,Frescos,Congelados,Congelados,Alimentos,UN,9.40,6.90
+SKU01280,Detergente polvo 4kg,Bolivar,Detergentes,Limpieza,No alimentos,UN,32.90,25.10
+SKU01287,Jabon liquido 1L,Sapolio,Detergentes,Limpieza,No alimentos,UN,8.70,6.20
+SKU01294,Lejia 1L,Clorox,Detergentes,Limpieza,No alimentos,UN,4.90,3.40
+SKU01301,Papel higienico 12 rollos,Elite,Papel,Limpieza,No alimentos,UN,21.90,16.40
+SKU01308,Papel toalla 3 rollos,Elite,Papel,Limpieza,No alimentos,UN,12.40,9.10
+SKU01315,Servilletas 200 un,Elite,Papel,Limpieza,No alimentos,UN,5.60,3.90
+SKU01322,Shampoo 400ml,Head & Shoulders,Higiene,Cuidado personal,No alimentos,UN,19.90,14.60
+SKU01329,Jabon de tocador 3 un,Protex,Higiene,Cuidado personal,No alimentos,UN,9.80,7.00
+SKU01336,Pasta dental 90g,Colgate,Higiene,Cuidado personal,No alimentos,UN,7.40,5.20
+SKU01343,Desodorante 150ml,Rexona,Higiene,Cuidado personal,No alimentos,UN,14.90,10.80
+SKU01350,Bolsas de basura 30 un,Sapolio,Menaje,Bazar,No alimentos,UN,11.20,7.90
+SKU01357,Esponja cocina 3 un,Virulana,Menaje,Bazar,No alimentos,UN,4.30,2.80
+SKU01042,Yogurt griego 500g ,Laive,Yogures,Lacteos,Alimentos,UN,9.80,7.05

@@ -1,0 +1,35 @@
+cod_tienda,nombre_tienda,formato,distrito,ciudad,region,area_m2,fecha_apertura
+T001,MERCANDINA Miraflores,Express,Miraflores,Lima,Lima,120.27,2020-04-27
+T002,MERCANDINA San Isidro,Market,San Isidro,Lima,Lima,352.53,2016-12-19
+T003,MERCANDINA Surco,Express,Surco,Lima,Lima,153.61,2024-01-15
+T004,MERCANDINA San Borja,Express,San Borja,Lima,Lima,186.28,2022-08-11
+T005,MERCANDINA Jesus Maria,Express,Jesus Maria,Lima,Lima,106.87,2024-09-26
+T006,MERCANDINA Magdalena,Express,Magdalena,Lima,Lima,159.06,2018-02-17
+T007,MERCANDINA Lince,Express,Lince,Lima,Lima,189.72,2017-05-16
+T008,MERCANDINA Barranco,Market,Barranco,Lima,Lima,282.87,2023-11-06
+T009,MERCANDINA Pueblo Libre,Express,Pueblo Libre,Lima,Lima,141.44,2017-03-30
+T010,MERCANDINA La Molina,Market,La Molina,Lima,Lima,438.96,2016-10-17
+T011,MERCANDINA San Miguel,Express,San Miguel,Lima,Lima,120.40,2018-01-15
+T012,MERCANDINA Surquillo,Market,Surquillo,Lima,Lima,377.96,2024-04-19
+T013,MERCANDINA Chorrillos,Express,Chorrillos,Lima,Lima,120.25,2022-05-22
+T014,MERCANDINA Los Olivos,Market,Los Olivos,Lima,Lima,514.93,2023-01-01
+T015,MERCANDINA San Juan de Lurigancho,Market,San Juan de Lurigancho,Lima,Lima,431.42,2017-01-26
+T016,MERCANDINA Ate,Market,Ate,Lima,Lima,448.74,2023-12-02
+T017,MERCANDINA Comas,Express,Comas,Lima,Lima,161.63,2016-12-29
+T018,MERCANDINA Callao,Express,Callao,Lima,Lima,134.32,2024-03-29
+T019,MERCANDINA Cercado,Express,Cercado,Arequipa,Arequipa,134.33,2017-01-28
+T020,MERCANDINA Yanahuara,Express,Yanahuara,Arequipa,Arequipa,112.19,2016-12-20
+T021,MERCANDINA Cayma,Express,Cayma,Arequipa,Arequipa,87.92,2017-04-04
+T022,MERCANDINA Jose Luis Bustamante,Express,Jose Luis Bustamante,Arequipa,Arequipa,152.35,2016-10-23
+T023,MERCANDINA Sachaca,Market,Sachaca,Arequipa,Arequipa,485.89,2023-07-04
+T024,MERCANDINA Paucarpata,Express,Paucarpata,Arequipa,Arequipa,96.82,2020-07-24
+T025,MERCANDINA Centro,Express,Centro,Trujillo,La Libertad,149.60,2018-06-29
+T026,MERCANDINA Victor Larco,Express,Victor Larco,Trujillo,La Libertad,115.84,2024-09-15
+T027,MERCANDINA El Porvenir,Market,El Porvenir,Trujillo,La Libertad,404.09,2024-04-27
+T028,MERCANDINA Huanchaco,Express,Huanchaco,Trujillo,La Libertad,95.18,2018-09-27
+T029,MERCANDINA La Esperanza,Express,La Esperanza,Trujillo,La Libertad,85.44,2021-08-19
+T030,MERCANDINA Centro Historico,Market,Centro Historico,Cusco,Cusco,414.63,2022-11-03
+T031,MERCANDINA Wanchaq,Market,Wanchaq,Cusco,Cusco,480.41,2016-09-16
+T032,MERCANDINA San Sebastian,Express,San Sebastian,Cusco,Cusco,98.65,2019-03-07
+T033,MERCANDINA San Jeronimo,Express,San Jeronimo,Cusco,Cusco,90.79,2016-09-25
+T034,MERCANDINA Santiago,Express,Santiago,Cusco,Cusco,146.84,2021-02-04

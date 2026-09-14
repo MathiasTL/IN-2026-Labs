@@ -1,0 +1,8 @@
+codigo_promocion,nombre_promocion,tipo_promocion,fecha_inicio,fecha_fin,descuento_pct
+P01,Sin promocion,Ninguna,2025-01-01,2026-12-31,0.00
+P02,Fiestas Patrias,Estacional,2025-07-20,2025-07-31,0.15
+P03,Aniversario MercaAndina,Aniversario,2025-10-01,2025-10-15,0.20
+P04,Navidad,Estacional,2025-12-05,2025-12-24,0.12
+P05,Verano refrescante,Categoria,2026-01-05,2026-02-28,0.18
+P06,Fiestas Patrias,Estacional,2026-07-20,2026-07-31,0.15
+P07,Quincena de lacteos,Categoria,2026-04-01,2026-04-15,0.10

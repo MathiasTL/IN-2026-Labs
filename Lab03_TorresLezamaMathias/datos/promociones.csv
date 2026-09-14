@@ -1,0 +1,13 @@
+cod_promocion,nombre_promocion,tipo_promocion,fecha_inicio,fecha_fin
+PR001,2x1 Bebidas Verano,Multicompra,2026-01-05,2026-02-28
+PR002,Descuento 20% Snacks,Descuento directo,2026-01-10,2026-03-15
+PR003,Combo Desayuno,Combo,2026-01-01,2026-06-30
+PR004,Marca propia -15%,Descuento directo,2026-02-01,2026-06-30
+PR005,Segunda unidad 50%,Multicompra,2026-02-15,2026-04-30
+PR006,Cyber Mercandina,Descuento directo,2026-03-09,2026-03-13
+PR007,Lacteos en pack,Combo,2026-03-01,2026-05-31
+PR008,Limpieza total -25%,Descuento directo,2026-04-01,2026-05-15
+PR009,Puntos dobles Premium,Fidelizacion,2026-04-10,2026-06-30
+PR010,Dia de la Madre,Descuento directo,2026-05-01,2026-05-12
+PR011,Congelados 3x2,Multicompra,2026-05-20,2026-06-30
+PR012,Panaderia manana,Descuento horario,2026-01-01,2026-06-30

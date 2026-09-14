@@ -1,0 +1,601 @@
+nro_documento,nombre_cliente,segmento,tiene_tarjeta,distrito_residencia,fecha_alta
+71785983,Elena Quispe,Frecuente,S,Wanchaq,2025-08-23
+45173226,Teresa Rodriguez,Frecuente,S,Wanchaq,2025-06-06
+18118016,Elena Cordova,Ocasional,S,Trujillo,2022-01-30
+25741451,Patricia Ibanez,Frecuente,S,Arequipa,2023-01-19
+11042242,Oscar Ticona,Ocasional,N,Wanchaq,2024-08-02
+76821183,Sofia Ramos,Frecuente,S,Santiago de Surco,2024-03-07
+52381999,Fernando Quispe,Nuevo,N,Arequipa,2022-11-04
+64896937,Rosa Alvarado,Ocasional,N,Comas,2023-07-24
+58535546,Oscar Del Aguila,Ocasional,N,Comas,2024-11-02
+73482484,Claudia Ccahuana,Ocasional,N,Santiago de Surco,2022-07-25
+20480675,Claudia Zegarra,Ocasional,N,Ate,2025-08-17
+70777536,Oscar Huaman,Ocasional,N,Comas,2024-07-14
+68141309,Gabriela Vargas,Nuevo,S,Independencia,2022-01-01
+64068547,Andres Rodriguez,Ocasional,S,Miraflores,2024-03-30
+53420071,Cesar Rojas,Ocasional,N,San Martin de Porres,2023-02-14
+24722987,Ricardo Huaman,Frecuente,S,Arequipa,2023-02-06
+53011933,Mariana Mendoza,Frecuente,S,San Martin de Porres,2024-07-21
+75650422,Mariana Ramos,Ocasional,N,Santiago de Surco,2025-04-22
+76365926,Ana Paredes,Nuevo,N,Victor Larco,2025-01-03
+47976072,Jorge Huaman,Ocasional,N,Wanchaq,2022-11-05
+62434551,Ana Flores,Premium,S,San Miguel,2022-04-02
+74423783,Jorge Huaman,Frecuente,S,Santiago de Surco,2024-07-07
+35515226,Miguel Bustamante,Nuevo,N,Comas,2025-04-16
+69054307,Cesar Rodriguez,Nuevo,S,Chorrillos,2023-07-31
+25919856,Ricardo Quispe,Frecuente,S,San Miguel,2023-12-29
+43994720,Raul Huaman,Ocasional,N,Miraflores,2024-12-25
+23228851,Lucia Bustamante,Premium,S,Ate,2022-01-28
+73220183,Rosa Rodriguez,Ocasional,N,Trujillo,2024-04-20
+62651824,Luis Cordova,Ocasional,N,Los Olivos,2025-08-08
+70251075,Diego Alvarado,Nuevo,N,Comas,2024-08-30
+16970551,Gabriela Ticona,Ocasional,N,Santiago de Surco,2024-04-18
+64748366,Victor Ramos,Nuevo,S,Ate,2024-12-14
+50757460,Julia Flores,Frecuente,S,Ate,2024-12-02
+67524570,Elena Mendoza,Ocasional,N,San Miguel,2023-09-27
+37757674,Gabriela Zegarra,Frecuente,S,San Miguel,2024-05-11
+63384593,Rosa Salazar,Ocasional,N,Trujillo,2025-01-06
+61706011,Cesar Rodriguez,Premium,S,Los Olivos,2023-06-09
+36297116,Cesar Paredes,Nuevo,N,Wanchaq,2025-01-12
+58936482,Manuel Ticona,Ocasional,S,San Miguel,2025-02-13
+77327468,Diego Zegarra,Frecuente,S,Comas,2022-04-08
+49351233,Victor Flores,Ocasional,N,San Miguel,2024-12-14
+70142029,Miguel Ramos,Frecuente,S,Santiago de Surco,2022-11-27
+47471856,Victor Chavez,Nuevo,N,Comas,2023-09-20
+16240424,Carmen Bustamante,Frecuente,S,San Miguel,2023-11-22
+42619274,Lucia Palomino,Nuevo,N,Chorrillos,2024-05-03
+42342719,Cesar Del Aguila,Frecuente,S,Trujillo,2025-03-31
+15976621,Luis Rojas,Nuevo,S,Chorrillos,2024-10-11
+18862877,Patricia Alvarado,Nuevo,S,San Martin de Porres,2025-05-23
+10348521,Luis Rojas,Premium,S,Arequipa,2024-09-25
+42994961,Teresa Paredes,Frecuente,S,Wanchaq,2022-12-02
+31488930,Lucia Ibanez,Premium,S,Independencia,2023-08-19
+33648231,Rosa Ticona,Frecuente,S,Comas,2025-04-21
+43240619,Oscar Rodriguez,Ocasional,N,Arequipa,2022-07-27
+21392263,Patricia Ibanez,Ocasional,N,Chorrillos,2023-08-29
+63117452,Diego Vargas,Frecuente,S,Ate,2024-01-07
+70771483,Sofia Flores,Frecuente,S,Arequipa,2024-12-04
+13679004,Patricia Paredes,Ocasional,N,San Martin de Porres,2024-11-22
+64510913,Sofia Palomino,Frecuente,S,San Martin de Porres,2024-09-06
+76831034,Teresa Chavez,Frecuente,S,Victor Larco,2024-05-09
+69744685,Miguel Ticona,Ocasional,N,San Martin de Porres,2024-07-24
+58210447,Teresa Del Aguila,Frecuente,S,Comas,2024-09-01
+36563004,Claudia Ibanez,Nuevo,N,Santiago de Surco,2022-03-29
+76136993,Claudia Flores,Frecuente,S,Wanchaq,2024-07-24
+60762049,Julia Ticona,Nuevo,S,Ate,2022-10-22
+28447588,Victor Ramos,Ocasional,N,Comas,2022-03-22
+23790615,Lucia Ccahuana,Frecuente,S,San Martin de Porres,2023-02-22
+75359066,Manuel Ccahuana,Frecuente,S,Wanchaq,2023-08-02
+33523881,Manuel Alvarado,Ocasional,N,Cayma,2023-09-26
+62277232,Raul Rojas,Premium,S,Chorrillos,2022-07-23
+46718460,Carmen Rojas,Frecuente,S,San Miguel,2022-09-15
+55338238,Sofia Flores,Ocasional,N,Ate,2025-08-01
+32360208,Victor Huaman,Ocasional,N,Miraflores,2022-04-30
+75179554,Oscar Paredes,Ocasional,N,Santiago de Surco,2025-07-17
+73082675,Cesar Chavez,Ocasional,S,Arequipa,2024-05-02
+20376659,Mariana Alvarado,Frecuente,S,Chorrillos,2025-02-01
+23856019,Elena Bustamante,Nuevo,S,Santiago de Surco,2024-12-31
+17285865,Oscar Cordova,Frecuente,S,Los Olivos,2024-06-15
+54606847,Raul Ccahuana,Ocasional,N,Victor Larco,2023-02-15
+60105745,Gabriela Salazar,Premium,S,Cayma,2023-04-08
+41629370,Ana Ibanez,Ocasional,N,San Martin de Porres,2024-04-24
+59000309,Victor Flores,Ocasional,N,San Martin de Porres,2025-04-14
+62603483,Gabriela Vargas,Ocasional,S,Chorrillos,2023-11-19
+16347706,Ana Ticona,Ocasional,N,Santiago de Surco,2024-01-09
+79651839,Ana Paredes,Ocasional,N,La Molina,2025-10-24
+41824940,Oscar Rojas,Frecuente,S,Los Olivos,2023-09-06
+14299660,Oscar Rodriguez,Frecuente,S,Miraflores,2024-01-10
+64548524,Fernando Ramos,Ocasional,N,Cayma,2024-11-25
+48464791,Patricia Rojas,Nuevo,N,Comas,2024-02-09
+63881670,Victor Del Aguila,Nuevo,N,Miraflores,2025-05-10
+64600888,Elena Del Aguila,Nuevo,S,Ate,2022-07-16
+46863931,Manuel Ibanez,Ocasional,N,Comas,2025-10-05
+26359267,Ricardo Huaman,Frecuente,S,Miraflores,2024-10-30
+69553274,Cesar Huaman,Ocasional,N,Victor Larco,2022-09-29
+22741401,Raul Cordova,Frecuente,S,Santiago de Surco,2022-06-16
+78836224,Victor Flores,Ocasional,N,Chorrillos,2024-10-26
+53338023,Ricardo Zegarra,Nuevo,N,San Martin de Porres,2022-12-02
+37014624,Oscar Rodriguez,Nuevo,N,San Miguel,2022-07-15
+53477843,Fernando Ticona,Nuevo,S,Los Olivos,2023-07-20
+26559540,Carmen Quispe,Frecuente,S,La Molina,2025-10-04
+16705170,Oscar Ticona,Nuevo,N,Chorrillos,2023-08-10
+50345121,Diego Mendoza,Ocasional,N,Victor Larco,2024-01-09
+61767719,Ricardo Vargas,Ocasional,N,Comas,2022-06-10
+55707641,Victor Zegarra,Ocasional,N,Wanchaq,2025-10-06
+59592176,Patricia Palomino,Nuevo,N,Independencia,2023-05-18
+53762224,Gabriela Chavez,Nuevo,N,Wanchaq,2025-04-12
+45933269,Rosa Chavez,Ocasional,N,Los Olivos,2022-01-13
+67913766,Sofia Chavez,Frecuente,S,Comas,2022-01-07
+58906457,Andres Quispe,Frecuente,S,Ate,2023-02-02
+37438583,Raul Quispe,Frecuente,S,Chorrillos,2025-09-09
+17241019,Luis Palomino,Frecuente,S,San Martin de Porres,2022-01-16
+64900516,Carmen Huaman,Ocasional,N,Ate,2022-09-06
+17867722,Claudia Alvarado,Ocasional,N,Wanchaq,2022-03-25
+68892963,Miguel Rojas,Frecuente,S,La Molina,2023-02-26
+32903617,Andres Salazar,Nuevo,S,San Martin de Porres,2025-04-27
+63779091,Rosa Del Aguila,Nuevo,S,Arequipa,2023-07-11
+75145362,Luis Chavez,Ocasional,N,Los Olivos,2023-04-28
+65033238,Julia Ccahuana,Nuevo,S,Arequipa,2024-02-22
+66127544,Diego Chavez,Frecuente,S,Comas,2025-05-10
+19734790,Teresa Salazar,Frecuente,S,Arequipa,2023-03-18
+60997487,Ricardo Quispe,Ocasional,N,Trujillo,2023-06-22
+24145285,Raul Cordova,Frecuente,S,Wanchaq,2023-02-24
+39841489,Miguel Rojas,Frecuente,S,Ate,2023-01-03
+75373338,Claudia Vargas,Frecuente,S,Miraflores,2025-09-04
+76252552,Miguel Rojas,Nuevo,N,Ate,2024-11-23
+77795979,Ana Cordova,Ocasional,N,Chorrillos,2023-02-02
+39425918,Cesar Ibanez,Ocasional,N,Wanchaq,2023-09-12
+30158264,Victor Alvarado,Frecuente,S,La Molina,2022-09-13
+15029307,Rosa Ibanez,Premium,S,San Martin de Porres,2024-03-16
+24912071,Diego Rojas,Frecuente,S,Cayma,2025-04-30
+67252753,Manuel Alvarado,Frecuente,S,La Molina,2022-04-23
+70715884,Ana Salazar,Premium,S,San Miguel,2023-07-03
+17599657,Mariana Huaman,Ocasional,N,Santiago de Surco,2023-08-02
+39241370,Rosa Bustamante,Nuevo,N,Santiago de Surco,2024-11-13
+18866947,Gabriela Vargas,Frecuente,S,Trujillo,2022-02-13
+12049163,Andres Palomino,Nuevo,N,La Molina,2022-06-07
+54358664,Rosa Del Aguila,Nuevo,S,San Miguel,2022-07-18
+27138160,Jorge Zegarra,Ocasional,N,Trujillo,2025-03-11
+32072708,Victor Vargas,Ocasional,N,San Martin de Porres,2024-06-26
+34426838,Ana Huaman,Ocasional,S,Independencia,2025-03-08
+16304545,Sofia Huaman,Frecuente,S,Comas,2024-06-19
+32205334,Manuel Ibanez,Premium,S,Cayma,2022-09-21
+73480948,Jorge Ibanez,Ocasional,S,Chorrillos,2022-09-13
+69087336,Claudia Ccahuana,Frecuente,S,Chorrillos,2022-11-22
+22677586,Elena Bustamante,Ocasional,N,San Miguel,2022-02-06
+60384188,Mariana Cordova,Nuevo,S,Ate,2023-10-09
+72185135,Raul Ramos,Ocasional,S,Chorrillos,2022-02-09
+72425479,Carmen Ibanez,Ocasional,S,Santiago de Surco,2022-06-13
+13827375,Sofia Ticona,Ocasional,N,La Molina,2023-04-11
+62605459,Julia Ticona,Frecuente,S,Wanchaq,2023-06-24
+32329093,Teresa Zegarra,Nuevo,N,Miraflores,2022-11-04
+78269626,Julia Palomino,Frecuente,S,Chorrillos,2023-03-22
+69552383,Cesar Ibanez,Ocasional,S,Miraflores,2024-04-05
+61702706,Julia Ticona,Premium,S,Ate,2022-01-26
+15190222,Jorge Flores,Ocasional,N,San Miguel,2025-01-28
+58696120,Mariana Salazar,Ocasional,N,Comas,2022-10-11
+60974598,Oscar Rodriguez,Nuevo,S,Victor Larco,2024-03-31
+72744219,Jorge Bustamante,Frecuente,S,Independencia,2024-05-21
+38512068,Luis Ramos,Ocasional,S,Wanchaq,2025-05-12
+70512535,Sofia Palomino,Frecuente,S,Chorrillos,2023-09-12
+48310080,Ricardo Flores,Frecuente,S,San Miguel,2023-09-17
+58944074,Mariana Salazar,Nuevo,N,Trujillo,2022-04-28
+61789778,Diego Zegarra,Nuevo,S,Independencia,2025-04-07
+72217117,Miguel Bustamante,Premium,S,Trujillo,2024-03-17
+22492293,Elena Salazar,Ocasional,S,Wanchaq,2023-09-08
+73112478,Manuel Ticona,Ocasional,S,Chorrillos,2025-10-28
+45684552,Teresa Del Aguila,Frecuente,S,Santiago de Surco,2024-02-09
+41267636,Oscar Del Aguila,Ocasional,N,Ate,2022-11-27
+69603063,Diego Mendoza,Frecuente,S,Ate,2024-10-28
+11059974,Jorge Ticona,Ocasional,N,Cayma,2024-10-07
+55915183,Ana Rodriguez,Frecuente,S,Miraflores,2023-09-02
+19196002,Lucia Alvarado,Frecuente,S,San Miguel,2023-02-06
+17001397,Teresa Mendoza,Frecuente,S,Los Olivos,2023-01-14
+37559626,Raul Alvarado,Premium,S,Chorrillos,2022-12-01
+30026187,Lucia Del Aguila,Ocasional,N,Miraflores,2022-02-15
+68503438,Mariana Bustamante,Frecuente,S,Chorrillos,2023-06-09
+76816361,Carmen Zegarra,Ocasional,N,Cayma,2022-09-09
+28702371,Rosa Salazar,Ocasional,S,Trujillo,2022-12-08
+56700711,Teresa Ibanez,Premium,S,Wanchaq,2025-06-24
+39239356,Mariana Cordova,Ocasional,N,Cayma,2024-02-25
+11129496,Cesar Palomino,Nuevo,S,Arequipa,2023-10-09
+14549739,Diego Ibanez,Premium,S,Cayma,2025-05-12
+48993443,Fernando Salazar,Ocasional,N,San Martin de Porres,2023-12-19
+68851555,Elena Ibanez,Frecuente,S,Los Olivos,2023-09-12
+13152038,Lucia Palomino,Frecuente,S,San Martin de Porres,2023-10-02
+49855399,Cesar Huaman,Ocasional,N,Ate,2025-10-02
+12830327,Luis Chavez,Frecuente,S,Santiago de Surco,2022-05-31
+79052064,Victor Chavez,Ocasional,N,Miraflores,2022-07-22
+29901074,Teresa Paredes,Frecuente,S,Ate,2023-12-02
+38901191,Claudia Flores,Premium,S,Miraflores,2024-06-11
+13878855,Fernando Huaman,Ocasional,N,Independencia,2023-02-13
+13851182,Manuel Salazar,Nuevo,N,Trujillo,2023-12-26
+68440166,Manuel Ramos,Ocasional,N,Wanchaq,2023-11-09
+57903239,Patricia Flores,Ocasional,N,Miraflores,2025-03-30
+15960744,Andres Ramos,Ocasional,S,Santiago de Surco,2024-06-30
+49258036,Miguel Quispe,Nuevo,N,San Martin de Porres,2023-05-30
+42853122,Miguel Ccahuana,Frecuente,S,Comas,2022-10-28
+26386391,Cesar Paredes,Frecuente,S,Chorrillos,2022-05-02
+64837131,Jorge Rojas,Nuevo,N,Cayma,2023-01-03
+33269812,Diego Cordova,Ocasional,N,San Martin de Porres,2022-12-05
+70154171,Gabriela Ccahuana,Ocasional,S,Victor Larco,2024-11-30
+31684127,Oscar Vargas,Frecuente,S,Los Olivos,2023-07-21
+28531120,Gabriela Chavez,Ocasional,S,Santiago de Surco,2022-05-01
+63582941,Fernando Del Aguila,Frecuente,S,San Miguel,2023-07-03
+52694872,Rosa Salazar,Premium,S,San Martin de Porres,2025-05-01
+79184612,Sofia Flores,Frecuente,S,Wanchaq,2023-04-04
+26229482,Miguel Palomino,Ocasional,S,Victor Larco,2022-01-22
+11328192,Raul Alvarado,Ocasional,N,Independencia,2025-01-12
+25591537,Rosa Palomino,Frecuente,S,La Molina,2022-04-05
+20373527,Victor Paredes,Ocasional,N,La Molina,2022-11-02
+32773061,Rosa Bustamante,Ocasional,N,San Martin de Porres,2022-12-19
+12553301,Claudia Chavez,Nuevo,N,Trujillo,2022-03-10
+13502346,Manuel Chavez,Frecuente,S,Los Olivos,2022-08-23
+26619110,Diego Zegarra,Frecuente,S,Miraflores,2022-03-18
+44825012,Rosa Ccahuana,Nuevo,N,San Martin de Porres,2024-05-01
+34680947,Julia Bustamante,Nuevo,S,Los Olivos,2023-09-24
+60905808,Carmen Chavez,Ocasional,N,Arequipa,2022-06-19
+66299343,Miguel Cordova,Ocasional,S,Arequipa,2024-05-03
+15134839,Raul Flores,Nuevo,N,Wanchaq,2024-03-12
+62927839,Diego Alvarado,Ocasional,N,San Martin de Porres,2023-10-09
+19930351,Jorge Palomino,Ocasional,N,Wanchaq,2025-10-05
+27449800,Oscar Paredes,Frecuente,S,Victor Larco,2025-03-18
+32368075,Elena Ccahuana,Ocasional,S,Ate,2022-03-03
+52424163,Julia Del Aguila,Frecuente,S,Independencia,2022-09-02
+15130517,Rosa Palomino,Ocasional,N,Wanchaq,2024-08-02
+54588329,Luis Huaman,Frecuente,S,La Molina,2022-09-13
+77694371,Teresa Bustamante,Frecuente,S,Ate,2025-11-01
+25765257,Gabriela Quispe,Ocasional,N,Santiago de Surco,2024-06-11
+47794649,Mariana Ticona,Premium,S,Arequipa,2024-12-25
+74283165,Rosa Alvarado,Premium,S,Trujillo,2023-04-23
+37617706,Carmen Salazar,Ocasional,N,Los Olivos,2023-08-31
+79729445,Victor Vargas,Frecuente,S,Trujillo,2023-04-23
+50125114,Ana Zegarra,Frecuente,S,Ate,2025-05-26
+52849485,Jorge Chavez,Frecuente,S,Los Olivos,2022-05-24
+34333122,Victor Zegarra,Premium,S,Cayma,2024-09-20
+32881562,Oscar Zegarra,Ocasional,N,Comas,2022-09-26
+22295742,Teresa Salazar,Premium,S,Wanchaq,2025-01-15
+24382236,Fernando Rojas,Frecuente,S,Comas,2025-10-25
+72906261,Miguel Vargas,Ocasional,N,Chorrillos,2022-08-25
+27088357,Claudia Bustamante,Ocasional,N,Wanchaq,2023-01-30
+43848579,Diego Vargas,Nuevo,S,Comas,2022-09-23
+40564054,Fernando Rodriguez,Ocasional,N,San Miguel,2023-04-04
+42211234,Claudia Palomino,Frecuente,S,Comas,2023-07-03
+35919308,Miguel Palomino,Ocasional,N,San Miguel,2022-07-14
+33168384,Fernando Salazar,Ocasional,N,Wanchaq,2025-04-12
+73250755,Elena Ramos,Premium,S,San Miguel,2022-02-07
+15022616,Julia Zegarra,Frecuente,S,Arequipa,2025-03-29
+30596033,Lucia Cordova,Frecuente,S,Los Olivos,2022-03-11
+19756182,Julia Ibanez,Nuevo,S,San Miguel,2024-05-28
+30256564,Fernando Zegarra,Ocasional,N,Santiago de Surco,2022-11-14
+24252681,Gabriela Ccahuana,Ocasional,S,Los Olivos,2022-08-22
+53729831,Miguel Ticona,Ocasional,N,Arequipa,2025-03-20
+27238034,Ricardo Bustamante,Ocasional,N,Miraflores,2024-06-29
+41107268,Teresa Ccahuana,Frecuente,S,Comas,2022-11-29
+64901740,Patricia Ticona,Premium,S,Independencia,2024-05-02
+79475695,Oscar Vargas,Ocasional,S,Trujillo,2022-10-26
+38427330,Ana Cordova,Frecuente,S,Cayma,2025-06-15
+19461278,Ana Alvarado,Frecuente,S,San Miguel,2022-01-14
+16451673,Victor Huaman,Premium,S,Miraflores,2022-09-15
+43199736,Jorge Zegarra,Frecuente,S,Victor Larco,2025-08-02
+50010175,Gabriela Salazar,Ocasional,S,Ate,2025-08-17
+12641622,Victor Alvarado,Ocasional,N,San Miguel,2024-10-03
+63281812,Ricardo Ticona,Frecuente,S,Santiago de Surco,2025-09-24
+79472708,Julia Flores,Frecuente,S,Miraflores,2023-01-20
+59701681,Miguel Huaman,Frecuente,S,Trujillo,2023-04-24
+36196704,Claudia Rojas,Frecuente,S,Arequipa,2024-02-29
+35429260,Cesar Ibanez,Ocasional,N,Comas,2022-07-07
+73297102,Mariana Ticona,Ocasional,N,Ate,2025-06-17
+14010334,Ana Zegarra,Frecuente,S,La Molina,2025-10-29
+53244503,Carmen Alvarado,Premium,S,Arequipa,2025-06-29
+53114415,Sofia Ccahuana,Frecuente,S,Santiago de Surco,2025-01-09
+62170913,Fernando Zegarra,Ocasional,N,Santiago de Surco,2024-08-26
+58186924,Ricardo Ibanez,Frecuente,S,Arequipa,2022-03-18
+45577897,Gabriela Mendoza,Nuevo,N,Los Olivos,2022-02-05
+20141244,Ana Rodriguez,Frecuente,S,Comas,2025-07-02
+21847716,Andres Ramos,Premium,S,Cayma,2022-09-20
+33303139,Luis Palomino,Ocasional,N,Santiago de Surco,2023-05-11
+45504078,Claudia Quispe,Ocasional,N,Ate,2024-09-24
+67335936,Raul Alvarado,Ocasional,N,Chorrillos,2025-01-15
+39458870,Claudia Paredes,Frecuente,S,Wanchaq,2024-04-30
+79470128,Lucia Ticona,Ocasional,S,Cayma,2024-02-01
+73474251,Ricardo Chavez,Frecuente,S,Comas,2023-06-06
+40474167,Raul Ticona,Ocasional,N,Miraflores,2024-04-14
+29057133,Mariana Vargas,Frecuente,S,Arequipa,2025-02-26
+25810547,Claudia Vargas,Ocasional,N,Ate,2024-09-12
+35405303,Carmen Mendoza,Ocasional,S,Victor Larco,2024-09-29
+51767893,Miguel Chavez,Frecuente,S,La Molina,2023-09-19
+41552900,Raul Ibanez,Nuevo,S,Trujillo,2024-12-31
+14306396,Cesar Paredes,Ocasional,N,Chorrillos,2024-12-05
+57144166,Victor Flores,Ocasional,S,Trujillo,2023-10-14
+16949046,Jorge Vargas,Nuevo,S,San Miguel,2024-08-21
+73970077,Manuel Cordova,Ocasional,N,Comas,2023-10-10
+21241213,Sofia Flores,Frecuente,S,Santiago de Surco,2025-10-01
+13377150,Oscar Ramos,Ocasional,N,Wanchaq,2025-07-22
+54052300,Ana Bustamante,Ocasional,N,Chorrillos,2022-04-20
+76385805,Julia Alvarado,Ocasional,N,Comas,2024-10-24
+21307426,Sofia Bustamante,Ocasional,N,Chorrillos,2025-06-10
+49488442,Lucia Ticona,Ocasional,N,La Molina,2025-04-21
+38122764,Elena Huaman,Nuevo,N,Victor Larco,2024-11-24
+56095582,Luis Alvarado,Frecuente,S,Los Olivos,2023-01-06
+60026283,Ricardo Paredes,Nuevo,S,San Miguel,2024-12-28
+30255251,Andres Mendoza,Ocasional,N,La Molina,2023-04-03
+76905955,Diego Alvarado,Ocasional,N,Independencia,2023-11-18
+27732553,Rosa Bustamante,Ocasional,N,Los Olivos,2023-02-11
+53787773,Patricia Bustamante,Ocasional,N,Cayma,2024-04-23
+48463999,Teresa Alvarado,Frecuente,S,San Miguel,2022-07-10
+74012556,Diego Huaman,Frecuente,S,Victor Larco,2023-01-27
+36417334,Victor Flores,Frecuente,S,Chorrillos,2023-08-21
+27283036,Oscar Ibanez,Frecuente,S,Cayma,2024-03-29
+23902274,Diego Quispe,Nuevo,N,Los Olivos,2022-09-25
+15169972,Fernando Quispe,Frecuente,S,La Molina,2024-01-09
+19048548,Miguel Huaman,Ocasional,S,Arequipa,2024-10-27
+59938492,Ricardo Chavez,Ocasional,N,Arequipa,2022-08-17
+42905771,Victor Mendoza,Frecuente,S,Miraflores,2023-03-24
+37661877,Ana Bustamante,Frecuente,S,La Molina,2024-04-02
+73124138,Teresa Alvarado,Frecuente,S,Wanchaq,2024-03-01
+49480574,Diego Rodriguez,Ocasional,S,Santiago de Surco,2023-05-06
+43947947,Miguel Zegarra,Ocasional,S,San Martin de Porres,2022-10-06
+39690077,Victor Cordova,Ocasional,S,Los Olivos,2024-01-04
+20550557,Oscar Bustamante,Ocasional,N,San Miguel,2025-10-19
+35057926,Andres Quispe,Ocasional,N,Comas,2024-01-10
+61859726,Rosa Vargas,Nuevo,N,Trujillo,2022-08-15
+68526880,Carmen Rodriguez,Frecuente,S,Trujillo,2025-09-24
+32922442,Fernando Bustamante,Frecuente,S,Cayma,2025-02-23
+19850376,Jorge Flores,Frecuente,S,Chorrillos,2025-05-19
+61182023,Manuel Bustamante,Premium,S,Los Olivos,2023-05-12
+53347282,Gabriela Chavez,Frecuente,S,Victor Larco,2025-10-31
+27477236,Oscar Quispe,Ocasional,N,Los Olivos,2025-06-08
+68782637,Patricia Ramos,Ocasional,S,Arequipa,2025-09-30
+17169120,Manuel Bustamante,Ocasional,N,Arequipa,2025-04-28
+29659213,Elena Zegarra,Nuevo,N,Los Olivos,2024-05-27
+63532929,Cesar Mendoza,Ocasional,N,San Martin de Porres,2023-03-06
+42875319,Miguel Rojas,Ocasional,N,La Molina,2023-03-26
+26559948,Diego Ccahuana,Ocasional,N,San Miguel,2025-06-24
+14063459,Carmen Salazar,Ocasional,N,San Miguel,2025-04-28
+25946748,Luis Mendoza,Premium,S,La Molina,2025-10-24
+77469965,Mariana Ramos,Ocasional,N,La Molina,2022-08-28
+42122991,Andres Ramos,Frecuente,S,San Martin de Porres,2024-05-18
+52236700,Sofia Ticona,Ocasional,N,Wanchaq,2024-03-04
+35516234,Gabriela Alvarado,Ocasional,S,Ate,2023-07-27
+54482553,Gabriela Palomino,Frecuente,S,Independencia,2025-09-30
+59593252,Raul Alvarado,Frecuente,S,Miraflores,2024-06-20
+26132302,Sofia Flores,Ocasional,N,Wanchaq,2024-06-12
+24753540,Carmen Paredes,Ocasional,N,Comas,2025-04-14
+49308150,Manuel Flores,Frecuente,S,Cayma,2023-02-03
+36366205,Oscar Ccahuana,Ocasional,S,Wanchaq,2024-05-20
+22013950,Jorge Salazar,Frecuente,S,San Martin de Porres,2024-03-02
+30982999,Andres Rojas,Ocasional,S,Miraflores,2025-10-02
+72446450,Patricia Bustamante,Nuevo,S,Cayma,2022-10-06
+59583579,Luis Bustamante,Nuevo,S,Cayma,2022-03-21
+17664454,Fernando Salazar,Frecuente,S,Independencia,2024-02-16
+12943113,Luis Vargas,Frecuente,S,Victor Larco,2023-05-29
+79208448,Mariana Huaman,Nuevo,N,Ate,2023-04-03
+64366885,Ana Salazar,Premium,S,Victor Larco,2023-02-11
+73657890,Patricia Ramos,Frecuente,S,Miraflores,2023-10-08
+73997788,Elena Ibanez,Nuevo,S,Arequipa,2022-02-21
+39060318,Raul Vargas,Frecuente,S,Victor Larco,2024-06-28
+62657522,Sofia Ramos,Frecuente,S,Los Olivos,2025-10-06
+15717195,Ricardo Vargas,Ocasional,N,San Miguel,2025-05-13
+73226021,Patricia Rojas,Frecuente,S,San Martin de Porres,2025-10-25
+59057624,Carmen Ibanez,Premium,S,Ate,2025-10-20
+50155973,Jorge Ccahuana,Ocasional,N,Victor Larco,2023-08-20
+19523483,Claudia Quispe,Ocasional,N,San Miguel,2023-12-09
+13831140,Raul Vargas,Nuevo,N,Miraflores,2023-06-17
+17016722,Gabriela Ccahuana,Frecuente,S,Wanchaq,2023-04-05
+11482528,Claudia Huaman,Ocasional,S,San Miguel,2024-04-10
+12898893,Ana Alvarado,Nuevo,S,Arequipa,2025-10-23
+59017901,Lucia Quispe,Nuevo,S,Santiago de Surco,2023-04-13
+62932308,Diego Quispe,Nuevo,S,San Miguel,2025-05-30
+68926068,Miguel Paredes,Frecuente,S,Los Olivos,2025-07-12
+33652611,Gabriela Salazar,Ocasional,S,Los Olivos,2024-07-14
+24678725,Lucia Huaman,Ocasional,N,Victor Larco,2023-02-22
+68377107,Teresa Flores,Nuevo,S,Chorrillos,2025-05-29
+68750401,Jorge Quispe,Ocasional,N,La Molina,2022-10-23
+67876388,Ricardo Rojas,Ocasional,S,Ate,2024-09-26
+33759787,Cesar Del Aguila,Frecuente,S,San Martin de Porres,2023-01-23
+23993761,Diego Ticona,Ocasional,N,Cayma,2024-06-27
+60565587,Jorge Huaman,Ocasional,S,Comas,2024-06-04
+54886829,Rosa Rojas,Ocasional,N,Chorrillos,2023-12-13
+65817608,Miguel Ibanez,Frecuente,S,Arequipa,2024-10-04
+50221341,Raul Alvarado,Ocasional,N,La Molina,2022-05-21
+27228221,Manuel Ramos,Nuevo,N,San Martin de Porres,2024-11-07
+40288858,Ricardo Mendoza,Ocasional,N,Comas,2025-04-26
+76263082,Miguel Ticona,Nuevo,N,Independencia,2024-06-08
+14546008,Diego Ramos,Nuevo,N,La Molina,2023-02-18
+68756774,Carmen Rojas,Nuevo,N,La Molina,2025-03-07
+43580340,Mariana Palomino,Ocasional,N,Los Olivos,2023-09-02
+66608609,Raul Quispe,Frecuente,S,Ate,2023-04-05
+54360301,Rosa Bustamante,Frecuente,S,Ate,2025-02-04
+38281888,Raul Ibanez,Ocasional,N,Comas,2024-05-08
+74964233,Julia Bustamante,Nuevo,N,San Martin de Porres,2024-07-19
+49493240,Raul Mendoza,Frecuente,S,Miraflores,2023-12-13
+12690327,Ricardo Palomino,Ocasional,N,Wanchaq,2022-09-21
+40136734,Lucia Ibanez,Ocasional,S,Arequipa,2024-01-17
+40624849,Teresa Paredes,Frecuente,S,Cayma,2024-07-24
+32612768,Raul Salazar,Nuevo,N,Comas,2022-10-13
+18585061,Ricardo Ramos,Ocasional,S,Chorrillos,2024-08-21
+70520076,Fernando Flores,Ocasional,N,Trujillo,2025-03-23
+43239352,Cesar Ibanez,Ocasional,N,San Martin de Porres,2022-06-19
+41472077,Gabriela Del Aguila,Ocasional,N,Wanchaq,2023-05-12
+52830885,Sofia Huaman,Ocasional,N,Independencia,2022-11-03
+12457534,Claudia Ccahuana,Premium,S,Arequipa,2024-08-26
+57783575,Oscar Zegarra,Nuevo,S,Wanchaq,2025-03-05
+14314639,Ricardo Chavez,Ocasional,S,Chorrillos,2022-12-31
+24803725,Rosa Mendoza,Ocasional,S,Chorrillos,2025-04-04
+14788152,Raul Flores,Premium,S,San Martin de Porres,2025-06-12
+65823762,Diego Ccahuana,Ocasional,S,Comas,2023-06-24
+39015335,Elena Palomino,Ocasional,N,Arequipa,2023-01-30
+56271567,Elena Ccahuana,Nuevo,N,Trujillo,2024-11-04
+77373087,Claudia Rojas,Frecuente,S,Cayma,2022-11-17
+35768669,Miguel Mendoza,Ocasional,N,Santiago de Surco,2025-07-12
+64838688,Jorge Paredes,Ocasional,S,Trujillo,2023-01-21
+53806384,Raul Alvarado,Frecuente,S,Wanchaq,2023-03-06
+21679449,Elena Rojas,Nuevo,S,Victor Larco,2025-01-15
+30129492,Claudia Huaman,Frecuente,S,Cayma,2025-01-02
+48535082,Cesar Ramos,Premium,S,Ate,2024-07-09
+48385417,Rosa Alvarado,Ocasional,N,Trujillo,2025-03-20
+24064370,Mariana Quispe,Ocasional,N,Santiago de Surco,2025-04-17
+24140792,Gabriela Zegarra,Nuevo,S,Arequipa,2023-03-01
+29029629,Ricardo Del Aguila,Ocasional,S,Chorrillos,2024-03-30
+13345034,Julia Rodriguez,Ocasional,S,Santiago de Surco,2025-09-25
+14191049,Oscar Cordova,Nuevo,N,Los Olivos,2023-11-23
+45649498,Ana Ramos,Ocasional,N,San Martin de Porres,2023-06-22
+36332799,Elena Ibanez,Ocasional,N,Ate,2022-03-30
+39853788,Fernando Chavez,Frecuente,S,Miraflores,2022-08-14
+70918830,Sofia Ccahuana,Ocasional,S,San Martin de Porres,2024-11-03
+26834038,Julia Salazar,Frecuente,S,Comas,2025-05-18
+42914911,Miguel Mendoza,Frecuente,S,Victor Larco,2025-05-13
+10512035,Gabriela Mendoza,Frecuente,S,Miraflores,2024-03-25
+59302831,Carmen Palomino,Frecuente,S,Miraflores,2023-06-26
+54993961,Lucia Paredes,Ocasional,S,Trujillo,2025-10-04
+30425425,Fernando Quispe,Frecuente,S,Victor Larco,2024-09-02
+61994278,Gabriela Salazar,Frecuente,S,Independencia,2022-05-25
+46173514,Oscar Flores,Ocasional,N,Independencia,2024-07-13
+42758240,Patricia Vargas,Ocasional,N,Trujillo,2022-12-31
+60180884,Andres Rodriguez,Ocasional,N,Comas,2025-07-23
+62874512,Julia Salazar,Frecuente,S,Miraflores,2023-05-18
+25778204,Victor Alvarado,Ocasional,N,Trujillo,2024-12-11
+67902686,Julia Bustamante,Ocasional,S,Independencia,2024-03-27
+63199479,Lucia Rodriguez,Frecuente,S,Trujillo,2023-08-05
+41953217,Elena Rodriguez,Frecuente,S,Cayma,2022-02-07
+44599038,Claudia Ccahuana,Ocasional,N,Ate,2023-11-20
+39033116,Elena Ibanez,Frecuente,S,San Martin de Porres,2023-04-04
+57512747,Julia Ibanez,Premium,S,San Miguel,2024-05-27
+56354854,Teresa Del Aguila,Ocasional,N,Miraflores,2023-09-18
+34696533,Patricia Cordova,Frecuente,S,Wanchaq,2023-09-09
+48787282,Carmen Quispe,Ocasional,N,Santiago de Surco,2022-10-14
+37549348,Manuel Ccahuana,Ocasional,S,Independencia,2023-05-16
+62259948,Fernando Quispe,Frecuente,S,Miraflores,2025-10-16
+21597411,Julia Rodriguez,Ocasional,N,La Molina,2025-01-01
+23874929,Ana Del Aguila,Ocasional,S,Comas,2022-04-16
+41374903,Ricardo Vargas,Premium,S,San Martin de Porres,2023-03-27
+24128637,Elena Ramos,Ocasional,S,Independencia,2025-06-14
+49572786,Teresa Mendoza,Ocasional,N,Arequipa,2023-07-21
+28544542,Teresa Flores,Ocasional,N,Wanchaq,2022-02-05
+36288480,Oscar Rojas,Nuevo,N,La Molina,2022-09-17
+77990145,Manuel Quispe,Ocasional,S,Miraflores,2024-02-23
+20405225,Julia Salazar,Frecuente,S,Los Olivos,2025-08-11
+53528291,Teresa Rodriguez,Frecuente,S,Arequipa,2023-01-08
+19669152,Ana Palomino,Premium,S,La Molina,2024-10-17
+26575194,Luis Huaman,Premium,S,Victor Larco,2025-04-26
+71113360,Ana Rojas,Premium,S,Independencia,2025-05-27
+18460892,Cesar Paredes,Ocasional,N,Chorrillos,2023-01-19
+55559324,Manuel Zegarra,Ocasional,N,Comas,2023-01-14
+67806970,Gabriela Bustamante,Ocasional,N,Wanchaq,2024-08-01
+32313035,Jorge Del Aguila,Ocasional,N,La Molina,2022-01-04
+26148556,Elena Ramos,Frecuente,S,Ate,2025-08-15
+12489189,Cesar Rodriguez,Frecuente,S,Trujillo,2022-07-16
+44691222,Manuel Palomino,Frecuente,S,Ate,2024-10-20
+56283176,Diego Zegarra,Ocasional,N,Wanchaq,2023-05-15
+10946405,Andres Palomino,Ocasional,N,San Martin de Porres,2022-10-24
+65527073,Luis Alvarado,Ocasional,N,Independencia,2022-02-23
+27005872,Ricardo Chavez,Premium,S,La Molina,2024-01-15
+28172854,Jorge Ramos,Frecuente,S,Ate,2023-01-16
+52491223,Sofia Del Aguila,Ocasional,N,Los Olivos,2024-12-08
+22879277,Lucia Ticona,Ocasional,N,La Molina,2024-10-29
+61770478,Elena Zegarra,Frecuente,S,Independencia,2025-07-18
+47589448,Diego Ibanez,Frecuente,S,La Molina,2023-06-16
+75495719,Patricia Zegarra,Ocasional,S,Santiago de Surco,2023-04-08
+63675312,Ricardo Huaman,Ocasional,N,Comas,2023-05-11
+70997249,Luis Bustamante,Frecuente,S,Comas,2022-09-20
+52738770,Lucia Palomino,Frecuente,S,Victor Larco,2024-01-06
+55246909,Miguel Mendoza,Frecuente,S,San Martin de Porres,2024-05-03
+45817462,Carmen Salazar,Nuevo,N,Arequipa,2024-10-19
+19792623,Fernando Rojas,Nuevo,S,Miraflores,2024-08-05
+69019071,Carmen Ibanez,Nuevo,S,Victor Larco,2022-02-03
+69098617,Patricia Ramos,Premium,S,Los Olivos,2025-07-09
+13283545,Carmen Flores,Frecuente,S,San Martin de Porres,2024-03-23
+37300175,Jorge Ramos,Ocasional,S,Wanchaq,2024-04-17
+47290518,Sofia Ramos,Ocasional,N,Santiago de Surco,2024-03-12
+10985266,Jorge Alvarado,Ocasional,N,Comas,2025-01-09
+32466653,Jorge Alvarado,Frecuente,S,Independencia,2025-01-10
+23096385,Raul Alvarado,Frecuente,S,Chorrillos,2025-04-15
+65372876,Julia Ccahuana,Nuevo,S,Wanchaq,2025-06-21
+31661924,Rosa Del Aguila,Nuevo,N,La Molina,2023-05-03
+40366923,Raul Del Aguila,Premium,S,Ate,2023-05-12
+54182139,Ricardo Zegarra,Ocasional,N,Independencia,2022-08-20
+41285773,Mariana Ccahuana,Frecuente,S,Independencia,2023-10-13
+19475608,Manuel Palomino,Frecuente,S,San Martin de Porres,2024-01-21
+76830734,Andres Ccahuana,Nuevo,N,Miraflores,2023-08-12
+55153161,Carmen Palomino,Nuevo,N,Comas,2024-12-03
+75459816,Oscar Ibanez,Premium,S,Los Olivos,2024-05-06
+62221052,Fernando Quispe,Frecuente,S,Wanchaq,2023-06-11
+76483718,Diego Ccahuana,Frecuente,S,Cayma,2025-03-27
+33428581,Mariana Palomino,Premium,S,Trujillo,2022-05-12
+38707564,Mariana Palomino,Nuevo,N,Miraflores,2025-04-07
+54558330,Teresa Rojas,Ocasional,S,Trujillo,2023-01-29
+61401871,Gabriela Ccahuana,Ocasional,N,Trujillo,2024-01-23
+20195263,Claudia Chavez,Ocasional,N,Chorrillos,2025-05-20
+72337170,Carmen Rojas,Frecuente,S,Miraflores,2025-05-29
+10814194,Andres Cordova,Nuevo,N,Wanchaq,2023-04-28
+14682014,Fernando Ramos,Nuevo,N,Comas,2022-08-14
+37822279,Diego Alvarado,Premium,S,Victor Larco,2022-06-24
+26075706,Ana Ccahuana,Premium,S,Comas,2022-01-07
+39210325,Jorge Palomino,Frecuente,S,Comas,2024-04-02
+72760952,Miguel Cordova,Premium,S,Arequipa,2023-06-03
+57389359,Ricardo Cordova,Ocasional,N,Ate,2022-08-17
+17574676,Diego Ramos,Ocasional,N,San Martin de Porres,2025-08-25
+42061445,Jorge Ramos,Premium,S,Chorrillos,2023-05-23
+71707127,Lucia Salazar,Ocasional,N,Santiago de Surco,2022-12-11
+63737194,Julia Mendoza,Ocasional,N,Cayma,2022-03-17
+14017501,Elena Alvarado,Frecuente,S,San Miguel,2023-04-06
+44443359,Sofia Zegarra,Ocasional,N,San Martin de Porres,2025-08-12
+73223780,Miguel Flores,Ocasional,S,La Molina,2025-02-26
+35318721,Ricardo Ibanez,Ocasional,N,San Martin de Porres,2022-02-05
+23076088,Jorge Salazar,Nuevo,N,Miraflores,2025-04-15
+75339416,Jorge Cordova,Ocasional,N,Miraflores,2022-02-07
+77902283,Fernando Zegarra,Frecuente,S,Cayma,2025-02-05
+16745721,Luis Paredes,Frecuente,S,Arequipa,2024-05-05
+23758578,Cesar Salazar,Ocasional,S,Victor Larco,2022-12-27
+35627204,Oscar Cordova,Frecuente,S,Miraflores,2024-10-31
+28336145,Carmen Ticona,Ocasional,N,Chorrillos,2023-05-24
+43988092,Miguel Quispe,Frecuente,S,Los Olivos,2024-11-24
+36497672,Elena Palomino,Ocasional,N,Victor Larco,2023-12-28
+69039289,Ana Salazar,Frecuente,S,Arequipa,2024-03-18
+71715596,Elena Vargas,Ocasional,S,Arequipa,2023-07-07
+52995314,Carmen Vargas,Premium,S,Ate,2022-07-24
+62148326,Fernando Alvarado,Frecuente,S,Comas,2025-10-16
+70654060,Ana Ibanez,Ocasional,N,La Molina,2024-07-11
+16820946,Mariana Alvarado,Premium,S,Miraflores,2022-09-10
+57985542,Raul Ibanez,Frecuente,S,Miraflores,2024-01-13
+19261398,Oscar Zegarra,Ocasional,S,Arequipa,2023-03-04
+66538586,Diego Salazar,Ocasional,N,Arequipa,2022-08-22
+49511004,Victor Mendoza,Nuevo,S,Arequipa,2023-08-28
+71557079,Gabriela Ccahuana,Nuevo,N,Miraflores,2024-04-29
+43830018,Gabriela Zegarra,Nuevo,N,La Molina,2023-03-20
+75574845,Ana Rodriguez,Nuevo,S,Trujillo,2023-06-26
+67452305,Oscar Zegarra,Frecuente,S,San Miguel,2025-06-28
+64444193,Raul Palomino,Frecuente,S,Los Olivos,2023-01-24
+49747459,Oscar Zegarra,Frecuente,S,Wanchaq,2024-07-29
+74048765,Ricardo Mendoza,Ocasional,N,San Miguel,2025-10-05
+33990422,Lucia Ccahuana,Premium,S,Santiago de Surco,2025-06-23
+17600776,Cesar Palomino,Ocasional,N,Chorrillos,2022-07-30
+39893396,Luis Huaman,Frecuente,S,Wanchaq,2024-04-25
+64841602,Teresa Cordova,Frecuente,S,Comas,2025-09-13
+56268242,Gabriela Bustamante,Ocasional,N,Santiago de Surco,2024-05-28
+49914895,Miguel Huaman,Frecuente,S,Wanchaq,2024-09-01
+21123678,Miguel Chavez,Frecuente,S,Ate,2025-01-04
+66339987,Diego Huaman,Ocasional,N,Independencia,2022-01-28
+61237429,Cesar Mendoza,Ocasional,S,Wanchaq,2024-05-09
+49209578,Teresa Rojas,Ocasional,N,La Molina,2025-10-09
+30105575,Claudia Ibanez,Ocasional,N,Wanchaq,2023-03-01
+49642865,Jorge Ticona,Nuevo,S,San Miguel,2024-03-27
+68388215,Rosa Chavez,Ocasional,N,Santiago de Surco,2022-05-30
+66755408,Victor Ticona,Ocasional,N,Miraflores,2025-08-12
+55052669,Claudia Ticona,Ocasional,N,Trujillo,2025-10-11
+72718267,Andres Rodriguez,Nuevo,N,Santiago de Surco,2024-05-10
+79991138,Sofia Cordova,Ocasional,S,Cayma,2025-04-09
+14813913,Oscar Rojas,Ocasional,N,La Molina,2024-12-28
+55254199,Rosa Vargas,Frecuente,S,Victor Larco,2023-01-19
+66056817,Teresa Rodriguez,Frecuente,S,La Molina,2022-05-28
+40840165,Mariana Flores,Frecuente,S,Independencia,2024-11-15
+10593828,Sofia Vargas,Ocasional,S,Miraflores,2025-07-03
+56895011,Miguel Ramos,Nuevo,N,Independencia,2024-08-02
+55306279,Manuel Cordova,Ocasional,S,Victor Larco,2022-08-01
+63634661,Andres Ccahuana,Nuevo,S,San Miguel,2023-01-13
+18925084,Julia Flores,Ocasional,S,Cayma,2024-01-19
+73751096,Ana Vargas,Ocasional,N,Comas,2023-02-12
+33115144,Sofia Cordova,Ocasional,S,Chorrillos,2024-12-13
+79095154,Teresa Huaman,Frecuente,S,Arequipa,2024-02-17
+31291039,Gabriela Quispe,Ocasional,N,Arequipa,2023-08-05
+54757826,Oscar Palomino,Ocasional,S,Los Olivos,2024-03-25
+69799130,Diego Del Aguila,Ocasional,N,Miraflores,2022-10-17
+64999499,Oscar Rojas,Ocasional,S,Cayma,2022-07-14
+51359306,Gabriela Huaman,Nuevo,N,La Molina,2024-06-18
+57237203,Lucia Mendoza,Frecuente,S,Cayma,2022-05-09
+55502694,Manuel Ccahuana,Nuevo,N,Miraflores,2024-04-07
+53369661,Carmen Paredes,Ocasional,N,San Martin de Porres,2023-07-21
+73468918,Claudia Cordova,Frecuente,S,La Molina,2025-09-30
+49498044,Rosa Alvarado,Ocasional,S,Victor Larco,2023-02-20
+78737350,Ana Palomino,Ocasional,N,Los Olivos,2024-10-21
+57075567,Victor Rodriguez,Frecuente,S,Victor Larco,2022-03-06
+43099980,Raul Chavez,Ocasional,S,Santiago de Surco,2023-04-07
+13855955,Cesar Ccahuana,Frecuente,S,Miraflores,2022-01-19
+33060936,Andres Mendoza,Ocasional,N,Trujillo,2023-06-05
+13940828,Teresa Ibanez,Ocasional,S,San Martin de Porres,2023-02-13
+38872895,Elena Del Aguila,Frecuente,S,Arequipa,2022-07-18
+53109650,Sofia Ramos,Frecuente,S,Cayma,2023-02-20
+10740053,Jorge Mendoza,Ocasional,S,Trujillo,2022-07-05
+68199213,Claudia Vargas,Ocasional,S,Trujillo,2025-05-27
+70374624,Mariana Ibanez,Frecuente,S,La Molina,2022-01-23

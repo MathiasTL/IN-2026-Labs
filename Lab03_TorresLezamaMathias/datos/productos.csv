@@ -1,0 +1,387 @@
+cod_producto,nombre_producto,marca,categoria,subcategoria,unidad_medida,es_marca_propia,precio_lista,costo_unitario
+P00001,Bebidas energetica MERCANDINA 626,MERCANDINA,Bebidas,Bebidas energeticas,UND,1,11.92,8.17
+P00002,Bebidas energetica Vital Plus 244,Vital Plus,Bebidas,Bebidas energeticas,LT,0,16.71,11.50
+P00003,Bebidas energetica Andina Cola 574,Andina Cola,Bebidas,Bebidas energeticas,KG,0,29.63,18.77
+P00004,Bebidas energetica Cusquena Andes 432,Cusquena Andes,Bebidas,Bebidas energeticas,UND,0,22.03,15.98
+P00005,Agua Frugos Sur 270,Frugos Sur,Bebidas,Aguas,LT,0,32.21,19.14
+P00006,Gaseosa Cusquena Andes 991,Cusquena Andes,Bebidas,Gaseosas,UND,0,30.91,22.33
+P00007,Bebidas energetica Cusquena Andes 512,Cusquena Andes,Bebidas,Bebidas energeticas,KG,0,32.86,25.45
+P00008,Cerveza Cusquena Andes 262,Cusquena Andes,Bebidas,Cervezas,PAQ,0,45.34,28.11
+P00009,Cerveza AquaViva 279,AquaViva,Bebidas,Cervezas,KG,0,11.64,9.00
+P00010,Jugo Inca Kola 148,Inca Kola,Bebidas,Jugos,KG,0,46.02,37.70
+P00011,Jugo Frugos Sur 904,Frugos Sur,Bebidas,Jugos,UND,0,22.01,14.36
+P00012,Bebidas energetica MERCANDINA 439,MERCANDINA,Bebidas,Bebidas energeticas,LT,1,25.31,20.26
+P00013,Gaseosa AquaViva 599,AquaViva,Bebidas,Gaseosas,PAQ,0,16.03,11.77
+P00014,Jugo Vital Plus 264,Vital Plus,Bebidas,Jugos,UND,0,26.06,17.08
+P00015,Gaseosa Frugos Sur 894,Frugos Sur,Bebidas,Gaseosas,PAQ,0,15.08,11.76
+P00016,Cerveza Andina Cola 965,Andina Cola,Bebidas,Cervezas,KG,0,29.82,22.37
+P00017,Bebidas energetica AquaViva 882,AquaViva,Bebidas,Bebidas energeticas,KG,0,36.13,21.55
+P00018,Jugo Vital Plus 185,Vital Plus,Bebidas,Jugos,UND,0,26.35,21.18
+P00019,Cerveza Andina Cola 284,Andina Cola,Bebidas,Cervezas,LT,0,1.71,1.08
+P00020,Jugo AquaViva 329,AquaViva,Bebidas,Jugos,LT,0,7.64,5.27
+P00021,Jugo Cusquena Andes 608,Cusquena Andes,Bebidas,Jugos,KG,0,24.81,20.34
+P00022,Jugo Frugos Sur 898,Frugos Sur,Bebidas,Jugos,PAQ,0,28.00,22.12
+P00023,Bebidas energetica MERCANDINA 404,MERCANDINA,Bebidas,Bebidas energeticas,KG,1,42.68,31.40
+P00024,Jugo Cusquena Andes 652,Cusquena Andes,Bebidas,Jugos,LT,0,42.95,33.62
+P00025,Gaseosa MERCANDINA 618,MERCANDINA,Bebidas,Gaseosas,PAQ,1,40.35,24.28
+P00026,Gaseosa MERCANDINA 552,MERCANDINA,Bebidas,Gaseosas,LT,1,43.87,27.05
+P00027,Bebidas energetica Frugos Sur 468,Frugos Sur,Bebidas,Bebidas energeticas,PAQ,0,20.96,14.90
+P00028,Gaseosa MERCANDINA 150,MERCANDINA,Bebidas,Gaseosas,LT,1,18.45,13.00
+P00029,Agua Inca Kola 113,Inca Kola,Bebidas,Aguas,PAQ,0,2.95,1.91
+P00030,Gaseosa Andina Cola 774,Andina Cola,Bebidas,Gaseosas,KG,0,14.68,9.19
+P00031,Cerveza AquaViva 368,AquaViva,Bebidas,Cervezas,UND,0,19.79,13.08
+P00032,Bebidas energetica AquaViva 864,AquaViva,Bebidas,Bebidas energeticas,KG,0,44.64,33.87
+P00033,Gaseosa AquaViva 765,AquaViva,Bebidas,Gaseosas,KG,0,33.40,25.43
+P00034,Agua Inca Kola 188,Inca Kola,Bebidas,Aguas,KG,0,18.04,10.62
+P00035,Jugo Vital Plus 448,Vital Plus,Bebidas,Jugos,LT,0,2.66,1.89
+P00036,Gaseosa Andina Cola 953,Andina Cola,Bebidas,Gaseosas,LT,0,13.42,10.93
+P00037,Cerveza MERCANDINA 367,MERCANDINA,Bebidas,Cervezas,PAQ,1,43.52,26.02
+P00038,Agua Vital Plus 950,Vital Plus,Bebidas,Aguas,PAQ,0,21.04,13.02
+P00039,Jugo AquaViva 501,AquaViva,Bebidas,Jugos,UND,0,25.55,18.34
+P00040,Agua Andina Cola 598,Andina Cola,Bebidas,Aguas,PAQ,0,32.91,26.69
+P00041,Cerveza Inca Kola 481,Inca Kola,Bebidas,Cervezas,UND,0,40.51,25.52
+P00042,Cerveza MERCANDINA 570,MERCANDINA,Bebidas,Cervezas,KG,1,43.86,34.31
+P00043,Pasta MERCANDINA 630,MERCANDINA,Abarrotes,Pastas,PAQ,1,10.21,6.28
+P00044,Conserva Nicolini Peru 907,Nicolini Peru,Abarrotes,Conservas,KG,0,25.83,18.67
+P00045,Aceite Nicolini Peru 799,Nicolini Peru,Abarrotes,Aceites,LT,0,13.99,8.26
+P00046,Aceite Gloria Valle 396,Gloria Valle,Abarrotes,Aceites,UND,0,42.13,33.17
+P00047,Pasta Gloria Valle 494,Gloria Valle,Abarrotes,Pastas,KG,0,30.35,22.81
+P00048,Conserva MERCANDINA 601,MERCANDINA,Abarrotes,Conservas,KG,1,42.16,26.97
+P00049,Azucar y sal Costeno Andino 839,Costeno Andino,Abarrotes,Azucar y sal,LT,0,17.12,10.88
+P00050,Azucar y sal Gloria Valle 252,Gloria Valle,Abarrotes,Azucar y sal,UND,0,3.41,2.04
+P00051,Conserva Costeno Andino 244,Costeno Andino,Abarrotes,Conservas,PAQ,0,39.46,26.34
+P00052,Aceite MERCANDINA 752,MERCANDINA,Abarrotes,Aceites,LT,1,30.97,24.88
+P00053,Pasta Gloria Valle 385,Gloria Valle,Abarrotes,Pastas,PAQ,0,27.23,16.37
+P00054,Azucar y sal MERCANDINA 166,MERCANDINA,Abarrotes,Azucar y sal,LT,1,23.81,14.37
+P00055,Azucar y sal Gloria Valle 706,Gloria Valle,Abarrotes,Azucar y sal,PAQ,0,33.20,20.56
+P00056,Conserva Nicolini Peru 535,Nicolini Peru,Abarrotes,Conservas,PAQ,0,34.53,20.70
+P00057,Aceite Primor Sur 380,Primor Sur,Abarrotes,Aceites,KG,0,47.00,31.85
+P00058,Conserva Gloria Valle 898,Gloria Valle,Abarrotes,Conservas,LT,0,21.30,12.96
+P00059,Conserva Nicolini Peru 311,Nicolini Peru,Abarrotes,Conservas,LT,0,7.18,4.87
+P00060,Aceite Costeno Andino 317,Costeno Andino,Abarrotes,Aceites,PAQ,0,13.61,10.28
+P00061,Aceite Gloria Valle 609,Gloria Valle,Abarrotes,Aceites,PAQ,0,13.71,11.23
+P00062,Arroz y menestra Primor Sur 972,Primor Sur,Abarrotes,Arroz y menestras,LT,0,20.98,12.26
+P00063,Pasta MERCANDINA 789,MERCANDINA,Abarrotes,Pastas,KG,1,16.03,11.95
+P00064,Arroz y menestra Nicolini Peru 543,Nicolini Peru,Abarrotes,Arroz y menestras,KG,0,31.90,25.05
+P00065,Pasta MERCANDINA 561,MERCANDINA,Abarrotes,Pastas,LT,1,18.59,13.25
+P00066,Aceite Gloria Valle 736,Gloria Valle,Abarrotes,Aceites,LT,0,43.54,29.01
+P00067,Azucar y sal Nicolini Peru 953,Nicolini Peru,Abarrotes,Azucar y sal,KG,0,8.52,5.77
+P00068,Arroz y menestra Nicolini Peru 299,Nicolini Peru,Abarrotes,Arroz y menestras,PAQ,0,43.23,29.38
+P00069,Azucar y sal MERCANDINA 936,MERCANDINA,Abarrotes,Azucar y sal,UND,1,47.99,29.25
+P00070,Arroz y menestra Nicolini Peru 653,Nicolini Peru,Abarrotes,Arroz y menestras,LT,0,37.76,27.81
+P00071,Pasta Primor Sur 351,Primor Sur,Abarrotes,Pastas,UND,0,42.19,30.44
+P00072,Conserva Gloria Valle 702,Gloria Valle,Abarrotes,Conservas,LT,0,29.48,19.77
+P00073,Aceite Gloria Valle 615,Gloria Valle,Abarrotes,Aceites,PAQ,0,32.45,25.91
+P00074,Arroz y menestra Gloria Valle 937,Gloria Valle,Abarrotes,Arroz y menestras,LT,0,38.51,29.10
+P00075,Conserva Costeno Andino 284,Costeno Andino,Abarrotes,Conservas,UND,0,42.34,28.09
+P00076,Aceite MERCANDINA 487,MERCANDINA,Abarrotes,Aceites,PAQ,1,10.84,8.40
+P00077,Arroz y menestra Primor Sur 116,Primor Sur,Abarrotes,Arroz y menestras,LT,0,43.96,31.18
+P00078,Aceite Gloria Valle 266,Gloria Valle,Abarrotes,Aceites,LT,0,3.88,2.61
+P00079,Azucar y sal Nicolini Peru 122,Nicolini Peru,Abarrotes,Azucar y sal,KG,0,41.60,32.20
+P00080,Pasta Primor Sur 896,Primor Sur,Abarrotes,Pastas,PAQ,0,35.91,21.54
+P00081,Azucar y sal Primor Sur 122,Primor Sur,Abarrotes,Azucar y sal,LT,0,13.17,9.73
+P00082,Conserva Nicolini Peru 267,Nicolini Peru,Abarrotes,Conservas,UND,0,20.22,15.76
+P00083,Conserva Nicolini Peru 424,Nicolini Peru,Abarrotes,Conservas,LT,0,22.33,16.27
+P00084,Aceite Gloria Valle 697,Gloria Valle,Abarrotes,Aceites,KG,0,6.35,4.98
+P00085,Pasta Costeno Andino 336,Costeno Andino,Abarrotes,Pastas,PAQ,0,43.17,25.29
+P00086,Pasta Costeno Andino 236,Costeno Andino,Abarrotes,Pastas,PAQ,0,38.54,27.38
+P00087,Pasta MERCANDINA 381,MERCANDINA,Abarrotes,Pastas,UND,1,21.60,16.89
+P00088,Conserva Primor Sur 330,Primor Sur,Abarrotes,Conservas,UND,0,7.31,4.82
+P00089,Pasta Costeno Andino 472,Costeno Andino,Abarrotes,Pastas,PAQ,0,13.34,9.21
+P00090,Arroz y menestra Costeno Andino 330,Costeno Andino,Abarrotes,Arroz y menestras,UND,0,28.03,17.55
+P00091,Conserva MERCANDINA 887,MERCANDINA,Abarrotes,Conservas,UND,1,19.90,14.65
+P00092,Conserva Gloria Valle 880,Gloria Valle,Abarrotes,Conservas,LT,0,11.61,8.27
+P00093,Azucar y sal Costeno Andino 443,Costeno Andino,Abarrotes,Azucar y sal,UND,0,19.48,15.88
+P00094,Azucar y sal Costeno Andino 153,Costeno Andino,Abarrotes,Azucar y sal,PAQ,0,30.42,20.82
+P00095,Aceite Primor Sur 327,Primor Sur,Abarrotes,Aceites,PAQ,0,45.33,36.74
+P00096,Pasta Gloria Valle 805,Gloria Valle,Abarrotes,Pastas,KG,0,10.05,5.88
+P00097,Queso MERCANDINA 872,MERCANDINA,Lacteos,Quesos,PAQ,1,24.58,14.41
+P00098,Yogure Laive Andes 467,Laive Andes,Lacteos,Yogures,PAQ,0,14.56,11.68
+P00099,Queso Bonle Sur 814,Bonle Sur,Lacteos,Quesos,LT,0,31.67,23.47
+P00100,Leche Gloria Valle 185,Gloria Valle,Lacteos,Leches,LT,0,43.67,27.77
+P00101,Queso Bonle Sur 672,Bonle Sur,Lacteos,Quesos,PAQ,0,8.04,6.02
+P00102,Queso Gloria Valle 650,Gloria Valle,Lacteos,Quesos,LT,0,10.77,6.38
+P00103,Mantequilla Laive Andes 384,Laive Andes,Lacteos,Mantequillas,KG,0,4.69,3.24
+P00104,Queso Bonle Sur 136,Bonle Sur,Lacteos,Quesos,KG,0,40.31,23.65
+P00105,Yogure Bonle Sur 444,Bonle Sur,Lacteos,Yogures,UND,0,34.46,24.02
+P00106,Queso Bonle Sur 367,Bonle Sur,Lacteos,Quesos,UND,0,35.68,24.61
+P00107,Mantequilla MERCANDINA 595,MERCANDINA,Lacteos,Mantequillas,UND,1,30.13,19.40
+P00108,Mantequilla Gloria Valle 469,Gloria Valle,Lacteos,Mantequillas,UND,0,22.25,17.23
+P00109,Leche Laive Andes 970,Laive Andes,Lacteos,Leches,UND,0,7.84,6.09
+P00110,Yogure MERCANDINA 610,MERCANDINA,Lacteos,Yogures,KG,1,13.96,9.21
+P00111,Queso Gloria Valle 647,Gloria Valle,Lacteos,Quesos,KG,0,27.68,20.10
+P00112,Queso Laive Andes 800,Laive Andes,Lacteos,Quesos,KG,0,19.17,13.12
+P00113,Leche Gloria Valle 809,Gloria Valle,Lacteos,Leches,KG,0,33.51,25.40
+P00114,Yogure Gloria Valle 851,Gloria Valle,Lacteos,Yogures,LT,0,12.40,10.08
+P00115,Yogure MERCANDINA 780,MERCANDINA,Lacteos,Yogures,PAQ,1,18.12,11.75
+P00116,Leche MERCANDINA 212,MERCANDINA,Lacteos,Leches,KG,1,29.24,23.47
+P00117,Yogure Bonle Sur 866,Bonle Sur,Lacteos,Yogures,LT,0,22.85,18.45
+P00118,Mantequilla Laive Andes 574,Laive Andes,Lacteos,Mantequillas,KG,0,37.72,27.39
+P00119,Mantequilla Gloria Valle 504,Gloria Valle,Lacteos,Mantequillas,LT,0,2.59,1.53
+P00120,Mantequilla Laive Andes 861,Laive Andes,Lacteos,Mantequillas,PAQ,0,21.26,16.68
+P00121,Queso Bonle Sur 306,Bonle Sur,Lacteos,Quesos,PAQ,0,37.37,26.69
+P00122,Queso Bonle Sur 138,Bonle Sur,Lacteos,Quesos,UND,0,23.21,17.77
+P00123,Queso Gloria Valle 192,Gloria Valle,Lacteos,Quesos,PAQ,0,18.16,13.71
+P00124,Yogure Laive Andes 738,Laive Andes,Lacteos,Yogures,KG,0,12.46,8.20
+P00125,Mantequilla Gloria Valle 980,Gloria Valle,Lacteos,Mantequillas,KG,0,17.17,11.33
+P00126,Mantequilla Gloria Valle 472,Gloria Valle,Lacteos,Mantequillas,KG,0,41.53,30.64
+P00127,Queso Bonle Sur 694,Bonle Sur,Lacteos,Quesos,KG,0,6.50,5.08
+P00128,Mantequilla MERCANDINA 313,MERCANDINA,Lacteos,Mantequillas,LT,1,15.69,9.59
+P00129,Leche Laive Andes 207,Laive Andes,Lacteos,Leches,UND,0,12.07,8.36
+P00130,Mantequilla Bonle Sur 472,Bonle Sur,Lacteos,Mantequillas,PAQ,0,44.66,33.35
+P00131,Queso Laive Andes 623,Laive Andes,Lacteos,Quesos,LT,0,45.86,28.55
+P00132,Queso MERCANDINA 421,MERCANDINA,Lacteos,Quesos,LT,1,17.06,11.05
+P00133,Yogure Bonle Sur 995,Bonle Sur,Lacteos,Yogures,UND,0,6.38,4.39
+P00134,Queso Gloria Valle 487,Gloria Valle,Lacteos,Quesos,UND,0,37.67,24.31
+P00135,Leche Laive Andes 458,Laive Andes,Lacteos,Leches,LT,0,29.68,23.46
+P00136,Leche Gloria Valle 298,Gloria Valle,Lacteos,Leches,PAQ,0,43.28,34.03
+P00137,Leche Gloria Valle 152,Gloria Valle,Lacteos,Leches,LT,0,39.08,27.53
+P00138,Leche Gloria Valle 905,Gloria Valle,Lacteos,Leches,LT,0,17.40,12.65
+P00139,Mantequilla MERCANDINA 746,MERCANDINA,Lacteos,Mantequillas,PAQ,1,24.69,19.79
+P00140,Mantequilla Gloria Valle 260,Gloria Valle,Lacteos,Mantequillas,LT,0,15.17,11.08
+P00141,Leche Bonle Sur 324,Bonle Sur,Lacteos,Leches,UND,0,26.33,20.29
+P00142,Yogure MERCANDINA 306,MERCANDINA,Lacteos,Yogures,PAQ,1,24.69,16.64
+P00143,Yogure Laive Andes 344,Laive Andes,Lacteos,Yogures,UND,0,24.91,17.24
+P00144,Leche MERCANDINA 968,MERCANDINA,Lacteos,Leches,LT,1,16.88,13.80
+P00145,Galleta Sublime Sur 407,Sublime Sur,Snacks,Galletas,UND,0,27.75,16.85
+P00146,Galleta Field Peru 681,Field Peru,Snacks,Galletas,KG,0,36.19,22.53
+P00147,Chocolate Lays Andino 374,Lays Andino,Snacks,Chocolates,LT,0,13.69,8.04
+P00148,Papas frita MERCANDINA 142,MERCANDINA,Snacks,Papas fritas,KG,1,34.01,24.63
+P00149,Frutos seco MERCANDINA 747,MERCANDINA,Snacks,Frutos secos,UND,1,7.27,5.86
+P00150,Chocolate Field Peru 326,Field Peru,Snacks,Chocolates,UND,0,27.56,18.59
+P00151,Chocolate Field Peru 948,Field Peru,Snacks,Chocolates,UND,0,34.74,27.28
+P00152,Chocolate Field Peru 733,Field Peru,Snacks,Chocolates,PAQ,0,17.73,10.81
+P00153,Papas frita MERCANDINA 329,MERCANDINA,Snacks,Papas fritas,PAQ,1,19.94,15.01
+P00154,Galleta Lays Andino 783,Lays Andino,Snacks,Galletas,LT,0,42.28,29.29
+P00155,Frutos seco Sublime Sur 835,Sublime Sur,Snacks,Frutos secos,PAQ,0,44.36,27.51
+P00156,Galleta MERCANDINA 268,MERCANDINA,Snacks,Galletas,LT,1,38.14,29.88
+P00157,Papas frita Lays Andino 595,Lays Andino,Snacks,Papas fritas,PAQ,0,33.61,27.06
+P00158,Papas frita Sublime Sur 156,Sublime Sur,Snacks,Papas fritas,PAQ,0,10.31,6.90
+P00159,Papas frita Sublime Sur 128,Sublime Sur,Snacks,Papas fritas,KG,0,16.08,9.80
+P00160,Papas frita Sublime Sur 142,Sublime Sur,Snacks,Papas fritas,KG,0,21.02,14.61
+P00161,Chocolate MERCANDINA 486,MERCANDINA,Snacks,Chocolates,PAQ,1,37.62,23.09
+P00162,Papas frita Sublime Sur 384,Sublime Sur,Snacks,Papas fritas,PAQ,0,29.64,20.69
+P00163,Papas frita Sublime Sur 399,Sublime Sur,Snacks,Papas fritas,KG,0,16.60,11.26
+P00164,Chocolate Sublime Sur 403,Sublime Sur,Snacks,Chocolates,PAQ,0,40.53,32.97
+P00165,Papas frita MERCANDINA 704,MERCANDINA,Snacks,Papas fritas,UND,1,41.95,24.88
+P00166,Frutos seco MERCANDINA 247,MERCANDINA,Snacks,Frutos secos,KG,1,41.86,31.58
+P00167,Frutos seco Sublime Sur 150,Sublime Sur,Snacks,Frutos secos,KG,0,20.19,13.13
+P00168,Papas frita Lays Andino 112,Lays Andino,Snacks,Papas fritas,LT,0,20.36,15.99
+P00169,Papas frita Field Peru 650,Field Peru,Snacks,Papas fritas,UND,0,36.55,26.26
+P00170,Papas frita Sublime Sur 655,Sublime Sur,Snacks,Papas fritas,PAQ,0,6.01,4.12
+P00171,Papas frita Field Peru 759,Field Peru,Snacks,Papas fritas,UND,0,5.18,3.37
+P00172,Papas frita Field Peru 324,Field Peru,Snacks,Papas fritas,KG,0,28.33,17.16
+P00173,Papas frita Lays Andino 310,Lays Andino,Snacks,Papas fritas,KG,0,1.91,1.51
+P00174,Galleta Sublime Sur 874,Sublime Sur,Snacks,Galletas,KG,0,28.92,21.55
+P00175,Galleta Lays Andino 512,Lays Andino,Snacks,Galletas,PAQ,0,35.05,25.94
+P00176,Galleta Field Peru 283,Field Peru,Snacks,Galletas,UND,0,45.63,29.84
+P00177,Papas frita Sublime Sur 788,Sublime Sur,Snacks,Papas fritas,KG,0,12.13,9.37
+P00178,Papas frita MERCANDINA 634,MERCANDINA,Snacks,Papas fritas,LT,1,38.01,27.72
+P00179,Frutos seco Field Peru 553,Field Peru,Snacks,Frutos secos,PAQ,0,15.68,11.49
+P00180,Galleta Lays Andino 460,Lays Andino,Snacks,Galletas,LT,0,11.31,8.41
+P00181,Galleta MERCANDINA 678,MERCANDINA,Snacks,Galletas,UND,1,34.62,20.09
+P00182,Papas frita Sublime Sur 621,Sublime Sur,Snacks,Papas fritas,KG,0,23.33,18.23
+P00183,Galleta Field Peru 363,Field Peru,Snacks,Galletas,PAQ,0,27.14,17.85
+P00184,Chocolate Lays Andino 296,Lays Andino,Snacks,Chocolates,KG,0,27.21,18.60
+P00185,Galleta Field Peru 685,Field Peru,Snacks,Galletas,UND,0,41.58,31.29
+P00186,Chocolate Lays Andino 175,Lays Andino,Snacks,Chocolates,UND,0,35.48,22.24
+P00187,Papas frita MERCANDINA 346,MERCANDINA,Snacks,Papas fritas,UND,1,23.18,15.41
+P00188,Galleta Field Peru 924,Field Peru,Snacks,Galletas,UND,0,28.60,21.58
+P00189,Galleta Lays Andino 972,Lays Andino,Snacks,Galletas,KG,0,33.20,23.04
+P00190,Chocolate Sublime Sur 381,Sublime Sur,Snacks,Chocolates,UND,0,35.92,27.45
+P00191,Galleta Lays Andino 802,Lays Andino,Snacks,Galletas,LT,0,33.34,23.61
+P00192,Papas frita Sublime Sur 397,Sublime Sur,Snacks,Papas fritas,PAQ,0,21.74,17.33
+P00193,Frutos seco MERCANDINA 697,MERCANDINA,Snacks,Frutos secos,UND,1,14.16,8.67
+P00194,Galleta Sublime Sur 747,Sublime Sur,Snacks,Galletas,PAQ,0,26.37,15.56
+P00195,Tortilla Union Peru 677,Union Peru,Panaderia,Tortillas,PAQ,0,47.49,33.50
+P00196,Pane Bimbo Andino 904,Bimbo Andino,Panaderia,Panes,PAQ,0,36.27,24.41
+P00197,Pasteleria MERCANDINA 404,MERCANDINA,Panaderia,Pasteleria,KG,1,34.13,21.88
+P00198,Pane MERCANDINA 535,MERCANDINA,Panaderia,Panes,LT,1,31.94,26.04
+P00199,Tortilla Union Peru 833,Union Peru,Panaderia,Tortillas,LT,0,8.18,6.28
+P00200,Pasteleria Union Peru 605,Union Peru,Panaderia,Pasteleria,PAQ,0,1.72,1.34
+P00201,Pasteleria MERCANDINA 726,MERCANDINA,Panaderia,Pasteleria,PAQ,1,15.28,10.74
+P00202,Tortilla Bimbo Andino 542,Bimbo Andino,Panaderia,Tortillas,PAQ,0,32.68,21.11
+P00203,Pane Bimbo Andino 511,Bimbo Andino,Panaderia,Panes,KG,0,45.13,33.44
+P00204,Pane Union Peru 187,Union Peru,Panaderia,Panes,UND,0,39.98,25.08
+P00205,Tortilla Bimbo Andino 701,Bimbo Andino,Panaderia,Tortillas,LT,0,18.82,14.78
+P00206,Pasteleria Union Peru 803,Union Peru,Panaderia,Pasteleria,KG,0,37.52,25.76
+P00207,Pasteleria Union Peru 818,Union Peru,Panaderia,Pasteleria,LT,0,44.11,34.39
+P00208,Pasteleria Union Peru 499,Union Peru,Panaderia,Pasteleria,PAQ,0,47.88,35.11
+P00209,Pane MERCANDINA 981,MERCANDINA,Panaderia,Panes,UND,1,34.52,26.76
+P00210,Pasteleria Union Peru 306,Union Peru,Panaderia,Pasteleria,KG,0,34.83,22.58
+P00211,Pane Bimbo Andino 205,Bimbo Andino,Panaderia,Panes,PAQ,0,13.51,10.28
+P00212,Pasteleria Bimbo Andino 155,Bimbo Andino,Panaderia,Pasteleria,LT,0,5.57,3.34
+P00213,Pane Union Peru 498,Union Peru,Panaderia,Panes,KG,0,44.94,30.93
+P00214,Pane MERCANDINA 813,MERCANDINA,Panaderia,Panes,KG,1,41.90,27.04
+P00215,Tortilla Union Peru 127,Union Peru,Panaderia,Tortillas,UND,0,13.91,10.62
+P00216,Tortilla Union Peru 477,Union Peru,Panaderia,Tortillas,UND,0,16.21,11.20
+P00217,Pane Union Peru 271,Union Peru,Panaderia,Panes,PAQ,0,37.15,29.00
+P00218,Tortilla MERCANDINA 642,MERCANDINA,Panaderia,Tortillas,PAQ,1,45.37,33.75
+P00219,Tortilla Union Peru 407,Union Peru,Panaderia,Tortillas,UND,0,24.64,18.52
+P00220,Tortilla Union Peru 489,Union Peru,Panaderia,Tortillas,LT,0,44.95,28.52
+P00221,Pane Bimbo Andino 817,Bimbo Andino,Panaderia,Panes,LT,0,24.36,18.63
+P00222,Pasteleria MERCANDINA 861,MERCANDINA,Panaderia,Pasteleria,KG,1,35.26,22.40
+P00223,Pane Bimbo Andino 185,Bimbo Andino,Panaderia,Panes,KG,0,47.16,36.50
+P00224,Pasteleria MERCANDINA 349,MERCANDINA,Panaderia,Pasteleria,PAQ,1,4.14,2.82
+P00225,Pane Bimbo Andino 673,Bimbo Andino,Panaderia,Panes,UND,0,37.16,24.15
+P00226,Pasteleria Union Peru 219,Union Peru,Panaderia,Pasteleria,PAQ,0,27.47,18.24
+P00227,Pane Bimbo Andino 565,Bimbo Andino,Panaderia,Panes,PAQ,0,23.31,15.10
+P00228,Tortilla Union Peru 830,Union Peru,Panaderia,Tortillas,LT,0,8.17,4.86
+P00229,Tortilla MERCANDINA 694,MERCANDINA,Panaderia,Tortillas,UND,1,5.77,3.53
+P00230,Pane Union Peru 400,Union Peru,Panaderia,Panes,LT,0,18.76,14.76
+P00231,Pane Bimbo Andino 198,Bimbo Andino,Panaderia,Panes,LT,0,17.73,10.83
+P00232,Pane MERCANDINA 755,MERCANDINA,Panaderia,Panes,LT,1,2.56,2.08
+P00233,Tortilla Union Peru 941,Union Peru,Panaderia,Tortillas,UND,0,7.89,5.29
+P00234,Pane Bimbo Andino 552,Bimbo Andino,Panaderia,Panes,UND,0,17.08,10.97
+P00235,Pane Union Peru 389,Union Peru,Panaderia,Panes,UND,0,25.31,20.04
+P00236,Pane MERCANDINA 349,MERCANDINA,Panaderia,Panes,LT,1,46.24,30.72
+P00237,Tortilla Union Peru 407,Union Peru,Panaderia,Tortillas,PAQ,0,35.43,28.78
+P00238,Pane MERCANDINA 635,MERCANDINA,Panaderia,Panes,UND,1,25.35,17.52
+P00239,Pasteleria Union Peru 973,Union Peru,Panaderia,Pasteleria,UND,0,43.97,30.08
+P00240,Pane Bimbo Andino 463,Bimbo Andino,Panaderia,Panes,PAQ,0,14.83,9.12
+P00241,Desinfectante Elite Peru 680,Elite Peru,Limpieza,Desinfectantes,KG,0,16.32,13.19
+P00242,Lavavajilla Sapolio Andes 247,Sapolio Andes,Limpieza,Lavavajillas,KG,0,16.86,13.07
+P00243,Papel Bolivar Sur 193,Bolivar Sur,Limpieza,Papel,LT,0,2.88,2.23
+P00244,Desinfectante Bolivar Sur 222,Bolivar Sur,Limpieza,Desinfectantes,UND,0,10.18,6.71
+P00245,Papel Bolivar Sur 229,Bolivar Sur,Limpieza,Papel,LT,0,35.32,26.19
+P00246,Desinfectante MERCANDINA 716,MERCANDINA,Limpieza,Desinfectantes,UND,1,30.10,18.38
+P00247,Lavavajilla Elite Peru 820,Elite Peru,Limpieza,Lavavajillas,KG,0,21.07,16.07
+P00248,Lavavajilla Elite Peru 878,Elite Peru,Limpieza,Lavavajillas,PAQ,0,30.52,21.94
+P00249,Detergente Elite Peru 855,Elite Peru,Limpieza,Detergentes,LT,0,28.49,17.51
+P00250,Papel Sapolio Andes 658,Sapolio Andes,Limpieza,Papel,KG,0,8.17,5.84
+P00251,Desinfectante MERCANDINA 696,MERCANDINA,Limpieza,Desinfectantes,LT,1,30.37,22.14
+P00252,Desinfectante Elite Peru 364,Elite Peru,Limpieza,Desinfectantes,PAQ,0,44.22,32.20
+P00253,Detergente MERCANDINA 322,MERCANDINA,Limpieza,Detergentes,LT,1,34.16,25.30
+P00254,Detergente Bolivar Sur 463,Bolivar Sur,Limpieza,Detergentes,UND,0,12.52,7.86
+P00255,Detergente Sapolio Andes 492,Sapolio Andes,Limpieza,Detergentes,PAQ,0,12.80,8.78
+P00256,Detergente MERCANDINA 261,MERCANDINA,Limpieza,Detergentes,KG,1,7.73,5.07
+P00257,Detergente Sapolio Andes 632,Sapolio Andes,Limpieza,Detergentes,PAQ,0,40.62,27.45
+P00258,Detergente Sapolio Andes 751,Sapolio Andes,Limpieza,Detergentes,PAQ,0,10.33,7.57
+P00259,Lavavajilla MERCANDINA 425,MERCANDINA,Limpieza,Lavavajillas,PAQ,1,31.69,21.87
+P00260,Detergente Elite Peru 281,Elite Peru,Limpieza,Detergentes,UND,0,34.93,21.37
+P00261,Detergente Elite Peru 718,Elite Peru,Limpieza,Detergentes,KG,0,40.58,30.67
+P00262,Detergente MERCANDINA 223,MERCANDINA,Limpieza,Detergentes,KG,1,30.45,21.20
+P00263,Detergente Elite Peru 661,Elite Peru,Limpieza,Detergentes,LT,0,3.80,3.01
+P00264,Papel Bolivar Sur 753,Bolivar Sur,Limpieza,Papel,PAQ,0,1.95,1.41
+P00265,Desinfectante Bolivar Sur 477,Bolivar Sur,Limpieza,Desinfectantes,UND,0,34.93,21.97
+P00266,Lavavajilla Sapolio Andes 974,Sapolio Andes,Limpieza,Lavavajillas,LT,0,22.34,15.81
+P00267,Detergente MERCANDINA 345,MERCANDINA,Limpieza,Detergentes,LT,1,7.86,4.94
+P00268,Lavavajilla MERCANDINA 351,MERCANDINA,Limpieza,Lavavajillas,PAQ,1,28.15,22.65
+P00269,Papel Sapolio Andes 775,Sapolio Andes,Limpieza,Papel,UND,0,40.74,24.33
+P00270,Papel MERCANDINA 570,MERCANDINA,Limpieza,Papel,PAQ,1,42.80,25.91
+P00271,Detergente Elite Peru 423,Elite Peru,Limpieza,Detergentes,UND,0,42.00,33.09
+P00272,Lavavajilla Sapolio Andes 926,Sapolio Andes,Limpieza,Lavavajillas,LT,0,16.45,11.99
+P00273,Detergente Sapolio Andes 757,Sapolio Andes,Limpieza,Detergentes,LT,0,43.59,28.52
+P00274,Lavavajilla MERCANDINA 779,MERCANDINA,Limpieza,Lavavajillas,PAQ,1,25.08,16.89
+P00275,Lavavajilla Sapolio Andes 717,Sapolio Andes,Limpieza,Lavavajillas,KG,0,42.07,30.62
+P00276,Papel Sapolio Andes 247,Sapolio Andes,Limpieza,Papel,UND,0,21.66,13.79
+P00277,Papel Elite Peru 376,Elite Peru,Limpieza,Papel,LT,0,4.72,3.03
+P00278,Desinfectante Sapolio Andes 752,Sapolio Andes,Limpieza,Desinfectantes,UND,0,31.14,24.19
+P00279,Desinfectante MERCANDINA 187,MERCANDINA,Limpieza,Desinfectantes,UND,1,31.62,21.02
+P00280,Desinfectante Sapolio Andes 332,Sapolio Andes,Limpieza,Desinfectantes,UND,0,22.74,15.65
+P00281,Papel Sapolio Andes 993,Sapolio Andes,Limpieza,Papel,PAQ,0,33.21,24.99
+P00282,Desinfectante Elite Peru 987,Elite Peru,Limpieza,Desinfectantes,KG,0,12.91,7.56
+P00283,Lavavajilla Bolivar Sur 846,Bolivar Sur,Limpieza,Lavavajillas,PAQ,0,42.00,32.16
+P00284,Desinfectante Sapolio Andes 971,Sapolio Andes,Limpieza,Desinfectantes,LT,0,41.08,33.51
+P00285,Detergente Bolivar Sur 845,Bolivar Sur,Limpieza,Detergentes,LT,0,37.13,29.20
+P00286,Lavavajilla Sapolio Andes 377,Sapolio Andes,Limpieza,Lavavajillas,PAQ,0,38.55,23.64
+P00287,Afeitado Dove Andino 907,Dove Andino,Cuidado personal,Afeitado,LT,0,23.10,16.70
+P00288,Jabone MERCANDINA 839,MERCANDINA,Cuidado personal,Jabones,PAQ,1,29.50,17.91
+P00289,Higiene bucal MERCANDINA 997,MERCANDINA,Cuidado personal,Higiene bucal,LT,1,15.57,12.37
+P00290,Higiene bucal Gillette Peru 418,Gillette Peru,Cuidado personal,Higiene bucal,KG,0,39.53,27.82
+P00291,Shampoo Colgate Sur 687,Colgate Sur,Cuidado personal,Shampoo,PAQ,0,40.81,27.67
+P00292,Jabone Colgate Sur 254,Colgate Sur,Cuidado personal,Jabones,LT,0,9.24,7.08
+P00293,Jabone Gillette Peru 998,Gillette Peru,Cuidado personal,Jabones,PAQ,0,27.91,16.49
+P00294,Shampoo Dove Andino 212,Dove Andino,Cuidado personal,Shampoo,LT,0,10.04,7.28
+P00295,Jabone Gillette Peru 293,Gillette Peru,Cuidado personal,Jabones,LT,0,18.42,11.20
+P00296,Higiene bucal Colgate Sur 992,Colgate Sur,Cuidado personal,Higiene bucal,PAQ,0,12.60,7.42
+P00297,Shampoo MERCANDINA 933,MERCANDINA,Cuidado personal,Shampoo,PAQ,1,31.18,21.82
+P00298,Afeitado MERCANDINA 744,MERCANDINA,Cuidado personal,Afeitado,LT,1,26.05,18.72
+P00299,Higiene bucal Gillette Peru 100,Gillette Peru,Cuidado personal,Higiene bucal,LT,0,1.97,1.29
+P00300,Afeitado Colgate Sur 269,Colgate Sur,Cuidado personal,Afeitado,KG,0,14.52,11.23
+P00301,Afeitado MERCANDINA 613,MERCANDINA,Cuidado personal,Afeitado,UND,1,13.01,8.13
+P00302,Jabone Colgate Sur 473,Colgate Sur,Cuidado personal,Jabones,KG,0,40.36,24.85
+P00303,Jabone Gillette Peru 303,Gillette Peru,Cuidado personal,Jabones,UND,0,14.96,10.85
+P00304,Higiene bucal MERCANDINA 510,MERCANDINA,Cuidado personal,Higiene bucal,LT,1,15.92,11.01
+P00305,Shampoo Colgate Sur 798,Colgate Sur,Cuidado personal,Shampoo,KG,0,9.06,6.17
+P00306,Jabone MERCANDINA 373,MERCANDINA,Cuidado personal,Jabones,UND,1,31.77,20.49
+P00307,Shampoo Gillette Peru 606,Gillette Peru,Cuidado personal,Shampoo,PAQ,0,4.32,3.10
+P00308,Afeitado Colgate Sur 737,Colgate Sur,Cuidado personal,Afeitado,PAQ,0,40.52,30.71
+P00309,Afeitado Gillette Peru 367,Gillette Peru,Cuidado personal,Afeitado,KG,0,35.08,21.20
+P00310,Jabone Dove Andino 679,Dove Andino,Cuidado personal,Jabones,UND,0,5.19,3.38
+P00311,Jabone Gillette Peru 652,Gillette Peru,Cuidado personal,Jabones,UND,0,36.42,25.12
+P00312,Jabone Gillette Peru 371,Gillette Peru,Cuidado personal,Jabones,PAQ,0,2.67,2.07
+P00313,Higiene bucal Gillette Peru 741,Gillette Peru,Cuidado personal,Higiene bucal,LT,0,18.70,14.14
+P00314,Jabone Dove Andino 910,Dove Andino,Cuidado personal,Jabones,UND,0,44.48,32.18
+P00315,Jabone Colgate Sur 429,Colgate Sur,Cuidado personal,Jabones,KG,0,2.67,1.67
+P00316,Jabone MERCANDINA 136,MERCANDINA,Cuidado personal,Jabones,KG,1,10.60,6.71
+P00317,Higiene bucal Colgate Sur 262,Colgate Sur,Cuidado personal,Higiene bucal,LT,0,12.07,9.12
+P00318,Higiene bucal MERCANDINA 581,MERCANDINA,Cuidado personal,Higiene bucal,KG,1,28.29,17.69
+P00319,Shampoo Colgate Sur 954,Colgate Sur,Cuidado personal,Shampoo,UND,0,26.47,19.21
+P00320,Afeitado Dove Andino 713,Dove Andino,Cuidado personal,Afeitado,LT,0,5.06,3.65
+P00321,Afeitado Gillette Peru 933,Gillette Peru,Cuidado personal,Afeitado,PAQ,0,15.16,10.22
+P00322,Higiene bucal Colgate Sur 451,Colgate Sur,Cuidado personal,Higiene bucal,PAQ,0,22.43,15.80
+P00323,Higiene bucal Gillette Peru 893,Gillette Peru,Cuidado personal,Higiene bucal,PAQ,0,23.65,15.35
+P00324,Jabone Gillette Peru 566,Gillette Peru,Cuidado personal,Jabones,KG,0,18.54,14.74
+P00325,Afeitado Dove Andino 277,Dove Andino,Cuidado personal,Afeitado,UND,0,13.61,9.82
+P00326,Shampoo Colgate Sur 566,Colgate Sur,Cuidado personal,Shampoo,UND,0,12.93,7.60
+P00327,Higiene bucal MERCANDINA 665,MERCANDINA,Cuidado personal,Higiene bucal,PAQ,1,16.71,12.25
+P00328,Afeitado Dove Andino 148,Dove Andino,Cuidado personal,Afeitado,PAQ,0,40.04,28.62
+P00329,Higiene bucal MERCANDINA 159,MERCANDINA,Cuidado personal,Higiene bucal,KG,1,4.61,3.60
+P00330,Higiene bucal Gillette Peru 612,Gillette Peru,Cuidado personal,Higiene bucal,LT,0,31.42,20.32
+P00331,Higiene bucal Colgate Sur 396,Colgate Sur,Cuidado personal,Higiene bucal,UND,0,21.03,15.84
+P00332,Higiene bucal Gillette Peru 352,Gillette Peru,Cuidado personal,Higiene bucal,KG,0,17.73,11.95
+P00333,Shampoo Dove Andino 148,Dove Andino,Cuidado personal,Shampoo,LT,0,1.71,1.20
+P00334,Jabone MERCANDINA 617,MERCANDINA,Cuidado personal,Jabones,UND,1,22.10,15.16
+P00335,Higiene bucal Dove Andino 206,Dove Andino,Cuidado personal,Higiene bucal,KG,0,10.98,6.89
+P00336,Jabone Colgate Sur 482,Colgate Sur,Cuidado personal,Jabones,PAQ,0,37.81,27.84
+P00337,Verduras congelada Donofrio Andes 810,Donofrio Andes,Congelados,Verduras congeladas,KG,0,40.97,24.99
+P00338,Comidas lista Donofrio Andes 825,Donofrio Andes,Congelados,Comidas listas,PAQ,0,8.62,6.66
+P00339,Helado MERCANDINA 131,MERCANDINA,Congelados,Helados,LT,1,5.26,3.51
+P00340,Helado Donofrio Andes 122,Donofrio Andes,Congelados,Helados,KG,0,33.02,26.10
+P00341,Comidas lista Lamborghini Sur 104,Lamborghini Sur,Congelados,Comidas listas,UND,0,46.43,27.44
+P00342,Helado MERCANDINA 309,MERCANDINA,Congelados,Helados,PAQ,1,1.89,1.23
+P00343,Comidas lista Donofrio Andes 959,Donofrio Andes,Congelados,Comidas listas,UND,0,45.33,28.77
+P00344,Comidas lista Lamborghini Sur 435,Lamborghini Sur,Congelados,Comidas listas,LT,0,41.03,33.12
+P00345,Verduras congelada MERCANDINA 215,MERCANDINA,Congelados,Verduras congeladas,PAQ,1,16.54,10.63
+P00346,Comidas lista Donofrio Andes 795,Donofrio Andes,Congelados,Comidas listas,UND,0,37.35,30.21
+P00347,Comidas lista Donofrio Andes 225,Donofrio Andes,Congelados,Comidas listas,KG,0,28.58,17.29
+P00348,Helado Lamborghini Sur 733,Lamborghini Sur,Congelados,Helados,LT,0,14.52,10.56
+P00349,Comidas lista Donofrio Andes 596,Donofrio Andes,Congelados,Comidas listas,UND,0,33.73,20.48
+P00350,Verduras congelada MERCANDINA 380,MERCANDINA,Congelados,Verduras congeladas,LT,1,24.39,15.16
+P00351,Comidas lista Donofrio Andes 654,Donofrio Andes,Congelados,Comidas listas,PAQ,0,43.80,27.07
+P00352,Helado MERCANDINA 562,MERCANDINA,Congelados,Helados,LT,1,9.50,6.87
+P00353,Verduras congelada Donofrio Andes 968,Donofrio Andes,Congelados,Verduras congeladas,UND,0,36.66,24.45
+P00354,Verduras congelada MERCANDINA 375,MERCANDINA,Congelados,Verduras congeladas,KG,1,36.87,28.52
+P00355,Verduras congelada Lamborghini Sur 677,Lamborghini Sur,Congelados,Verduras congeladas,UND,0,16.88,10.96
+P00356,Comidas lista Donofrio Andes 726,Donofrio Andes,Congelados,Comidas listas,PAQ,0,13.66,8.86
+P00357,Verduras congelada Donofrio Andes 795,Donofrio Andes,Congelados,Verduras congeladas,KG,0,17.84,14.41
+P00358,Verduras congelada MERCANDINA 806,MERCANDINA,Congelados,Verduras congeladas,UND,1,13.97,8.84
+P00359,Comidas lista MERCANDINA 778,MERCANDINA,Congelados,Comidas listas,UND,1,26.46,18.56
+P00360,Comidas lista Lamborghini Sur 818,Lamborghini Sur,Congelados,Comidas listas,UND,0,5.64,3.53
+P00361,Helado Donofrio Andes 311,Donofrio Andes,Congelados,Helados,KG,0,38.21,29.64
+P00362,Comidas lista MERCANDINA 749,MERCANDINA,Congelados,Comidas listas,LT,1,13.43,8.63
+P00363,Verduras congelada Lamborghini Sur 373,Lamborghini Sur,Congelados,Verduras congeladas,KG,0,7.39,5.70
+P00364,Verduras congelada Donofrio Andes 238,Donofrio Andes,Congelados,Verduras congeladas,PAQ,0,5.98,4.06
+P00365,Comidas lista Lamborghini Sur 836,Lamborghini Sur,Congelados,Comidas listas,UND,0,17.46,11.36
+P00366,Comidas lista Lamborghini Sur 277,Lamborghini Sur,Congelados,Comidas listas,LT,0,18.85,15.40
+P00367,Helado Donofrio Andes 665,Donofrio Andes,Congelados,Helados,KG,0,38.07,27.88
+P00368,Helado Donofrio Andes 220,Donofrio Andes,Congelados,Helados,KG,0,45.91,29.16
+P00369,Verduras congelada Lamborghini Sur 424,Lamborghini Sur,Congelados,Verduras congeladas,PAQ,0,23.90,15.63
+P00370,Helado MERCANDINA 315,MERCANDINA,Congelados,Helados,KG,1,21.29,17.41
+P00371,Comidas lista MERCANDINA 428,MERCANDINA,Congelados,Comidas listas,KG,1,38.03,27.27
+P00372,Helado MERCANDINA 126,MERCANDINA,Congelados,Helados,KG,1,33.68,24.15
+P00373,Helado MERCANDINA 623,MERCANDINA,Congelados,Helados,UND,1,20.17,12.04
+P00374,Verduras congelada MERCANDINA 346,MERCANDINA,Congelados,Verduras congeladas,KG,1,17.51,12.19
+P00375,Helado Donofrio Andes 747,Donofrio Andes,Congelados,Helados,UND,0,13.19,9.65
+P00376,Helado Donofrio Andes 988,Donofrio Andes,Congelados,Helados,KG,0,34.34,24.56
+P00377,Comidas lista MERCANDINA 495,MERCANDINA,Congelados,Comidas listas,UND,1,9.80,7.12
+P00378,Comidas lista MERCANDINA 244,MERCANDINA,Congelados,Comidas listas,LT,1,11.53,6.89
+P00379,Helado Lamborghini Sur 332,Lamborghini Sur,Congelados,Helados,LT,0,24.39,17.13
+P00380,Helado Donofrio Andes 657,Donofrio Andes,Congelados,Helados,KG,0,11.37,8.52
+P00381,Verduras congelada Lamborghini Sur 201,Lamborghini Sur,Congelados,Verduras congeladas,LT,0,4.12,2.83
+P00382,Helado Donofrio Andes 327,Donofrio Andes,Congelados,Helados,KG,0,35.04,21.65
+P00383,Helado Donofrio Andes 520,Donofrio Andes,Congelados,Helados,PAQ,0,21.10,12.79
+P00384,Comidas lista Lamborghini Sur 754,Lamborghini Sur,Congelados,Comidas listas,UND,0,18.59,12.39
+P00385,Helado MERCANDINA 652,MERCANDINA,Congelados,Helados,LT,1,28.81,21.58
+P00386,Verduras congelada Lamborghini Sur 513,Lamborghini Sur,Congelados,Verduras congeladas,LT,0,2.86,2.09

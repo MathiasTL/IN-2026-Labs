@@ -1,0 +1,13 @@
+codigo_tienda,nombre_tienda,formato,distrito,zona_comercial,ciudad,region,fecha_apertura,metros_cuadrados
+T001,MercaAndina Los Olivos,Hipermercado,Los Olivos,Lima Norte,Lima,Lima,2016-03-15,4200
+T002,MercaAndina Independencia,Supermercado,Independencia,Lima Norte,Lima,Lima,2017-08-01,2600
+T003,MercaAndina San Miguel,Hipermercado,San Miguel,Lima Centro,Lima,Lima,2015-05-20,4800
+T004,MercaAndina Miraflores,Supermercado,Miraflores,Lima Centro,Lima,Lima,2018-11-10,2100
+T005,MercaAndina Surco,Hipermercado,Santiago de Surco,Lima Sur,Lima,Lima,2016-09-05,3900
+T006,MercaAndina Chorrillos,Supermercado,Chorrillos,Lima Sur,Lima,Lima,2019-02-28,1900
+T007,MercaAndina Ate,Supermercado,Ate,Lima Este,Lima,Lima,2019-07-12,2300
+T008,MercaAndina Cercado AQP,Hipermercado,Arequipa,Arequipa,Arequipa,Arequipa,2017-04-18,3500
+T009,MercaAndina Cayma,Supermercado,Cayma,Arequipa,Arequipa,Arequipa,2020-01-22,1800
+T010,MercaAndina Trujillo,Hipermercado,Trujillo,La Libertad,Trujillo,La Libertad,2018-06-30,3200
+T011,MercaAndina Victor Larco,Supermercado,Victor Larco,La Libertad,Trujillo,La Libertad,2021-03-11,1600
+T012,MercaAndina Cusco,Supermercado,Wanchaq,Cusco,Cusco,Cusco,2019-10-04,2000

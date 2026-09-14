@@ -1,0 +1,47 @@
+DATOS DEL LABORATORIO N.º 3 — CASO MERCANDINA
+Inteligencia de Negocios (202SW0802) — UNMSM, FISI, E.P. Ingeniería de Software
+Prof. Juan Gamarra Moreno — Semestre 2026-2
+
+FORMATO DE LOS ARCHIVOS
+  Delimitador de campos : coma (,)
+  Separador decimal     : punto (.)
+  Codificación          : UTF-8
+  Fechas                : formato ISO, AAAA-MM-DD
+  Encabezado            : la primera fila de cada archivo contiene los nombres de columna
+
+CONTENIDO
+
+  Archivo                  Filas     Sistema fuente   Descripción
+  -----------------------  --------  ---------------  ------------------------------------------
+  productos.csv                 386  ERP              Catálogo de productos
+  productos_cambios.csv          28  ERP              Reclasificación vigente desde 2026-04-01
+  tiendas.csv                    34  ERP              Maestro de locales
+  tiendas_cambios.csv             6  ERP              Cambio de formato vigente desde 2026-04-01
+  clientes.csv                1 200  Fidelización     Clientes registrados
+  clientes_cambios.csv           95  Fidelización     Cambios vigentes desde 2026-04-01
+  promociones.csv                12  ERP              Campañas del semestre
+  ventas.csv                106 708  POS              Líneas de comprobante 2026-01-01 a 2026-06-30
+
+VERIFICACIÓN DE LA DESCARGA
+  Antes de empezar, confirme que ventas.csv está completo:
+    Linux / macOS      : wc -l ventas.csv          -> debe devolver 106709
+    Windows PowerShell : (Get-Content ventas.csv).Count
+
+  Si el número no coincide, la descarga se truncó. Repítala: todos los cuadres de
+  control del laboratorio dependen de esa cifra.
+
+VALORES DE REFERENCIA
+  Suma de importe_neto en ventas.csv : 3 430 651.54
+  Tickets distintos                  : 32 613
+  Ticket promedio                    : 105.19
+  Margen porcentual global           : 26.76 %
+
+ADVERTENCIA
+  Estos datos son sintéticos y fueron generados para uso docente. No representan
+  información real de ninguna empresa. Los problemas de calidad que contienen
+  (códigos de producto ausentes del catálogo, campos vacíos, cantidades negativas
+  por devoluciones) son intencionales y forman parte del ejercicio.
+
+  No abra ventas.csv en Excel: con más de cien mil filas, Excel reinterpreta los
+  formatos de fecha y puede corromper el archivo al guardarlo. Cárguelo directamente
+  en el motor de base de datos.

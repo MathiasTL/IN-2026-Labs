@@ -1,0 +1,29 @@
+cod_producto,nombre_producto,marca,categoria,subcategoria,unidad_medida,es_marca_propia,precio_lista,costo_unitario,fecha_cambio
+P00087,Pasta MERCANDINA 381,MERCANDINA,Limpieza,Detergentes,UND,1,21.60,16.89,2026-04-01
+P00025,Gaseosa MERCANDINA 618,MERCANDINA,Congelados,Verduras congeladas,PAQ,1,40.35,24.28,2026-04-01
+P00034,Agua Inca Kola 188,Inca Kola,Congelados,Helados,KG,0,18.04,10.62,2026-04-01
+P00022,Jugo Frugos Sur 898,Frugos Sur,Congelados,Verduras congeladas,PAQ,0,28.00,22.12,2026-04-01
+P00012,Bebidas energetica MERCANDINA 439,MERCANDINA,Congelados,Verduras congeladas,LT,1,25.31,20.26,2026-04-01
+P00001,Bebidas energetica MERCANDINA 626,MERCANDINA,Congelados,Comidas listas,UND,1,11.92,8.17,2026-04-01
+P00094,Azucar y sal Costeno Andino 153,Costeno Andino,Limpieza,Lavavajillas,PAQ,0,30.42,20.82,2026-04-01
+P00057,Aceite Primor Sur 380,Primor Sur,Limpieza,Desinfectantes,KG,0,47.00,31.85,2026-04-01
+P00032,Bebidas energetica AquaViva 864,AquaViva,Congelados,Verduras congeladas,KG,0,44.64,33.87,2026-04-01
+P00160,Papas frita Sublime Sur 142,Sublime Sur,Panaderia,Panes,KG,0,21.02,14.61,2026-04-01
+P00155,Frutos seco Sublime Sur 835,Sublime Sur,Panaderia,Pasteleria,PAQ,0,44.36,27.51,2026-04-01
+P00072,Conserva Gloria Valle 702,Gloria Valle,Limpieza,Papel,LT,0,29.48,19.77,2026-04-01
+P00056,Conserva Nicolini Peru 535,Nicolini Peru,Limpieza,Detergentes,PAQ,0,34.53,20.70,2026-04-01
+P00185,Galleta Field Peru 685,Field Peru,Panaderia,Panes,UND,0,41.58,31.29,2026-04-01
+P00029,Agua Inca Kola 113,Inca Kola,Congelados,Comidas listas,PAQ,0,2.95,1.91,2026-04-01
+P00177,Papas frita Sublime Sur 788,Sublime Sur,Panaderia,Tortillas,KG,0,12.13,9.37,2026-04-01
+P00191,Galleta Lays Andino 802,Lays Andino,Panaderia,Pasteleria,LT,0,33.34,23.61,2026-04-01
+P00042,Cerveza MERCANDINA 570,MERCANDINA,Congelados,Verduras congeladas,KG,1,43.86,34.31,2026-04-01
+P00062,Arroz y menestra Primor Sur 972,Primor Sur,Limpieza,Papel,LT,0,20.98,12.26,2026-04-01
+P00187,Papas frita MERCANDINA 346,MERCANDINA,Panaderia,Pasteleria,UND,1,23.18,15.41,2026-04-01
+P00024,Jugo Cusquena Andes 652,Cusquena Andes,Congelados,Verduras congeladas,LT,0,42.95,33.62,2026-04-01
+P00011,Jugo Frugos Sur 904,Frugos Sur,Congelados,Verduras congeladas,UND,0,22.01,14.36,2026-04-01
+P00014,Jugo Vital Plus 264,Vital Plus,Congelados,Comidas listas,UND,0,26.06,17.08,2026-04-01
+P00179,Frutos seco Field Peru 553,Field Peru,Panaderia,Panes,PAQ,0,15.68,11.49,2026-04-01
+P00082,Conserva Nicolini Peru 267,Nicolini Peru,Limpieza,Papel,UND,0,20.22,15.76,2026-04-01
+P00093,Azucar y sal Costeno Andino 443,Costeno Andino,Limpieza,Papel,UND,0,19.48,15.88,2026-04-01
+P00190,Chocolate Sublime Sur 381,Sublime Sur,Panaderia,Tortillas,UND,0,35.92,27.45,2026-04-01
+P00063,Pasta MERCANDINA 789,MERCANDINA,Limpieza,Detergentes,KG,1,16.03,11.95,2026-04-01

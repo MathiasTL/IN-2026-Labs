@@ -1,0 +1,7 @@
+indicador,valor,nivel_decision,es_kpi,accion_si_se_desvia
+Venta neta del mes,"S/ 3,855,828.30",Estrategico,Si. Tiene meta anual y dueno (Gcia. Adm. y Finanzas).,Revision del plan comercial
+Ticket promedio,S/ 312.24,Tactico,"Si. Accionable via pricing, cross-selling y mezcla de surtido.",Rediseno de promociones y bundles
+Tasa de anulacion,3.83 %,Operativo,Si. Umbral definido; dispara revision de causa raiz por local.,Auditoria del proceso de captura de pedidos
+Participacion canal digital,6.58 %,Estrategico,Si. Mide avance de la estrategia de omnicanalidad.,Reasignacion del presupuesto de marketing digital
+Lineas por pedido,2.69,Tactico,"NO. Descriptivo: sin meta, sin dueno y sin accion definida ante desvio.",Ninguna accion definida (no supera la prueba del KPI)
+Venta por local,"S/ 432,784.58 (top: T03)",Tactico,Si. Base de metas por local y de la evaluacion del jefe de tienda.,Plan de recuperacion del local por debajo de meta
