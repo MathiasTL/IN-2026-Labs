@@ -76,9 +76,15 @@ actividad, ver criterios en el PDF).
   Producto/Cliente/Tienda/Vendedor, 96.0% en Tiempo (esperado, no todos los
   días del período tienen venta).
 
+- 2026-09-28: se generó `Lab05_V1_TorresLezamaMathias/GUIA_DASHBOARD_POWERBI.md`
+  como guía autocontenida de la Fase 2 (importar, relaciones, 7 medidas DAX,
+  6 visuales), para que el usuario la ejecute en Power BI Desktop en una
+  laptop Windows (VM Parallels/UTM) sin depender de guía turno a turno.
+
 ## Siguiente paso
-Fase 2 (Power BI): importar las 6 tablas de `datamart_ventas/`, crear las
-5 relaciones, las 7 medidas DAX y los 6 visuales OLAP.
+Fase 2 (Power BI): usuario ejecuta `GUIA_DASHBOARD_POWERBI.md` en la laptop
+Windows. Pendiente confirmar resultado (relaciones, medidas, .pbix guardado)
+y avanzar a Fase 3 (actividad DISTRIBUIDORA ANDINA).
 
 ## Nota sobre mirror
 Engram no disponible esta sesión (MCP desconectado) — mirror pendiente de
