@@ -1,0 +1,11 @@
+id_tienda,codigo,nombre,formato,distrito,provincia,region
+1,T001,Miraflores,Tienda Premium,Lima,Lima,Lima
+2,T002,San Isidro,Tienda Premium,Lima,Lima,Lima
+3,T003,Surco,Tienda Estandar,Lima,Lima,Lima
+4,T004,La Molina,Tienda Estandar,Lima,Lima,Lima
+5,T005,Miraflores,Online,Lima,Lima,Lima
+6,T006,Trujillo,Tienda Estandar,Trujillo,La Libertad,Norte
+7,T007,Arequipa,Tienda Premium,Arequipa,Arequipa,Sur
+8,T008,Cusco,Tienda Estandar,Cusco,Cusco,Sur
+9,T009,Piura,Tienda Estandar,Piura,Piura,Norte
+10,T010,Chiclayo,Tienda Estandar,Chiclayo,Lambayeque,Norte

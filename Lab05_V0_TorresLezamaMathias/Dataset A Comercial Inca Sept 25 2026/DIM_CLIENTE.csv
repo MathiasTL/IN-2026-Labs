@@ -1,0 +1,201 @@
+﻿id_cliente,ruc_dni,nombre,tipo_cliente,segmento,distrito,departamento
+1,24942603,Carlos Ramos Lopez,Persona Natural,Minorista,Arequipa,Arequipa
+2,46913810,Maria Gutierrez Vega,Persona Natural,Mayorista,Cusco,Cusco
+3,28728463,Luis Torres Quispe,Persona Natural,Minorista,La Molina,Lima
+4,83197857,Ana Flores Mendoza,Persona Natural,Minorista,Arequipa,Arequipa
+5,66629388,Jose Huanca Silva,Persona Natural,Minorista,Trujillo,La Libertad
+6,22575562,Rosa Paredes Ccoa,Persona Natural,Mayorista,Miraflores,Lima
+7,77827638,Pedro Vargas Mamani,Persona Natural,Minorista,La Molina,Lima
+8,36687537,Carmen Llanos Cruz,Persona Natural,Gobierno,Pueblo Libre,Lima
+9,70291817,Jorge Condori Apaza,Persona Natural,Corporativo,La Molina,Lima
+10,10872248,Elena Soto Pari,Persona Natural,Mayorista,Piura,Piura
+11,66722344,Roberto Diaz Lazo,Persona Natural,Corporativo,Cusco,Cusco
+12,30868105,Lucia Campos Torres,Persona Natural,Mayorista,Barranco,Lima
+13,55176955,Miguel Romero Cano,Persona Natural,Minorista,Piura,Piura
+14,60992979,Patricia Espinoza Paz,Persona Natural,Minorista,San Isidro,Lima
+15,56164955,Antonio Morales Vera,Persona Natural,Corporativo,Jesus Maria,Lima
+16,15831819,Sandra Huanca Lima,Persona Natural,Gobierno,Piura,Piura
+17,26753883,Ricardo Castillo Roca,Persona Natural,Gobierno,Pueblo Libre,Lima
+18,84093639,Teresa Rios Choque,Persona Natural,Corporativo,San Isidro,Lima
+19,94374605,Fernando Navarro Tapia,Persona Natural,Corporativo,Chiclayo,Lambayeque
+20,35808537,Gloria Vega Cusi,Persona Natural,Minorista,Trujillo,La Libertad
+21,98753260,Empresas Andina SAC,Persona Natural,Mayorista,Miraflores,Lima
+22,48840994,Distribuidora Lima EIRL,Persona Natural,Minorista,Piura,Piura
+23,41244663,Comercial Norte SRL,Persona Natural,Minorista,Chiclayo,Lambayeque
+24,47308985,Inversiones Sur SAC,Persona Natural,Gobierno,San Borja,Lima
+25,58966946,Grupo Emprendedor EIRL,Persona Natural,Mayorista,Arequipa,Arequipa
+26,57683626,Negocios Andinos SAC,Persona Natural,Mayorista,Jesus Maria,Lima
+27,45833156,Ferreteria El Maestro,Persona Natural,Minorista,Arequipa,Arequipa
+28,95225343,Tiendas Populares SRL,Persona Natural,Mayorista,Trujillo,La Libertad
+29,42857966,Mayorista Central SAC,Persona Natural,Mayorista,Pueblo Libre,Lima
+30,60929647,Importaciones Peru EIRL,Persona Natural,Corporativo,Lince,Lima
+31,84752529,Electronica Moderna SAC,Persona Natural,Mayorista,Arequipa,Arequipa
+32,53524491,Moda Lima SRL,Persona Natural,Minorista,Arequipa,Arequipa
+33,14308421,Supermercado Regional,Persona Natural,Corporativo,La Molina,Lima
+34,45935572,Distribuidora Coastal SAC,Persona Natural,Minorista,San Borja,Lima
+35,86125617,Comercio Rapido EIRL,Persona Natural,Corporativo,La Molina,Lima
+36,97971488,Logistica Andina SAC,Persona Natural,Gobierno,La Molina,Lima
+37,96282117,Empresa Familiar Torres,Persona Natural,Gobierno,San Borja,Lima
+38,45551614,Inversiones Vega SRL,Persona Natural,Mayorista,Surco,Lima
+39,85345555,Negocios Rodriguez SAC,Persona Natural,Corporativo,La Molina,Lima
+40,88461803,Comercial Inca EIRL,Persona Natural,Gobierno,Cusco,Cusco
+41,63606628,Carlos Ramos Lopez,Persona Natural,Corporativo,Trujillo,La Libertad
+42,28566572,Maria Gutierrez Vega,Persona Natural,Gobierno,La Molina,Lima
+43,16323852,Luis Torres Quispe,Persona Natural,Minorista,San Isidro,Lima
+44,94214382,Ana Flores Mendoza,Persona Natural,Mayorista,Surco,Lima
+45,66661351,Jose Huanca Silva,Persona Natural,Minorista,Piura,Piura
+46,61220073,Rosa Paredes Ccoa,Persona Natural,Gobierno,San Borja,Lima
+47,43744231,Pedro Vargas Mamani,Persona Natural,Minorista,Pueblo Libre,Lima
+48,25374874,Carmen Llanos Cruz,Persona Natural,Corporativo,Arequipa,Arequipa
+49,96028436,Jorge Condori Apaza,Persona Natural,Corporativo,Piura,Piura
+50,49392920,Elena Soto Pari,Persona Natural,Gobierno,San Isidro,Lima
+51,70897765,Roberto Diaz Lazo,Persona Natural,Minorista,Surco,Lima
+52,45351479,Lucia Campos Torres,Persona Natural,Mayorista,Cusco,Cusco
+53,24282218,Miguel Romero Cano,Persona Natural,Corporativo,Pueblo Libre,Lima
+54,95758349,Patricia Espinoza Paz,Persona Natural,Mayorista,Chiclayo,Lambayeque
+55,60185867,Antonio Morales Vera,Persona Natural,Mayorista,Surco,Lima
+56,81182864,Sandra Huanca Lima,Persona Natural,Minorista,Pueblo Libre,Lima
+57,53507489,Ricardo Castillo Roca,Persona Natural,Gobierno,Trujillo,La Libertad
+58,25014631,Teresa Rios Choque,Persona Natural,Corporativo,Miraflores,Lima
+59,51273847,Fernando Navarro Tapia,Persona Natural,Mayorista,Chiclayo,Lambayeque
+60,42329237,Gloria Vega Cusi,Persona Natural,Minorista,Miraflores,Lima
+61,75228535,Empresas Andina SAC,Persona Natural,Minorista,San Isidro,Lima
+62,81498611,Distribuidora Lima EIRL,Persona Natural,Mayorista,Piura,Piura
+63,98550256,Comercial Norte SRL,Persona Natural,Gobierno,Surco,Lima
+64,32162965,Inversiones Sur SAC,Persona Natural,Corporativo,Pueblo Libre,Lima
+65,91415657,Grupo Emprendedor EIRL,Persona Natural,Gobierno,Pueblo Libre,Lima
+66,82383095,Negocios Andinos SAC,Persona Natural,Mayorista,La Molina,Lima
+67,51837852,Ferreteria El Maestro,Persona Natural,Gobierno,Cusco,Cusco
+68,97225156,Tiendas Populares SRL,Persona Natural,Corporativo,Arequipa,Arequipa
+69,79467853,Mayorista Central SAC,Persona Natural,Gobierno,Lince,Lima
+70,43273328,Importaciones Peru EIRL,Persona Natural,Mayorista,San Isidro,Lima
+71,55377076,Electronica Moderna SAC,Persona Natural,Minorista,San Isidro,Lima
+72,84346088,Moda Lima SRL,Persona Natural,Mayorista,Trujillo,La Libertad
+73,39557077,Supermercado Regional,Persona Natural,Minorista,Trujillo,La Libertad
+74,94705205,Distribuidora Coastal SAC,Persona Natural,Minorista,San Isidro,Lima
+75,19046318,Comercio Rapido EIRL,Persona Natural,Minorista,La Molina,Lima
+76,54349361,Logistica Andina SAC,Persona Natural,Minorista,Chiclayo,Lambayeque
+77,41944441,Empresa Familiar Torres,Persona Natural,Corporativo,Pueblo Libre,Lima
+78,75151231,Inversiones Vega SRL,Persona Natural,Mayorista,Arequipa,Arequipa
+79,27758595,Negocios Rodriguez SAC,Persona Natural,Gobierno,Pueblo Libre,Lima
+80,73481353,Comercial Inca EIRL,Persona Natural,Gobierno,La Molina,Lima
+81,22660194,Carlos Ramos Lopez,Persona Natural,Minorista,La Molina,Lima
+82,67854710,Maria Gutierrez Vega,Persona Natural,Corporativo,Arequipa,Arequipa
+83,65177213,Luis Torres Quispe,Persona Natural,Gobierno,San Borja,Lima
+84,17270733,Ana Flores Mendoza,Persona Natural,Minorista,Chiclayo,Lambayeque
+85,64038913,Jose Huanca Silva,Persona Natural,Corporativo,Miraflores,Lima
+86,24665841,Rosa Paredes Ccoa,Persona Natural,Mayorista,Piura,Piura
+87,35529407,Pedro Vargas Mamani,Persona Natural,Gobierno,La Molina,Lima
+88,66623995,Carmen Llanos Cruz,Persona Natural,Mayorista,Surco,Lima
+89,72092888,Jorge Condori Apaza,Persona Natural,Mayorista,Barranco,Lima
+90,20117988,Elena Soto Pari,Persona Natural,Gobierno,Chiclayo,Lambayeque
+91,83863413,Roberto Diaz Lazo,Persona Natural,Minorista,Piura,Piura
+92,97529405,Lucia Campos Torres,Persona Natural,Minorista,Miraflores,Lima
+93,41726318,Miguel Romero Cano,Persona Natural,Mayorista,San Isidro,Lima
+94,75181648,Patricia Espinoza Paz,Persona Natural,Gobierno,San Borja,Lima
+95,63826716,Antonio Morales Vera,Persona Natural,Minorista,La Molina,Lima
+96,60864911,Sandra Huanca Lima,Persona Natural,Minorista,Surco,Lima
+97,45594951,Ricardo Castillo Roca,Persona Natural,Gobierno,San Borja,Lima
+98,66775103,Teresa Rios Choque,Persona Natural,Gobierno,Barranco,Lima
+99,35487660,Fernando Navarro Tapia,Persona Natural,Corporativo,Surco,Lima
+100,17849494,Gloria Vega Cusi,Persona Natural,Minorista,La Molina,Lima
+101,17672593,Empresa Cantón EIRL,Empresa,Minorista,Cusco,Cusco
+102,77491435,Empresa Amaya EIRL,Empresa,Mayorista,Trujillo,La Libertad
+103,20752378,Empresa Llopis SRL,Empresa,Mayorista,Miraflores,Lima
+104,19121552,Empresa Hierro SRL,Empresa,Mayorista,San Isidro,Lima
+105,86460539,Empresa Godoy SAC,Empresa,Mayorista,San Borja,Lima
+106,15334035,Empresa Chaparro SRL,Empresa,Minorista,Trujillo,La Libertad
+107,88339168,Empresa Calatayud SRL,Empresa,Corporativo,San Borja,Lima
+108,99889098,Empresa Bonet SAC,Empresa,Corporativo,Barranco,Lima
+109,63121477,Empresa Roca EIRL,Empresa,Mayorista,La Molina,Lima
+110,50264926,Empresa Antón SRL,Empresa,Gobierno,Arequipa,Arequipa
+111,11250299,Empresa Andrés SAC,Empresa,Gobierno,Jesus Maria,Lima
+112,23419256,Empresa Bueno SRL,Empresa,Minorista,Trujillo,La Libertad
+113,77898694,Empresa Gil SAC,Empresa,Corporativo,Pueblo Libre,Lima
+114,19233013,Empresa Guerrero EIRL,Empresa,Mayorista,Surco,Lima
+115,31172421,Empresa Vazquez EIRL,Empresa,Gobierno,Jesus Maria,Lima
+116,50603163,Empresa Amor SRL,Empresa,Minorista,Chiclayo,Lambayeque
+117,50181935,Empresa Flor SRL,Empresa,Minorista,Arequipa,Arequipa
+118,25492573,Empresa Rivas EIRL,Empresa,Minorista,Surco,Lima
+119,30863865,Empresa Giménez SRL,Empresa,Corporativo,Cusco,Cusco
+120,38270233,Empresa Sanchez SRL,Empresa,Corporativo,Barranco,Lima
+121,95125977,Empresa Lobo SRL,Empresa,Corporativo,La Molina,Lima
+122,43704923,Empresa Agudo EIRL,Empresa,Minorista,Pueblo Libre,Lima
+123,66851377,Empresa Cuervo SRL,Empresa,Corporativo,San Isidro,Lima
+124,54769200,Empresa Rocamora SAC,Empresa,Mayorista,Miraflores,Lima
+125,31687165,Empresa Nieto EIRL,Empresa,Gobierno,Arequipa,Arequipa
+126,67403166,Empresa Lobo SRL,Empresa,Minorista,Pueblo Libre,Lima
+127,30005727,Empresa Cortés SAC,Empresa,Minorista,San Isidro,Lima
+128,88183110,Empresa Garrido EIRL,Empresa,Mayorista,Chiclayo,Lambayeque
+129,15614174,Empresa Navarro SAC,Empresa,Corporativo,San Borja,Lima
+130,58024342,Empresa Calatayud SAC,Empresa,Mayorista,Jesus Maria,Lima
+131,99514287,Empresa Bru SAC,Empresa,Minorista,Arequipa,Arequipa
+132,64543049,Empresa Pinto SRL,Empresa,Mayorista,Jesus Maria,Lima
+133,33763566,Empresa Caballero SAC,Empresa,Gobierno,La Molina,Lima
+134,54585178,Empresa Palomar SAC,Empresa,Gobierno,Miraflores,Lima
+135,43308443,Empresa Núñez SRL,Empresa,Corporativo,Piura,Piura
+136,24508349,Empresa Lamas SRL,Empresa,Gobierno,Surco,Lima
+137,73174945,Empresa Aroca SAC,Empresa,Mayorista,Chiclayo,Lambayeque
+138,56930359,Empresa Segovia EIRL,Empresa,Corporativo,La Molina,Lima
+139,39920292,Empresa Casanovas SAC,Empresa,Minorista,Chiclayo,Lambayeque
+140,63481198,Empresa Pinedo SAC,Empresa,Corporativo,Arequipa,Arequipa
+141,47463522,Empresa Bermúdez SAC,Empresa,Corporativo,Barranco,Lima
+142,63643924,Empresa Marcos SRL,Empresa,Corporativo,Arequipa,Arequipa
+143,45059710,Empresa Pardo SAC,Empresa,Mayorista,Miraflores,Lima
+144,15134794,Empresa Fernandez EIRL,Empresa,Minorista,Trujillo,La Libertad
+145,56397338,Empresa Baños EIRL,Empresa,Corporativo,Trujillo,La Libertad
+146,78642041,Empresa Arroyo SRL,Empresa,Minorista,San Borja,Lima
+147,35511941,Empresa Goñi SRL,Empresa,Corporativo,San Borja,Lima
+148,68526649,Empresa Mancebo SRL,Empresa,Minorista,Miraflores,Lima
+149,36445607,Empresa Bernal SRL,Empresa,Corporativo,Pueblo Libre,Lima
+150,99152472,Empresa Guerrero SAC,Empresa,Corporativo,San Borja,Lima
+151,99038359,Empresa Cabrero EIRL,Empresa,Minorista,Trujillo,La Libertad
+152,78064830,Empresa Pinto EIRL,Empresa,Corporativo,Cusco,Cusco
+153,53779528,Empresa Lobo EIRL,Empresa,Gobierno,Arequipa,Arequipa
+154,84411983,Empresa Santana EIRL,Empresa,Mayorista,Cusco,Cusco
+155,99245317,Empresa Patiño EIRL,Empresa,Gobierno,La Molina,Lima
+156,33357554,Empresa Cánovas SRL,Empresa,Corporativo,Arequipa,Arequipa
+157,10054484,Empresa Pellicer SRL,Empresa,Corporativo,San Borja,Lima
+158,67698610,Empresa Padilla SAC,Empresa,Corporativo,Barranco,Lima
+159,69345683,Empresa Gallego EIRL,Empresa,Mayorista,Lince,Lima
+160,32775593,Empresa Lasa EIRL,Empresa,Minorista,Pueblo Libre,Lima
+161,99100953,Empresa Bellido SRL,Empresa,Corporativo,Barranco,Lima
+162,51663795,Empresa Donoso SAC,Empresa,Mayorista,San Isidro,Lima
+163,29777514,Empresa Hierro SAC,Empresa,Minorista,Piura,Piura
+164,73771720,Empresa Cárdenas SAC,Empresa,Minorista,Miraflores,Lima
+165,94525678,Empresa Sevilla EIRL,Empresa,Mayorista,Lince,Lima
+166,61536717,Empresa Pino SRL,Empresa,Gobierno,Cusco,Cusco
+167,29806690,Empresa Lerma SAC,Empresa,Minorista,San Borja,Lima
+168,67062156,Empresa Gimenez SAC,Empresa,Mayorista,Piura,Piura
+169,79519112,Empresa Morata SRL,Empresa,Gobierno,Surco,Lima
+170,43446826,Empresa Barba SRL,Empresa,Minorista,Miraflores,Lima
+171,72363359,Empresa Grande SAC,Empresa,Corporativo,Lince,Lima
+172,92228802,Empresa Antón EIRL,Empresa,Gobierno,Piura,Piura
+173,69849511,Empresa Moles SRL,Empresa,Mayorista,Chiclayo,Lambayeque
+174,70407340,Empresa Quero EIRL,Empresa,Corporativo,Cusco,Cusco
+175,95585469,Empresa Leal SAC,Empresa,Corporativo,Piura,Piura
+176,75041510,Empresa Batalla SRL,Empresa,Mayorista,Piura,Piura
+177,20399639,Empresa Galván EIRL,Empresa,Corporativo,Barranco,Lima
+178,55076693,Empresa Miranda EIRL,Empresa,Corporativo,La Molina,Lima
+179,28572252,Empresa Garcia SAC,Empresa,Mayorista,Pueblo Libre,Lima
+180,30509175,Empresa Valera EIRL,Empresa,Mayorista,La Molina,Lima
+181,64707061,Empresa Priego EIRL,Empresa,Corporativo,San Isidro,Lima
+182,65804273,Empresa Segarra EIRL,Empresa,Minorista,Pueblo Libre,Lima
+183,62274692,Empresa Clavero EIRL,Empresa,Minorista,La Molina,Lima
+184,61053877,Empresa Landa SRL,Empresa,Gobierno,Chiclayo,Lambayeque
+185,50079111,Empresa Chaparro EIRL,Empresa,Gobierno,Miraflores,Lima
+186,82238741,Empresa Huerta EIRL,Empresa,Mayorista,Chiclayo,Lambayeque
+187,46632757,Empresa Jódar SAC,Empresa,Gobierno,Lince,Lima
+188,62191530,Empresa Romero SAC,Empresa,Corporativo,Lince,Lima
+189,64266464,Empresa Pujol SRL,Empresa,Mayorista,Arequipa,Arequipa
+190,27129912,Empresa Paredes EIRL,Empresa,Minorista,Chiclayo,Lambayeque
+191,85751409,Empresa Gimenez SRL,Empresa,Minorista,San Borja,Lima
+192,67527432,Empresa Chacón SRL,Empresa,Mayorista,San Isidro,Lima
+193,34391257,Empresa Vergara EIRL,Empresa,Minorista,Chiclayo,Lambayeque
+194,53936531,Empresa Uriarte EIRL,Empresa,Mayorista,Barranco,Lima
+195,55298556,Empresa Bou EIRL,Empresa,Gobierno,Lince,Lima
+196,43859311,Empresa Arévalo EIRL,Empresa,Minorista,Barranco,Lima
+197,82399599,Empresa Canals SAC,Empresa,Minorista,Lince,Lima
+198,97260863,Empresa Coronado SAC,Empresa,Minorista,Jesus Maria,Lima
+199,15403355,Empresa Cuesta SRL,Empresa,Minorista,Piura,Piura
+200,12735359,Empresa Roca SAC,Empresa,Mayorista,La Molina,Lima

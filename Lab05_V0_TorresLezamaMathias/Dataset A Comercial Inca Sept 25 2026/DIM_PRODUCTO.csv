@@ -1,0 +1,61 @@
+﻿id_producto,codigo,nombre,subcategoria,categoria,marca,unidad_medida,precio_lista
+1,PROD-0001,Galaxy A54 5G,Smartphones,Electronica,Samsung,UND,1249.0
+2,PROD-0002,Redmi Note 12,Smartphones,Electronica,Xiaomi,UND,849.0
+3,PROD-0003,Moto G84 Pro,Smartphones,Electronica,Motorola,UND,749.0
+4,PROD-0004,iPhone SE 3G,Smartphones,Electronica,Apple,UND,2199.0
+5,PROD-0005,POCO X5 Pro,Smartphones,Electronica,Xiaomi,UND,999.0
+6,PROD-0006,Laptop HP Victus 15,Laptops,Electronica,HP,UND,3499.0
+7,PROD-0007,Laptop Lenovo IdeaPad,Laptops,Electronica,Lenovo,UND,2899.0
+8,PROD-0008,Laptop Asus VivoBook,Laptops,Electronica,Asus,UND,2599.0
+9,PROD-0009,Laptop Acer Aspire 5,Laptops,Electronica,Acer,UND,2299.0
+10,PROD-0010,Laptop MSI Modern 14,Laptops,Electronica,MSI,UND,3199.0
+11,PROD-0011,Teclado Inalambrico K380,Accesorios TI,Electronica,Logitech,UND,149.0
+12,PROD-0012,Mouse Gamer G502 Hero,Accesorios TI,Electronica,Logitech,UND,189.0
+13,PROD-0013,Hub USB-C 7 Puertos,Accesorios TI,Electronica,Anker,UND,99.0
+14,PROD-0014,Webcam HD 1080p,Accesorios TI,Electronica,Logitech,UND,219.0
+15,PROD-0015,Auriculares BT JBL T520,Accesorios TI,Electronica,JBL,UND,169.0
+16,PROD-0016,Bocina Portatil Flip 6,Audio,Electronica,JBL,UND,329.0
+17,PROD-0017,Soundbar 2.1 HW-B450,Audio,Electronica,Samsung,UND,549.0
+18,PROD-0018,Audifonos Sony WH-1000,Audio,Electronica,Sony,UND,749.0
+19,PROD-0019,Parlante Bose SoundLink,Audio,Electronica,Bose,UND,889.0
+20,PROD-0020,TV Stick 4K Amazon,Audio,Electronica,Amazon,UND,249.0
+21,PROD-0021,Silla Ergonomica Lumbar,Muebles,Hogar,IKEA,UND,649.0
+22,PROD-0022,Escritorio L 160cm,Muebles,Hogar,IKEA,UND,899.0
+23,PROD-0023,Estante 5 Niveles Acero,Muebles,Hogar,Sodimac,UND,349.0
+24,PROD-0024,Mesa Centro Madera,Muebles,Hogar,IKEA,UND,449.0
+25,PROD-0025,Sofa 3 Plazas Tela,Muebles,Hogar,Saga,UND,1849.0
+26,PROD-0026,Cuadro Decorativo 60x40,Decoracion,Hogar,Promart,UND,89.0
+27,PROD-0027,Lampara LED Pie 150cm,Decoracion,Hogar,Philips,UND,179.0
+28,PROD-0028,Alfombra Sala 200x300,Decoracion,Hogar,Sodimac,UND,259.0
+29,PROD-0029,Cojin Premium 50x50,Decoracion,Hogar,IKEA,UND,49.0
+30,PROD-0030,Espejo Redondo 80cm,Decoracion,Hogar,Promart,UND,129.0
+31,PROD-0031,Licuadora Oster 2L,Electrodomesticos,Hogar,Oster,UND,299.0
+32,PROD-0032,Microondas Mabe 20L,Electrodomesticos,Hogar,Mabe,UND,449.0
+33,PROD-0033,Lavadora LG 8kg,Electrodomesticos,Hogar,LG,UND,1649.0
+34,PROD-0034,Refrigeradora Samsung 250L,Electrodomesticos,Hogar,Samsung,UND,2299.0
+35,PROD-0035,Aspiradora Electrolux,Electrodomesticos,Hogar,Electrolux,UND,399.0
+36,PROD-0036,Camisa Oxford Slim Fit,Hombre,Ropa,HM,UND,89.0
+37,PROD-0037,Pantalon Cargo Ripstop,Hombre,Ropa,Adidas,UND,149.0
+38,PROD-0038,Polo Clasico Algodon,Hombre,Ropa,Nike,UND,69.0
+39,PROD-0039,Chompa Merino Lana,Hombre,Ropa,HM,UND,129.0
+40,PROD-0040,Casaca Bomber Ligera,Hombre,Ropa,Adidas,UND,199.0
+41,PROD-0041,Blusa Estampada Crepe,Mujer,Ropa,Zara,UND,99.0
+42,PROD-0042,Vestido Casual Midi,Mujer,Ropa,HM,UND,129.0
+43,PROD-0043,Jean Skinny Tiro Alto,Mujer,Ropa,Levis,UND,179.0
+44,PROD-0044,Cardigan Algodon Suave,Mujer,Ropa,Zara,UND,119.0
+45,PROD-0045,Top Ribbed Elastico,Mujer,Ropa,HM,UND,59.0
+46,PROD-0046,Zapatilla Running Air,Calzado,Ropa,Nike,UND,299.0
+47,PROD-0047,Bota Cuero Casual,Calzado,Ropa,Timberland,UND,389.0
+48,PROD-0048,Sandalia Plataforma,Calzado,Ropa,Adidas,UND,149.0
+49,PROD-0049,Oxford Clasico Cuero,Calzado,Ropa,Clarks,UND,269.0
+50,PROD-0050,Chancla Premium Sport,Calzado,Ropa,Nike,UND,89.0
+51,PROD-0051,Arroz Extra Superior 5kg,Abarrotes,Alimentacion,Costeno,BLS,22.9
+52,PROD-0052,Aceite Vegetal Primor 1L,Abarrotes,Alimentacion,Alicorp,UND,10.5
+53,PROD-0053,Azucar Rubia Cartavio 1kg,Abarrotes,Alimentacion,Cartavio,UND,4.9
+54,PROD-0054,Fideo Spaghetti Don Vittorio,Abarrotes,Alimentacion,Alicorp,PAQ,5.2
+55,PROD-0055,Sal Marina Emsal 1kg,Abarrotes,Alimentacion,Emsal,UND,2.1
+56,PROD-0056,Leche Gloria Entera 1L,Abarrotes,Alimentacion,Gloria,UND,5.8
+57,PROD-0057,Agua San Mateo 1.5L,Bebidas,Alimentacion,Nestle,UND,2.5
+58,PROD-0058,Gaseosa Inca Kola 1.5L,Bebidas,Alimentacion,Lindley,UND,5.9
+59,PROD-0059,Jugo Pulp Naranja 1L,Bebidas,Alimentacion,Gloria,UND,7.2
+60,PROD-0060,Cafe Altomayo Molido 250g,Bebidas,Alimentacion,Altomayo,UND,18.9

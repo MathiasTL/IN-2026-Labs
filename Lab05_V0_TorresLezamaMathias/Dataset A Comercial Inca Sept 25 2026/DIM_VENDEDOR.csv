@@ -1,0 +1,31 @@
+﻿id_vendedor,codigo,nombre,puesto,id_tienda_asig
+1,VEN-001,Carlos Mendoza,Asesor de Ventas,1
+2,VEN-002,Ana Torres,Asesor de Ventas,2
+3,VEN-003,Roberto Quispe,Vendedor Senior,3
+4,VEN-004,Maria Flores,Jefe de Tienda,4
+5,VEN-005,Juan Condori,Asesor de Ventas,5
+6,VEN-006,Rosa Huanca,Jefe de Tienda,6
+7,VEN-007,Pedro Ccoa,Asesor de Ventas,7
+8,VEN-008,Carmen Tapia,Vendedor Senior,8
+9,VEN-009,Jorge Mamani,Jefe de Tienda,9
+10,VEN-010,Elena Cruz,Vendedor Senior,10
+11,VEN-011,Luis Paredes,Vendedor Senior,1
+12,VEN-012,Sandra Lazo,Asesor de Ventas,2
+13,VEN-013,Miguel Espinoza,Jefe de Tienda,3
+14,VEN-014,Patricia Roca,Jefe de Tienda,4
+15,VEN-015,Antonio Cusi,Jefe de Tienda,5
+16,VEN-016,Gloria Lima,Jefe de Tienda,6
+17,VEN-017,Ricardo Choque,Asesor de Ventas,7
+18,VEN-018,Teresa Vega,Asesor de Ventas,8
+19,VEN-019,Fernando Paz,Vendedor Senior,9
+20,VEN-020,Carmen Soto,Asesor de Ventas,10
+21,VEN-021,Jose Romero,Jefe de Tienda,1
+22,VEN-022,Lucia Vargas,Asesor de Ventas,2
+23,VEN-023,Roberto Campos,Vendedor Senior,3
+24,VEN-024,Diana Castillo,Jefe de Tienda,4
+25,VEN-025,Marcos Navarro,Jefe de Tienda,5
+26,VEN-026,Sofia Diaz,Vendedor Senior,6
+27,VEN-027,Andres Rios,Vendedor Senior,7
+28,VEN-028,Valeria Ramos,Jefe de Tienda,8
+29,VEN-029,Hector Gutierrez,Asesor de Ventas,9
+30,VEN-030,Adriana Lopez,Asesor de Ventas,10

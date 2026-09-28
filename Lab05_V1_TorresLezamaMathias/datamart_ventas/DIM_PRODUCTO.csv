@@ -1,0 +1,85 @@
+id_producto,codigo,nombre,subcategoria,categoria,marca,unidad_medida,precio_lista
+1,PROD-0001,Sharable bifurcated algorithm,Smartphones,Electronica,Lenovo,KG,77.15
+2,PROD-0002,User-centric even-keeled encryption,Smartphones,Electronica,Gloria,UND,569.68
+3,PROD-0003,Face-to-face client-driven support,Smartphones,Electronica,Mabe,UND,1696.6
+4,PROD-0004,Customer-focused systematic support,Smartphones,Electronica,Samsung,UND,1482.37
+5,PROD-0005,Quality-focused background parallelism,Smartphones,Electronica,HP,CJA,247.83
+6,PROD-0006,Optimized 5thgeneration algorithm,Laptops,Electronica,HP,CJA,80.94
+7,PROD-0007,Cross-group didactic emulation,Laptops,Electronica,IKEA,CJA,1057.51
+8,PROD-0008,Profit-focused real-time algorithm,Laptops,Electronica,BIC,UND,706.3
+9,PROD-0009,Realigned dedicated structure,Laptops,Electronica,Sony,PAQ,1900.64
+10,PROD-0010,Streamlined tangible moratorium,Laptops,Electronica,Sony,KG,860.52
+11,PROD-0011,Operative directional knowledge user,Laptops,Electronica,Asus,UND,2393.67
+12,PROD-0012,Reverse-engineered even-keeled workforce,Laptops,Electronica,LG,LT,245.47
+13,PROD-0013,Adaptive well-modulated workforce,Laptops,Electronica,Adidas,LT,2121.02
+14,PROD-0014,Diverse tangible interface,Laptops,Electronica,Gloria,PAQ,2020.71
+15,PROD-0015,Mandatory even-keeled collaboration,Accesorios TI,Electronica,Bose,UND,325.19
+16,PROD-0016,Extended well-modulated Graphical User I,Accesorios TI,Electronica,BIC,CJA,1386.82
+17,PROD-0017,Customer-focused background implementati,Accesorios TI,Electronica,Asus,CJA,2215.35
+18,PROD-0018,Cross-platform heuristic hardware,Accesorios TI,Electronica,LG,UND,492.84
+19,PROD-0019,Robust empowering workforce,Accesorios TI,Electronica,Alicorp,LT,1658.24
+20,PROD-0020,Balanced upward-trending knowledgebase,Accesorios TI,Electronica,BIC,KG,2463.28
+21,PROD-0021,Public-key bottom-line implementation,Accesorios TI,Electronica,Bose,LT,2168.21
+22,PROD-0022,Configurable neutral frame,Accesorios TI,Electronica,BIC,LT,1141.72
+23,PROD-0023,Self-enabling regional hierarchy,Accesorios TI,Electronica,Asus,KG,419.2
+24,PROD-0024,Re-engineered content-based strategy,Audio,Electronica,Nike,UND,1759.02
+25,PROD-0025,Cloned 6thgeneration protocol,Audio,Electronica,Sony,CJA,1528.69
+26,PROD-0026,Focused zero administration frame,Audio,Electronica,Sony,PAQ,1826.88
+27,PROD-0027,Configurable discrete attitude,Audio,Electronica,Nike,CJA,957.95
+28,PROD-0028,Multi-tiered even-keeled knowledgebase,Audio,Electronica,Asus,UND,560.74
+29,PROD-0029,Sharable high-level complexity,Audio,Electronica,Samsung,LT,584.18
+30,PROD-0030,Multi-layered heuristic database,Audio,Electronica,LG,KG,1011.89
+31,PROD-0031,Synchronized encompassing standardizatio,Muebles,Hogar,Asus,KG,2192.77
+32,PROD-0032,Synergized secondary archive,Muebles,Hogar,Bose,PAQ,1643.77
+33,PROD-0033,Robust scalable concept,Muebles,Hogar,Sony,KG,370.04
+34,PROD-0034,Public-key upward-trending encryption,Muebles,Hogar,Mabe,LT,1866.3
+35,PROD-0035,Diverse maximized implementation,Muebles,Hogar,Bose,CJA,1871.33
+36,PROD-0036,Future-proofed scalable solution,Muebles,Hogar,HP,KG,1007.51
+37,PROD-0037,Realigned directional software,Muebles,Hogar,LG,UND,1281.17
+38,PROD-0038,Inverse zero administration time-frame,Muebles,Hogar,Sony,KG,2154.84
+39,PROD-0039,Centralized discrete alliance,Muebles,Hogar,Bose,CJA,1983.32
+40,PROD-0040,Intuitive impactful flexibility,Decoracion,Hogar,Adidas,PAQ,971.15
+41,PROD-0041,Cloned didactic open system,Decoracion,Hogar,Mabe,UND,1329.85
+42,PROD-0042,Universal foreground data-warehouse,Decoracion,Hogar,LG,CJA,1705.5
+43,PROD-0043,Streamlined modular infrastructure,Decoracion,Hogar,Alicorp,LT,1880.93
+44,PROD-0044,Stand-alone logistical circuit,Decoracion,Hogar,Bose,KG,292.21
+45,PROD-0045,Fundamental client-driven encryption,Electrodomesticos,Hogar,Gloria,LT,23.06
+46,PROD-0046,User-friendly next generation monitoring,Electrodomesticos,Hogar,Alicorp,KG,2430.14
+47,PROD-0047,Fundamental value-added paradigm,Electrodomesticos,Hogar,LG,LT,1276.59
+48,PROD-0048,Optimized optimal initiative,Electrodomesticos,Hogar,Mabe,CJA,2106.55
+49,PROD-0049,Multi-lateral directional challenge,Electrodomesticos,Hogar,Asus,KG,509.29
+50,PROD-0050,Profound modular array,Electrodomesticos,Hogar,Alicorp,CJA,1355.36
+51,PROD-0051,Versatile actuating budgetary management,Electrodomesticos,Hogar,Adidas,LT,2297.46
+52,PROD-0052,Distributed responsive complexity,Electrodomesticos,Hogar,LG,LT,1229.19
+53,PROD-0053,Synergized interactive policy,Hombre,Ropa,HP,CJA,610.04
+54,PROD-0054,Cloned human-resource implementation,Hombre,Ropa,LG,PAQ,2368.17
+55,PROD-0055,Right-sized maximized moderator,Hombre,Ropa,Alicorp,CJA,2042.82
+56,PROD-0056,Function-based neutral access,Hombre,Ropa,Sony,PAQ,1918.1
+57,PROD-0057,Synergized uniform budgetary management,Hombre,Ropa,Sony,LT,2367.92
+58,PROD-0058,Synergized national system engine,Hombre,Ropa,Adidas,PAQ,1326.27
+59,PROD-0059,Future-proofed zero administration proje,Hombre,Ropa,Mabe,KG,2411.44
+60,PROD-0060,Mandatory bifurcated frame,Mujer,Ropa,Nike,LT,1006.5
+61,PROD-0061,Optional cohesive knowledgebase,Mujer,Ropa,Mabe,PAQ,1103.68
+62,PROD-0062,Adaptive uniform success,Mujer,Ropa,HP,UND,315.7
+63,PROD-0063,Fundamental motivating task-force,Mujer,Ropa,Adidas,CJA,855.14
+64,PROD-0064,Enhanced motivating benchmark,Mujer,Ropa,HP,UND,586.84
+65,PROD-0065,Self-enabling exuding productivity,Mujer,Ropa,Nike,UND,191.42
+66,PROD-0066,Profit-focused real-time customer loyalt,Mujer,Ropa,Samsung,LT,583.92
+67,PROD-0067,Distributed holistic task-force,Calzado,Ropa,Lenovo,PAQ,1292.68
+68,PROD-0068,Diverse needs-based time-frame,Calzado,Ropa,Sony,CJA,547.38
+69,PROD-0069,Progressive 24hour policy,Calzado,Ropa,HP,PAQ,1446.89
+70,PROD-0070,Inverse mobile adapter,Calzado,Ropa,HP,UND,2021.63
+71,PROD-0071,Customizable high-level workforce,Calzado,Ropa,Bose,LT,255.87
+72,PROD-0072,Integrated disintermediate approach,Abarrotes,Alimentacion,BIC,UND,1036.59
+73,PROD-0073,Front-line non-volatile artificial intel,Abarrotes,Alimentacion,Nike,UND,1688.31
+74,PROD-0074,Configurable upward-trending matrix,Abarrotes,Alimentacion,Gloria,LT,165.62
+75,PROD-0075,Cloned well-modulated monitoring,Abarrotes,Alimentacion,LG,KG,2004.47
+76,PROD-0076,Visionary clear-thinking capacity,Abarrotes,Alimentacion,Mabe,PAQ,491.1
+77,PROD-0077,Switchable methodical neural-net,Abarrotes,Alimentacion,Sony,LT,363.35
+78,PROD-0078,Down-sized empowering moderator,Abarrotes,Alimentacion,BIC,UND,1164.63
+79,PROD-0079,Robust interactive data-warehouse,Abarrotes,Alimentacion,BIC,CJA,1116.18
+80,PROD-0080,Quality-focused web-enabled superstructu,Bebidas,Alimentacion,Mabe,UND,140.71
+81,PROD-0081,Team-oriented dedicated structure,Bebidas,Alimentacion,Alicorp,KG,2422.96
+82,PROD-0082,Integrated impactful secured line,Bebidas,Alimentacion,IKEA,PAQ,428.28
+83,PROD-0083,Streamlined holistic intranet,Bebidas,Alimentacion,Bose,UND,546.16
+84,PROD-0084,Programmable local capability,Bebidas,Alimentacion,Samsung,PAQ,424.12

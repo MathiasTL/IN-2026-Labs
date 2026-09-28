@@ -1,0 +1,101 @@
+﻿id_cliente,ruc,razon_social,tipo,segmento,ciudad,departamento
+1,1767950141,Ferreteria El Maestro SAC,SRL,Ferreteria Pequena,Ferrenafe,Lambayeque
+2,7974681812,Construcciones Andinas SAC,Persona Natural,Ferreteria Mediana,Chepen,La Libertad
+3,1913070797,Ferreteria Central EIRL,SRL,Constructora,Chepen,La Libertad
+4,4326338643,Distribuidora Norte EIRL,SAC,Contratista,Ate,Lima
+5,3396385334,Materiales Sur EIRL,SRL,Constructora,Callao,Lima
+6,4866511089,Ferreteria Moderna SRL,Persona Natural,Ferreteria Pequena,Cusco,Cusco
+7,8695890372,Construye Bien SRL,SRL,Ferreteria Mediana,Trujillo,La Libertad
+8,1100089274,Materiales Rapidos EIRL,Persona Natural,Ferreteria Pequena,Lima,Lima
+9,5908767767,La Ferreteria SRL,EIRL,Contratista,Chiclayo,Lambayeque
+10,7542962116,Construccion Total SAC,EIRL,Ferreteria Mediana,Trujillo,La Libertad
+11,7637747072,Ferreteria Popular SAC,SAC,Contratista,Ferrenafe,Lambayeque
+12,9337491057,Materiales Andinos SAC,EIRL,Ferreteria Pequena,Lima,Lima
+13,6057948946,Construye Ya SAC,SRL,Constructora,Mollendo,Arequipa
+14,8929048314,Ferreteria Lima SAC,SAC,Ferreteria Mediana,Chiclayo,Lambayeque
+15,7447745976,Materiales Express SAC,EIRL,Constructora,Piura,Piura
+16,7009092341,Gran Ferreteria EIRL,Persona Natural,Contratista,Mollendo,Arequipa
+17,8976361790,Construccion Segura EIRL,SRL,Constructora,Trujillo,La Libertad
+18,2334259143,Materiales Cusco SRL,SAC,Ferreteria Mediana,Piura,Piura
+19,6942321651,Ferreteria Piura EIRL,EIRL,Contratista,Piura,Piura
+20,9889193481,Distribuidora Andina EIRL,SAC,Contratista,Ferrenafe,Lambayeque
+21,6398068477,Ferreteria El Maestro EIRL,Persona Natural,Ferreteria Mediana,Cusco,Cusco
+22,2890015443,Construcciones Andinas EIRL,SAC,Ferreteria Mediana,Chepen,La Libertad
+23,8159973813,Ferreteria Central SRL,SAC,Ferreteria Mediana,Trujillo,La Libertad
+24,4033363847,Distribuidora Norte EIRL,SAC,Contratista,Piura,Piura
+25,1869721873,Materiales Sur SRL,SAC,Ferreteria Mediana,Lima,Lima
+26,5007597907,Ferreteria Moderna EIRL,Persona Natural,Contratista,Sicuani,Cusco
+27,2320707097,Construye Bien SRL,EIRL,Ferreteria Pequena,Sicuani,Cusco
+28,2267756385,Materiales Rapidos SAC,Persona Natural,Contratista,Ferrenafe,Lambayeque
+29,7274183991,La Ferreteria SAC,SRL,Contratista,Mollendo,Arequipa
+30,6063053751,Construccion Total EIRL,SRL,Constructora,Sullana,Piura
+31,9581941573,Ferreteria Popular SRL,Persona Natural,Ferreteria Mediana,Ferrenafe,Lambayeque
+32,1066198243,Materiales Andinos EIRL,Persona Natural,Ferreteria Pequena,Ate,Lima
+33,7584236566,Construye Ya SRL,EIRL,Constructora,Trujillo,La Libertad
+34,1712896841,Ferreteria Lima SRL,EIRL,Contratista,Ferrenafe,Lambayeque
+35,8539896548,Materiales Express SAC,Persona Natural,Ferreteria Pequena,Lima,Lima
+36,1809505281,Gran Ferreteria EIRL,SRL,Constructora,Sullana,Piura
+37,9893354251,Construccion Segura SAC,SRL,Constructora,Chepen,La Libertad
+38,1588209818,Materiales Cusco SRL,EIRL,Ferreteria Pequena,Piura,Piura
+39,6010353628,Ferreteria Piura SRL,SRL,Ferreteria Mediana,Sicuani,Cusco
+40,9130736108,Distribuidora Andina SRL,Persona Natural,Ferreteria Mediana,Trujillo,La Libertad
+41,4173335835,Ferreteria El Maestro SAC,Persona Natural,Ferreteria Pequena,Trujillo,La Libertad
+42,4407114526,Construcciones Andinas SAC,Persona Natural,Ferreteria Pequena,Mollendo,Arequipa
+43,8619465652,Ferreteria Central EIRL,SAC,Constructora,Arequipa,Arequipa
+44,7804705685,Distribuidora Norte SAC,SAC,Ferreteria Mediana,Cusco,Cusco
+45,9078644459,Materiales Sur SRL,SAC,Constructora,Arequipa,Arequipa
+46,1310529288,Ferreteria Moderna EIRL,SRL,Constructora,Callao,Lima
+47,5160717643,Construye Bien EIRL,SAC,Ferreteria Mediana,Chepen,La Libertad
+48,7010995460,Materiales Rapidos SRL,SRL,Ferreteria Mediana,Cusco,Cusco
+49,5259065050,La Ferreteria SAC,SRL,Constructora,Sicuani,Cusco
+50,2867071194,Construccion Total SRL,EIRL,Ferreteria Mediana,Arequipa,Arequipa
+51,7997620351,Ferreteria Popular SAC,SAC,Ferreteria Mediana,Arequipa,Arequipa
+52,1639291195,Materiales Andinos SRL,EIRL,Contratista,Sicuani,Cusco
+53,6297053627,Construye Ya EIRL,SRL,Contratista,Chiclayo,Lambayeque
+54,1686673933,Ferreteria Lima SRL,Persona Natural,Ferreteria Mediana,Cusco,Cusco
+55,4438746906,Materiales Express SAC,Persona Natural,Ferreteria Mediana,Piura,Piura
+56,1331780818,Gran Ferreteria SAC,SRL,Contratista,Mollendo,Arequipa
+57,6332725249,Construccion Segura EIRL,SAC,Contratista,Chiclayo,Lambayeque
+58,5459206769,Materiales Cusco SAC,SAC,Ferreteria Mediana,Arequipa,Arequipa
+59,2257795741,Ferreteria Piura EIRL,SAC,Ferreteria Pequena,Ate,Lima
+60,2565686984,Distribuidora Andina SAC,SAC,Contratista,Sicuani,Cusco
+61,7574977282,Ferreteria El Maestro SAC,Persona Natural,Ferreteria Pequena,Mollendo,Arequipa
+62,1994713683,Construcciones Andinas SRL,EIRL,Contratista,Callao,Lima
+63,9338089068,Ferreteria Central EIRL,SRL,Ferreteria Mediana,Callao,Lima
+64,1124764145,Distribuidora Norte SAC,SRL,Constructora,Lima,Lima
+65,9892551953,Materiales Sur SAC,Persona Natural,Ferreteria Pequena,Sicuani,Cusco
+66,9937675499,Ferreteria Moderna SRL,SAC,Contratista,Sullana,Piura
+67,6423785439,Construye Bien SRL,SAC,Ferreteria Pequena,Ferrenafe,Lambayeque
+68,1142724138,Materiales Rapidos EIRL,SAC,Ferreteria Pequena,Trujillo,La Libertad
+69,2044124315,La Ferreteria EIRL,Persona Natural,Ferreteria Pequena,Chepen,La Libertad
+70,2646791558,Construccion Total SRL,EIRL,Constructora,Sicuani,Cusco
+71,5279386643,Ferreteria Popular SRL,EIRL,Constructora,Ferrenafe,Lambayeque
+72,9882513388,Materiales Andinos EIRL,Persona Natural,Contratista,Chiclayo,Lambayeque
+73,3991550666,Construye Ya SAC,EIRL,Ferreteria Mediana,Trujillo,La Libertad
+74,1076082887,Ferreteria Lima SAC,SAC,Ferreteria Mediana,Chiclayo,Lambayeque
+75,2232143225,Materiales Express SAC,SAC,Ferreteria Mediana,Arequipa,Arequipa
+76,5744578916,Gran Ferreteria SAC,Persona Natural,Contratista,Sullana,Piura
+77,5628634092,Construccion Segura SRL,SAC,Constructora,Piura,Piura
+78,8528778875,Materiales Cusco SRL,EIRL,Ferreteria Pequena,Piura,Piura
+79,6372199132,Ferreteria Piura EIRL,SRL,Constructora,Piura,Piura
+80,7218583495,Distribuidora Andina SRL,SAC,Ferreteria Mediana,Sicuani,Cusco
+81,1640022536,Ferreteria El Maestro EIRL,SRL,Ferreteria Mediana,Ferrenafe,Lambayeque
+82,1303104788,Construcciones Andinas SRL,Persona Natural,Ferreteria Mediana,Sicuani,Cusco
+83,4407761940,Ferreteria Central SAC,Persona Natural,Ferreteria Pequena,Cusco,Cusco
+84,1458091814,Distribuidora Norte SAC,SRL,Ferreteria Pequena,Ferrenafe,Lambayeque
+85,1823203306,Materiales Sur SAC,SAC,Constructora,Mollendo,Arequipa
+86,9972176055,Ferreteria Moderna SAC,SAC,Ferreteria Pequena,Arequipa,Arequipa
+87,7032357486,Construye Bien SRL,EIRL,Contratista,Mollendo,Arequipa
+88,7943004606,Materiales Rapidos SAC,SAC,Ferreteria Mediana,Sullana,Piura
+89,4925311337,La Ferreteria SAC,Persona Natural,Contratista,Ate,Lima
+90,3393941945,Construccion Total SRL,SAC,Ferreteria Pequena,Mollendo,Arequipa
+91,7843987908,Ferreteria Popular SAC,SRL,Contratista,Ate,Lima
+92,7588199607,Materiales Andinos SRL,SAC,Constructora,Lima,Lima
+93,7653753510,Construye Ya SAC,SAC,Contratista,Mollendo,Arequipa
+94,1172915747,Ferreteria Lima SRL,EIRL,Contratista,Arequipa,Arequipa
+95,7634848061,Materiales Express EIRL,Persona Natural,Constructora,Ferrenafe,Lambayeque
+96,2510715212,Gran Ferreteria SAC,SAC,Ferreteria Pequena,Lima,Lima
+97,6971895142,Construccion Segura SRL,SRL,Ferreteria Pequena,Callao,Lima
+98,6480957655,Materiales Cusco SAC,SRL,Ferreteria Mediana,Sicuani,Cusco
+99,7592962363,Ferreteria Piura SAC,SRL,Contratista,Trujillo,La Libertad
+100,6433635656,Distribuidora Andina EIRL,Persona Natural,Ferreteria Pequena,Cusco,Cusco

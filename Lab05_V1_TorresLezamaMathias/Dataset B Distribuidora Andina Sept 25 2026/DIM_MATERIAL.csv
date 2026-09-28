@@ -1,0 +1,37 @@
+﻿id_material,codigo,descripcion,sublinea,linea,unidad,precio_lista
+1,MAT-0001,Cemento Portland Tipo I 42.5kg,Cemento,Cementos y Adhesivos,BLS,32.5
+2,MAT-0002,Cemento Andino Extraforte 42.5kg,Cemento,Cementos y Adhesivos,BLS,31.9
+3,MAT-0003,Cemento Sol Uso General 42.5kg,Cemento,Cementos y Adhesivos,BLS,30.8
+4,MAT-0004,Cemento Blanco 20kg,Cemento,Cementos y Adhesivos,BLS,42.0
+5,MAT-0005,Pegamento Ceramico Gris 25kg,Pegamento Ceramico,Cementos y Adhesivos,BLS,25.5
+6,MAT-0006,Pegamento Ceramico Blanco 25kg,Pegamento Ceramico,Cementos y Adhesivos,BLS,27.0
+7,MAT-0007,Pegamento Porcelanato Flex 25kg,Pegamento Ceramico,Cementos y Adhesivos,BLS,38.0
+8,MAT-0008,Mortero Seco Predosificado 30kg,Mortero,Cementos y Adhesivos,BLS,21.0
+9,MAT-0009,Mortero de Reparacion 5kg,Mortero,Cementos y Adhesivos,BLS,35.0
+10,MAT-0010,Barra Acero Corrugado 3/8 x 9m,Barras de Acero,Fierro y Estructuras,UND,48.9
+11,MAT-0011,Barra Acero Corrugado 1/2 x 9m,Barras de Acero,Fierro y Estructuras,UND,78.5
+12,MAT-0012,Barra Acero Corrugado 5/8 x 9m,Barras de Acero,Fierro y Estructuras,UND,119.0
+13,MAT-0013,Malla Electrosoldada 6mm 2.4x6m,Barras de Acero,Fierro y Estructuras,UND,89.0
+14,MAT-0014,Perfil Angulo 1x1x6m,Perfiles Metalicos,Fierro y Estructuras,UND,39.0
+15,MAT-0015,Perfil Tubo Cuadrado 1x6m,Perfiles Metalicos,Fierro y Estructuras,UND,45.0
+16,MAT-0016,Perfil Canal C 4x6m,Perfiles Metalicos,Fierro y Estructuras,UND,68.0
+17,MAT-0017,Ceramico Piso 45x45 Marfil,Ceramicos,Acabados,M2,28.5
+18,MAT-0018,Ceramico Pared 30x45 Blanco,Ceramicos,Acabados,M2,22.0
+19,MAT-0019,Ceramico Piso 60x60 Gris,Ceramicos,Acabados,M2,42.0
+20,MAT-0020,Porcelanato Pulido 60x60 Blanco,Porcelanato,Acabados,M2,65.0
+21,MAT-0021,Porcelanato Mate 60x60 Negro,Porcelanato,Acabados,M2,72.0
+22,MAT-0022,Porcelanato Rectificado 80x80,Porcelanato,Acabados,M2,95.0
+23,MAT-0023,Pintura Latex Blanco Nieve 4L,Pinturas,Acabados,GL,38.0
+24,MAT-0024,Pintura Latex Satinado 4L,Pinturas,Acabados,GL,45.0
+25,MAT-0025,Pintura Esmalte Sintetico 1L,Pinturas,Acabados,GL,32.0
+26,MAT-0026,Pintura Anticorrosiva 1L,Pinturas,Acabados,GL,28.0
+27,MAT-0027,Tuberia PVC SAP 1/2 x 3m,Tuberias PVC,Instalaciones,UND,8.5
+28,MAT-0028,Tuberia PVC SAP 3/4 x 3m,Tuberias PVC,Instalaciones,UND,12.0
+29,MAT-0029,Tuberia PVC SAP 1 x 3m,Tuberias PVC,Instalaciones,UND,18.5
+30,MAT-0030,Tuberia PVC Desague 4 x 3m,Tuberias PVC,Instalaciones,UND,32.0
+31,MAT-0031,Cable TW 2.5mm x 100m,Cables Electricos,Instalaciones,BOB,185.0
+32,MAT-0032,Cable TW 4mm x 100m,Cables Electricos,Instalaciones,BOB,285.0
+33,MAT-0033,Cable NH-80 2x2.5mm x 100m,Cables Electricos,Instalaciones,BOB,220.0
+34,MAT-0034,Valvula Bola PVC 1/2,Valvulas,Instalaciones,UND,12.5
+35,MAT-0035,Valvula Bola PVC 3/4,Valvulas,Instalaciones,UND,18.0
+36,MAT-0036,Valvula Check 1 PVC,Valvulas,Instalaciones,UND,28.0

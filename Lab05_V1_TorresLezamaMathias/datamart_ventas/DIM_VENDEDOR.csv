@@ -1,0 +1,31 @@
+id_vendedor,codigo,nombre,puesto,id_tienda_asig,activo
+1,VEN-001,Sergio Codina Soto,Jefe de Tienda,10,1
+2,VEN-002,Irma Anunciación Baró Jódar,Jefe de Tienda,1,1
+3,VEN-003,Gil de Arellano,Jefe de Tienda,5,1
+4,VEN-004,Íngrid Pérez Vázquez,Jefe de Tienda,1,1
+5,VEN-005,Pelayo Marc Barceló Díez,Asesor de Ventas,8,1
+6,VEN-006,Isabel Alarcón Franch,Jefe de Tienda,8,1
+7,VEN-007,Eloísa Ferreras,Vendedor Senior,3,1
+8,VEN-008,Ruben Vicens Villalobos,Jefe de Tienda,7,1
+9,VEN-009,Marino de Araujo,Jefe de Tienda,8,1
+10,VEN-010,Dafne Abad Criado,Asesor de Ventas,8,1
+11,VEN-011,Emiliano Pulido Osuna,Vendedor Senior,7,1
+12,VEN-012,Graciela Fonseca Villaverde,Vendedor Senior,6,1
+13,VEN-013,Rafa Bayona Bosch,Jefe de Tienda,2,1
+14,VEN-014,Elodia del Olivera,Asesor de Ventas,6,1
+15,VEN-015,Daniel Ferreras-Sanz,Vendedor Senior,8,1
+16,VEN-016,Maricela Acuña Julián,Vendedor Senior,7,1
+17,VEN-017,Herminio Velasco Campillo,Jefe de Tienda,1,1
+18,VEN-018,Angelina del Nieto,Vendedor Senior,2,1
+19,VEN-019,Samu Vilanova Jiménez,Vendedor Senior,5,1
+20,VEN-020,Ruth del Salas,Vendedor Senior,2,1
+21,VEN-021,Marcela Tomás Hervia,Vendedor Senior,9,1
+22,VEN-022,Renata Segarra Serna,Asesor de Ventas,9,1
+23,VEN-023,Tere Amorós-Toledo,Vendedor Senior,7,1
+24,VEN-024,Efraín Bauzà Piñeiro,Asesor de Ventas,4,1
+25,VEN-025,Nilo de Moles,Jefe de Tienda,6,1
+26,VEN-026,Feliciana Villalonga Agustí,Jefe de Tienda,8,1
+27,VEN-027,Edelmiro Madrigal-Buendía,Jefe de Tienda,8,1
+28,VEN-028,Nerea Nogués Benitez,Asesor de Ventas,4,1
+29,VEN-029,Íngrid de Tamayo,Vendedor Senior,9,1
+30,VEN-030,Felicidad Gil Leon,Asesor de Ventas,5,1

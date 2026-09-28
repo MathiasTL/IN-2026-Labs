@@ -1,0 +1,201 @@
+id_cliente,ruc_dni,nombre,tipo_cliente,segmento,email,telefono,distrito,provincia,departamento
+1,98393010,Hotel Española S.Com.,Empresa,Corporativo,borjaangulo@example.com,+34 821 834 738,San Borja,Lima,Lima
+2,63116566,Tecnologías Herrero S.L.,Empresa,Mayorista,rbalaguer@example.net,+34825065133,Lince,Lima,Lima
+3,47317810,Supermercados Globales S.Com.,Empresa,Mayorista,buenoangeles@example.org,+34 848 67 73 60,La Molina,Lima,Lima
+4,47468723,Goyo Abril Portero,Persona Natural,Corporativo,isaac09@example.net,+34988 050 097,Miraflores,Lima,Lima
+5,08121913,Ágata Criado,Persona Natural,Gobierno,kcarretero@example.org,+34800916998,Miraflores,Lima,Lima
+6,34624751,Dorita Fuente Miralles,Persona Natural,Minorista,sedanoester@example.net,+34 826 183 842,Jesus Maria,Lima,Lima
+7,54278498,Vera Bayona Hidalgo,Persona Natural,Mayorista,marigracia@example.org,+34842 41 18 24,Jesus Maria,Lima,Lima
+8,48740164,Marciano Cruz Novoa Frutos,Persona Natural,Mayorista,acevedonazario@example.org,+34883278680,San Isidro,Lima,Lima
+9,59826204,Anselmo Company Araujo,Persona Natural,Mayorista,trini05@example.org,+34881 158 692,Lince,Lima,Lima
+10,60256342,Toni de Elorza,Persona Natural,Minorista,pineirosalud@example.org,+34 976337543,Pueblo Libre,Lima,Lima
+11,41458685,Banca Privada Ibérica S.Com.,Empresa,Corporativo,carlossaturnina@example.com,+34 859 40 19 65,Lince,Lima,Lima
+12,93406088,Rubio & Asociados S.Com.,Empresa,Mayorista,prudenciorosado@example.org,+34 922 95 14 84,La Molina,Lima,Lima
+13,82366299,Morera y Quevedo S.L.,Empresa,Mayorista,santiago80@example.com,+34887 36 99 57,San Borja,Lima,Lima
+14,21489513,Vasco García Vicente S.Coop.,Empresa,Gobierno,jafet32@example.org,+34803 37 91 76,Trujillo,La Libertad,La Libertad
+15,63201632,Charo Plana-Urrutia,Persona Natural,Minorista,jayllon@example.org,+34837278895,Barranco,Lima,Lima
+16,87277434,María José Vargas Roldan,Persona Natural,Minorista,rharo@example.com,+34 822434558,Magdalena,Lima,Lima
+17,62316658,Bruno Contreras Guardia,Persona Natural,Corporativo,dricart@example.org,+34948690967,Jesus Maria,Lima,Lima
+18,68893734,Hermanos Martín S.L.,Empresa,Minorista,btorralba@example.com,+34 923 62 72 98,Surco,Lima,Lima
+19,16272046,Wilfredo Prada Amores,Persona Natural,Corporativo,hector75@example.com,+34941464170,Chiclayo,Lambayeque,Lambayeque
+20,10033092,Amaya del Gomez,Persona Natural,Gobierno,edmundosaenz@example.net,+34828 937 452,San Borja,Lima,Lima
+21,66319314,Distribuciones FBQ S.L.,Empresa,Minorista,armengolovidio@example.net,+34 955 185 067,Piura,Piura,Piura
+22,84987769,Suministros HRK S.Com.,Empresa,Minorista,mohamed31@example.com,+34972 37 99 65,Trujillo,La Libertad,La Libertad
+23,73545494,Jose Miguel Morcillo Espada,Persona Natural,Corporativo,villanuevagraciano@example.org,+34 880678377,Chiclayo,Lambayeque,Lambayeque
+24,43634957,Rosa María Alemany Buendía,Persona Natural,Mayorista,teodoro85@example.com,+34 973 44 43 13,San Isidro,Lima,Lima
+25,74989413,Carreras & Asociados S.A.,Empresa,Mayorista,javi52@example.com,+34 718 24 00 84,San Borja,Lima,Lima
+26,94777520,Transportes Calderon S.L.N.E,Empresa,Mayorista,rosalva71@example.org,+34 945 71 90 22,Arequipa,Arequipa,Arequipa
+27,69993867,Compañía Hurtado & Asociados S.Coop.,Empresa,Gobierno,lmartinez@example.com,+34 902 990 913,Trujillo,La Libertad,La Libertad
+28,23281206,Eligio Bertrán,Persona Natural,Minorista,ssoriano@example.org,+34878 447 134,San Borja,Lima,Lima
+29,24210249,Suministros Españolas S.Coop.,Empresa,Corporativo,valentin17@example.net,+34901 64 88 77,Trujillo,La Libertad,La Libertad
+30,59401399,Marcelino Ariño Rosales,Persona Natural,Corporativo,leoncorona@example.org,+34849 78 74 29,Miraflores,Lima,Lima
+31,75655125,Mercedes Téllez Bou,Persona Natural,Corporativo,svalbuena@example.net,+34 945 80 71 54,Cusco,Cusco,Cusco
+32,08760385,Carmona y asociados S.L.N.E,Empresa,Gobierno,wsalamanca@example.org,+34873482477,Surco,Lima,Lima
+33,48086131,Alberto Heras Cuadrado,Persona Natural,Minorista,pcarpio@example.org,+34 981 484 677,Jesus Maria,Lima,Lima
+34,39821465,Javier de Pla,Persona Natural,Minorista,otilia04@example.net,+34900 99 72 78,San Isidro,Lima,Lima
+35,53396360,Onofre Márquez Pi S.Coop.,Empresa,Mayorista,marcela76@example.com,+34845 70 28 95,Piura,Piura,Piura
+36,87026217,Ulises Sacristán Cabo,Persona Natural,Minorista,nilo96@example.net,+34822586578,Lince,Lima,Lima
+37,43161172,Familia Guitart S.L.,Empresa,Minorista,vera00@example.com,+34807 455 623,San Borja,Lima,Lima
+38,96937923,Escolano y Domínguez S.A.,Empresa,Mayorista,dizquierdo@example.com,+34707 482 175,Chiclayo,Lambayeque,Lambayeque
+39,74367136,Emperatriz Rodrigo-Ibáñez,Persona Natural,Minorista,consuelo44@example.org,+34944 409 097,Trujillo,La Libertad,La Libertad
+40,94210470,Hotel Ortuño & Asociados S.L.,Empresa,Mayorista,lupita21@example.com,+34921623285,Barranco,Lima,Lima
+41,24745171,Leyre Llamas,Persona Natural,Mayorista,mariselagonzalez@example.net,+34944851604,Chiclayo,Lambayeque,Lambayeque
+42,49651370,Beatriz del Pedrosa,Persona Natural,Gobierno,yolanda93@example.net,+34817461200,Cusco,Cusco,Cusco
+43,82675869,Jose Manuel Bautista Cabanillas Guitart,Persona Natural,Corporativo,soniaribera@example.net,+34825 79 64 05,Miraflores,Lima,Lima
+44,51585064,Supermercados del Norte S.L.N.E,Empresa,Mayorista,donatosanz@example.org,+34 875900532,Cusco,Cusco,Cusco
+45,93352904,Clarisa Bayona-Galan,Persona Natural,Minorista,eladioiglesia@example.org,+34827020539,San Borja,Lima,Lima
+46,02681177,Adriana Dávila Lara,Persona Natural,Gobierno,armida91@example.com,+34981 39 08 47,Lince,Lima,Lima
+47,61771159,Américo Tejero Querol,Persona Natural,Gobierno,blascases@example.com,+34 921 69 84 78,La Molina,Lima,Lima
+48,83673657,Cabezas y Carbó S.L.L.,Empresa,Mayorista,uricart@example.org,+34 916 54 52 71,Barranco,Lima,Lima
+49,61528098,Severo Blázquez Buendía,Persona Natural,Mayorista,herminia16@example.com,+34 949049451,La Molina,Lima,Lima
+50,15851493,Despacho del Sur S.A.T.,Empresa,Corporativo,mamo@example.net,+34884 024 455,Lince,Lima,Lima
+51,12018366,Cipriano Clemente Pérez,Persona Natural,Corporativo,knogueira@example.com,+34 915991022,Piura,Piura,Piura
+52,67976438,Familia Lladó S.Com.,Empresa,Corporativo,ochoatito@example.org,+34 887 97 84 03,Barranco,Lima,Lima
+53,34324451,María Belén Ballesteros Aguilera,Persona Natural,Corporativo,valenciamargarita@example.com,+34849 26 83 88,Miraflores,Lima,Lima
+54,06071596,Bello y asociados S.L.L.,Empresa,Minorista,srios@example.org,+34 946 052 975,Surco,Lima,Lima
+55,64535218,Suministros ME S.Coop.,Empresa,Corporativo,vianaguillermo@example.com,+34925 23 12 43,San Isidro,Lima,Lima
+56,77997995,Despacho Benet S.A.,Empresa,Gobierno,eutropio71@example.com,+34 971 44 90 58,Arequipa,Arequipa,Arequipa
+57,00541199,Fabián Serrano Sans,Persona Natural,Gobierno,lsevillano@example.net,+34 803 793 597,Pueblo Libre,Lima,Lima
+58,71518203,Bárbara Barrio,Persona Natural,Corporativo,hsaavedra@example.net,+34 847 554 665,Chiclayo,Lambayeque,Lambayeque
+59,86449251,Hermanos Bastida S.Com.,Empresa,Minorista,yesicaolmo@example.com,+34943 29 14 86,Miraflores,Lima,Lima
+60,16850542,Ruth Castell Zurita,Persona Natural,Corporativo,nestortorre@example.org,+34877 221 418,Jesus Maria,Lima,Lima
+61,92962229,Silvia de Navarro,Persona Natural,Corporativo,lorenario@example.org,+34 947 537 947,Lince,Lima,Lima
+62,73597746,Industrias Inteligentes S.L.N.E,Empresa,Minorista,mcaceres@example.net,+34843 407 581,Pueblo Libre,Lima,Lima
+63,26137506,Instalaciones NO S.L.N.E,Empresa,Corporativo,prietoani@example.com,+34 879615305,Arequipa,Arequipa,Arequipa
+64,27790104,Manufacturas HO S.L.L.,Empresa,Corporativo,petronaconde@example.net,+34 986 614 341,Trujillo,La Libertad,La Libertad
+65,97117980,Grupo Rivas S.L.,Empresa,Mayorista,linacobo@example.com,+34 950953962,Lince,Lima,Lima
+66,88067065,Promociones XC S.L.,Empresa,Gobierno,mariana05@example.org,+34924 31 95 20,La Molina,Lima,Lima
+67,77221704,Magdalena Nevado Díez,Persona Natural,Corporativo,armandoflores@example.org,+34914 86 87 40,Trujillo,La Libertad,La Libertad
+68,05415667,Eric Palau,Persona Natural,Corporativo,lnicolau@example.com,+34980 58 41 61,Lince,Lima,Lima
+69,51154479,María Cristina Escribano Marin,Persona Natural,Gobierno,sdiaz@example.com,+34925 70 59 64,San Borja,Lima,Lima
+70,20297021,Familia Ramis S.Com.,Empresa,Gobierno,melaniapazos@example.com,+34 942 90 92 75,Cusco,Cusco,Cusco
+71,85654310,Saldaña & Asociados S.Coop.,Empresa,Mayorista,angelinavillaverde@example.com,+34 834 473 947,Magdalena,Lima,Lima
+72,72715518,Consultoría Globales S.L.L.,Empresa,Mayorista,tatiana42@example.net,+34849583132,Jesus Maria,Lima,Lima
+73,58957829,Ruperto del Amo,Persona Natural,Corporativo,bastidamartin@example.com,+34977866912,Trujillo,La Libertad,La Libertad
+74,85289226,Benavent y asociados S.Coop.,Empresa,Minorista,casanovaaura@example.org,+34901 22 53 58,Jesus Maria,Lima,Lima
+75,84249818,Teo Aníbal Iglesia Ferrándiz,Persona Natural,Corporativo,doracorrea@example.org,+34923 900 109,Piura,Piura,Piura
+76,90784473,Máximo Galvez-Riera,Persona Natural,Mayorista,dmartorell@example.org,+34 812767735,La Molina,Lima,Lima
+77,62588153,Bienvenida Estefanía Montaña Ojeda,Persona Natural,Mayorista,rcarvajal@example.com,+34 881210469,Miraflores,Lima,Lima
+78,95327877,Diana Cuesta Morán,Persona Natural,Gobierno,anastasia01@example.com,+34 982733950,Magdalena,Lima,Lima
+79,48016245,Epifanio Uría Sosa,Persona Natural,Gobierno,cpaz@example.com,+34806983584,Lince,Lima,Lima
+80,21655852,Restauración XCQG S.Coop.,Empresa,Mayorista,eligiaverdu@example.com,+34 981 00 02 57,Magdalena,Lima,Lima
+81,98259526,Jessica Company,Persona Natural,Minorista,dorita58@example.net,+34986 79 47 05,Surco,Lima,Lima
+82,09749930,Canals y asociados S.Coop.,Empresa,Mayorista,hdonaire@example.net,+34941 23 09 13,Cusco,Cusco,Cusco
+83,63689702,Hnos Mir S.Com.,Empresa,Minorista,chelomorcillo@example.net,+34977 865 278,Surco,Lima,Lima
+84,97334843,Magdalena Pablo Lamas,Persona Natural,Minorista,maria-manuela43@example.net,+34 979 57 58 44,Jesus Maria,Lima,Lima
+85,52404157,Luciano Pino Prat,Persona Natural,Gobierno,mariana73@example.org,+34987 48 42 19,Magdalena,Lima,Lima
+86,83301657,Industrias Castellana S.L.,Empresa,Gobierno,cervantesadelardo@example.net,+34846 67 73 45,Trujillo,La Libertad,La Libertad
+87,02620672,Comercial Borrás & Asociados S.Coop.,Empresa,Gobierno,sarita00@example.com,+34 827547887,Pueblo Libre,Lima,Lima
+88,43152742,Teodoro Varela Solé,Persona Natural,Gobierno,navasmorena@example.com,+34871 29 66 85,Chiclayo,Lambayeque,Lambayeque
+89,63745499,Servicios EZYW S.A.,Empresa,Mayorista,juradofrancisca@example.com,+34 879017426,Magdalena,Lima,Lima
+90,32727956,Consultoría Marquez y asociados S.Coop.,Empresa,Gobierno,wgil@example.org,+34822 87 85 19,Piura,Piura,Piura
+91,98225871,Américo Vega Francisco,Persona Natural,Corporativo,lilianatorrijos@example.org,+34 983 707 286,Trujillo,La Libertad,La Libertad
+92,40640391,Marcela Barco Sevilla,Persona Natural,Corporativo,rodaomar@example.net,+34818 01 70 46,Magdalena,Lima,Lima
+93,67661825,Desarrollo Rivera S.Com.,Empresa,Corporativo,escalonabrigida@example.com,+34 986230047,La Molina,Lima,Lima
+94,37524310,Imelda del Gras,Persona Natural,Mayorista,palcazar@example.org,+34 820 19 07 90,Barranco,Lima,Lima
+95,73830284,Raimundo de Quesada,Persona Natural,Gobierno,olallamontana@example.net,+34920342836,Surco,Lima,Lima
+96,87056856,Emigdio Américo Díez Roldán,Persona Natural,Mayorista,tcompany@example.com,+34 868 73 34 27,Arequipa,Arequipa,Arequipa
+97,26343517,Hnos Riera S.Coop.,Empresa,Gobierno,cirino83@example.org,+34884699013,San Isidro,Lima,Lima
+98,54033173,Tecnologías Ibérica S.L.N.E,Empresa,Gobierno,reguloheras@example.net,+34920 46 78 54,Barranco,Lima,Lima
+99,71753556,Geraldo Vilalta-Valencia,Persona Natural,Gobierno,giraltmanuela@example.org,+34714899642,Miraflores,Lima,Lima
+100,69378547,Fidel Grau,Persona Natural,Gobierno,kserna@example.net,+34 926 228 728,Lince,Lima,Lima
+101,00623120,Juan Francisco Aragón Benavente,Persona Natural,Corporativo,anselmasarmiento@example.com,+34 819977008,Magdalena,Lima,Lima
+102,48408621,Albero y Alegria S.Coop.,Empresa,Gobierno,zamoraeustaquio@example.org,+34871984546,San Borja,Lima,Lima
+103,93341016,Glauco Ramis Segovia,Persona Natural,Gobierno,jpi@example.com,+34807 021 765,Jesus Maria,Lima,Lima
+104,74014890,Banco KT S.L.N.E,Empresa,Gobierno,ursulamiranda@example.org,+34 874 92 61 42,La Molina,Lima,Lima
+105,62185016,Dalila Porcel-Mármol,Persona Natural,Gobierno,pilibenitez@example.com,+34944504773,Magdalena,Lima,Lima
+106,96194311,Perez y asociados S.A.,Empresa,Mayorista,fabio62@example.net,+34 943 55 11 04,Barranco,Lima,Lima
+107,26788861,Plácido Lerma Calatayud S.A.,Empresa,Mayorista,borraspaulino@example.net,+34824 99 56 04,Piura,Piura,Piura
+108,98262244,Gala Blazquez Herrero,Persona Natural,Gobierno,america21@example.org,+34 964647154,Pueblo Libre,Lima,Lima
+109,71240659,Poncio del Ferrán,Persona Natural,Minorista,cmur@example.com,+34 959 24 59 37,Pueblo Libre,Lima,Lima
+110,47935646,Elías y asociados S.L.N.E,Empresa,Mayorista,danilo93@example.net,+34858073741,Trujillo,La Libertad,La Libertad
+111,34266179,Valera y Chaparro S.L.,Empresa,Mayorista,iperez@example.net,+34 948 80 58 91,Piura,Piura,Piura
+112,65610143,Industrias IIFD S.L.,Empresa,Gobierno,victor-manuelperello@example.com,+34 975 982 507,Miraflores,Lima,Lima
+113,12545738,Eusebio Ricart Boada,Persona Natural,Gobierno,eolive@example.org,+34967514010,Barranco,Lima,Lima
+114,38282586,Canales & Asociados S.L.N.E,Empresa,Gobierno,zguardiola@example.com,+34 862 66 09 37,Barranco,Lima,Lima
+115,34191825,Porcel y Acuña S.L.,Empresa,Corporativo,haroldo71@example.com,+34979 859 696,San Borja,Lima,Lima
+116,79249912,Aurora Oliveras-Ortiz,Persona Natural,Gobierno,desiderio34@example.org,+34 865286692,Piura,Piura,Piura
+117,78282742,Fátima Rocha-Estevez,Persona Natural,Corporativo,maxisanmartin@example.net,+34 807 507 236,Miraflores,Lima,Lima
+118,76772190,Ligia del Rebollo,Persona Natural,Minorista,luisantunez@example.com,+34 877 84 27 97,La Molina,Lima,Lima
+119,48580783,Lina de Carbonell,Persona Natural,Mayorista,vcalatayud@example.net,+34 881407451,Cusco,Cusco,Cusco
+120,39596292,Teresita Carpio Gálvez,Persona Natural,Mayorista,odalysgabaldon@example.org,+34925 84 98 25,La Molina,Lima,Lima
+121,12604223,Espiridión Luciano Lastra Vilar,Persona Natural,Gobierno,leonormontserrat@example.org,+34 944 729 466,La Molina,Lima,Lima
+122,84577590,Angelita Buendía Quintana,Persona Natural,Mayorista,sedanofabiola@example.net,+34 927 186 363,Trujillo,La Libertad,La Libertad
+123,92975001,Julio Moraleda Luque S.Com.,Empresa,Corporativo,halegre@example.org,+34 971706324,Magdalena,Lima,Lima
+124,54152064,Ulises Lledó Bueno,Persona Natural,Mayorista,timoteobou@example.net,+34 825037129,Surco,Lima,Lima
+125,05162713,Juan Antonio del Agustí,Persona Natural,Minorista,uborrell@example.org,+34826 554 262,San Borja,Lima,Lima
+126,27532697,Comercializadora Aguirre S.Coop.,Empresa,Gobierno,chemacabrera@example.org,+34 841 965 652,Chiclayo,Lambayeque,Lambayeque
+127,89994043,Emiliano de Hurtado,Persona Natural,Minorista,marianapou@example.com,+34 807376137,Lince,Lima,Lima
+128,52696582,Andrea Lucía Albero Paniagua,Persona Natural,Minorista,bbeltran@example.net,+34820 043 006,Pueblo Libre,Lima,Lima
+129,88924141,Soluciones Roda y asociados S.A.,Empresa,Minorista,nuriacortes@example.net,+34921691463,Arequipa,Arequipa,Arequipa
+130,17990421,Donato Boix Rovira,Persona Natural,Corporativo,cervantesjudith@example.org,+34847 75 88 42,Cusco,Cusco,Cusco
+131,10564814,Castañeda y asociados S.L.,Empresa,Corporativo,valderramaxavier@example.net,+34 927 07 92 52,Jesus Maria,Lima,Lima
+132,00030756,Construcción Carlos & Asociados S.L.,Empresa,Minorista,gastonaranda@example.net,+34948 353 654,San Isidro,Lima,Lima
+133,80617445,Promociones AU S.A.,Empresa,Gobierno,sauraadan@example.com,+34 873494937,Piura,Piura,Piura
+134,83206038,Uriarte & Asociados S.L.,Empresa,Corporativo,fanny05@example.org,+34 941413836,San Isidro,Lima,Lima
+135,38657191,Benito Cisneros Losada S.A.,Empresa,Mayorista,febeprado@example.org,+34816 234 456,Trujillo,La Libertad,La Libertad
+136,31329121,Ester Santamaría Llabrés,Persona Natural,Corporativo,viniciosolano@example.com,+34 946 18 53 74,Lince,Lima,Lima
+137,49035213,Juan Manuel Carretero Botella S.A.,Empresa,Gobierno,ruy80@example.net,+34 901 420 678,Pueblo Libre,Lima,Lima
+138,21003236,Construcción del Norte S.A.,Empresa,Corporativo,itziar19@example.net,+34 883101372,Lince,Lima,Lima
+139,07029667,Víctor Mármol Carvajal,Persona Natural,Minorista,pineiroisabela@example.com,+34 849 53 24 47,Piura,Piura,Piura
+140,76870146,Banco Hoyos S.L.,Empresa,Mayorista,simonflores@example.net,+34985380657,San Borja,Lima,Lima
+141,20593040,Omar Vallés Montoya S.Com.,Empresa,Gobierno,wavila@example.net,+34878213348,Cusco,Cusco,Cusco
+142,52239559,Roberto Gimenez Pont,Persona Natural,Gobierno,ortizclementina@example.net,+34 844937842,Barranco,Lima,Lima
+143,30870593,Anselmo Bosch Barbero S.A.U,Empresa,Mayorista,noeelias@example.com,+34 810 292 185,Piura,Piura,Piura
+144,54522675,Glauco Priego Cabrero,Persona Natural,Corporativo,laurapalacios@example.org,+34849 64 42 20,Magdalena,Lima,Lima
+145,93917251,Antúnez y Espada S.Coop.,Empresa,Corporativo,ovidiomontenegro@example.org,+34 824 570 433,Cusco,Cusco,Cusco
+146,62676586,Minería OLC S.Com.,Empresa,Minorista,tellomodesta@example.net,+34 877 27 10 40,San Borja,Lima,Lima
+147,52621815,Dorita Calvo Benavent,Persona Natural,Minorista,banguita@example.net,+34 848 962 015,Jesus Maria,Lima,Lima
+148,84443106,Finanzas del Noroeste S.L.,Empresa,Gobierno,dcorral@example.com,+34661 497 310,La Molina,Lima,Lima
+149,17146774,Che Manzanares,Persona Natural,Gobierno,poncegil@example.com,+34 942 527 047,Jesus Maria,Lima,Lima
+150,21158693,Juan José Gonzalo Leiva S.Coop.,Empresa,Gobierno,pomboolivia@example.net,+34 948 87 93 74,Trujillo,La Libertad,La Libertad
+151,98992172,Hector Arana Vallés,Persona Natural,Minorista,hectorfernandez@example.org,+34 803616329,Cusco,Cusco,Cusco
+152,68685487,Feliciano Bautista-Bonet,Persona Natural,Gobierno,yanezmerche@example.com,+34 828622999,San Borja,Lima,Lima
+153,48564679,Óscar Camacho Cabrero,Persona Natural,Corporativo,larcos@example.com,+34945299606,Arequipa,Arequipa,Arequipa
+154,45054447,Gámez & Asociados S.L.,Empresa,Gobierno,gonieloy@example.com,+34971 546 913,Trujillo,La Libertad,La Libertad
+155,50821486,Héctor Ramírez Tormo S.L.,Empresa,Gobierno,mercedeszamora@example.net,+34732 33 03 07,Jesus Maria,Lima,Lima
+156,78610357,Hermanos Flor S.C.P,Empresa,Corporativo,eelias@example.net,+34925524140,Arequipa,Arequipa,Arequipa
+157,33334680,Ayala y Cánovas S.L.L.,Empresa,Corporativo,saezviviana@example.org,+34849 903 494,Arequipa,Arequipa,Arequipa
+158,37489691,Suministros Peñas y asociados S.Coop.,Empresa,Mayorista,vidalgloria@example.com,+34 887417154,San Borja,Lima,Lima
+159,43283096,Tere Lluch Julián,Persona Natural,Corporativo,isa20@example.net,+34980 44 66 60,San Isidro,Lima,Lima
+160,38758428,Olga Falcó-Novoa,Persona Natural,Mayorista,lazarocabanillas@example.com,+34841 48 25 13,San Isidro,Lima,Lima
+161,55494717,Godoy y asociados S.Com.,Empresa,Corporativo,beldaagustina@example.org,+34 981 16 84 60,La Molina,Lima,Lima
+162,97252175,Desarrollo Fonseca S.Com.,Empresa,Minorista,matiasbarco@example.org,+34 973 432 927,Arequipa,Arequipa,Arequipa
+163,66760083,Berto Roura Román,Persona Natural,Corporativo,alberto58@example.org,+34 720 335 421,Piura,Piura,Piura
+164,04478985,Vaquero y Maza S.A.,Empresa,Mayorista,vcanete@example.com,+34 927326033,La Molina,Lima,Lima
+165,21506489,Curro Almeida Vargas,Persona Natural,Mayorista,asensiogisela@example.org,+34 720 16 76 18,San Borja,Lima,Lima
+166,04618499,Jordi Coronado-Fuertes,Persona Natural,Minorista,silviocalvo@example.net,+34 834 117 393,San Borja,Lima,Lima
+167,08737530,Finanzas Palma y asociados S.Com.,Empresa,Mayorista,borrellvictoria@example.org,+34 980218114,Jesus Maria,Lima,Lima
+168,01204556,Talleres Inteligentes S.C.P,Empresa,Minorista,bustamanterenata@example.org,+34702 255 794,Trujillo,La Libertad,La Libertad
+169,16674676,Gilberto Noriega España,Persona Natural,Corporativo,danielcazorla@example.net,+34 812 169 797,Piura,Piura,Piura
+170,27716701,Restauración Palmer S.Coop.,Empresa,Gobierno,fatima50@example.net,+34985 993 588,Magdalena,Lima,Lima
+171,56289002,Arcelia Iris Ibarra Tirado,Persona Natural,Minorista,kvalcarcel@example.org,+34979 53 54 08,Barranco,Lima,Lima
+172,17797177,Restauración del Mediterráneo S.L.L.,Empresa,Minorista,diego70@example.org,+34945 60 88 01,San Borja,Lima,Lima
+173,83755037,María Pilar Merche Mayo Verdugo,Persona Natural,Gobierno,charo99@example.com,+34 928 711 305,Piura,Piura,Piura
+174,51027261,Saturnina Manzanares Yuste,Persona Natural,Minorista,emiliana33@example.org,+34 944 373 516,Magdalena,Lima,Lima
+175,79827080,Maximiliano Casal Sanjuan,Persona Natural,Corporativo,gtomas@example.org,+34849 216 995,Surco,Lima,Lima
+176,69346547,Vera Planas,Persona Natural,Minorista,emilianorey@example.net,+34 983 48 58 33,San Isidro,Lima,Lima
+177,22885158,Instalaciones del Levante S.L.N.E,Empresa,Mayorista,rrincon@example.net,+34 987 460 810,Jesus Maria,Lima,Lima
+178,34244204,Codina y Baena S.L.,Empresa,Gobierno,marisaantunez@example.com,+34 973198386,Cusco,Cusco,Cusco
+179,66580043,Instalaciones Castellana S.L.N.E,Empresa,Corporativo,ogomis@example.net,+34928989334,Chiclayo,Lambayeque,Lambayeque
+180,81606484,Galo Benavente Estévez S.L.N.E,Empresa,Corporativo,felipejara@example.org,+34 922 72 02 59,Piura,Piura,Piura
+181,98515832,Roldán Mascaró Trujillo,Persona Natural,Minorista,vazquezfeliciano@example.com,+34988861533,Pueblo Libre,Lima,Lima
+182,39878015,Eusebia Palomo Marin,Persona Natural,Mayorista,phernandez@example.net,+34880 056 164,Cusco,Cusco,Cusco
+183,85887704,Paloma del Amat,Persona Natural,Mayorista,miguel-angelvilaplana@example.org,+34 825 28 80 13,San Borja,Lima,Lima
+184,13861207,Toni Rodrigo,Persona Natural,Minorista,anselmo11@example.org,+34 854 81 93 46,La Molina,Lima,Lima
+185,50618091,Javiera Quiroga Roselló,Persona Natural,Gobierno,belmontepepito@example.net,+34 827 449 147,Surco,Lima,Lima
+186,83268424,Prats y Anguita S.Coop.,Empresa,Corporativo,aitor88@example.org,+34 841 009 968,Magdalena,Lima,Lima
+187,53682223,Anselma del Gallo,Persona Natural,Corporativo,guillermo12@example.net,+34 807878141,Miraflores,Lima,Lima
+188,52314913,Construcción Figueroa y asociados S.L.N.E,Empresa,Gobierno,amalia75@example.net,+34 902929955,Arequipa,Arequipa,Arequipa
+189,33645257,Carla Acuña Millán,Persona Natural,Corporativo,wsalinas@example.com,+34 979 812 914,San Isidro,Lima,Lima
+190,11080996,Victor Manuel Ferrándiz Lago,Persona Natural,Gobierno,victoriaarco@example.net,+34 883 88 72 56,Cusco,Cusco,Cusco
+191,78816580,Victor Manuel del Cañete,Persona Natural,Mayorista,reginadaza@example.net,+34843 72 29 92,San Isidro,Lima,Lima
+192,31453038,Plinio Arjona Gilabert S.L.,Empresa,Mayorista,roman77@example.org,+34800518449,Chiclayo,Lambayeque,Lambayeque
+193,65918463,Mariana de Peñas,Persona Natural,Mayorista,wosorio@example.com,+34 978908272,San Isidro,Lima,Lima
+194,22591365,Comercializadora Integrales S.A.T.,Empresa,Corporativo,tiradoimelda@example.com,+34977392603,Cusco,Cusco,Cusco
+195,80920242,Bernardo Cuevas Cañizares,Persona Natural,Gobierno,ualfonso@example.net,+34 887 13 79 77,Magdalena,Lima,Lima
+196,92984257,Hotel Reig S.Coop.,Empresa,Gobierno,grasreyes@example.com,+34842 103 886,Arequipa,Arequipa,Arequipa
+197,99088117,Construcción Elías S.Coop.,Empresa,Gobierno,valeriaabella@example.net,+34958 650 863,San Borja,Lima,Lima
+198,99162473,Rosa Piquer Ordóñez,Persona Natural,Gobierno,luqueelba@example.net,+34946430098,San Isidro,Lima,Lima
+199,26944869,Alimentación IJQ S.Com.,Empresa,Corporativo,emma46@example.org,+34947 887 258,Arequipa,Arequipa,Arequipa
+200,95621372,Julie del Melero,Persona Natural,Mayorista,garmendiaapolonia@example.com,+34923890260,Miraflores,Lima,Lima

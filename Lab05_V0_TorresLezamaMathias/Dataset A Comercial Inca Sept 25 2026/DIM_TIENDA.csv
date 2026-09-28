@@ -1,0 +1,11 @@
+﻿id_tienda,codigo,nombre,formato,distrito,departamento,region
+1,T-001,Miraflores,Tienda Premium,Miraflores,Lima,Lima
+2,T-002,San Isidro,Tienda Premium,San Isidro,Lima,Lima
+3,T-003,Surco,Tienda Estandar,Surco,Lima,Lima
+4,T-004,La Molina,Tienda Estandar,La Molina,Lima,Lima
+5,T-005,Online Lima,Canal Online,Lima,Lima,Lima
+6,T-006,Trujillo,Tienda Estandar,Trujillo,La Libertad,Norte
+7,T-007,Arequipa,Tienda Premium,Arequipa,Arequipa,Sur
+8,T-008,Cusco,Tienda Estandar,Cusco,Cusco,Sur
+9,T-009,Piura,Tienda Estandar,Piura,Piura,Norte
+10,T-010,Chiclayo,Tienda Estandar,Chiclayo,Lambayeque,Norte

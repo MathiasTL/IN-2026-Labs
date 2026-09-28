@@ -1,0 +1,21 @@
+﻿id_representante,codigo,nombre,zona,supervisor
+1,REP-001,Carlos Mendoza,Lima Norte,Carlos Mendoza R.
+2,REP-002,Ana Torres,Lima Sur,Ana Torres V.
+3,REP-003,Roberto Quispe,Lima Este,Roberto Quispe H.
+4,REP-004,Maria Flores,Norte,Maria Flores C.
+5,REP-005,Juan Condori,Sur,Carlos Mendoza R.
+6,REP-006,Rosa Huanca,Centro,Ana Torres V.
+7,REP-007,Pedro Ccoa,Lima Norte,Roberto Quispe H.
+8,REP-008,Carmen Tapia,Lima Sur,Maria Flores C.
+9,REP-009,Jorge Mamani,Lima Este,Carlos Mendoza R.
+10,REP-010,Elena Cruz,Norte,Ana Torres V.
+11,REP-011,Luis Paredes,Sur,Roberto Quispe H.
+12,REP-012,Sandra Lazo,Centro,Maria Flores C.
+13,REP-013,Miguel Espinoza,Lima Norte,Carlos Mendoza R.
+14,REP-014,Patricia Roca,Lima Sur,Ana Torres V.
+15,REP-015,Antonio Cusi,Lima Este,Roberto Quispe H.
+16,REP-016,Gloria Lima,Norte,Maria Flores C.
+17,REP-017,Ricardo Choque,Sur,Carlos Mendoza R.
+18,REP-018,Teresa Vega,Centro,Ana Torres V.
+19,REP-019,Fernando Paz,Lima Norte,Roberto Quispe H.
+20,REP-020,Carmen Soto,Lima Sur,Maria Flores C.
