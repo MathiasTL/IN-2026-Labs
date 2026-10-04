@@ -1,0 +1,501 @@
+id_venta,fecha_venta,region,categoria,subcategoria,producto,canal_venta,vendedor,cantidad,precio_unitario,descuento_pct,costo_unitario
+1,2024-11-23,Arequipa,Electrónica,Tablets,Samsung Tab A8,Tienda Física,"Velarde, Pedro",5,480.97,5,289.11
+2,2024-03-05,Lima,Ropa,Ropa Mujer,Blusa Estampada,Tienda Física,"Huanca, Rosa",2,97.49,0,41.36
+3,2023-12-11,Trujillo,Ropa,Accesorios,Mochila,Tienda Física,"Polo, Carmen",1,43.01,0,15.8
+4,2024-01-23,Trujillo,Alimentos,Lácteos,Leche UHT 1L,E-commerce,"Vera, Jorge",2,19.3,10,9.14
+5,2023-10-24,Arequipa,Hogar,Decoración,Cuadro Moderno,Tienda Física,"Cáceres, Julia",1,131.68,15,60.86
+6,2024-11-17,Lima,Deportes,Calzado Deportivo,Zapatillas Training,Tienda Física,"Torres, Carlos",3,189.84,10,84.84
+7,2024-10-17,Lima,Ropa,Ropa Mujer,Jean Skinny,Tienda Física,"Quispe, Ana",5,90.67,0,38.47
+8,2023-10-02,Arequipa,Electrónica,Laptops,HP Pavilion 15,E-commerce,"Zúñiga, Sandra",1,1186.37,15,748.9
+9,2023-05-27,Trujillo,Hogar,Decoración,Maceta Cerámica,Tienda Física,"Castillo, Nadia",3,106.13,10,49.05
+10,2024-06-05,Lima,Alimentos,Snacks,Maní Salado 300g,Tienda Física,"Torres, Carlos",8,13.16,0,6.14
+11,2024-04-24,Lima,Ropa,Accesorios,Cinturón Cuero,Tienda Física,"Huanca, Rosa",5,45.35,5,16.66
+12,2023-06-11,Trujillo,Electrónica,Tablets,Lenovo Tab M10,Tienda Física,"Castillo, Nadia",4,467.18,10,280.82
+13,2024-10-16,Arequipa,Alimentos,Bebidas,Agua 625ml x12,E-commerce,"Coyla, Miguel",9,40.27,0,18.59
+14,2024-01-07,Arequipa,Alimentos,Abarrotes,Harina 1kg,Tienda Física,"Velarde, Pedro",5,26.73,0,13.83
+15,2023-05-12,Arequipa,Electrónica,Smartphones,Motorola G84,E-commerce,"Cáceres, Julia",4,792.7,0,476.3
+16,2024-12-31,Lima,Alimentos,Snacks,Galletas x6,E-commerce,"Torres, Carlos",5,14.55,10,6.79
+17,2023-12-13,Lima,Alimentos,Snacks,Papas Fritas 200g,Tienda Física,"Flores, María",1,15.4,0,7.19
+18,2023-12-05,Lima,Electrónica,Smartphones,iPhone 13,Tienda Física,"Flores, María",1,701.97,0,421.78
+19,2024-02-21,Lima,Alimentos,Bebidas,Café Molido 250g,Tienda Física,"Mendoza, Luis",4,34.25,10,15.81
+20,2023-03-04,Lima,Deportes,Nutrición,Proteína Whey 1kg,E-commerce,"Flores, María",4,63.04,10,23.51
+21,2023-10-13,Lima,Ropa,Ropa Mujer,Falda A-Line,Tienda Física,"Torres, Carlos",4,91.57,15,38.85
+22,2023-01-16,Lima,Alimentos,Abarrotes,Arroz 5kg,E-commerce,"Huanca, Rosa",2,32.71,10,16.92
+23,2023-06-18,Lima,Deportes,Nutrición,BCAA 250g,E-commerce,"Flores, María",4,50.19,0,18.71
+24,2023-06-08,Trujillo,Deportes,Calzado Deportivo,Bota Trail,E-commerce,"Castillo, Nadia",2,168.08,20,75.12
+25,2024-05-29,Arequipa,Alimentos,Abarrotes,Harina 1kg,Tienda Física,"Zúñiga, Sandra",9,26.02,20,13.46
+26,2024-02-18,Lima,Ropa,Ropa Hombre,Polo Básico,E-commerce,"Torres, Carlos",1,100.79,5,43.03
+27,2023-09-25,Arequipa,Electrónica,Smartphones,Motorola G84,E-commerce,"Coyla, Miguel",2,734.59,0,441.39
+28,2023-01-10,Lima,Ropa,Calzado,Bota Casual,Tienda Física,"Flores, María",4,154.42,5,67.36
+29,2023-03-12,Lima,Alimentos,Bebidas,Jugo Natural 1L,Tienda Física,"Quispe, Ana",4,37.47,0,17.3
+30,2023-05-18,Trujillo,Hogar,Muebles,Estante Madera,E-commerce,"Vera, Jorge",3,485.66,0,283.08
+31,2024-12-04,Arequipa,Hogar,Electrodomésticos,Microondas 20L,E-commerce,"Cáceres, Julia",3,399.65,0,210.34
+32,2023-01-04,Trujillo,Electrónica,Smartphones,Motorola G84,E-commerce,"Vera, Jorge",3,755.85,5,454.16
+33,2024-07-12,Lima,Deportes,Nutrición,Proteína Whey 1kg,Tienda Física,"Torres, Carlos",1,64.92,5,24.21
+34,2024-01-02,Lima,Ropa,Ropa Hombre,Camisa Formal,Tienda Física,"Flores, María",2,93.86,10,40.08
+35,2023-06-16,Lima,Alimentos,Snacks,Galletas x6,E-commerce,"Torres, Carlos",3,16.72,0,7.8
+36,2024-01-27,Arequipa,Hogar,Cocina,Juego Cuchillos,Tienda Física,"Velarde, Pedro",1,87.5,0,38.77
+37,2023-08-17,Trujillo,Deportes,Calzado Deportivo,Sandalias Playa,E-commerce,"Polo, Carmen",1,187.59,0,83.84
+38,2024-11-26,Lima,Electrónica,Tablets,Lenovo Tab M10,E-commerce,"Mendoza, Luis",5,521.19,0,313.28
+39,2023-12-20,Trujillo,Hogar,Decoración,Cojín Decorativo,Tienda Física,"Castillo, Nadia",3,116.73,20,53.95
+40,2023-01-02,Lima,Alimentos,Bebidas,Jugo Natural 1L,Tienda Física,"Mendoza, Luis",9,43.98,5,20.3
+41,2024-09-30,Arequipa,Ropa,Calzado,Bota Casual,Tienda Física,"Coyla, Miguel",3,156.3,0,68.19
+42,2024-07-21,Trujillo,Alimentos,Lácteos,Mantequilla 200g,Tienda Física,"Sánchez, Raúl",3,17.24,10,8.17
+43,2023-11-08,Lima,Ropa,Calzado,Bota Casual,Tienda Física,"Flores, María",3,136.05,10,59.35
+44,2024-06-07,Arequipa,Hogar,Cocina,Colador Acero,Tienda Física,"Cáceres, Julia",4,85.96,20,38.08
+45,2024-11-19,Arequipa,Electrónica,Tablets,Lenovo Tab M10,Tienda Física,"Cáceres, Julia",3,503.65,0,302.74
+46,2023-07-19,Lima,Ropa,Accesorios,Cinturón Cuero,Tienda Física,"Huanca, Rosa",4,48.92,0,17.97
+47,2023-02-21,Arequipa,Electrónica,Smartphones,Motorola G84,Tienda Física,"Zúñiga, Sandra",5,646.41,10,388.4
+48,2024-03-12,Lima,Deportes,Calzado Deportivo,Bota Trail,E-commerce,"Huanca, Rosa",5,176.1,0,78.7
+49,2024-06-17,Trujillo,Deportes,Calzado Deportivo,Zapatillas Training,E-commerce,"Sánchez, Raúl",4,185.81,0,83.04
+50,2023-03-24,Lima,Hogar,Decoración,Cojín Decorativo,Tienda Física,"Huanca, Rosa",2,106.53,0,49.24
+51,2024-04-22,Lima,Ropa,Ropa Hombre,Bermuda Casual,Tienda Física,"Huanca, Rosa",4,77.31,10,33.01
+52,2023-11-02,Lima,Alimentos,Abarrotes,Azúcar 1kg,Tienda Física,"Quispe, Ana",7,32.07,20,16.59
+53,2024-05-12,Lima,Alimentos,Bebidas,Café Molido 250g,Tienda Física,"Mendoza, Luis",1,37.7,10,17.4
+54,2024-02-08,Arequipa,Ropa,Accesorios,Billetera,E-commerce,"Velarde, Pedro",5,49.95,0,18.35
+55,2023-12-02,Arequipa,Ropa,Accesorios,Billetera,Tienda Física,"Zúñiga, Sandra",2,48.33,0,17.76
+56,2023-01-20,Trujillo,Hogar,Cocina,Tabla de Picar,E-commerce,"Castillo, Nadia",5,68.38,20,30.3
+57,2023-01-21,Lima,Electrónica,Smartphones,Samsung Galaxy A54,E-commerce,"Torres, Carlos",5,626.1,0,376.2
+58,2023-06-21,Arequipa,Alimentos,Bebidas,Café Molido 250g,E-commerce,"Coyla, Miguel",10,40.25,10,18.58
+59,2024-08-12,Lima,Ropa,Calzado,Zapatillas Urbanas,Tienda Física,"Quispe, Ana",4,144.38,10,62.98
+60,2023-05-04,Lima,Ropa,Ropa Hombre,Camisa Formal,E-commerce,"Huanca, Rosa",5,96.55,0,41.22
+61,2024-05-16,Lima,Hogar,Muebles,Estante Madera,Tienda Física,"Mendoza, Luis",1,538.05,0,313.62
+62,2024-09-22,Trujillo,Deportes,Ropa Deportiva,Medias Deportivas,Tienda Física,"Sánchez, Raúl",5,85.51,5,34.64
+63,2023-10-13,Trujillo,Alimentos,Lácteos,Queso Fresco 500g,E-commerce,"Vera, Jorge",8,17.54,5,8.31
+64,2023-07-06,Arequipa,Deportes,Calzado Deportivo,Zapatillas Running,Tienda Física,"Coyla, Miguel",4,163.54,10,73.09
+65,2023-03-29,Lima,Alimentos,Lácteos,Leche UHT 1L,Tienda Física,"Torres, Carlos",4,20.25,5,9.59
+66,2023-10-29,Arequipa,Deportes,Nutrición,Barra Energética,E-commerce,"Velarde, Pedro",2,57.31,0,21.37
+67,2023-12-27,Arequipa,Hogar,Cocina,Tabla de Picar,Tienda Física,"Coyla, Miguel",4,73.57,0,32.59
+68,2023-07-16,Lima,Ropa,Calzado,Zapatillas Urbanas,E-commerce,"Torres, Carlos",2,159.67,0,69.65
+69,2023-08-21,Arequipa,Alimentos,Lácteos,Leche UHT 1L,E-commerce,"Coyla, Miguel",6,17.17,0,8.13
+70,2024-10-15,Lima,Hogar,Muebles,Silla Ejecutiva,Tienda Física,"Torres, Carlos",4,483.55,0,281.85
+71,2023-09-16,Lima,Deportes,Nutrición,Creatina 300g,Tienda Física,"Flores, María",4,52.17,0,19.45
+72,2023-11-08,Lima,Alimentos,Abarrotes,Aceite 1L,Tienda Física,"Huanca, Rosa",2,33.3,0,17.22
+73,2023-11-01,Arequipa,Alimentos,Bebidas,Café Molido 250g,Tienda Física,"Zúñiga, Sandra",10,44.73,0,20.65
+74,2024-11-07,Arequipa,Alimentos,Abarrotes,Aceite 1L,E-commerce,"Coyla, Miguel",2,26.02,0,13.46
+75,2023-10-26,Lima,Electrónica,Accesorios PC,Hub USB-C,E-commerce,"Mendoza, Luis",1,81.83,10,41.37
+76,2024-03-11,Arequipa,Deportes,Equipamiento,Colchoneta Yoga,E-commerce,"Cáceres, Julia",1,303.0,5,157.07
+77,2024-09-01,Trujillo,Ropa,Ropa Hombre,Polo Básico,Tienda Física,"Sánchez, Raúl",5,100.25,5,42.8
+78,2024-03-24,Lima,Hogar,Cocina,Tabla de Picar,Tienda Física,"Mendoza, Luis",1,81.32,15,36.03
+79,2024-11-19,Arequipa,Alimentos,Lácteos,Leche UHT 1L,Tienda Física,"Velarde, Pedro",5,19.43,10,9.21
+80,2024-03-22,Lima,Alimentos,Snacks,Chocolates Surtido,Tienda Física,"Huanca, Rosa",8,17.11,5,7.99
+81,2023-10-23,Lima,Hogar,Muebles,Mesa de Centro,Tienda Física,"Mendoza, Luis",4,600.64,5,350.1
+82,2024-06-10,Lima,Hogar,Electrodomésticos,Aspiradora Portátil,Tienda Física,"Mendoza, Luis",1,417.87,5,219.93
+83,2023-07-28,Lima,Ropa,Calzado,Bota Casual,E-commerce,"Flores, María",3,151.2,15,65.96
+84,2023-09-03,Lima,Deportes,Equipamiento,Pesa 10kg,E-commerce,"Huanca, Rosa",2,282.02,0,146.2
+85,2024-05-25,Lima,Ropa,Ropa Hombre,Bermuda Casual,E-commerce,"Torres, Carlos",3,89.24,0,38.1
+86,2023-07-15,Trujillo,Deportes,Ropa Deportiva,Medias Deportivas,Tienda Física,"Castillo, Nadia",5,79.2,15,32.08
+87,2023-01-03,Trujillo,Hogar,Cocina,Tabla de Picar,E-commerce,"Sánchez, Raúl",3,84.36,10,37.37
+88,2023-12-07,Arequipa,Deportes,Ropa Deportiva,Medias Deportivas,Tienda Física,"Coyla, Miguel",5,85.23,0,34.52
+89,2023-02-14,Trujillo,Ropa,Ropa Mujer,Falda A-Line,Tienda Física,"Castillo, Nadia",3,106.27,10,45.08
+90,2024-05-29,Trujillo,Deportes,Ropa Deportiva,Medias Deportivas,E-commerce,"Polo, Carmen",5,75.02,0,30.39
+91,2024-11-01,Trujillo,Electrónica,Accesorios PC,Mouse Inalámbrico,E-commerce,"Castillo, Nadia",2,77.65,10,39.26
+92,2024-01-25,Lima,Alimentos,Snacks,Papas Fritas 200g,E-commerce,"Huanca, Rosa",6,15.57,15,7.27
+93,2023-08-21,Lima,Alimentos,Abarrotes,Arroz 5kg,Tienda Física,"Quispe, Ana",2,28.43,0,14.7
+94,2023-02-17,Arequipa,Electrónica,Accesorios PC,Teclado USB,E-commerce,"Velarde, Pedro",3,96.91,0,49.0
+95,2023-06-24,Lima,Ropa,Ropa Mujer,Falda A-Line,Tienda Física,"Torres, Carlos",2,86.5,15,36.7
+96,2024-04-15,Arequipa,Ropa,Accesorios,Billetera,Tienda Física,"Coyla, Miguel",3,51.45,15,18.9
+97,2024-08-24,Lima,Hogar,Decoración,Cuadro Moderno,Tienda Física,"Quispe, Ana",3,123.96,5,57.29
+98,2023-08-31,Lima,Hogar,Decoración,Maceta Cerámica,E-commerce,"Flores, María",4,121.57,5,56.19
+99,2024-09-12,Trujillo,Hogar,Muebles,Sofá 2 Plazas,Tienda Física,"Vera, Jorge",4,603.82,15,351.95
+100,2024-11-25,Arequipa,Ropa,Calzado,Zapato Formal,E-commerce,"Coyla, Miguel",2,154.73,15,67.5
+101,2023-04-03,Arequipa,Hogar,Cocina,Set Ollas Antiadh.,Tienda Física,"Cáceres, Julia",3,74.89,5,33.18
+102,2024-05-08,Lima,Alimentos,Lácteos,Queso Fresco 500g,E-commerce,"Quispe, Ana",5,20.41,0,9.67
+103,2024-07-24,Lima,Electrónica,Laptops,Lenovo IdeaPad 3,E-commerce,"Mendoza, Luis",3,1139.34,0,719.21
+104,2024-08-21,Lima,Electrónica,Accesorios PC,Webcam HD,E-commerce,"Quispe, Ana",4,97.61,15,49.35
+105,2023-12-02,Lima,Ropa,Accesorios,Cinturón Cuero,E-commerce,"Huanca, Rosa",5,44.9,0,16.5
+106,2023-11-08,Trujillo,Hogar,Cocina,Set Ollas Antiadh.,Tienda Física,"Vera, Jorge",4,69.9,0,30.97
+107,2024-03-05,Lima,Deportes,Nutrición,Creatina 300g,E-commerce,"Huanca, Rosa",5,63.29,0,23.6
+108,2023-02-03,Lima,Electrónica,Accesorios PC,Hub USB-C,E-commerce,"Quispe, Ana",3,81.45,5,41.18
+109,2023-03-04,Lima,Hogar,Muebles,Estante Madera,Tienda Física,"Quispe, Ana",4,512.09,20,298.48
+110,2023-02-21,Trujillo,Deportes,Equipamiento,Colchoneta Yoga,E-commerce,"Vera, Jorge",3,276.0,0,143.08
+111,2023-12-03,Arequipa,Electrónica,Laptops,Lenovo IdeaPad 3,E-commerce,"Cáceres, Julia",2,1411.48,5,891.01
+112,2024-11-07,Lima,Ropa,Ropa Mujer,Vestido Casual,E-commerce,"Flores, María",1,88.06,0,37.36
+113,2023-05-10,Arequipa,Alimentos,Lácteos,Leche UHT 1L,Tienda Física,"Velarde, Pedro",7,19.15,10,9.07
+114,2023-02-14,Lima,Hogar,Muebles,Sofá 2 Plazas,Tienda Física,"Huanca, Rosa",5,516.33,5,300.96
+115,2024-12-30,Lima,Deportes,Nutrición,Barra Energética,E-commerce,"Mendoza, Luis",4,51.45,0,19.19
+116,2024-01-26,Arequipa,Electrónica,Laptops,ASUS VivoBook 15,E-commerce,"Coyla, Miguel",5,1310.91,5,827.52
+117,2024-02-28,Arequipa,Electrónica,Smartphones,iPhone 13,Tienda Física,"Cáceres, Julia",3,767.66,0,461.25
+118,2023-06-06,Arequipa,Hogar,Cocina,Tabla de Picar,E-commerce,"Coyla, Miguel",4,68.74,10,30.45
+119,2024-07-29,Lima,Electrónica,Tablets,Samsung Tab A8,Tienda Física,"Huanca, Rosa",5,520.94,0,313.13
+120,2023-04-17,Lima,Deportes,Equipamiento,Mancuernas 5kg,E-commerce,"Quispe, Ana",5,299.66,0,155.34
+121,2024-08-10,Lima,Electrónica,Tablets,Lenovo Tab M10,Tienda Física,"Quispe, Ana",2,599.6,10,360.41
+122,2024-12-20,Trujillo,Alimentos,Abarrotes,Harina 1kg,Tienda Física,"Sánchez, Raúl",5,32.67,0,16.9
+123,2023-04-04,Lima,Ropa,Accesorios,Cinturón Cuero,Tienda Física,"Flores, María",5,44.81,5,16.46
+124,2024-09-02,Lima,Hogar,Electrodomésticos,Aspiradora Portátil,E-commerce,"Huanca, Rosa",1,444.89,0,234.15
+125,2024-05-12,Arequipa,Electrónica,Smartphones,Xiaomi Redmi Note 12,Tienda Física,"Zúñiga, Sandra",5,686.85,0,412.7
+126,2024-06-23,Arequipa,Electrónica,Tablets,Amazon Fire HD,Tienda Física,"Zúñiga, Sandra",3,474.13,0,285.0
+127,2023-09-19,Arequipa,Electrónica,Laptops,ASUS VivoBook 15,E-commerce,"Cáceres, Julia",3,1232.02,0,777.72
+128,2024-05-27,Arequipa,Ropa,Ropa Mujer,Falda A-Line,Tienda Física,"Cáceres, Julia",5,108.9,10,46.2
+129,2023-11-17,Lima,Electrónica,Accesorios PC,Mouse Inalámbrico,Tienda Física,"Flores, María",5,87.11,5,44.05
+130,2023-06-25,Arequipa,Hogar,Muebles,Sofá 2 Plazas,Tienda Física,"Coyla, Miguel",5,542.43,10,316.17
+131,2024-06-20,Lima,Deportes,Equipamiento,Colchoneta Yoga,Tienda Física,"Mendoza, Luis",1,289.65,0,150.15
+132,2024-06-27,Lima,Hogar,Decoración,Cuadro Moderno,Tienda Física,"Flores, María",5,108.07,10,49.95
+133,2023-06-27,Lima,Ropa,Ropa Mujer,Blusa Estampada,Tienda Física,"Torres, Carlos",5,88.69,10,37.63
+134,2024-10-20,Lima,Deportes,Nutrición,Barra Energética,E-commerce,"Huanca, Rosa",5,55.87,20,20.83
+135,2023-10-09,Lima,Deportes,Equipamiento,Banda Elástica,Tienda Física,"Quispe, Ana",5,259.19,5,134.36
+136,2023-03-20,Lima,Deportes,Equipamiento,Pesa 10kg,Tienda Física,"Quispe, Ana",1,309.32,5,160.35
+137,2024-10-29,Lima,Alimentos,Abarrotes,Azúcar 1kg,E-commerce,"Huanca, Rosa",4,27.45,5,14.2
+138,2023-03-28,Lima,Electrónica,Accesorios PC,Mouse Inalámbrico,E-commerce,"Quispe, Ana",5,92.9,0,46.97
+139,2024-02-01,Arequipa,Deportes,Ropa Deportiva,Buzo Completo,Tienda Física,"Coyla, Miguel",4,85.5,10,34.63
+140,2023-10-18,Lima,Hogar,Muebles,Estante Madera,Tienda Física,"Mendoza, Luis",3,585.85,10,341.48
+141,2023-12-25,Trujillo,Ropa,Calzado,Zapatillas Urbanas,Tienda Física,"Polo, Carmen",3,169.91,10,74.12
+142,2023-05-11,Lima,Alimentos,Abarrotes,Harina 1kg,Tienda Física,"Quispe, Ana",9,25.46,10,13.17
+143,2023-12-16,Lima,Electrónica,Tablets,Lenovo Tab M10,Tienda Física,"Torres, Carlos",4,498.27,20,299.51
+144,2023-05-15,Lima,Hogar,Muebles,Silla Ejecutiva,E-commerce,"Huanca, Rosa",5,528.7,0,308.17
+145,2024-11-23,Trujillo,Alimentos,Bebidas,Café Molido 250g,Tienda Física,"Sánchez, Raúl",4,44.49,5,20.54
+146,2023-07-18,Arequipa,Deportes,Ropa Deportiva,Short Deportivo,Tienda Física,"Zúñiga, Sandra",3,83.23,5,33.71
+147,2024-09-11,Lima,Hogar,Cocina,Colador Acero,E-commerce,"Torres, Carlos",2,87.84,0,38.92
+148,2023-10-07,Lima,Hogar,Muebles,Silla Ejecutiva,Tienda Física,"Torres, Carlos",4,615.75,0,358.91
+149,2023-02-24,Lima,Ropa,Accesorios,Mochila,E-commerce,"Mendoza, Luis",4,49.03,0,18.01
+150,2024-10-27,Trujillo,Hogar,Decoración,Cuadro Moderno,Tienda Física,"Vera, Jorge",3,129.4,0,59.81
+151,2023-03-23,Lima,Deportes,Ropa Deportiva,Medias Deportivas,Tienda Física,"Flores, María",1,73.22,10,29.66
+152,2023-11-05,Lima,Alimentos,Snacks,Papas Fritas 200g,E-commerce,"Torres, Carlos",2,12.96,5,6.05
+153,2024-09-03,Arequipa,Deportes,Equipamiento,Pesa 10kg,E-commerce,"Zúñiga, Sandra",5,255.62,5,132.51
+154,2023-09-04,Lima,Ropa,Calzado,Bota Casual,Tienda Física,"Quispe, Ana",5,145.27,10,63.37
+155,2023-02-14,Lima,Hogar,Muebles,Silla Ejecutiva,Tienda Física,"Mendoza, Luis",4,628.23,0,366.18
+156,2024-08-18,Lima,Electrónica,Tablets,Samsung Tab A8,E-commerce,"Flores, María",3,488.62,0,293.71
+157,2023-03-06,Lima,Ropa,Accesorios,Gorra,E-commerce,"Torres, Carlos",4,42.19,0,15.5
+158,2023-09-17,Arequipa,Electrónica,Tablets,Lenovo Tab M10,Tienda Física,"Zúñiga, Sandra",1,590.72,0,355.08
+159,2024-03-23,Lima,Electrónica,Tablets,Lenovo Tab M10,Tienda Física,"Quispe, Ana",4,589.07,15,354.09
+160,2023-10-01,Lima,Ropa,Accesorios,Gorra,Tienda Física,"Huanca, Rosa",1,52.34,0,19.23
+161,2024-11-07,Arequipa,Ropa,Calzado,Sandalia Plana,Tienda Física,"Coyla, Miguel",3,140.35,5,61.23
+162,2024-09-21,Lima,Deportes,Calzado Deportivo,Bota Trail,Tienda Física,"Quispe, Ana",4,166.89,20,74.59
+163,2023-02-01,Trujillo,Electrónica,Accesorios PC,Webcam HD,Tienda Física,"Polo, Carmen",2,98.31,10,49.71
+164,2024-01-06,Lima,Ropa,Ropa Hombre,Jean Slim,E-commerce,"Quispe, Ana",4,101.0,0,43.12
+165,2024-08-10,Lima,Deportes,Calzado Deportivo,Sandalias Playa,Tienda Física,"Flores, María",2,180.58,0,80.71
+166,2024-06-14,Arequipa,Ropa,Ropa Hombre,Polo Básico,E-commerce,"Zúñiga, Sandra",4,100.04,0,42.71
+167,2023-07-24,Arequipa,Deportes,Ropa Deportiva,Buzo Completo,E-commerce,"Zúñiga, Sandra",1,70.37,0,28.5
+168,2024-07-17,Lima,Deportes,Equipamiento,Mancuernas 5kg,E-commerce,"Flores, María",5,280.2,0,145.25
+169,2023-05-23,Lima,Ropa,Calzado,Zapato Formal,Tienda Física,"Torres, Carlos",2,161.98,0,70.66
+170,2023-03-09,Arequipa,Hogar,Cocina,Juego Cuchillos,E-commerce,"Velarde, Pedro",3,76.59,10,33.93
+171,2024-10-19,Lima,Deportes,Nutrición,Proteína Whey 1kg,Tienda Física,"Quispe, Ana",1,58.11,10,21.67
+172,2023-05-08,Lima,Alimentos,Bebidas,Gaseosa 3L,Tienda Física,"Flores, María",9,34.94,0,16.13
+173,2023-07-21,Lima,Ropa,Calzado,Sandalia Plana,E-commerce,"Quispe, Ana",5,138.92,5,60.6
+174,2024-07-31,Arequipa,Electrónica,Laptops,Lenovo IdeaPad 3,Tienda Física,"Coyla, Miguel",1,1425.74,0,900.01
+175,2024-09-24,Lima,Alimentos,Lácteos,Yogurt Fresa 1kg,E-commerce,"Mendoza, Luis",1,18.99,5,8.99
+176,2023-11-01,Lima,Hogar,Cocina,Juego Cuchillos,E-commerce,"Mendoza, Luis",4,68.88,0,30.52
+177,2023-11-17,Lima,Deportes,Nutrición,BCAA 250g,Tienda Física,"Torres, Carlos",3,63.15,15,23.55
+178,2023-05-06,Trujillo,Ropa,Calzado,Zapatillas Urbanas,Tienda Física,"Castillo, Nadia",3,146.75,0,64.02
+179,2023-12-02,Lima,Deportes,Nutrición,BCAA 250g,E-commerce,"Torres, Carlos",5,62.91,0,23.46
+180,2023-01-24,Lima,Alimentos,Snacks,Maní Salado 300g,E-commerce,"Mendoza, Luis",2,17.0,5,7.93
+181,2024-09-03,Trujillo,Ropa,Calzado,Zapatillas Urbanas,Tienda Física,"Castillo, Nadia",4,139.42,0,60.82
+182,2023-02-16,Lima,Ropa,Calzado,Sandalia Plana,E-commerce,"Quispe, Ana",4,128.94,5,56.25
+183,2023-10-14,Lima,Hogar,Muebles,Sofá 2 Plazas,Tienda Física,"Huanca, Rosa",5,578.71,0,337.32
+184,2023-05-28,Trujillo,Deportes,Calzado Deportivo,Sandalias Playa,Tienda Física,"Sánchez, Raúl",2,184.5,5,82.46
+185,2024-04-12,Lima,Electrónica,Laptops,ASUS VivoBook 15,E-commerce,"Huanca, Rosa",2,1340.41,5,846.14
+186,2023-11-03,Lima,Alimentos,Lácteos,Yogurt Fresa 1kg,Tienda Física,"Huanca, Rosa",10,18.07,10,8.56
+187,2023-12-06,Lima,Alimentos,Lácteos,Mantequilla 200g,E-commerce,"Quispe, Ana",2,21.74,5,10.3
+188,2023-02-22,Arequipa,Electrónica,Accesorios PC,Webcam HD,E-commerce,"Cáceres, Julia",5,88.48,5,44.74
+189,2023-07-15,Arequipa,Deportes,Ropa Deportiva,Short Deportivo,Tienda Física,"Velarde, Pedro",1,77.6,5,31.43
+190,2024-12-23,Lima,Ropa,Accesorios,Gorra,E-commerce,"Flores, María",2,49.27,5,18.1
+191,2024-06-29,Trujillo,Deportes,Nutrición,Creatina 300g,E-commerce,"Castillo, Nadia",3,59.82,10,22.31
+192,2024-07-25,Trujillo,Hogar,Cocina,Juego Cuchillos,E-commerce,"Sánchez, Raúl",3,72.48,20,32.11
+193,2024-07-27,Lima,Hogar,Decoración,Maceta Cerámica,Tienda Física,"Quispe, Ana",3,111.42,5,51.5
+194,2023-03-22,Lima,Deportes,Calzado Deportivo,Zapatillas Training,Tienda Física,"Quispe, Ana",3,201.77,10,90.18
+195,2023-05-21,Arequipa,Ropa,Ropa Mujer,Vestido Casual,E-commerce,"Coyla, Miguel",1,102.44,5,43.46
+196,2023-12-05,Lima,Alimentos,Bebidas,Gaseosa 3L,Tienda Física,"Mendoza, Luis",8,34.33,10,15.84
+197,2024-05-03,Lima,Alimentos,Bebidas,Café Molido 250g,E-commerce,"Mendoza, Luis",4,41.99,0,19.38
+198,2023-06-29,Lima,Electrónica,Smartphones,iPhone 13,Tienda Física,"Flores, María",4,779.16,0,468.16
+199,2023-02-08,Trujillo,Deportes,Nutrición,BCAA 250g,E-commerce,"Sánchez, Raúl",1,55.43,5,20.67
+200,2023-05-18,Trujillo,Hogar,Electrodomésticos,Plancha Vapor,E-commerce,"Castillo, Nadia",5,395.17,0,207.99
+201,2023-12-12,Lima,Ropa,Accesorios,Mochila,E-commerce,"Flores, María",3,50.0,10,18.37
+202,2023-07-09,Lima,Deportes,Nutrición,Creatina 300g,Tienda Física,"Flores, María",2,58.6,15,21.85
+203,2023-11-06,Lima,Deportes,Ropa Deportiva,Medias Deportivas,E-commerce,"Quispe, Ana",5,84.28,0,34.14
+204,2024-02-20,Arequipa,Ropa,Ropa Hombre,Polo Básico,Tienda Física,"Cáceres, Julia",5,100.3,15,42.82
+205,2023-05-17,Arequipa,Electrónica,Tablets,Lenovo Tab M10,E-commerce,"Cáceres, Julia",4,491.88,10,295.67
+206,2024-06-22,Arequipa,Deportes,Nutrición,BCAA 250g,E-commerce,"Velarde, Pedro",4,59.5,0,22.19
+207,2023-06-18,Trujillo,Electrónica,Smartphones,iPhone 13,Tienda Física,"Polo, Carmen",3,773.34,5,464.67
+208,2023-02-26,Arequipa,Alimentos,Snacks,Papas Fritas 200g,E-commerce,"Zúñiga, Sandra",8,13.34,5,6.23
+209,2023-09-18,Arequipa,Alimentos,Snacks,Chocolates Surtido,E-commerce,"Zúñiga, Sandra",1,16.11,5,7.52
+210,2024-04-28,Lima,Hogar,Muebles,Silla Ejecutiva,E-commerce,"Flores, María",1,513.93,0,299.56
+211,2024-01-20,Lima,Deportes,Calzado Deportivo,Bota Trail,Tienda Física,"Mendoza, Luis",1,188.81,10,84.39
+212,2024-06-25,Lima,Hogar,Muebles,Mesa de Centro,E-commerce,"Mendoza, Luis",2,586.53,0,341.87
+213,2024-03-10,Lima,Electrónica,Tablets,Amazon Fire HD,E-commerce,"Huanca, Rosa",5,529.12,0,318.05
+214,2023-02-02,Lima,Ropa,Calzado,Zapato Formal,E-commerce,"Flores, María",4,154.14,15,67.24
+215,2024-04-02,Trujillo,Ropa,Ropa Mujer,Blusa Estampada,Tienda Física,"Vera, Jorge",5,104.11,15,44.17
+216,2023-02-27,Lima,Electrónica,Accesorios PC,Hub USB-C,Tienda Física,"Torres, Carlos",2,89.1,0,45.05
+217,2024-11-07,Trujillo,Alimentos,Lácteos,Queso Fresco 500g,Tienda Física,"Polo, Carmen",9,17.41,0,8.25
+218,2023-12-19,Lima,Alimentos,Bebidas,Café Molido 250g,Tienda Física,"Flores, María",7,42.34,0,19.54
+219,2024-04-29,Lima,Ropa,Calzado,Bota Casual,Tienda Física,"Huanca, Rosa",2,164.62,0,71.81
+220,2024-02-02,Arequipa,Deportes,Equipamiento,Banda Elástica,E-commerce,"Cáceres, Julia",2,277.02,0,143.61
+221,2023-02-22,Lima,Deportes,Calzado Deportivo,Zapatillas Running,Tienda Física,"Torres, Carlos",3,172.4,5,77.05
+222,2023-11-07,Lima,Electrónica,Laptops,Lenovo IdeaPad 3,Tienda Física,"Quispe, Ana",1,1186.69,0,749.1
+223,2024-07-19,Arequipa,Deportes,Ropa Deportiva,Short Deportivo,Tienda Física,"Cáceres, Julia",3,85.53,0,34.64
+224,2024-04-22,Lima,Hogar,Electrodomésticos,Aspiradora Portátil,Tienda Física,"Mendoza, Luis",1,435.25,10,229.08
+225,2024-07-30,Arequipa,Hogar,Decoración,Cojín Decorativo,Tienda Física,"Velarde, Pedro",2,127.61,0,58.98
+226,2023-08-24,Arequipa,Alimentos,Snacks,Chocolates Surtido,Tienda Física,"Coyla, Miguel",7,15.31,0,7.15
+227,2024-04-16,Arequipa,Hogar,Electrodomésticos,Plancha Vapor,E-commerce,"Zúñiga, Sandra",2,426.86,0,224.66
+228,2024-10-19,Lima,Alimentos,Snacks,Galletas x6,E-commerce,"Huanca, Rosa",1,15.11,10,7.05
+229,2023-03-11,Lima,Electrónica,Smartphones,Motorola G84,Tienda Física,"Torres, Carlos",2,596.07,5,358.15
+230,2024-07-18,Lima,Alimentos,Snacks,Maní Salado 300g,Tienda Física,"Huanca, Rosa",7,12.8,5,5.97
+231,2023-04-20,Lima,Hogar,Muebles,Sofá 2 Plazas,E-commerce,"Torres, Carlos",1,553.02,0,322.34
+232,2024-01-18,Arequipa,Hogar,Electrodomésticos,Aspiradora Portátil,E-commerce,"Velarde, Pedro",4,394.09,0,207.42
+233,2024-01-22,Arequipa,Hogar,Muebles,Silla Ejecutiva,Tienda Física,"Zúñiga, Sandra",5,545.05,5,317.7
+234,2024-08-02,Arequipa,Electrónica,Accesorios PC,Hub USB-C,E-commerce,"Coyla, Miguel",1,99.54,15,50.33
+235,2024-12-01,Lima,Alimentos,Snacks,Chocolates Surtido,Tienda Física,"Flores, María",5,16.8,5,7.84
+236,2023-03-20,Lima,Hogar,Muebles,Mesa de Centro,Tienda Física,"Mendoza, Luis",3,493.41,0,287.6
+237,2024-12-06,Trujillo,Deportes,Calzado Deportivo,Bota Trail,E-commerce,"Polo, Carmen",1,179.04,20,80.02
+238,2024-09-01,Lima,Deportes,Ropa Deportiva,Polo Dry-Fit,Tienda Física,"Huanca, Rosa",4,90.11,0,36.5
+239,2024-03-18,Arequipa,Deportes,Nutrición,BCAA 250g,Tienda Física,"Zúñiga, Sandra",2,62.18,10,23.19
+240,2023-10-02,Lima,Alimentos,Lácteos,Yogurt Fresa 1kg,E-commerce,"Flores, María",3,18.32,10,8.68
+241,2023-11-12,Lima,Deportes,Calzado Deportivo,Sandalias Playa,Tienda Física,"Flores, María",4,171.48,0,76.64
+242,2024-02-22,Lima,Ropa,Accesorios,Gorra,Tienda Física,"Huanca, Rosa",1,42.04,0,15.44
+243,2024-02-02,Lima,Alimentos,Lácteos,Mantequilla 200g,Tienda Física,"Mendoza, Luis",2,20.28,5,9.61
+244,2023-11-05,Trujillo,Ropa,Ropa Mujer,Falda A-Line,Tienda Física,"Sánchez, Raúl",3,98.8,0,41.91
+245,2023-09-15,Lima,Deportes,Calzado Deportivo,Bota Trail,E-commerce,"Quispe, Ana",2,190.86,5,85.3
+246,2023-12-07,Arequipa,Deportes,Equipamiento,Colchoneta Yoga,Tienda Física,"Zúñiga, Sandra",5,288.23,15,149.41
+247,2024-05-05,Lima,Deportes,Ropa Deportiva,Buzo Completo,Tienda Física,"Torres, Carlos",3,71.36,0,28.91
+248,2024-01-09,Lima,Deportes,Ropa Deportiva,Buzo Completo,Tienda Física,"Mendoza, Luis",1,89.24,0,36.15
+249,2024-03-24,Trujillo,Ropa,Ropa Hombre,Bermuda Casual,E-commerce,"Polo, Carmen",3,97.85,0,41.78
+250,2023-09-16,Trujillo,Deportes,Nutrición,BCAA 250g,E-commerce,"Polo, Carmen",2,62.81,10,23.42
+251,2024-07-10,Lima,Alimentos,Snacks,Maní Salado 300g,Tienda Física,"Mendoza, Luis",1,16.31,0,7.61
+252,2023-06-20,Trujillo,Alimentos,Abarrotes,Arroz 5kg,E-commerce,"Sánchez, Raúl",10,25.04,20,12.95
+253,2023-09-22,Arequipa,Deportes,Calzado Deportivo,Bota Trail,Tienda Física,"Velarde, Pedro",2,179.57,5,80.26
+254,2024-11-26,Arequipa,Alimentos,Bebidas,Café Molido 250g,Tienda Física,"Zúñiga, Sandra",10,41.23,0,19.03
+255,2023-04-29,Trujillo,Deportes,Equipamiento,Mancuernas 5kg,Tienda Física,"Vera, Jorge",2,285.4,0,147.95
+256,2024-12-14,Arequipa,Alimentos,Snacks,Chocolates Surtido,Tienda Física,"Zúñiga, Sandra",8,14.19,0,6.62
+257,2023-09-07,Trujillo,Electrónica,Smartphones,Xiaomi Redmi Note 12,E-commerce,"Polo, Carmen",5,630.73,0,378.98
+258,2024-10-17,Arequipa,Deportes,Ropa Deportiva,Medias Deportivas,E-commerce,"Cáceres, Julia",4,76.53,10,31.0
+259,2023-07-30,Trujillo,Deportes,Nutrición,Barra Energética,Tienda Física,"Polo, Carmen",3,63.47,10,23.67
+260,2023-04-27,Lima,Electrónica,Laptops,ASUS VivoBook 15,Tienda Física,"Mendoza, Luis",3,1365.52,5,861.99
+261,2023-12-27,Trujillo,Hogar,Cocina,Colador Acero,Tienda Física,"Sánchez, Raúl",4,81.78,10,36.23
+262,2023-11-09,Arequipa,Hogar,Muebles,Mesa de Centro,Tienda Física,"Cáceres, Julia",1,496.8,10,289.57
+263,2024-10-12,Lima,Deportes,Ropa Deportiva,Medias Deportivas,Tienda Física,"Mendoza, Luis",5,83.58,5,33.86
+264,2023-11-19,Trujillo,Alimentos,Bebidas,Café Molido 250g,Tienda Física,"Polo, Carmen",8,40.4,15,18.64
+265,2024-02-23,Trujillo,Deportes,Ropa Deportiva,Short Deportivo,E-commerce,"Castillo, Nadia",4,77.0,10,31.19
+266,2023-08-19,Lima,Electrónica,Smartphones,iPhone 13,Tienda Física,"Quispe, Ana",5,654.68,10,393.37
+267,2024-07-09,Arequipa,Deportes,Equipamiento,Pesa 10kg,Tienda Física,"Coyla, Miguel",1,322.32,5,167.09
+268,2024-04-05,Lima,Deportes,Equipamiento,Colchoneta Yoga,Tienda Física,"Flores, María",3,285.42,10,147.96
+269,2024-12-06,Lima,Electrónica,Laptops,Lenovo IdeaPad 3,E-commerce,"Huanca, Rosa",3,1439.7,5,908.82
+270,2024-08-06,Lima,Alimentos,Bebidas,Gaseosa 3L,E-commerce,"Flores, María",6,39.38,5,18.17
+271,2024-11-26,Lima,Hogar,Electrodomésticos,Aspiradora Portátil,E-commerce,"Huanca, Rosa",1,355.38,10,187.04
+272,2023-09-13,Lima,Electrónica,Tablets,Samsung Tab A8,E-commerce,"Torres, Carlos",2,583.82,10,350.93
+273,2024-10-04,Arequipa,Deportes,Nutrición,BCAA 250g,Tienda Física,"Coyla, Miguel",4,56.79,0,21.18
+274,2024-04-10,Arequipa,Electrónica,Accesorios PC,Webcam HD,E-commerce,"Coyla, Miguel",4,84.39,0,42.67
+275,2023-08-12,Arequipa,Electrónica,Accesorios PC,Webcam HD,E-commerce,"Zúñiga, Sandra",4,97.67,5,49.39
+276,2023-12-18,Lima,Hogar,Electrodomésticos,Microondas 20L,Tienda Física,"Mendoza, Luis",1,344.65,5,181.39
+277,2024-03-14,Trujillo,Electrónica,Smartphones,iPhone 13,Tienda Física,"Vera, Jorge",2,802.95,15,482.46
+278,2023-09-14,Trujillo,Hogar,Decoración,Cojín Decorativo,Tienda Física,"Sánchez, Raúl",1,114.42,15,52.89
+279,2024-12-21,Lima,Deportes,Calzado Deportivo,Zapatillas Training,Tienda Física,"Flores, María",1,152.21,5,68.03
+280,2023-05-04,Lima,Ropa,Accesorios,Cinturón Cuero,Tienda Física,"Quispe, Ana",4,51.85,5,19.05
+281,2023-05-21,Lima,Electrónica,Smartphones,Samsung Galaxy A54,Tienda Física,"Quispe, Ana",4,756.34,10,454.46
+282,2024-03-26,Lima,Ropa,Ropa Hombre,Polo Básico,E-commerce,"Torres, Carlos",3,94.94,5,40.54
+283,2023-05-24,Lima,Deportes,Nutrición,BCAA 250g,Tienda Física,"Flores, María",1,60.59,0,22.59
+284,2023-09-12,Trujillo,Hogar,Decoración,Lámpara de Mesa,Tienda Física,"Vera, Jorge",5,122.61,10,56.67
+285,2023-07-13,Lima,Electrónica,Tablets,Samsung Tab A8,Tienda Física,"Huanca, Rosa",4,515.33,0,309.76
+286,2024-10-15,Trujillo,Ropa,Accesorios,Gorra,Tienda Física,"Castillo, Nadia",5,42.69,15,15.68
+287,2024-03-06,Lima,Hogar,Electrodomésticos,Microondas 20L,Tienda Física,"Huanca, Rosa",3,404.55,0,212.92
+288,2023-02-10,Lima,Electrónica,Smartphones,Samsung Galaxy A54,Tienda Física,"Torres, Carlos",1,793.09,0,476.53
+289,2024-10-17,Lima,Alimentos,Snacks,Maní Salado 300g,E-commerce,"Flores, María",9,15.17,0,7.08
+290,2024-08-23,Lima,Electrónica,Laptops,Lenovo IdeaPad 3,Tienda Física,"Mendoza, Luis",1,1225.02,5,773.3
+291,2023-04-29,Trujillo,Ropa,Ropa Hombre,Jean Slim,Tienda Física,"Castillo, Nadia",4,92.0,0,39.28
+292,2023-06-17,Arequipa,Ropa,Ropa Hombre,Polo Básico,E-commerce,"Velarde, Pedro",4,101.1,5,43.16
+293,2023-05-01,Arequipa,Hogar,Decoración,Cojín Decorativo,Tienda Física,"Coyla, Miguel",1,113.11,5,52.28
+294,2023-02-26,Lima,Hogar,Muebles,Sofá 2 Plazas,Tienda Física,"Quispe, Ana",4,608.19,0,354.5
+295,2023-02-15,Lima,Electrónica,Smartphones,iPhone 13,E-commerce,"Flores, María",1,645.43,5,387.81
+296,2023-08-18,Lima,Ropa,Ropa Mujer,Blusa Estampada,Tienda Física,"Mendoza, Luis",3,91.52,15,38.83
+297,2023-07-03,Lima,Electrónica,Tablets,iPad Air,Tienda Física,"Flores, María",2,599.12,20,360.13
+298,2023-12-02,Trujillo,Electrónica,Accesorios PC,Webcam HD,E-commerce,"Sánchez, Raúl",1,90.42,0,45.72
+299,2024-05-20,Lima,Alimentos,Lácteos,Yogurt Fresa 1kg,Tienda Física,"Huanca, Rosa",4,20.33,5,9.63
+300,2024-10-13,Arequipa,Ropa,Ropa Hombre,Bermuda Casual,Tienda Física,"Coyla, Miguel",1,101.04,0,43.14
+301,2024-03-05,Arequipa,Hogar,Muebles,Mesa de Centro,Tienda Física,"Cáceres, Julia",4,624.96,20,364.27
+302,2024-02-27,Lima,Hogar,Muebles,Silla Ejecutiva,E-commerce,"Huanca, Rosa",3,542.16,10,316.01
+303,2024-03-21,Arequipa,Alimentos,Bebidas,Café Molido 250g,Tienda Física,"Velarde, Pedro",3,35.92,0,16.58
+304,2023-03-18,Lima,Deportes,Calzado Deportivo,Sandalias Playa,Tienda Física,"Torres, Carlos",2,159.46,10,71.27
+305,2023-05-04,Lima,Electrónica,Laptops,Dell Inspiron 15,Tienda Física,"Mendoza, Luis",5,1243.77,10,785.14
+306,2024-12-22,Lima,Deportes,Calzado Deportivo,Zapatillas Running,Tienda Física,"Quispe, Ana",5,154.32,10,68.97
+307,2024-11-24,Lima,Electrónica,Laptops,ASUS VivoBook 15,Tienda Física,"Flores, María",3,1205.54,20,761.0
+308,2023-05-24,Lima,Deportes,Nutrición,BCAA 250g,Tienda Física,"Flores, María",1,50.36,10,18.78
+309,2024-08-19,Trujillo,Ropa,Ropa Mujer,Falda A-Line,Tienda Física,"Vera, Jorge",5,91.84,10,38.96
+310,2023-12-06,Lima,Electrónica,Laptops,Dell Inspiron 15,E-commerce,"Flores, María",1,1120.79,5,707.5
+311,2024-11-30,Lima,Alimentos,Snacks,Maní Salado 300g,Tienda Física,"Mendoza, Luis",7,13.53,0,6.31
+312,2024-09-23,Lima,Hogar,Cocina,Juego Cuchillos,Tienda Física,"Huanca, Rosa",2,82.49,5,36.55
+313,2024-03-05,Trujillo,Deportes,Equipamiento,Pesa 10kg,Tienda Física,"Polo, Carmen",2,311.8,10,161.63
+314,2024-05-06,Lima,Alimentos,Abarrotes,Azúcar 1kg,E-commerce,"Quispe, Ana",9,31.45,0,16.27
+315,2024-09-03,Arequipa,Hogar,Cocina,Tabla de Picar,Tienda Física,"Coyla, Miguel",2,67.84,10,30.06
+316,2023-09-11,Lima,Deportes,Calzado Deportivo,Zapatillas Training,E-commerce,"Flores, María",2,166.46,10,74.4
+317,2023-06-30,Trujillo,Electrónica,Laptops,Dell Inspiron 15,Tienda Física,"Polo, Carmen",2,1335.05,10,842.76
+318,2024-07-30,Arequipa,Alimentos,Abarrotes,Harina 1kg,E-commerce,"Cáceres, Julia",4,31.93,10,16.52
+319,2023-02-27,Trujillo,Alimentos,Lácteos,Yogurt Fresa 1kg,Tienda Física,"Vera, Jorge",4,19.58,0,9.27
+320,2023-11-28,Lima,Hogar,Decoración,Lámpara de Mesa,Tienda Física,"Torres, Carlos",1,101.93,5,47.11
+321,2024-08-23,Trujillo,Electrónica,Tablets,iPad Air,Tienda Física,"Castillo, Nadia",1,522.08,0,313.82
+322,2023-08-17,Trujillo,Deportes,Nutrición,Creatina 300g,Tienda Física,"Sánchez, Raúl",5,64.57,0,24.08
+323,2024-08-04,Arequipa,Hogar,Decoración,Lámpara de Mesa,E-commerce,"Zúñiga, Sandra",1,107.65,0,49.75
+324,2023-12-06,Trujillo,Alimentos,Bebidas,Agua 625ml x12,E-commerce,"Polo, Carmen",2,35.93,20,16.59
+325,2023-09-13,Lima,Electrónica,Tablets,Amazon Fire HD,Tienda Física,"Torres, Carlos",1,524.37,10,315.2
+326,2024-02-28,Arequipa,Electrónica,Accesorios PC,Hub USB-C,E-commerce,"Cáceres, Julia",4,99.19,0,50.15
+327,2023-10-29,Lima,Deportes,Ropa Deportiva,Short Deportivo,Tienda Física,"Flores, María",1,74.7,20,30.26
+328,2023-04-06,Lima,Ropa,Accesorios,Billetera,E-commerce,"Huanca, Rosa",3,50.38,5,18.51
+329,2023-06-10,Lima,Electrónica,Accesorios PC,Teclado USB,E-commerce,"Mendoza, Luis",1,78.35,0,39.62
+330,2023-02-20,Lima,Alimentos,Lácteos,Queso Fresco 500g,Tienda Física,"Flores, María",7,19.41,10,9.19
+331,2024-05-06,Lima,Hogar,Muebles,Sofá 2 Plazas,Tienda Física,"Huanca, Rosa",2,482.62,0,281.31
+332,2024-04-27,Arequipa,Electrónica,Accesorios PC,Mouse Inalámbrico,Tienda Física,"Zúñiga, Sandra",4,99.54,0,50.33
+333,2023-07-11,Arequipa,Deportes,Ropa Deportiva,Buzo Completo,E-commerce,"Coyla, Miguel",4,68.21,5,27.63
+334,2023-03-29,Lima,Hogar,Muebles,Mesa de Centro,E-commerce,"Flores, María",3,599.76,5,349.59
+335,2024-07-02,Arequipa,Ropa,Ropa Hombre,Bermuda Casual,E-commerce,"Zúñiga, Sandra",4,90.94,0,38.83
+336,2023-06-27,Lima,Deportes,Equipamiento,Colchoneta Yoga,Tienda Física,"Mendoza, Luis",2,341.35,10,176.96
+337,2024-09-01,Lima,Deportes,Equipamiento,Banda Elástica,Tienda Física,"Torres, Carlos",3,282.83,10,146.62
+338,2024-06-16,Trujillo,Electrónica,Accesorios PC,Hub USB-C,Tienda Física,"Sánchez, Raúl",4,100.14,0,50.63
+339,2024-08-03,Arequipa,Alimentos,Snacks,Papas Fritas 200g,Tienda Física,"Cáceres, Julia",10,15.37,20,7.17
+340,2024-02-25,Lima,Electrónica,Smartphones,Xiaomi Redmi Note 12,E-commerce,"Quispe, Ana",3,674.47,5,405.26
+341,2023-02-09,Arequipa,Electrónica,Laptops,ASUS VivoBook 15,Tienda Física,"Zúñiga, Sandra",4,1450.82,0,915.84
+342,2023-11-15,Lima,Deportes,Calzado Deportivo,Sandalias Playa,Tienda Física,"Quispe, Ana",3,197.41,15,88.23
+343,2023-11-25,Arequipa,Ropa,Ropa Mujer,Vestido Casual,E-commerce,"Zúñiga, Sandra",3,105.8,5,44.88
+344,2024-01-18,Lima,Deportes,Ropa Deportiva,Medias Deportivas,E-commerce,"Huanca, Rosa",1,79.36,0,32.15
+345,2024-08-05,Lima,Alimentos,Snacks,Galletas x6,E-commerce,"Huanca, Rosa",1,13.53,15,6.31
+346,2024-12-22,Lima,Electrónica,Laptops,HP Pavilion 15,Tienda Física,"Quispe, Ana",2,1210.92,10,764.4
+347,2024-04-01,Lima,Electrónica,Smartphones,iPhone 13,Tienda Física,"Huanca, Rosa",2,795.57,5,478.03
+348,2023-10-19,Arequipa,Hogar,Decoración,Cojín Decorativo,E-commerce,"Velarde, Pedro",1,114.95,0,53.13
+349,2024-10-29,Arequipa,Ropa,Ropa Mujer,Jean Skinny,E-commerce,"Coyla, Miguel",4,99.39,15,42.17
+350,2023-08-18,Trujillo,Electrónica,Accesorios PC,Teclado USB,E-commerce,"Vera, Jorge",3,91.89,15,46.46
+351,2023-09-16,Arequipa,Hogar,Cocina,Colador Acero,E-commerce,"Zúñiga, Sandra",2,78.21,10,34.65
+352,2024-07-28,Trujillo,Deportes,Equipamiento,Pesa 10kg,Tienda Física,"Sánchez, Raúl",5,308.78,0,160.07
+353,2023-09-25,Lima,Electrónica,Tablets,Lenovo Tab M10,E-commerce,"Quispe, Ana",3,497.67,5,299.15
+354,2024-11-02,Lima,Electrónica,Accesorios PC,Webcam HD,E-commerce,"Flores, María",4,102.28,0,51.72
+355,2024-12-03,Lima,Deportes,Equipamiento,Colchoneta Yoga,Tienda Física,"Torres, Carlos",5,311.41,5,161.43
+356,2023-10-28,Trujillo,Hogar,Electrodomésticos,Microondas 20L,E-commerce,"Polo, Carmen",1,395.5,10,208.16
+357,2023-12-30,Arequipa,Alimentos,Bebidas,Jugo Natural 1L,E-commerce,"Cáceres, Julia",4,41.86,0,19.32
+358,2023-05-01,Arequipa,Hogar,Electrodomésticos,Aspiradora Portátil,Tienda Física,"Zúñiga, Sandra",4,345.58,5,181.88
+359,2024-11-28,Arequipa,Alimentos,Abarrotes,Azúcar 1kg,E-commerce,"Velarde, Pedro",7,29.26,5,15.13
+360,2023-05-27,Trujillo,Ropa,Ropa Mujer,Jean Skinny,Tienda Física,"Castillo, Nadia",3,109.76,0,46.57
+361,2024-04-07,Lima,Hogar,Decoración,Cojín Decorativo,E-commerce,"Flores, María",3,108.62,10,50.2
+362,2024-10-10,Arequipa,Ropa,Accesorios,Cinturón Cuero,Tienda Física,"Zúñiga, Sandra",4,47.58,20,17.48
+363,2024-06-27,Lima,Electrónica,Laptops,ASUS VivoBook 15,E-commerce,"Quispe, Ana",2,1111.13,0,701.41
+364,2024-05-30,Arequipa,Ropa,Calzado,Sandalia Plana,Tienda Física,"Zúñiga, Sandra",5,140.33,0,61.22
+365,2023-12-17,Lima,Hogar,Cocina,Tabla de Picar,Tienda Física,"Torres, Carlos",4,75.66,0,33.52
+366,2023-08-05,Trujillo,Deportes,Equipamiento,Colchoneta Yoga,Tienda Física,"Polo, Carmen",1,307.05,0,159.17
+367,2023-02-19,Lima,Electrónica,Accesorios PC,Webcam HD,E-commerce,"Huanca, Rosa",5,102.21,10,51.68
+368,2023-05-07,Arequipa,Electrónica,Smartphones,Samsung Galaxy A54,Tienda Física,"Zúñiga, Sandra",5,647.15,10,388.85
+369,2023-10-04,Lima,Electrónica,Tablets,Amazon Fire HD,E-commerce,"Huanca, Rosa",5,566.4,0,340.46
+370,2024-05-24,Trujillo,Electrónica,Smartphones,Xiaomi Redmi Note 12,Tienda Física,"Vera, Jorge",2,721.86,10,433.73
+371,2024-07-15,Trujillo,Ropa,Calzado,Bota Casual,Tienda Física,"Vera, Jorge",4,167.34,10,73.0
+372,2024-08-10,Lima,Ropa,Ropa Hombre,Polo Básico,E-commerce,"Flores, María",4,79.63,0,34.0
+373,2023-09-28,Lima,Electrónica,Tablets,Samsung Tab A8,Tienda Física,"Quispe, Ana",4,474.9,10,285.46
+374,2023-04-08,Trujillo,Hogar,Electrodomésticos,Aspiradora Portátil,Tienda Física,"Vera, Jorge",1,340.31,0,179.11
+375,2023-04-06,Arequipa,Hogar,Electrodomésticos,Plancha Vapor,E-commerce,"Coyla, Miguel",3,436.7,0,229.84
+376,2024-03-07,Lima,Deportes,Calzado Deportivo,Bota Trail,E-commerce,"Mendoza, Luis",2,158.22,10,70.71
+377,2024-08-05,Lima,Ropa,Ropa Hombre,Bermuda Casual,E-commerce,"Mendoza, Luis",4,80.49,0,34.37
+378,2024-02-26,Lima,Electrónica,Laptops,Dell Inspiron 15,E-commerce,"Flores, María",4,1122.07,0,708.31
+379,2023-04-08,Lima,Alimentos,Bebidas,Jugo Natural 1L,Tienda Física,"Huanca, Rosa",7,40.89,0,18.87
+380,2024-06-01,Lima,Deportes,Ropa Deportiva,Polo Dry-Fit,Tienda Física,"Torres, Carlos",4,87.34,15,35.38
+381,2023-02-21,Lima,Deportes,Calzado Deportivo,Zapatillas Training,Tienda Física,"Quispe, Ana",5,164.11,5,73.34
+382,2024-04-03,Lima,Ropa,Ropa Hombre,Bermuda Casual,Tienda Física,"Huanca, Rosa",1,98.52,5,42.07
+383,2024-07-24,Lima,Deportes,Equipamiento,Pesa 10kg,Tienda Física,"Flores, María",5,254.17,0,131.76
+384,2023-12-16,Arequipa,Alimentos,Lácteos,Yogurt Fresa 1kg,E-commerce,"Zúñiga, Sandra",6,20.85,10,9.88
+385,2023-04-10,Trujillo,Hogar,Cocina,Tabla de Picar,E-commerce,"Vera, Jorge",2,67.2,0,29.77
+386,2024-05-19,Arequipa,Hogar,Electrodomésticos,Licuadora 2L,Tienda Física,"Cáceres, Julia",2,437.52,10,230.28
+387,2023-08-09,Lima,Hogar,Decoración,Lámpara de Mesa,Tienda Física,"Mendoza, Luis",4,130.59,0,60.36
+388,2024-04-13,Lima,Deportes,Equipamiento,Pesa 10kg,E-commerce,"Mendoza, Luis",5,339.92,0,176.21
+389,2024-06-04,Lima,Alimentos,Abarrotes,Azúcar 1kg,E-commerce,"Mendoza, Luis",3,30.67,0,15.86
+390,2024-03-04,Trujillo,Electrónica,Accesorios PC,Webcam HD,Tienda Física,"Castillo, Nadia",5,100.1,10,50.61
+391,2024-02-27,Lima,Hogar,Electrodomésticos,Plancha Vapor,E-commerce,"Torres, Carlos",5,422.94,10,222.6
+392,2023-10-25,Lima,Alimentos,Lácteos,Yogurt Fresa 1kg,Tienda Física,"Huanca, Rosa",6,21.4,0,10.14
+393,2024-08-19,Arequipa,Ropa,Calzado,Zapatillas Urbanas,E-commerce,"Zúñiga, Sandra",5,168.79,10,73.63
+394,2023-01-26,Arequipa,Alimentos,Lácteos,Mantequilla 200g,E-commerce,"Velarde, Pedro",7,16.98,10,8.04
+395,2024-12-08,Lima,Ropa,Calzado,Sandalia Plana,Tienda Física,"Flores, María",3,135.77,5,59.23
+396,2024-02-03,Lima,Deportes,Equipamiento,Colchoneta Yoga,E-commerce,"Huanca, Rosa",2,299.98,10,155.51
+397,2024-07-19,Arequipa,Electrónica,Accesorios PC,Hub USB-C,Tienda Física,"Coyla, Miguel",1,76.0,0,38.43
+398,2023-07-18,Arequipa,Deportes,Ropa Deportiva,Buzo Completo,E-commerce,"Cáceres, Julia",3,77.79,20,31.51
+399,2024-07-23,Lima,Ropa,Ropa Hombre,Bermuda Casual,Tienda Física,"Quispe, Ana",3,79.12,5,33.78
+400,2024-09-03,Lima,Hogar,Cocina,Juego Cuchillos,Tienda Física,"Quispe, Ana",1,85.49,5,37.87
+401,2024-06-22,Trujillo,Hogar,Cocina,Tabla de Picar,Tienda Física,"Sánchez, Raúl",2,89.83,5,39.8
+402,2023-08-07,Arequipa,Ropa,Accesorios,Gorra,Tienda Física,"Cáceres, Julia",3,46.52,0,17.09
+403,2024-04-01,Trujillo,Alimentos,Snacks,Papas Fritas 200g,Tienda Física,"Sánchez, Raúl",4,16.82,5,7.85
+404,2024-01-31,Arequipa,Electrónica,Tablets,Amazon Fire HD,E-commerce,"Velarde, Pedro",3,555.63,0,333.98
+405,2023-11-25,Trujillo,Hogar,Cocina,Colador Acero,Tienda Física,"Polo, Carmen",5,69.1,0,30.61
+406,2024-12-02,Trujillo,Alimentos,Abarrotes,Arroz 5kg,Tienda Física,"Polo, Carmen",7,31.92,0,16.51
+407,2023-02-08,Trujillo,Deportes,Equipamiento,Colchoneta Yoga,Tienda Física,"Sánchez, Raúl",1,260.72,0,135.16
+408,2024-10-07,Lima,Electrónica,Laptops,ASUS VivoBook 15,Tienda Física,"Mendoza, Luis",4,1272.9,0,803.52
+409,2024-12-18,Arequipa,Alimentos,Abarrotes,Arroz 5kg,E-commerce,"Velarde, Pedro",2,27.76,5,14.36
+410,2024-01-26,Lima,Hogar,Muebles,Estante Madera,E-commerce,"Mendoza, Luis",4,602.05,0,350.92
+411,2023-10-30,Lima,Ropa,Ropa Mujer,Falda A-Line,E-commerce,"Huanca, Rosa",2,93.0,15,39.46
+412,2024-08-09,Trujillo,Hogar,Muebles,Mesa de Centro,Tienda Física,"Vera, Jorge",5,531.56,5,309.83
+413,2023-05-26,Lima,Ropa,Calzado,Zapato Formal,Tienda Física,"Huanca, Rosa",2,134.87,5,58.84
+414,2024-04-17,Lima,Electrónica,Laptops,HP Pavilion 15,E-commerce,"Huanca, Rosa",5,1132.65,10,714.99
+415,2023-04-13,Lima,Ropa,Accesorios,Mochila,Tienda Física,"Torres, Carlos",3,50.76,15,18.65
+416,2024-08-02,Lima,Deportes,Calzado Deportivo,Sandalias Playa,E-commerce,"Torres, Carlos",5,171.72,0,76.75
+417,2023-10-11,Lima,Electrónica,Tablets,Samsung Tab A8,E-commerce,"Mendoza, Luis",3,488.77,10,293.8
+418,2024-07-18,Trujillo,Deportes,Nutrición,Creatina 300g,E-commerce,"Castillo, Nadia",1,53.26,5,19.86
+419,2023-03-19,Trujillo,Ropa,Ropa Mujer,Vestido Casual,E-commerce,"Vera, Jorge",1,109.38,5,46.4
+420,2024-07-10,Trujillo,Alimentos,Snacks,Galletas x6,E-commerce,"Sánchez, Raúl",9,14.87,10,6.94
+421,2023-04-03,Lima,Ropa,Calzado,Zapato Formal,Tienda Física,"Huanca, Rosa",4,142.91,0,62.35
+422,2024-08-02,Lima,Alimentos,Bebidas,Gaseosa 3L,Tienda Física,"Torres, Carlos",10,40.87,20,18.86
+423,2023-08-26,Arequipa,Deportes,Calzado Deportivo,Zapatillas Running,Tienda Física,"Zúñiga, Sandra",1,166.35,0,74.34
+424,2023-02-17,Arequipa,Alimentos,Lácteos,Mantequilla 200g,Tienda Física,"Zúñiga, Sandra",1,21.74,0,10.3
+425,2024-01-21,Arequipa,Alimentos,Lácteos,Queso Fresco 500g,Tienda Física,"Cáceres, Julia",7,18.23,10,8.64
+426,2024-06-12,Trujillo,Alimentos,Lácteos,Mantequilla 200g,E-commerce,"Polo, Carmen",7,18.16,15,8.6
+427,2023-03-20,Lima,Deportes,Equipamiento,Colchoneta Yoga,Tienda Física,"Torres, Carlos",5,311.87,0,161.67
+428,2023-04-27,Lima,Hogar,Muebles,Mesa de Centro,Tienda Física,"Quispe, Ana",4,577.86,5,336.82
+429,2023-05-18,Arequipa,Deportes,Equipamiento,Colchoneta Yoga,Tienda Física,"Cáceres, Julia",5,257.67,5,133.57
+430,2024-10-14,Lima,Hogar,Decoración,Maceta Cerámica,Tienda Física,"Huanca, Rosa",1,132.51,10,61.25
+431,2024-05-08,Trujillo,Electrónica,Laptops,Dell Inspiron 15,E-commerce,"Castillo, Nadia",2,1189.64,5,750.96
+432,2024-04-09,Lima,Alimentos,Bebidas,Jugo Natural 1L,Tienda Física,"Quispe, Ana",10,40.06,0,18.49
+433,2024-12-01,Lima,Electrónica,Smartphones,iPhone 13,Tienda Física,"Huanca, Rosa",4,767.47,5,461.14
+434,2024-09-09,Lima,Alimentos,Abarrotes,Arroz 5kg,Tienda Física,"Torres, Carlos",9,31.85,15,16.47
+435,2023-08-23,Arequipa,Deportes,Nutrición,Creatina 300g,E-commerce,"Zúñiga, Sandra",4,64.13,0,23.91
+436,2023-08-27,Arequipa,Alimentos,Abarrotes,Azúcar 1kg,Tienda Física,"Zúñiga, Sandra",2,27.11,15,14.02
+437,2024-06-16,Lima,Ropa,Ropa Hombre,Polo Básico,Tienda Física,"Flores, María",1,85.66,0,36.58
+438,2023-09-25,Trujillo,Deportes,Calzado Deportivo,Zapatillas Running,Tienda Física,"Sánchez, Raúl",5,174.9,0,78.17
+439,2024-05-09,Lima,Deportes,Ropa Deportiva,Medias Deportivas,Tienda Física,"Huanca, Rosa",2,75.92,5,30.75
+440,2023-08-24,Lima,Hogar,Electrodomésticos,Plancha Vapor,E-commerce,"Flores, María",4,432.89,15,227.84
+441,2024-12-14,Lima,Alimentos,Snacks,Chocolates Surtido,E-commerce,"Huanca, Rosa",1,13.47,20,6.29
+442,2023-04-01,Lima,Electrónica,Laptops,Dell Inspiron 15,E-commerce,"Mendoza, Luis",1,1206.68,0,761.72
+443,2023-06-29,Arequipa,Deportes,Nutrición,Creatina 300g,E-commerce,"Velarde, Pedro",4,57.92,0,21.6
+444,2024-09-21,Arequipa,Alimentos,Lácteos,Yogurt Fresa 1kg,Tienda Física,"Cáceres, Julia",3,19.99,0,9.47
+445,2024-11-16,Arequipa,Ropa,Ropa Hombre,Camisa Formal,E-commerce,"Coyla, Miguel",4,86.48,0,36.92
+446,2024-08-19,Lima,Electrónica,Smartphones,Xiaomi Redmi Note 12,E-commerce,"Huanca, Rosa",3,667.02,10,400.78
+447,2023-06-29,Lima,Ropa,Accesorios,Gorra,Tienda Física,"Quispe, Ana",4,49.09,5,18.03
+448,2023-09-14,Lima,Hogar,Muebles,Estante Madera,E-commerce,"Huanca, Rosa",4,625.76,5,364.74
+449,2024-05-08,Arequipa,Hogar,Cocina,Colador Acero,E-commerce,"Velarde, Pedro",1,73.26,0,32.46
+450,2024-06-12,Arequipa,Ropa,Ropa Mujer,Vestido Casual,Tienda Física,"Coyla, Miguel",5,84.44,10,35.82
+451,2024-05-02,Lima,Electrónica,Accesorios PC,Webcam HD,Tienda Física,"Torres, Carlos",3,85.09,15,43.02
+452,2023-09-29,Lima,Ropa,Accesorios,Billetera,Tienda Física,"Torres, Carlos",2,45.02,10,16.54
+453,2024-11-23,Trujillo,Hogar,Decoración,Cuadro Moderno,Tienda Física,"Vera, Jorge",4,123.06,10,56.88
+454,2024-08-11,Lima,Electrónica,Accesorios PC,Webcam HD,E-commerce,"Mendoza, Luis",3,88.75,20,44.88
+455,2023-02-25,Trujillo,Hogar,Cocina,Juego Cuchillos,E-commerce,"Polo, Carmen",5,86.09,5,38.14
+456,2024-04-13,Lima,Alimentos,Lácteos,Mantequilla 200g,E-commerce,"Torres, Carlos",2,20.13,5,9.54
+457,2024-01-06,Arequipa,Electrónica,Laptops,Dell Inspiron 15,Tienda Física,"Coyla, Miguel",5,1440.01,0,909.01
+458,2024-03-10,Lima,Hogar,Cocina,Tabla de Picar,Tienda Física,"Mendoza, Luis",2,77.08,10,34.15
+459,2024-08-12,Lima,Deportes,Calzado Deportivo,Bota Trail,Tienda Física,"Torres, Carlos",2,195.87,10,87.54
+460,2024-04-29,Trujillo,Alimentos,Snacks,Maní Salado 300g,Tienda Física,"Polo, Carmen",1,13.54,5,6.32
+461,2024-02-12,Trujillo,Alimentos,Lácteos,Mantequilla 200g,Tienda Física,"Vera, Jorge",2,20.09,0,9.51
+462,2024-01-05,Trujillo,Deportes,Equipamiento,Banda Elástica,E-commerce,"Sánchez, Raúl",3,304.41,15,157.81
+463,2023-07-23,Lima,Electrónica,Accesorios PC,Mouse Inalámbrico,Tienda Física,"Huanca, Rosa",5,91.03,5,46.02
+464,2024-04-02,Lima,Hogar,Electrodomésticos,Aspiradora Portátil,E-commerce,"Mendoza, Luis",1,384.76,0,202.51
+465,2023-03-15,Arequipa,Ropa,Ropa Mujer,Vestido Casual,Tienda Física,"Zúñiga, Sandra",1,88.96,0,37.74
+466,2024-01-07,Lima,Hogar,Electrodomésticos,Plancha Vapor,Tienda Física,"Mendoza, Luis",5,401.51,5,211.32
+467,2023-08-04,Lima,Electrónica,Laptops,Lenovo IdeaPad 3,E-commerce,"Flores, María",2,1258.88,0,794.67
+468,2023-04-17,Trujillo,Deportes,Equipamiento,Pesa 10kg,E-commerce,"Vera, Jorge",3,309.59,0,160.49
+469,2024-03-29,Trujillo,Deportes,Calzado Deportivo,Zapatillas Training,Tienda Física,"Sánchez, Raúl",2,159.2,10,71.15
+470,2023-10-06,Lima,Hogar,Electrodomésticos,Plancha Vapor,Tienda Física,"Huanca, Rosa",5,392.4,20,206.53
+471,2023-12-22,Arequipa,Ropa,Accesorios,Gorra,Tienda Física,"Coyla, Miguel",4,49.58,10,18.21
+472,2023-01-01,Lima,Hogar,Cocina,Tabla de Picar,Tienda Física,"Flores, María",5,86.47,10,38.31
+473,2023-11-03,Lima,Deportes,Equipamiento,Banda Elástica,E-commerce,"Mendoza, Luis",1,322.85,10,167.36
+474,2024-02-09,Arequipa,Electrónica,Tablets,Samsung Tab A8,Tienda Física,"Zúñiga, Sandra",2,493.54,10,296.66
+475,2024-06-13,Lima,Deportes,Ropa Deportiva,Buzo Completo,Tienda Física,"Torres, Carlos",5,86.29,10,34.95
+476,2023-07-06,Lima,Alimentos,Lácteos,Mantequilla 200g,Tienda Física,"Flores, María",3,17.8,5,8.43
+477,2023-02-20,Arequipa,Hogar,Cocina,Juego Cuchillos,Tienda Física,"Cáceres, Julia",5,67.67,20,29.98
+478,2023-01-16,Lima,Ropa,Accesorios,Cinturón Cuero,Tienda Física,"Torres, Carlos",4,44.84,5,16.47
+479,2023-12-05,Arequipa,Deportes,Calzado Deportivo,Bota Trail,E-commerce,"Velarde, Pedro",1,197.45,20,88.25
+480,2024-01-26,Lima,Deportes,Equipamiento,Banda Elástica,Tienda Física,"Quispe, Ana",1,265.09,10,137.42
+481,2024-06-17,Lima,Deportes,Ropa Deportiva,Polo Dry-Fit,Tienda Física,"Flores, María",2,78.36,10,31.74
+482,2024-06-17,Lima,Hogar,Decoración,Cuadro Moderno,E-commerce,"Huanca, Rosa",1,110.19,5,50.93
+483,2023-11-29,Lima,Electrónica,Laptops,HP Pavilion 15,Tienda Física,"Mendoza, Luis",1,1169.37,0,738.17
+484,2024-12-05,Lima,Ropa,Ropa Hombre,Polo Básico,Tienda Física,"Mendoza, Luis",5,79.79,10,34.07
+485,2023-03-03,Lima,Deportes,Equipamiento,Mancuernas 5kg,E-commerce,"Flores, María",3,311.97,10,161.72
+486,2024-03-25,Arequipa,Ropa,Accesorios,Billetera,Tienda Física,"Coyla, Miguel",2,41.96,0,15.42
+487,2024-07-09,Arequipa,Hogar,Muebles,Sofá 2 Plazas,E-commerce,"Coyla, Miguel",4,497.91,0,290.22
+488,2024-04-05,Lima,Deportes,Calzado Deportivo,Zapatillas Training,Tienda Física,"Torres, Carlos",3,196.15,5,87.67
+489,2024-01-08,Lima,Alimentos,Snacks,Galletas x6,E-commerce,"Huanca, Rosa",10,13.82,10,6.45
+490,2024-07-18,Arequipa,Alimentos,Snacks,Galletas x6,Tienda Física,"Zúñiga, Sandra",3,15.51,0,7.24
+491,2023-07-02,Arequipa,Electrónica,Smartphones,Samsung Galaxy A54,Tienda Física,"Cáceres, Julia",1,636.53,5,382.46
+492,2023-09-20,Lima,Alimentos,Snacks,Maní Salado 300g,Tienda Física,"Huanca, Rosa",1,14.4,5,6.72
+493,2024-01-05,Lima,Ropa,Accesorios,Cinturón Cuero,Tienda Física,"Flores, María",5,52.58,15,19.31
+494,2023-03-21,Trujillo,Electrónica,Tablets,iPad Air,E-commerce,"Sánchez, Raúl",2,624.86,0,375.6
+495,2024-08-06,Arequipa,Alimentos,Snacks,Galletas x6,Tienda Física,"Cáceres, Julia",3,15.26,5,7.12
+496,2023-04-17,Arequipa,Alimentos,Lácteos,Mantequilla 200g,E-commerce,"Zúñiga, Sandra",3,20.67,5,9.79
+497,2023-11-29,Lima,Ropa,Accesorios,Mochila,E-commerce,"Huanca, Rosa",3,47.71,5,17.53
+498,2024-01-04,Trujillo,Hogar,Decoración,Lámpara de Mesa,Tienda Física,"Sánchez, Raúl",4,117.13,0,54.13
+499,2023-01-07,Arequipa,Hogar,Muebles,Mesa de Centro,E-commerce,"Coyla, Miguel",3,628.78,0,366.5
+500,2023-06-09,Lima,Hogar,Decoración,Cuadro Moderno,Tienda Física,"Quispe, Ana",2,110.61,15,51.12

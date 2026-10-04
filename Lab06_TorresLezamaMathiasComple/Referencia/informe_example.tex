@@ -1,0 +1,485 @@
+\documentclass[11pt,a4paper]{article}
+
+% ===================== PAQUETES =====================
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{caption}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=blue!50!black,
+  citecolor=blue!50!black,
+  pdftitle={Laboratorio 3 - Implementacion de un Datamart Analitico y Creacion de Cubos},
+  pdfauthor={Torres Lezama, Mathias James}
+}
+
+% ===================== ESTILO DE CODIGO SQL =====================
+\definecolor{codebg}{rgb}{0.96,0.96,0.96}
+\definecolor{codekw}{rgb}{0.0,0.0,0.6}
+\definecolor{codecomment}{rgb}{0.35,0.55,0.35}
+\definecolor{codestring}{rgb}{0.6,0.0,0.0}
+
+\lstdefinelanguage{SQLdialect}{
+  morekeywords={SELECT,FROM,WHERE,GROUP,BY,ORDER,JOIN,LEFT,INNER,ON,AS,
+    INSERT,INTO,VALUES,UPDATE,SET,DELETE,CREATE,TABLE,DATABASE,DROP,
+    PRIMARY,KEY,FOREIGN,REFERENCES,NOT,NULL,DEFAULT,UNIQUE,INDEX,
+    ENGINE,PARTITION,RANGE,VALUES,LESS,THAN,MAXVALUE,
+    UNION,ALL,CASE,WHEN,THEN,END,WITH,ROLLUP,GROUPING,SETS,RECURSIVE,
+    COALESCE,NULLIF,CAST,DISTINCT,COUNT,SUM,ROUND,AND,OR,IN,BETWEEN,
+    USE,AUTO\_INCREMENT,DECIMAL,VARCHAR,INT,DATE,DATETIME,TINYINT,
+    SMALLINT,CHAR,LIMIT},
+  sensitive=false,
+  morecomment=[l]{--},
+  morestring=[b]'
+}
+
+\lstset{
+  language=SQLdialect,
+  backgroundcolor=\color{codebg},
+  basicstyle=\ttfamily\scriptsize,
+  keywordstyle=\color{codekw}\bfseries,
+  commentstyle=\color{codecomment}\itshape,
+  stringstyle=\color{codestring},
+  breaklines=true,
+  breakatwhitespace=false,
+  frame=single,
+  rulecolor=\color{gray!40},
+  numbers=left,
+  numberstyle=\tiny\color{gray},
+  numbersep=6pt,
+  xleftmargin=1em,
+  tabsize=2,
+  showstringspaces=false,
+  captionpos=b
+}
+
+\captionsetup{font=small,labelfont=bf}
+
+% ===================== ENCABEZADO =====================
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Inteligencia de Negocios - Laboratorio 3}
+\fancyhead[R]{Torres Lezama, Mathias James}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\setlist[itemize]{topsep=2pt,itemsep=2pt}
+
+\begin{document}
+
+% ===================================================================
+% CARATULA
+% ===================================================================
+\begin{titlepage}
+\thispagestyle{empty}
+\begin{center}
+
+{\LARGE \textbf{UNIVERSIDAD NACIONAL MAYOR DE SAN MARCOS}}\\[3pt]
+{\itshape\small Decana de América, fundada en 1551}\\[40pt]
+
+\includegraphics[width=3.2cm]{img/logo_unmsm_0.png}\\[40pt]
+
+{\large \textbf{FACULTAD DE INGENIERÍA DE SISTEMA E INFORMÁTICA}}\\[6pt]
+{\large \textbf{ESCUELA PROFESIONAL DE INGENIERÍA DE SOFTWARE}}\\[80pt]
+
+{\Large \textbf{Laboratorio 3 - Implementación de un Datamart Analítico y Creación de Cubos}}\\[90pt]
+
+\end{center}
+
+\begin{center}
+    \large
+    \textbf{Estudiante:}\\
+    Torres Lezama, Mathias James\\[20pt]
+
+    \textbf{Docente:}\\
+    Gamarra Moreno, Juan\\[20pt]
+
+    \textbf{Asignatura:}\\
+    Inteligencia de Negocios\\
+\end{center}
+
+\vfill
+
+\begin{center}
+\large Lima, Perú\\
+2026
+\end{center}
+
+\end{titlepage}
+
+% ===================================================================
+% INDICE
+% ===================================================================
+\tableofcontents
+\newpage
+
+% ===================================================================
+\section{Resumen ejecutivo}
+% ===================================================================
+
+Este informe documenta la construcción de un datamart analítico para MERCANDINA a partir de ocho archivos fuente (productos, tiendas, clientes, promociones y ventas del primer semestre de 2026), siguiendo un esquema en estrella con seis dimensiones y una tabla de hechos particionada. La carga procesó \textbf{106\,708} líneas de venta sin pérdidas ni duplicados, por un importe total de \textbf{S/ 3\,430\,651.54}, cifra que cuadra al centavo entre el sistema de origen y la tabla de hechos. Los siete cuadres de control ejecutados (Sección~\ref{sec:cuadres}) confirmaron la integridad referencial, la calidad de los datos absorbidos y la correcta aplicación del patrón de dimensión lentamente cambiante Tipo 2 (SCD2) sobre productos, tiendas y clientes.
+
+Sobre ese datamart se resolvieron las seis operaciones OLAP clásicas (roll-up, drill-down, slice, dice, pivot y drill-across) y se materializó un cubo agregado con \texttt{WITH ROLLUP}. Los indicadores de referencia obtenidos, \textbf{32\,613} tickets distintos, ticket promedio de \textbf{S/ 105.19} y margen global de \textbf{26.76\,\%} coincidieron exactamente con los valores esperados de la guía. El modelo se replicó como modelo semántico en Power BI (siete tablas, ocho medidas DAX y dos jerarquías navegables), validándose el total de venta contra el cuadre de la Etapa 8.
+
+Finalmente, la actividad propuesta demostró con datos que una objeción de la Gerencia Comercial sobre un cambio en el informe de ventas por categoría no era un error, sino el comportamiento esperado del SCD2, y construyó un indicador de efectividad promocional que reveló una asignación de presupuesto casi uniforme entre categorías (18.11\,\%–19.55\,\%), sin correlación con el margen y sin línea base para medir el efecto incremental real de las campañas.
+
+
+% ===================================================================
+\section{Modelo de datos}
+% ===================================================================
+
+El datamart se organiza en un esquema en estrella clásico: una tabla de hechos \texttt{fact\_venta} rodeada por seis dimensiones, sin relaciones entre dimensiones. El área de \texttt{staging} es una copia fiel de los ocho archivos de origen, con todos los campos declarados como texto, de modo que ninguna conversión fallida detenga la carga ni pierda trazabilidad hacia el archivo original.
+
+\subsection{Dimensiones}
+
+Tres dimensiones (\texttt{dim\_producto}, \texttt{dim\_tienda} y \texttt{dim\_cliente}) son dimensiones lentamente cambiantes de Tipo 2: mantienen historia completa de los atributos indicados en la Tabla~\ref{tab:dimensiones} mediante clave subrogada autoincremental, clave natural, y el par \texttt{fecha\_inicio\_vig} / \texttt{fecha\_fin\_vig} junto al indicador \texttt{es\_vigente}. \texttt{dim\_promocion} no lleva historia. \texttt{dim\_transaccion} es una dimensión \emph{junk} que agrupa los cuatro indicadores de baja cardinalidad de la venta (tipo de comprobante, forma de pago, canal y bandera de devolución). \texttt{dim\_tiempo} se genera por programa, no se extrae del origen.
+
+\begin{table}[h!]
+\centering
+\caption{Conteo final de filas por dimensión (tras Etapa 6, SCD Tipo 2)}
+\label{tab:dimensiones}
+\begin{tabular}{lrrrl}
+\toprule
+\textbf{Dimensión} & \textbf{Total} & \textbf{Vigentes} & \textbf{Cerradas} & \textbf{Atributos con historia (SCD2)} \\
+\midrule
+dim\_tiempo      & 1\,461 & --    & --  & no aplica (generada) \\
+dim\_producto    & 415    & 387   & 28  & categoria, subcategoria \\
+dim\_tienda      & 41     & 35    & 6   & formato, area\_m2 \\
+dim\_cliente     & 1\,297 & 1\,202 & 95 & segmento, distrito, ciudad \\
+dim\_promocion   & 13     & --    & --  & no aplica \\
+dim\_transaccion & 29     & --    & --  & no aplica (dimensión junk) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Cada dimensión con historia incluye una fila especial con clave subrogada negativa, insertada antes de cualquier carga real. La distinción entre \texttt{-1} y \texttt{-2} es deliberada y no cosmética: \texttt{-1} (\emph{Desconocido}) representa un dato que debería existir y no se encontró —un problema de calidad a investigar—, mientras que \texttt{-2} (\emph{No aplica}) representa una ausencia legítima del negocio, como una venta sin cliente fidelizado o sin promoción asociada. Confundir ambos casos haría que el control de calidad de la Sección~\ref{sec:cuadres} informara un problema donde en realidad hay un comportamiento normal del negocio.
+
+\texttt{dim\_transaccion} resultó con 29 filas y no con las 32 que produciría el producto cartesiano de 2 tipos de comprobante $\times$ 4 formas de pago $\times$ 2 canales $\times$ 2 valores de devolución, porque se construyó con \texttt{SELECT DISTINCT} sobre las combinaciones \emph{realmente observadas} en el semestre de ventas. El riesgo de este enfoque es que una combinación válida pero no observada durante la carga inicial no tendrá fila en la dimensión; si en un semestre futuro aparece esa combinación y la carga de hechos no contempla un mecanismo de alta incremental para \texttt{dim\_transaccion}, el \texttt{JOIN} normal hacia esa dimensión (Tabla~\ref{tab:detalles-carga}) fallaría en encontrar la clave subrogada correspondiente para esas filas.
+
+\subsection{Tabla de hechos}
+
+\texttt{fact\_venta} tiene grano \emph{una línea de comprobante de venta}, y ese grano es exactamente la clave primaria declarada: \texttt{(tiempo\_key, producto\_key, tienda\_key, nro\_ticket)}. Declarar la clave primaria así no es una formalidad, sino el mecanismo que impide físicamente que una carga duplicada pase inadvertida (verificado en el Control 5, Sección~\ref{sec:cuadres}). Todos los importes se declaran \texttt{DECIMAL}, nunca \texttt{FLOAT} ni \texttt{DOUBLE}, para evitar errores de redondeo en el cuadre de dinero.
+
+La tabla está particionada por rango sobre \texttt{tiempo\_key} en seis particiones trimestrales, decisión que se alinea con el patrón de consulta esperado (reportes por periodo) y que MySQL exige declarar incluyendo la columna de partición en toda clave única de la tabla —razón por la cual \texttt{tiempo\_key} encabeza la clave primaria—. InnoDB con particionamiento no admite claves foráneas en MySQL 8, por lo que la integridad referencial se garantiza en el proceso de carga y se verifica explícitamente con los cuadres de control.
+
+\begin{lstlisting}[caption={DDL de \texttt{fact\_venta}: clave primaria igual al grano y particionamiento trimestral (\texttt{dm\_mercandina\_ddl.sql}).}, label={lst:ddl-fact}]
+CREATE TABLE fact_venta (
+  tiempo_key        INT            NOT NULL,
+  producto_key      INT            NOT NULL,
+  tienda_key        INT            NOT NULL,
+  cliente_key       INT            NOT NULL,
+  promocion_key     INT            NOT NULL,
+  transaccion_key   INT            NOT NULL,
+  nro_ticket        VARCHAR(30)    NOT NULL,  -- dimension degenerada
+  cantidad          DECIMAL(12,3)  NOT NULL,
+  importe_venta     DECIMAL(18,2)  NOT NULL,
+  importe_costo     DECIMAL(18,2)  NOT NULL,
+  importe_descuento DECIMAL(18,2)  NOT NULL DEFAULT 0,
+  PRIMARY KEY (tiempo_key, producto_key, tienda_key, nro_ticket),
+  KEY ix_fact_producto (producto_key),
+  KEY ix_fact_tienda   (tienda_key),
+  KEY ix_fact_cliente  (cliente_key),
+  KEY ix_fact_promo    (promocion_key),
+  KEY ix_fact_ticket   (nro_ticket)
+)
+ENGINE=InnoDB
+PARTITION BY RANGE (tiempo_key) (
+  PARTITION p2025   VALUES LESS THAN (20260101),
+  PARTITION p2026q1 VALUES LESS THAN (20260401),
+  PARTITION p2026q2 VALUES LESS THAN (20260701),
+  PARTITION p2026q3 VALUES LESS THAN (20261001),
+  PARTITION p2026q4 VALUES LESS THAN (20270101),
+  PARTITION pmax    VALUES LESS THAN MAXVALUE
+);
+\end{lstlisting}
+
+La carga final produjo \textbf{106\,708} filas en \texttt{fact\_venta} —una por cada línea de venta del origen, sin pérdidas ni duplicados— distribuidas en las seis particiones trimestrales, con un importe total de \textbf{S/ 3\,430\,651.54}.
+
+% ===================================================================
+\section{Proceso ETL}
+% ===================================================================
+
+El proceso ETL se organizó en cuatro scripts SQL secuenciales, cada uno correspondiente a una etapa de la guía: \texttt{dm\_mercandina\_ddl.sql} (esquema), \texttt{dm\_mercandina\_dim.sql} (staging, dimensión tiempo, filas especiales y carga inicial de dimensiones), \texttt{dm\_mercandina\_scd2.sql} (aplicación de los cambios del 1 de abril de 2026) y \texttt{dm\_mercandina\_carga.sql} (carga de hechos). Los cinco scripts se verificaron corriendo de principio a fin sobre una base de datos recreada desde cero, encadenados sin intervención manual, cumpliendo la condición de aceptación de la guía.
+
+\subsection{Staging y dimensión tiempo}
+
+Los ocho archivos de origen se cargaron con \texttt{LOAD DATA LOCAL INFILE} hacia sus tablas de staging homónimas, con conteos verificados contra la Tabla 4 de la guía (386, 28, 34, 6, 1\,200, 95, 12 y 106\,708 filas respectivamente, sin discrepancias).
+
+La dimensión tiempo no se extrae del origen: se genera por programa para un rango más amplio que el de los datos (2024-01-01 a 2027-12-31, 1\,461 días), mediante una expresión de tabla común recursiva que evita tener que regenerarla en cada carga. El atributo \texttt{es\_dia\_pago} (quincena o fin de mes) es una regla de negocio propia de MERCANDINA, no una función de calendario del motor, lo que justifica tener una dimensión tiempo propia en lugar de usar directamente las funciones de fecha de MySQL.
+
+\subsection{Dimensión lentamente cambiante Tipo 2}
+
+El 1 de abril de 2026, MERCANDINA aplicó tres cambios simultáneos: reclasificó 28 productos de categoría, convirtió 6 tiendas de formato Express a Market, y actualizó el distrito y segmento de 95 clientes. El patrón SCD2 aplicado consta de exactamente dos pasos, en un orden estricto: primero se cierra la versión vigente (\texttt{fecha\_fin\_vig} y \texttt{es\_vigente = 0}) y solo después se inserta la nueva versión. Invertir el orden haría que el \texttt{UPDATE} de cierre alcanzara también a la fila recién insertada, dejando la dimensión sin ninguna versión vigente.
+
+\begin{lstlisting}[caption={Patrón SCD Tipo 2 de dos pasos aplicado a \texttt{dim\_producto} (\texttt{dm\_mercandina\_scd2.sql}).}, label={lst:scd2}]
+-- PASO 1: cerrar la version vigente
+UPDATE dim_producto d
+JOIN   stg_producto_cambio ch ON ch.cod_producto = d.producto_id
+SET    d.fecha_fin_vig = DATE_SUB(STR_TO_DATE(ch.fecha_cambio, '%Y-%m-%d'),
+                                    INTERVAL 1 DAY),
+       d.es_vigente    = 0
+WHERE  d.es_vigente = 1;
+
+-- PASO 2: insertar la nueva version
+INSERT INTO dim_producto
+  (producto_id, nombre_producto, marca, categoria, subcategoria,
+   unidad_medida, es_marca_propia, precio_lista, costo_estandar,
+   fecha_inicio_vig, fecha_fin_vig, es_vigente)
+SELECT ch.cod_producto, ch.nombre_producto, ch.marca, ch.categoria,
+       ch.subcategoria, ch.unidad_medida,
+       CAST(ch.es_marca_propia AS UNSIGNED),
+       CAST(ch.precio_lista AS DECIMAL(12,2)),
+       CAST(ch.costo_unitario AS DECIMAL(12,2)),
+       STR_TO_DATE(ch.fecha_cambio, '%Y-%m-%d'), '9999-12-31', 1
+FROM stg_producto_cambio ch;
+\end{lstlisting}
+
+La condición \texttt{WHERE d.es\_vigente = 1} del Paso 1 es crítica: sin ella, el \texttt{UPDATE} volvería a tocar las versiones ya cerradas de ejecuciones anteriores, ocultando cualquier historia previa. El mismo patrón de dos pasos se repitió para \texttt{dim\_tienda} (con \texttt{stg\_tienda\_cambio}) y \texttt{dim\_cliente} (con \texttt{stg\_cliente\_cambio}). Cabe señalar que este script \textbf{no es idempotente}: ejecutarlo dos veces duplicaría las 28 filas insertadas y dejaría dos versiones vigentes por producto, lo que haría fallar el Control 6 de la Sección~\ref{sec:cuadres}.
+
+\subsection{Carga de la tabla de hechos}
+
+La sentencia central del laboratorio sustituye las claves naturales del sistema fuente por las claves subrogadas del datamart, recuperando en cada caso la versión de la dimensión que estaba vigente en la fecha exacta de la transacción.
+
+\begin{lstlisting}[caption={Carga de \texttt{fact\_venta}: \texttt{LEFT JOIN} + \texttt{COALESCE} hacia las filas especiales y \texttt{BETWEEN} sobre la vigencia (\texttt{dm\_mercandina\_carga.sql}).}, label={lst:carga}]
+INSERT INTO fact_venta
+  (tiempo_key, producto_key, tienda_key, cliente_key, promocion_key,
+   transaccion_key, nro_ticket, cantidad, importe_venta, importe_costo,
+   importe_descuento)
+SELECT
+  t.tiempo_key,
+  COALESCE(p.producto_key, -1),      -- producto no hallado en el catalogo
+  COALESCE(s.tienda_key,   -1),
+  COALESCE(cl.cliente_key, -2),      -- venta anonima (no es un error)
+  COALESCE(pr.promocion_key, -2),    -- venta sin promocion
+  tr.transaccion_key,
+  o.nro_ticket,
+  CAST(o.cantidad AS DECIMAL(12,3)),
+  CAST(o.importe_neto AS DECIMAL(18,2)),
+  CAST(o.costo_unitario AS DECIMAL(18,2)) * CAST(o.cantidad AS DECIMAL(12,3)),
+  CAST(o.descuento AS DECIMAL(18,2))
+FROM        stg_venta_pos o
+JOIN        dim_tiempo t
+  ON t.fecha = STR_TO_DATE(o.fecha_emision, '%Y-%m-%d')
+LEFT JOIN   dim_producto p
+  ON p.producto_id = o.cod_producto
+  AND STR_TO_DATE(o.fecha_emision, '%Y-%m-%d')
+       BETWEEN p.fecha_inicio_vig AND p.fecha_fin_vig
+LEFT JOIN   dim_tienda s
+  ON s.tienda_id = o.cod_tienda
+  AND STR_TO_DATE(o.fecha_emision, '%Y-%m-%d')
+       BETWEEN s.fecha_inicio_vig AND s.fecha_fin_vig
+LEFT JOIN   dim_cliente cl
+  ON cl.cliente_id = NULLIF(o.doc_cliente, '')
+  AND STR_TO_DATE(o.fecha_emision, '%Y-%m-%d')
+       BETWEEN cl.fecha_inicio_vig AND cl.fecha_fin_vig
+LEFT JOIN   dim_promocion pr
+  ON pr.promocion_id = NULLIF(o.cod_promocion, '')
+JOIN        dim_transaccion tr
+  ON tr.tipo_comprobante = o.tipo_comprobante
+  AND tr.forma_pago      = o.forma_pago
+  AND tr.canal           = o.canal
+  AND tr.es_devolucion   = CAST(o.flag_devolucion AS UNSIGNED);
+\end{lstlisting}
+
+Cinco decisiones de esta sentencia determinan si la carga es correcta o silenciosamente falsa:
+
+\begin{table}[h!]
+\centering
+\caption{Decisiones críticas de la sentencia de carga de hechos}
+\label{tab:detalles-carga}
+\begin{tabular}{p{4.2cm}p{9.5cm}}
+\toprule
+\textbf{Detalle} & \textbf{Por qué es indispensable} \\
+\midrule
+\texttt{LEFT JOIN} hacia las dimensiones, no \texttt{INNER JOIN} & Un \texttt{INNER JOIN} descartaría las 362 líneas cuyo producto no existe en el catálogo; el total del datamart dejaría de coincidir con el origen sin ningún aviso. \\
+\texttt{COALESCE} hacia la fila especial & Convierte la ausencia en un valor explícito y trazable. Sin él quedarían \texttt{NULL} en las claves foráneas, rompiendo los \texttt{JOIN} de consulta posteriores. \\
+\texttt{BETWEEN} sobre las fechas de vigencia & Da sentido al SCD Tipo 2: si en su lugar se filtrara por \texttt{es\_vigente = 1}, toda la venta de enero a marzo quedaría atribuida a la categoría vigente desde abril. \\
+\texttt{NULLIF} sobre los campos vacíos & En el CSV, la ausencia de cliente o promoción es una cadena vacía, no un \texttt{NULL}. Sin \texttt{NULLIF} el \texttt{JOIN} intentaría emparejar la cadena vacía y el \texttt{COALESCE} nunca se activaría. \\
+\texttt{JOIN} normal hacia \texttt{dim\_transaccion} & Correcto porque la dimensión junk se construyó con las combinaciones observadas: toda fila del origen tiene por fuerza su correspondencia. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+La carga se completó en 1.6 segundos gracias a los índices \texttt{ix\_stg\_fecha} e \texttt{ix\_stg\_prod} creados sobre el staging en la Etapa 2, que evitan que el \texttt{JOIN} contra cuatro dimensiones sobre más de cien mil filas degenere en un recorrido completo por cada fila.
+
+\subsection{Nota metodológica: continuidad entre entornos}
+\label{sec:continuidad}
+
+El trabajo SQL (Etapas 0 a 9 y la actividad propuesta) se desarrolló inicialmente en macOS con MySQL instalado vía Homebrew, y se reprodujo posteriormente en WSL2 (Ubuntu) para continuar en una laptop Windows, migrando únicamente la ruta absoluta de los archivos de origen en las sentencias \texttt{LOAD DATA LOCAL INFILE}. En ambos entornos los resultados de los cuadres de control coincidieron exactamente. La Etapa 10 (Power BI) se realizó exclusivamente en Windows nativo, contra una segunda instancia de MySQL (servicio \texttt{MySQL80}) sobre la que se replicó la carga completa, obteniéndose el mismo total de venta.
+
+% ===================================================================
+\section{Cuadres de control}
+\label{sec:cuadres}
+% ===================================================================
+
+La carga no se considera terminada cuando el motor deja de reportar errores, sino cuando se ha demostrado que el resultado es correcto. Se ejecutaron los siete controles exigidos por la guía, cuyos resultados se resumen en la Tabla~\ref{tab:cuadres}; los siete coincidieron exactamente con los valores esperados publicados en la guía, sin necesidad de corregir ninguna etapa anterior.
+
+\begin{table}[h!]
+\centering
+\caption{Resultados de los siete cuadres de control}
+\label{tab:cuadres}
+\begin{tabular}{clp{7.3cm}}
+\toprule
+\textbf{N.\textordmasculine} & \textbf{Control} & \textbf{Resultado e interpretación} \\
+\midrule
+1 & Conteo de filas & 106\,708 = 106\,708, diferencia 0. Ninguna fila del origen se perdió ni se duplicó. \\
+2 & Cuadre de importes & S/ 3\,430\,651.54 en origen y en el hecho. El dinero cuadra al centavo gracias a \texttt{DECIMAL(18,2)} y a cargar \texttt{importe\_neto} sin recalcularlo. \\
+3 & Huérfanos & 0 en las cuatro dimensiones (producto, tienda, cliente, promoción). El \texttt{LEFT JOIN} + \texttt{COALESCE} garantiza clave foránea válida siempre. \\
+4 & Calidad de dato & 0.339\,\% producto \texttt{-1}; 0.000\,\% tienda \texttt{-1}; 54.54\,\% ventas anónimas; 77.86\,\% sin promoción. \\
+5 & Duplicados de grano & 0 filas. La clave primaria (tiempo\_key, producto\_key, tienda\_key, nro\_ticket) no admite duplicados; la carga se ejecutó una sola vez. \\
+6 & Versiones vigentes duplicadas & 0 filas. Confirma que \texttt{WHERE es\_vigente = 1} del Paso 1 del SCD2 se aplicó correctamente. \\
+7 & Cobertura temporal & 0 filas. El rango de \texttt{dim\_tiempo} (2024--2027) cubre sin excepción las fechas del semestre de ventas. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+El Control 4 exige una lectura cuidadosa: no todo porcentaje alto es un problema. El 54.54\,\% de ventas anónimas y el 77.86\,\% de ventas sin promoción son cifras \emph{esperadas} del negocio, la mayoría de las compras en una tienda de conveniencia no pasa por el programa de fidelización ni por una campaña y por eso apuntan a la clave \texttt{-2} (\emph{No aplica}), no a la \texttt{-1}. El 0.339\,\% de productos desconocidos (siete códigos \texttt{P90001} a \texttt{P90007} que el POS registró y que el ERP no reconoce, afectando 362 líneas) sí es un problema de calidad de datos genuino. Para MERCANDINA se propone un umbral de tolerancia del 0.5\,\%: si el porcentaje de producto desconocido lo superara en una carga futura, el proceso debería bloquear la carga y reportarla al área responsable del catálogo ERP antes de continuar, en vez de absorber silenciosamente un volumen creciente de ventas no identificables.
+
+% ===================================================================
+\section{Operaciones OLAP}
+% ===================================================================
+
+Sobre el datamart cargado se resolvieron en SQL las seis operaciones OLAP exigidas por la guía (\texttt{dm\_mercandina\_olap.sql}): roll-up (de detalle mensual a total trimestral por ciudad), drill-down (de categoría a subcategoría dentro de un mes), slice (fijando la ciudad), dice (restringiendo simultáneamente ciudad, categoría y periodo), pivot (meses como columnas) y drill-across (comparando venta con y sin promoción por categoría, resuelto con una sola tabla de hechos mediante dos CTE).
+
+\subsection{Materialización del cubo: \texttt{WITH ROLLUP} frente a \texttt{GROUPING SETS}}
+
+MySQL 8 no implementa \texttt{GROUPING SETS} ni \texttt{CUBE}, pero sí \texttt{WITH ROLLUP} junto con la función \texttt{GROUPING}. Se escribió la versión ejecutable con \texttt{ROLLUP} y, además, la versión equivalente con \texttt{GROUPING SETS} para un motor que la soporte, dejada comentada en el script.
+
+\begin{lstlisting}[caption={Materialización del cubo con \texttt{WITH ROLLUP} en MySQL 8 (\texttt{dm\_mercandina\_olap.sql}).}, label={lst:rollup}]
+-- MySQL 8: agregados jerarquicos con WITH ROLLUP
+SELECT COALESCE(t.anio_mes, '== TOTAL ==') AS periodo,
+       COALESCE(s.ciudad,   '-- todas --') AS ciudad,
+       ROUND(SUM(f.importe_venta), 2)      AS venta,
+       GROUPING(s.ciudad)                  AS es_subtotal_periodo,
+       GROUPING(t.anio_mes)                AS es_total_general
+FROM   fact_venta f
+JOIN   dim_tiempo t ON t.tiempo_key = f.tiempo_key
+JOIN   dim_tienda s ON s.tienda_key = f.tienda_key
+GROUP BY t.anio_mes, s.ciudad WITH ROLLUP;
+
+-- Equivalente en PostgreSQL, SQL Server u Oracle (dejar comentado):
+-- GROUP BY GROUPING SETS (
+--   (t.anio_mes, s.ciudad),  -- venta mensual por ciudad
+--   (t.anio_mes),            -- venta mensual total
+--   (s.ciudad),              -- total general
+--   () );
+\end{lstlisting}
+
+La diferencia entre ambas construcciones es de expresividad: \texttt{ROLLUP} produce únicamente los niveles jerárquicos \emph{descendentes} de la lista de columnas indicada (periodo+ciudad, luego solo periodo, luego el total general), mientras que \texttt{GROUPING SETS} permite elegir exactamente qué combinaciones calcular, incluyendo la del total por ciudad \emph{sin} periodo, combinación que \texttt{ROLLUP} no puede generar porque no respeta el orden jerárquico declarado en el \texttt{GROUP BY}.
+
+\subsection{Valores de referencia obtenidos}
+
+Todos los indicadores calculados coincidieron exactamente con los valores de referencia publicados en la guía, confirmando que la carga completa (staging, dimensiones, SCD2 y hechos) es correcta.
+
+\begin{table}[h!]
+\centering
+\caption{Valores de referencia verificados sobre \texttt{fact\_venta}}
+\label{tab:referencia}
+\begin{tabular}{lr}
+\toprule
+\textbf{Indicador} & \textbf{Valor obtenido} \\
+\midrule
+Venta total del semestre     & S/ 3\,430\,651.54 \\
+Tickets distintos            & 32\,613 \\
+Ticket promedio              & S/ 105.19 \\
+Margen porcentual global     & 26.76\,\% \\
+Venta de Lima                & S/ 1\,780\,310.66 \\
+Venta de Arequipa            & S/ 621\,510.02 \\
+Venta de Cusco               & S/ 521\,301.04 \\
+Venta de Trujillo            & S/ 507\,529.82 \\
+Mes de mayor venta           & Mayo de 2026 (S/ 619\,775.27) \\
+Mes de menor venta           & Febrero de 2026 (S/ 528\,200.10) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Un detalle relevante en el cálculo del margen porcentual global: debe obtenerse como
+$\left(\sum \texttt{importe\_venta} - \sum \texttt{importe\_costo}\right) / \sum \texttt{importe\_venta}$,
+es decir, calculado sobre las sumas agregadas. Calcular el margen fila por fila y luego promediar esos porcentajes individuales produce un número distinto e incorrecto, porque pondera igual a una línea de S/ 5 que a una de S/ 5\,000: es el mismo principio de aditividad que rige el indicador de efectividad promocional de la Sección~\ref{sec:actividad}.
+
+\newpage
+% ===================================================================
+\section{Actividad propuesta}
+\label{sec:actividad}
+% ===================================================================
+
+La actividad propuesta plantea dos situaciones recibidas de la Gerencia Comercial de MERCANDINA: una objeción sobre un cambio aparente en el informe de ventas por categoría, y la necesidad de un indicador de efectividad promocional.
+
+\subsection{Respuesta a la objeción de la Gerencia}
+
+La Gerencia observó que \emph{"el informe de ventas por categoría de marzo cambió respecto del que nos entregaron en abril: antes Snacks aparecía con más venta y ahora aparece con menos"}, y preguntó si los datos estaban mal.
+
+El informe no está mal: refleja una decisión de diseño intencional del datamart. El sistema registra, para cada venta, la categoría del producto tal como estaba clasificada en el momento exacto de esa venta, no la categoría que el producto tiene hoy. El 1 de abril de 2026, MERCANDINA reclasificó 28 productos; entre ellos, 8 que antes eran Snacks pasaron a ser Panadería, y esos 8 productos habían generado \textbf{S/ 39\,198.72} en ventas de marzo bajo la categoría Snacks. El informe de marzo, generado antes del cambio, mostraba correctamente esas ventas en Snacks. Si el informe de abril se regeneró consultando el catálogo \emph{actual} (ya reclasificado) en lugar de la categoría vigente en cada venta, esas mismas ventas de marzo aparecen ahora bajo Panadería, restándole volumen a Snacks retroactivamente, aunque ningún dato de venta original haya cambiado. Ambos informes son correctos en su propio contexto: para comparar la evolución de una categoría a lo largo del año debe usarse siempre el informe que respeta la categoría histórica de cada venta —el que produce este datamart—, no uno regenerado contra el catálogo vigente.
+
+La consulta que demuestra el efecto sobre los 28 productos reclasificados agrupa la venta atribuida por \texttt{fact\_venta} a cada versión (antes/después) de la dimensión producto, aprovechando que un mismo \texttt{producto\_id} tiene dos claves subrogadas distintas con categorías distintas:
+
+\begin{table}[h!]
+\centering
+\caption{Venta atribuida a la categoría antigua y a la nueva por migración de categoría (28 productos reclasificados el 2026-04-01)}
+\label{tab:migracion}
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Migración} & \textbf{Productos} & \textbf{Venta antes} & \textbf{Venta después} \\
+\midrule
+Bebidas $\rightarrow$ Congelados  & 11 & S/ 57\,338.08 & S/ 56\,665.21 \\
+Abarrotes $\rightarrow$ Limpieza  & 9  & S/ 41\,457.94 & S/ 41\,969.92 \\
+Snacks $\rightarrow$ Panadería    & 8  & S/ 39\,198.72 & S/ 40\,978.94\textsuperscript{(*)} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent\textsuperscript{(*)}~La cifra de Panadería "después" corresponde solo a estos 8 productos reclasificados, no al total de la categoría Panadería. Cada versión del producto conserva su propia clave subrogada y su propia categoría: la tabla de hechos nunca se reescribe, de modo que las líneas de venta de marzo seguirán apuntando para siempre a la versión histórica del producto, sin importar cuántas veces se reclasifique en el futuro.
+
+\subsection{Indicador de efectividad promocional}
+
+La Gerencia solicitó medir, por categoría, la venta con y sin promoción, el porcentaje promocionado, el descuento total otorgado y el margen porcentual resultante, respetando el principio de aditividad (los ratios se calculan a partir de sumas, no se promedian).
+
+\begin{table}[h!]
+\centering
+\caption{Indicador de efectividad promocional por categoría}
+\label{tab:promo}
+\begin{tabular}{lrrrr}
+\toprule
+\textbf{Categoría} & \textbf{Venta con promo} & \textbf{\% promocionado} & \textbf{Descuento total} & \textbf{Margen \%} \\
+\midrule
+Snacks            & S/ 84\,220.71 & 19.55\,\% & S/ 21\,036.12 & 27.02\,\% \\
+Congelados        & S/ 87\,571.01 & 18.96\,\% & S/ 22\,089.18 & 27.30\,\% \\
+Cuidado personal  & S/ 66\,990.55 & 18.60\,\% & S/ 16\,759.29 & 27.95\,\% \\
+Bebidas           & S/ 62\,633.32 & 18.52\,\% & S/ 15\,446.34 & 26.34\,\% \\
+Lácteos           & S/ 75\,567.30 & 18.43\,\% & S/ 19\,030.87 & 25.64\,\% \\
+Panadería         & S/ 91\,631.95 & 18.41\,\% & S/ 23\,194.04 & 26.10\,\% \\
+Abarrotes         & S/ 82\,482.10 & 18.16\,\% & S/ 20\,767.44 & 27.23\,\% \\
+Limpieza          & S/ 85\,164.47 & 18.11\,\% & S/ 21\,427.49 & 26.65\,\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Análisis.} El porcentaje promocionado es prácticamente uniforme entre categorías (banda de 18.11\,\% a 19.55\,\%, apenas 1.4 puntos de rango), muy distinto de una asignación deliberada por rentabilidad. La categoría más promocionada (Snacks) no es la de mejor margen —ese lugar lo ocupa Cuidado personal (27.95\,\%), que se promociona por debajo del promedio—, y la de menor margen (Lácteos, 25.64\,\%) tampoco es la que menos se promociona (ese lugar es Limpieza). Esto sugiere que el presupuesto promocional se reparte casi por igual entre categorías, sin un criterio explícito de rentabilidad.
+
+\textbf{Recomendación.} Redirigir presupuesto promocional hacia categorías de mejor margen, como Cuidado personal y Congelados. Sin embargo, para decidir con seguridad falta un dato clave: la venta que cada producto habría tenido \emph{sin} promoción como línea base. Hoy el indicador solo distingue cuánto se vendió con y sin promoción en conjunto, pero no permite determinar si la campaña generó venta incremental real o simplemente adelantó compras que iban a ocurrir de todas formas.
+
+% ===================================================================
+\section{Conclusiones}
+% ===================================================================
+
+\begin{itemize}
+  \item El esquema en estrella con seis dimensiones y \texttt{fact\_venta} particionada por trimestre cargó correctamente las 106\,708 líneas de venta del semestre, sin pérdidas, duplicados ni descuadres de importe, cumpliendo los siete cuadres de control exigidos por la guía sin necesidad de corregir ninguna etapa.
+  \item El patrón SCD Tipo 2 aplicado a producto, tienda y cliente, con búsqueda de claves subrogadas sensible a la fecha (\texttt{BETWEEN} sobre la vigencia) en la carga de hechos, es la pieza de diseño que permite que un mismo producto tenga distintas categorías históricas sin reescribir la tabla de hechos, comportamiento que explica y resuelve, con datos concretos, la objeción de la Gerencia sobre el informe de marzo.
+  \item La distinción entre las claves especiales \texttt{-1} (\emph{Desconocido}, problema de calidad) y \texttt{-2} (\emph{No aplica}, situación legítima del negocio) resultó indispensable para que el Control 4 de calidad de datos no confundiera un 0.339\,\% de defecto real de catálogo con un 54.54\,\%/77.86\,\% de comportamiento normal del negocio.
+  \item El modelo semántico en Power BI reprodujo exactamente el total de venta del datamart (S/ 3\,430\,651.54) y el margen global (26.76\,\%), confirmando que las relaciones, la tabla de fechas y las ocho medidas DAX están correctamente construidas; la prueba de la columna \texttt{producto\_key} sin ocultar demostró de forma concreta por qué las claves subrogadas nunca deben quedar visibles en un modelo de consumo.
+  \item El indicador de efectividad promocional construido en la actividad propuesta evidenció que el presupuesto de campañas se distribuye de forma prácticamente uniforme entre categorías, sin relación con el margen, y que el datamart actual aunque suficiente para medir venta promocionada no permite todavía medir efectividad real sin una línea base de venta sin promoción, lo que se identifica como una extensión pendiente del modelo.
+\end{itemize}
+
+\end{document}

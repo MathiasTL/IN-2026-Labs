@@ -1,0 +1,218 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage{lmodern}
+\else
+  \usepackage{fontspec}
+\fi
+\usepackage[spanish]{babel}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{hyperref}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=black,
+  pageanchor=false,
+  pdftitle={Laboratorio 6 - Visualización de Datos con Power BI},
+  pdfauthor={Torres Lezama, Mathias James}
+}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.6em}
+
+\newcommand{\pregunta}[2]{\subsection*{Pregunta #1}\textit{#2}}
+
+\begin{document}
+
+% ===================================================================
+% CARATULA
+% ===================================================================
+\begin{titlepage}
+\thispagestyle{empty}
+\begin{center}
+
+{\LARGE \textbf{UNIVERSIDAD NACIONAL MAYOR DE SAN MARCOS}}\\[3pt]
+{\itshape\small Decana de América, fundada en 1551}\\[40pt]
+
+% El logo es opcional: si el archivo no existe en img/, el informe compila igual.
+\IfFileExists{img/logo_unmsm_0.png}{\includegraphics[width=3.2cm]{img/logo_unmsm_0.png}\\[40pt]}{\vspace{60pt}}
+
+{\large \textbf{FACULTAD DE INGENIERÍA DE SISTEMA E INFORMÁTICA}}\\[6pt]
+{\large \textbf{ESCUELA PROFESIONAL DE INGENIERÍA DE SOFTWARE}}\\[80pt]
+
+{\Large \textbf{Laboratorio 6 - Visualización de Datos con Power BI}}\\[90pt]
+
+\end{center}
+
+\begin{center}
+    \large
+    \textbf{Estudiante:}\\
+    Torres Lezama, Mathias James\\[20pt]
+
+    \textbf{Docente:}\\
+    Gamarra Moreno, Juan\\[20pt]
+
+    \textbf{Asignatura:}\\
+    Inteligencia de Negocios\\
+\end{center}
+
+\vfill
+
+\begin{center}
+\large Lima, Perú\\
+2026
+\end{center}
+
+\end{titlepage}
+
+\section*{Actividad propuesta: Dashboard de Clientes Bancarios}
+
+Este documento recoge las respuestas de las preguntas de análisis, elaboradas a partir del archivo \texttt{clientes\_banco\_retail.csv} (400 clientes) y del informe \texttt{Lab06\_TorresLezamaMathias.pbix}.
+
+\section*{Resumen general del portafolio}
+
+Los indicadores globales del dashboard son los siguientes:
+
+\begin{center}
+\begin{tabular}{@{}lr@{}}
+\toprule
+Indicador & Valor \\
+\midrule
+Total de clientes & 400 \\
+Clientes en mora & 76 \\
+Tasa de mora (\%) & 19.00 \\
+Saldo promedio total (S/) & 40,617.10 \\
+Satisfacción promedio (escala 1 a 5) & 3.01 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\section*{Preguntas de análisis}
+
+% ---------------------------------------------------------------
+\pregunta{1}{¿Cuál es el producto financiero con la mayor cantidad de clientes en mora? ¿A qué segmento etario pertenecen principalmente estos clientes?}
+
+El producto con más clientes en mora es \textbf{Depósito Plazo Fijo}, con 23 clientes, seguido de Cuenta Ahorros (17) y Tarjeta Crédito (13).
+
+\begin{center}
+\begin{tabular}{@{}lr@{}}
+\toprule
+Producto & Clientes en mora \\
+\midrule
+Depósito Plazo Fijo & 23 \\
+Cuenta Ahorros & 17 \\
+Tarjeta Crédito & 13 \\
+Crédito Personal & 10 \\
+Cuenta Corriente & 8 \\
+Hipotecario & 5 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Dentro de Depósito Plazo Fijo, el segmento con más clientes en mora es \textbf{Adulto (31-50)}, con 9 clientes. Sin embargo, la diferencia es pequeña: Senior (51+) tiene 8 y Joven (18-30) tiene 6. Por ello, la mora en este producto no se concentra de forma marcada en un solo segmento.
+
+% ---------------------------------------------------------------
+\pregunta{2}{¿En qué departamento del Perú el banco tiene el mayor saldo promedio? ¿Coincide con el departamento de mayor número de clientes?}
+
+El departamento con mayor saldo promedio es \textbf{Lambayeque}, con S/ 46,863.64. \textbf{No coincide} con el departamento de mayor número de clientes, que es \textbf{Lima}, con 158 clientes y un saldo promedio de S/ 39,661.57.
+
+\begin{center}
+\begin{tabular}{@{}lrr@{}}
+\toprule
+Departamento & Clientes & Saldo promedio (S/) \\
+\midrule
+Lambayeque & 14 & 46,863.64 \\
+Junín & 27 & 45,860.25 \\
+Ica & 17 & 45,276.27 \\
+Piura & 28 & 43,000.09 \\
+Cajamarca & 21 & 40,381.93 \\
+La Libertad & 31 & 40,143.33 \\
+Lima & 158 & 39,661.57 \\
+Cusco & 33 & 39,240.02 \\
+Áncash & 13 & 38,724.87 \\
+Arequipa & 58 & 38,301.48 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Lima concentra el volumen de clientes, pero su saldo promedio está por debajo del de Lambayeque, Junín, Ica y Piura. El mayor saldo promedio de Lambayeque se apoya en una base pequeña (14 clientes), por lo que el promedio es más sensible a valores extremos.
+
+% ---------------------------------------------------------------
+\pregunta{3}{¿Cuál es el canal de preferencia más utilizado por los clientes del segmento <<Senior (51+)>>? ¿Qué implicaciones tendría este dato para la estrategia digital del banco?}
+
+El canal más utilizado por los clientes Senior es \textbf{Call Center}, con 28 de 96 clientes (29.2\%), seguido de Cajero Automático (21). El canal menos utilizado es App Móvil (14).
+
+\begin{center}
+\begin{tabular}{@{}lrr@{}}
+\toprule
+Canal preferido & Clientes Senior & Porcentaje \\
+\midrule
+Call Center & 28 & 29.2\% \\
+Cajero Automático & 21 & 21.9\% \\
+Web & 18 & 18.8\% \\
+Agencia & 15 & 15.6\% \\
+App Móvil & 14 & 14.6\% \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\textbf{Implicaciones para la estrategia digital:}
+\begin{itemize}[nosep]
+  \item Este segmento prefiere canales asistidos (telefónico y cajero) y utiliza poco la aplicación móvil, por lo que la adopción digital es baja.
+  \item El banco debería diseñar programas de educación financiera digital y acompañamiento para migrar gradualmente a estos clientes a la App Móvil y la Web.
+  \item Conviene mantener el Call Center como canal de soporte, con asistencia guiada para operaciones digitales, en lugar de forzar un cambio abrupto.
+  \item Las interfaces para este segmento deben priorizar la simplicidad y la accesibilidad.
+\end{itemize}
+
+% ---------------------------------------------------------------
+\pregunta{4}{Observe el gráfico de columnas apiladas al 100\% de mora por segmento etario. ¿Qué segmento presenta la mayor tasa de mora? ¿Qué acciones recomendaría al área de riesgos?}
+
+El segmento con la mayor tasa de mora es \textbf{Senior (51+)}, con 22.92\%.
+
+\begin{center}
+\begin{tabular}{@{}lr@{}}
+\toprule
+Segmento etario & Tasa de mora (\%) \\
+\midrule
+Senior (51+) & 22.92 \\
+Adulto (31-50) & 18.50 \\
+Joven (18-30) & 16.79 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\textbf{Acciones recomendadas para el área de riesgos:}
+\begin{itemize}[nosep]
+  \item Implementar cobranza preventiva y alertas tempranas para clientes Senior antes del vencimiento.
+  \item Ofrecer opciones de renegociación o reprogramación de cuotas adaptadas a este segmento.
+  \item Revisar la política de otorgamiento de crédito para Senior (ingresos, capacidad de pago y plazos).
+  \item Usar canales de contacto que este segmento prefiere (Call Center) para el seguimiento de cobranza.
+  \item Monitorear la evolución de la tasa de mora por segmento de forma periódica.
+\end{itemize}
+
+% ---------------------------------------------------------------
+\pregunta{5}{¿Cuál es la satisfacción promedio de los clientes que están en mora versus los que están al día?}
+
+Al filtrar con el segmento \texttt{en\_mora}, se obtiene:
+
+\begin{center}
+\begin{tabular}{@{}lr@{}}
+\toprule
+Estado & Satisfacción promedio (1 a 5) \\
+\midrule
+Al día (\texttt{en\_mora} = 0) & 2.99 \\
+En mora (\texttt{en\_mora} = 1) & 3.08 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Los clientes en mora presentan una satisfacción ligeramente \textbf{mayor} (3.08) que los clientes al día (2.99). El resultado es contraintuitivo, pero la diferencia es de solo 0.09 puntos en una escala de 1 a 5, por lo que no es concluyente: con esta muestra no se puede afirmar que la mora esté asociada a una mayor satisfacción.
+
+\end{document}

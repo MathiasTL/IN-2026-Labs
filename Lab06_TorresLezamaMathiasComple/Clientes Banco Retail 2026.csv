@@ -1,0 +1,401 @@
+id_cliente,fecha_apertura,departamento,producto,segmento_edad,canal_preferido,saldo_promedio_S,en_mora,satisfaccion_1_5,transacciones_mes,antiguedad_meses
+1,2024-08-07,Lima,Crédito Personal,Senior (51+),Agencia,32103.9,1,1,21,102
+2,2023-04-08,Arequipa,Tarjeta Crédito,Senior (51+),Call Center,47699.45,0,5,25,11
+3,2024-03-02,Junín,Crédito Personal,Joven (18-30),Cajero Automático,74433.64,0,2,39,119
+4,2024-06-20,Lima,Depósito Plazo Fijo,Adulto (31-50),Web,3486.34,0,2,21,65
+5,2024-04-01,Piura,Cuenta Corriente,Joven (18-30),Cajero Automático,60276.65,0,1,15,56
+6,2023-03-26,Lima,Tarjeta Crédito,Joven (18-30),Web,38173.2,0,5,26,34
+7,2023-05-19,Lima,Hipotecario,Adulto (31-50),App Móvil,38577.62,0,4,37,26
+8,2023-03-15,La Libertad,Depósito Plazo Fijo,Adulto (31-50),App Móvil,21447.32,0,5,6,15
+9,2023-11-25,Cusco,Tarjeta Crédito,Adulto (31-50),App Móvil,27693.09,0,3,11,45
+10,2023-02-15,La Libertad,Tarjeta Crédito,Adulto (31-50),Cajero Automático,73952.21,0,3,10,97
+11,2023-09-06,Piura,Cuenta Ahorros,Joven (18-30),Agencia,75925.49,1,3,1,44
+12,2023-01-24,Piura,Cuenta Ahorros,Joven (18-30),Cajero Automático,26683.76,0,2,14,70
+13,2023-05-25,La Libertad,Crédito Personal,Adulto (31-50),Call Center,55666.68,0,4,38,116
+14,2023-10-18,Cusco,Cuenta Ahorros,Joven (18-30),Agencia,16215.55,0,3,4,60
+15,2024-11-09,Cusco,Cuenta Ahorros,Joven (18-30),Web,68196.22,0,1,2,38
+16,2024-06-04,Lambayeque,Depósito Plazo Fijo,Adulto (31-50),Cajero Automático,78133.63,0,3,32,111
+17,2024-04-13,La Libertad,Cuenta Ahorros,Joven (18-30),Call Center,44942.87,0,1,16,119
+18,2023-01-19,La Libertad,Crédito Personal,Adulto (31-50),App Móvil,27873.04,0,3,16,65
+19,2023-01-31,Lima,Cuenta Ahorros,Adulto (31-50),Cajero Automático,75542.11,1,2,10,44
+20,2024-06-17,Lambayeque,Depósito Plazo Fijo,Joven (18-30),Cajero Automático,76856.33,0,2,27,31
+21,2023-12-04,La Libertad,Tarjeta Crédito,Senior (51+),Call Center,36043.7,0,2,38,70
+22,2024-12-06,Cusco,Cuenta Corriente,Senior (51+),Web,56469.88,0,2,28,117
+23,2023-06-11,Cajamarca,Cuenta Corriente,Adulto (31-50),Call Center,25536.2,0,1,12,41
+24,2024-02-28,Ica,Cuenta Corriente,Adulto (31-50),Web,76903.46,0,3,10,100
+25,2024-09-23,Lima,Cuenta Corriente,Joven (18-30),Call Center,21495.64,0,2,39,30
+26,2023-05-18,Lima,Cuenta Ahorros,Adulto (31-50),Cajero Automático,40285.5,0,3,12,110
+27,2023-08-20,Lima,Tarjeta Crédito,Joven (18-30),App Móvil,2771.92,0,1,18,53
+28,2023-03-09,Lima,Depósito Plazo Fijo,Senior (51+),App Móvil,14330.84,1,4,40,63
+29,2024-02-19,Cusco,Tarjeta Crédito,Senior (51+),Cajero Automático,62141.93,0,4,21,51
+30,2024-06-21,La Libertad,Depósito Plazo Fijo,Adulto (31-50),Call Center,51383.23,0,1,34,14
+31,2024-06-15,Arequipa,Cuenta Ahorros,Senior (51+),App Móvil,43121.96,1,1,36,50
+32,2023-10-26,Arequipa,Depósito Plazo Fijo,Senior (51+),App Móvil,35276.4,1,3,30,22
+33,2023-05-26,Arequipa,Hipotecario,Senior (51+),Call Center,37193.6,0,1,33,15
+34,2023-05-19,Lima,Hipotecario,Senior (51+),Call Center,31566.72,0,1,12,59
+35,2023-04-03,La Libertad,Depósito Plazo Fijo,Senior (51+),Cajero Automático,20156.57,0,2,8,12
+36,2024-06-20,Lima,Tarjeta Crédito,Adulto (31-50),Agencia,56640.87,0,5,40,21
+37,2023-12-10,Lima,Tarjeta Crédito,Joven (18-30),App Móvil,45326.23,0,2,11,112
+38,2023-11-13,Lima,Depósito Plazo Fijo,Joven (18-30),Web,58466.91,1,3,12,16
+39,2023-01-13,Lambayeque,Cuenta Corriente,Joven (18-30),Web,36799.68,1,5,1,78
+40,2024-04-09,Lambayeque,Cuenta Corriente,Joven (18-30),Cajero Automático,32930.08,0,5,1,32
+41,2023-08-01,Lambayeque,Crédito Personal,Adulto (31-50),Call Center,4103.72,0,3,3,19
+42,2023-11-02,Lambayeque,Depósito Plazo Fijo,Adulto (31-50),Call Center,26622.66,0,1,27,23
+43,2024-08-09,Lima,Crédito Personal,Adulto (31-50),Call Center,63027.14,0,4,38,47
+44,2024-01-13,Áncash,Cuenta Ahorros,Adulto (31-50),Web,71822.88,1,4,36,9
+45,2023-12-04,Lima,Cuenta Corriente,Joven (18-30),Web,42258.81,0,2,40,8
+46,2023-03-31,Lima,Depósito Plazo Fijo,Senior (51+),Call Center,38796.31,0,3,28,78
+47,2023-12-29,Ica,Crédito Personal,Adulto (31-50),Call Center,74183.01,0,4,34,94
+48,2023-08-27,Cusco,Tarjeta Crédito,Senior (51+),Call Center,56745.25,1,1,8,4
+49,2024-09-22,Arequipa,Cuenta Ahorros,Adulto (31-50),App Móvil,79919.16,0,3,23,72
+50,2024-12-07,Ica,Cuenta Corriente,Joven (18-30),App Móvil,22673.81,0,3,20,65
+51,2023-12-16,La Libertad,Cuenta Ahorros,Joven (18-30),Web,31804.74,0,1,12,25
+52,2024-04-30,Lima,Crédito Personal,Senior (51+),Cajero Automático,63820.9,0,4,10,81
+53,2024-02-28,Arequipa,Hipotecario,Senior (51+),Cajero Automático,74237.64,0,5,20,73
+54,2023-08-02,Piura,Crédito Personal,Adulto (31-50),Agencia,46276.33,0,3,5,20
+55,2024-10-03,Lima,Cuenta Ahorros,Joven (18-30),Cajero Automático,42835.0,0,5,25,24
+56,2024-12-27,La Libertad,Crédito Personal,Adulto (31-50),Web,2723.93,0,4,16,48
+57,2023-06-29,Arequipa,Crédito Personal,Joven (18-30),Web,9156.06,0,2,6,57
+58,2023-07-14,Arequipa,Tarjeta Crédito,Senior (51+),App Móvil,27341.25,0,5,20,100
+59,2024-11-23,Lima,Cuenta Ahorros,Senior (51+),Call Center,79419.08,0,1,30,50
+60,2023-02-15,Piura,Hipotecario,Joven (18-30),Web,55026.78,0,1,22,60
+61,2023-01-24,Lambayeque,Cuenta Ahorros,Adulto (31-50),Web,46289.27,0,2,21,26
+62,2024-11-18,Lima,Crédito Personal,Adulto (31-50),Cajero Automático,9588.54,0,3,8,2
+63,2024-07-09,Cajamarca,Hipotecario,Adulto (31-50),App Móvil,28155.39,0,2,19,74
+64,2024-07-07,Lima,Cuenta Ahorros,Joven (18-30),Web,35603.08,0,4,4,14
+65,2024-12-22,Lima,Cuenta Ahorros,Adulto (31-50),App Móvil,47770.48,0,4,40,46
+66,2023-03-22,Lima,Cuenta Corriente,Adulto (31-50),Call Center,77899.81,0,4,37,17
+67,2023-11-14,Lima,Depósito Plazo Fijo,Adulto (31-50),Cajero Automático,54821.34,0,4,31,30
+68,2023-09-22,Áncash,Cuenta Corriente,Senior (51+),Call Center,73046.36,0,3,21,59
+69,2024-05-05,Arequipa,Cuenta Ahorros,Adulto (31-50),Web,37007.09,0,3,39,74
+70,2023-11-30,Lima,Cuenta Ahorros,Adulto (31-50),Agencia,44580.76,0,3,35,60
+71,2024-07-15,Arequipa,Tarjeta Crédito,Joven (18-30),App Móvil,12889.82,0,1,22,27
+72,2024-08-03,Ica,Hipotecario,Adulto (31-50),Cajero Automático,63028.68,0,2,12,85
+73,2024-05-13,Cusco,Depósito Plazo Fijo,Senior (51+),Call Center,9322.96,0,3,36,13
+74,2023-03-13,Ica,Cuenta Corriente,Joven (18-30),Cajero Automático,47941.08,0,5,25,42
+75,2023-05-23,Arequipa,Depósito Plazo Fijo,Joven (18-30),App Móvil,71003.47,1,1,10,85
+76,2024-08-14,Lima,Hipotecario,Joven (18-30),Call Center,35883.35,0,3,20,73
+77,2023-12-19,Junín,Depósito Plazo Fijo,Joven (18-30),Cajero Automático,79225.08,0,5,33,52
+78,2023-02-24,Ica,Crédito Personal,Joven (18-30),Call Center,267.3,0,3,8,111
+79,2024-02-08,Lima,Cuenta Ahorros,Joven (18-30),Call Center,50092.1,0,4,25,56
+80,2023-07-12,La Libertad,Depósito Plazo Fijo,Joven (18-30),App Móvil,44522.64,1,3,27,20
+81,2023-03-15,Lima,Depósito Plazo Fijo,Joven (18-30),Agencia,51941.46,0,4,28,18
+82,2024-12-13,Lima,Depósito Plazo Fijo,Senior (51+),Cajero Automático,48433.48,0,2,30,66
+83,2023-07-10,Arequipa,Tarjeta Crédito,Adulto (31-50),App Móvil,34096.79,0,4,16,92
+84,2024-01-11,Arequipa,Tarjeta Crédito,Senior (51+),Call Center,2870.26,0,4,24,15
+85,2023-10-14,La Libertad,Depósito Plazo Fijo,Joven (18-30),Call Center,37301.92,0,5,6,32
+86,2024-12-01,Arequipa,Depósito Plazo Fijo,Adulto (31-50),Agencia,50768.28,0,3,40,7
+87,2024-04-09,Áncash,Hipotecario,Adulto (31-50),Cajero Automático,41110.52,0,3,27,46
+88,2024-12-12,Cajamarca,Crédito Personal,Joven (18-30),Agencia,73844.59,0,5,17,8
+89,2024-11-03,Cusco,Hipotecario,Joven (18-30),Agencia,79231.11,0,5,2,37
+90,2023-09-16,Arequipa,Cuenta Corriente,Adulto (31-50),Web,10776.59,0,3,1,95
+91,2024-11-05,Lima,Cuenta Corriente,Senior (51+),App Móvil,35842.92,0,3,16,63
+92,2023-03-28,Lima,Hipotecario,Senior (51+),Web,77394.18,0,2,32,97
+93,2024-10-14,Cajamarca,Tarjeta Crédito,Joven (18-30),Cajero Automático,13549.2,0,3,4,83
+94,2024-02-13,Lima,Cuenta Ahorros,Joven (18-30),Cajero Automático,38203.31,0,5,15,49
+95,2024-06-27,Cusco,Tarjeta Crédito,Adulto (31-50),App Móvil,69648.16,0,4,25,87
+96,2023-04-10,Lima,Hipotecario,Adulto (31-50),Agencia,73433.43,0,4,40,118
+97,2023-04-11,Cusco,Crédito Personal,Joven (18-30),Web,20576.44,0,4,16,94
+98,2023-11-17,Cusco,Cuenta Corriente,Adulto (31-50),App Móvil,43899.48,0,1,1,53
+99,2023-08-13,Lima,Cuenta Ahorros,Adulto (31-50),Web,58075.0,0,1,2,80
+100,2024-09-05,Lima,Hipotecario,Adulto (31-50),App Móvil,51119.01,0,1,6,110
+101,2023-07-09,La Libertad,Tarjeta Crédito,Adulto (31-50),Call Center,71700.93,0,3,19,60
+102,2024-03-13,Cusco,Cuenta Ahorros,Adulto (31-50),Web,55439.28,0,3,17,21
+103,2024-02-02,Junín,Crédito Personal,Adulto (31-50),Cajero Automático,26745.85,0,3,12,57
+104,2024-10-22,Lima,Cuenta Corriente,Adulto (31-50),App Móvil,39466.17,0,4,14,79
+105,2023-02-05,Cusco,Tarjeta Crédito,Adulto (31-50),Agencia,6018.98,0,3,29,3
+106,2023-02-08,Lambayeque,Cuenta Corriente,Adulto (31-50),Agencia,53235.55,0,3,26,74
+107,2024-05-04,Lima,Depósito Plazo Fijo,Senior (51+),Cajero Automático,34997.4,1,1,35,29
+108,2023-05-05,Lima,Depósito Plazo Fijo,Senior (51+),Cajero Automático,45466.06,1,3,22,88
+109,2024-01-10,Lima,Cuenta Ahorros,Adulto (31-50),Agencia,42863.18,1,1,30,98
+110,2023-02-10,Junín,Depósito Plazo Fijo,Joven (18-30),Call Center,77407.53,0,3,25,115
+111,2024-10-09,Lima,Depósito Plazo Fijo,Adulto (31-50),Agencia,35151.1,0,1,13,4
+112,2023-03-06,Piura,Hipotecario,Joven (18-30),Cajero Automático,63460.59,0,4,35,107
+113,2023-12-12,Ica,Cuenta Ahorros,Joven (18-30),Agencia,63064.73,0,1,14,104
+114,2023-06-02,Cusco,Hipotecario,Adulto (31-50),Call Center,59335.91,0,1,3,95
+115,2023-02-16,Lima,Depósito Plazo Fijo,Joven (18-30),Call Center,19566.07,0,1,12,81
+116,2024-04-12,Lima,Crédito Personal,Senior (51+),Agencia,48975.83,1,1,7,15
+117,2024-03-12,Arequipa,Hipotecario,Joven (18-30),App Móvil,27119.98,1,4,21,16
+118,2023-08-07,Cajamarca,Hipotecario,Adulto (31-50),Web,61185.39,0,3,5,16
+119,2024-07-20,Lima,Tarjeta Crédito,Joven (18-30),Web,13367.49,0,5,3,18
+120,2023-01-17,Lima,Depósito Plazo Fijo,Adulto (31-50),App Móvil,70394.23,0,1,12,119
+121,2024-03-02,Lima,Depósito Plazo Fijo,Adulto (31-50),Web,55541.58,0,4,9,27
+122,2023-09-02,Lima,Crédito Personal,Adulto (31-50),Cajero Automático,75059.55,0,1,39,24
+123,2023-12-23,Piura,Hipotecario,Senior (51+),Web,33619.11,0,2,8,68
+124,2024-06-03,Cajamarca,Hipotecario,Adulto (31-50),Call Center,17698.24,0,2,18,7
+125,2024-05-24,Lima,Cuenta Corriente,Adulto (31-50),Cajero Automático,14270.64,0,1,4,83
+126,2024-09-23,Lima,Cuenta Corriente,Adulto (31-50),Web,64451.26,0,1,7,95
+127,2024-05-11,Lima,Hipotecario,Joven (18-30),Agencia,41289.32,0,2,29,76
+128,2023-08-24,La Libertad,Tarjeta Crédito,Joven (18-30),Web,62362.23,0,1,16,95
+129,2023-03-17,Arequipa,Cuenta Corriente,Adulto (31-50),App Móvil,37785.02,0,4,10,28
+130,2023-05-20,Áncash,Tarjeta Crédito,Joven (18-30),Web,36727.67,0,3,18,26
+131,2023-10-15,Lima,Cuenta Ahorros,Adulto (31-50),Agencia,11092.82,1,4,27,22
+132,2023-06-10,Junín,Cuenta Corriente,Senior (51+),Call Center,63205.85,0,5,11,74
+133,2024-05-15,Cajamarca,Cuenta Corriente,Joven (18-30),Call Center,69003.48,0,4,30,36
+134,2023-09-11,Lima,Tarjeta Crédito,Adulto (31-50),App Móvil,26318.22,0,5,10,117
+135,2023-02-11,La Libertad,Cuenta Ahorros,Adulto (31-50),Agencia,79303.63,0,5,3,55
+136,2024-04-08,La Libertad,Tarjeta Crédito,Senior (51+),Agencia,39723.75,0,1,27,28
+137,2023-01-17,Lima,Crédito Personal,Joven (18-30),Agencia,38486.68,0,4,37,96
+138,2024-12-21,La Libertad,Tarjeta Crédito,Adulto (31-50),App Móvil,32547.76,0,3,30,91
+139,2024-06-27,Cusco,Depósito Plazo Fijo,Joven (18-30),Web,2810.59,0,3,40,70
+140,2024-09-27,La Libertad,Cuenta Corriente,Adulto (31-50),Agencia,70491.61,0,1,33,117
+141,2024-04-21,Cusco,Cuenta Ahorros,Joven (18-30),Web,49606.85,0,2,36,91
+142,2023-12-09,Lima,Depósito Plazo Fijo,Adulto (31-50),App Móvil,19242.89,0,4,38,112
+143,2023-11-25,Cajamarca,Cuenta Corriente,Adulto (31-50),App Móvil,28346.39,0,4,18,7
+144,2024-06-23,Lima,Crédito Personal,Adulto (31-50),Call Center,66398.87,0,5,35,116
+145,2023-07-12,Lima,Hipotecario,Adulto (31-50),Agencia,71373.88,0,1,26,115
+146,2023-04-25,Lima,Cuenta Ahorros,Joven (18-30),Web,55827.15,0,2,34,81
+147,2023-05-16,Lima,Tarjeta Crédito,Senior (51+),Call Center,38017.61,0,1,19,25
+148,2024-10-22,Lima,Cuenta Corriente,Senior (51+),Call Center,27003.01,0,3,32,76
+149,2024-04-13,Cusco,Hipotecario,Senior (51+),Cajero Automático,24465.77,0,3,11,102
+150,2023-02-18,Lima,Tarjeta Crédito,Adulto (31-50),Web,12037.4,0,2,40,119
+151,2024-12-26,Lima,Hipotecario,Joven (18-30),App Móvil,55490.17,0,2,11,31
+152,2023-09-24,Lima,Crédito Personal,Adulto (31-50),Cajero Automático,29699.84,0,1,21,45
+153,2024-06-30,Lima,Tarjeta Crédito,Adulto (31-50),App Móvil,24264.47,1,4,32,99
+154,2023-01-05,Lima,Tarjeta Crédito,Senior (51+),App Móvil,77617.98,0,5,22,83
+155,2024-11-13,Piura,Tarjeta Crédito,Senior (51+),Call Center,11937.26,0,4,22,89
+156,2024-11-25,Lima,Tarjeta Crédito,Senior (51+),App Móvil,44166.61,0,4,40,108
+157,2024-09-14,Lima,Crédito Personal,Joven (18-30),Agencia,51376.75,0,2,18,26
+158,2024-06-08,Lima,Hipotecario,Senior (51+),Agencia,31675.0,0,5,39,66
+159,2024-03-13,Áncash,Depósito Plazo Fijo,Adulto (31-50),App Móvil,29696.47,0,3,23,45
+160,2023-08-09,Lima,Tarjeta Crédito,Senior (51+),Agencia,58282.7,0,4,29,37
+161,2024-02-29,Lima,Depósito Plazo Fijo,Senior (51+),Cajero Automático,11337.5,0,1,10,27
+162,2024-08-27,Lima,Hipotecario,Senior (51+),Agencia,60537.9,0,4,18,54
+163,2023-07-24,Lima,Tarjeta Crédito,Adulto (31-50),App Móvil,15043.31,0,5,32,6
+164,2024-05-20,Ica,Crédito Personal,Senior (51+),Web,44830.63,0,1,1,20
+165,2023-05-08,Lima,Depósito Plazo Fijo,Senior (51+),Cajero Automático,52374.28,1,4,12,63
+166,2023-10-11,Áncash,Depósito Plazo Fijo,Joven (18-30),Agencia,39545.41,1,5,24,75
+167,2024-12-11,Arequipa,Tarjeta Crédito,Senior (51+),Cajero Automático,65498.81,0,5,2,109
+168,2024-04-17,Lima,Hipotecario,Joven (18-30),Web,70289.72,0,2,4,35
+169,2023-02-19,Lima,Depósito Plazo Fijo,Senior (51+),Web,23330.52,0,1,33,25
+170,2023-06-21,Junín,Cuenta Corriente,Adulto (31-50),Call Center,43588.24,1,3,18,88
+171,2023-12-27,Piura,Crédito Personal,Joven (18-30),Call Center,65900.52,0,5,19,48
+172,2023-04-15,Junín,Tarjeta Crédito,Joven (18-30),App Móvil,17586.52,0,2,36,79
+173,2024-12-20,Cusco,Hipotecario,Senior (51+),Call Center,60553.28,0,4,5,15
+174,2024-12-08,Ica,Cuenta Ahorros,Adulto (31-50),Web,29132.97,0,5,34,98
+175,2023-05-02,Cajamarca,Cuenta Corriente,Adulto (31-50),Agencia,17944.16,1,2,15,40
+176,2024-12-08,Lima,Cuenta Corriente,Senior (51+),Cajero Automático,61089.29,0,1,31,97
+177,2024-08-30,Arequipa,Cuenta Corriente,Joven (18-30),Call Center,4929.37,0,3,3,9
+178,2024-09-08,Lima,Cuenta Ahorros,Adulto (31-50),Agencia,16591.01,1,2,23,4
+179,2023-12-23,Lima,Depósito Plazo Fijo,Senior (51+),Call Center,28305.82,1,5,16,65
+180,2024-06-25,La Libertad,Cuenta Ahorros,Senior (51+),Agencia,17516.45,0,3,11,116
+181,2023-08-08,Junín,Cuenta Ahorros,Senior (51+),Agencia,73654.08,1,4,24,90
+182,2023-07-05,La Libertad,Tarjeta Crédito,Adulto (31-50),Agencia,66812.42,1,4,14,66
+183,2023-05-07,Lima,Cuenta Ahorros,Adulto (31-50),Web,37378.96,0,4,24,91
+184,2024-05-20,Lima,Depósito Plazo Fijo,Joven (18-30),Web,9434.66,0,5,20,88
+185,2023-10-25,Cajamarca,Tarjeta Crédito,Joven (18-30),Cajero Automático,78799.99,0,1,31,87
+186,2024-11-19,Lima,Cuenta Ahorros,Senior (51+),Cajero Automático,8592.72,0,1,8,19
+187,2023-06-22,Lima,Depósito Plazo Fijo,Adulto (31-50),Agencia,5363.89,1,3,13,77
+188,2024-05-26,Ica,Tarjeta Crédito,Joven (18-30),Cajero Automático,22425.76,0,5,38,35
+189,2024-05-02,Junín,Depósito Plazo Fijo,Senior (51+),Web,53400.83,1,4,33,36
+190,2024-05-16,Lima,Tarjeta Crédito,Joven (18-30),Web,39882.45,0,2,2,13
+191,2023-07-03,Piura,Cuenta Ahorros,Adulto (31-50),Agencia,30734.11,0,2,20,80
+192,2024-05-19,Cusco,Cuenta Ahorros,Adulto (31-50),Call Center,63459.97,0,4,32,65
+193,2024-07-13,Lima,Crédito Personal,Senior (51+),Call Center,1610.1,0,4,8,50
+194,2023-02-03,Arequipa,Tarjeta Crédito,Adulto (31-50),Agencia,14314.16,0,3,11,63
+195,2023-04-23,Arequipa,Crédito Personal,Adulto (31-50),Cajero Automático,45594.65,0,5,35,74
+196,2023-02-27,Arequipa,Hipotecario,Senior (51+),Call Center,31432.51,0,4,40,87
+197,2024-08-27,Lima,Crédito Personal,Joven (18-30),Agencia,3800.45,1,3,38,4
+198,2024-03-14,Junín,Depósito Plazo Fijo,Joven (18-30),Agencia,27742.41,0,3,4,85
+199,2023-03-28,Lima,Cuenta Corriente,Adulto (31-50),Call Center,72849.04,0,3,8,44
+200,2024-11-04,Lima,Hipotecario,Joven (18-30),Cajero Automático,69096.81,0,4,18,3
+201,2024-01-22,Piura,Hipotecario,Joven (18-30),Web,45714.21,0,1,32,13
+202,2024-11-14,Piura,Cuenta Corriente,Joven (18-30),Call Center,27295.25,0,3,28,26
+203,2023-08-08,Arequipa,Cuenta Ahorros,Senior (51+),Call Center,23130.97,0,5,26,103
+204,2023-04-08,Lima,Depósito Plazo Fijo,Senior (51+),Call Center,47430.8,0,5,34,61
+205,2024-05-31,Arequipa,Crédito Personal,Adulto (31-50),Web,64369.31,0,5,21,26
+206,2024-11-18,Arequipa,Crédito Personal,Adulto (31-50),Cajero Automático,61122.69,0,1,34,111
+207,2023-10-02,Lima,Tarjeta Crédito,Joven (18-30),Cajero Automático,74985.6,0,5,28,120
+208,2024-01-09,La Libertad,Depósito Plazo Fijo,Joven (18-30),App Móvil,37106.44,0,3,28,53
+209,2023-10-01,Lima,Cuenta Ahorros,Adulto (31-50),Cajero Automático,65932.11,0,3,39,31
+210,2023-09-09,Arequipa,Cuenta Ahorros,Joven (18-30),Agencia,63804.17,0,4,36,56
+211,2023-05-20,Arequipa,Cuenta Ahorros,Joven (18-30),Web,2525.52,0,3,36,23
+212,2023-01-21,Cusco,Cuenta Ahorros,Senior (51+),Cajero Automático,4615.12,1,3,39,39
+213,2024-02-11,Lambayeque,Tarjeta Crédito,Senior (51+),Agencia,75464.34,0,2,16,15
+214,2024-11-11,La Libertad,Hipotecario,Senior (51+),Call Center,66352.73,1,5,17,64
+215,2023-12-04,Lambayeque,Cuenta Corriente,Adulto (31-50),Web,66620.27,0,2,28,28
+216,2024-03-26,Lima,Cuenta Corriente,Joven (18-30),Web,32788.37,1,1,32,69
+217,2024-05-01,Lima,Cuenta Ahorros,Joven (18-30),Cajero Automático,54682.53,1,2,24,61
+218,2023-02-05,Piura,Crédito Personal,Joven (18-30),Call Center,67349.54,0,1,16,33
+219,2024-12-02,La Libertad,Crédito Personal,Adulto (31-50),Web,9939.89,1,4,25,2
+220,2023-11-05,Áncash,Tarjeta Crédito,Senior (51+),Web,7401.98,1,2,20,27
+221,2024-10-21,Lambayeque,Cuenta Corriente,Senior (51+),Web,32621.85,0,1,32,61
+222,2023-06-14,Piura,Crédito Personal,Adulto (31-50),Agencia,55938.88,0,3,27,78
+223,2024-12-12,Piura,Hipotecario,Adulto (31-50),Cajero Automático,2382.6,0,2,29,102
+224,2023-11-18,Cusco,Cuenta Ahorros,Adulto (31-50),Web,46149.59,0,2,34,92
+225,2024-12-03,Cajamarca,Depósito Plazo Fijo,Adulto (31-50),Call Center,32943.23,1,4,31,112
+226,2023-12-02,Piura,Crédito Personal,Joven (18-30),Call Center,64002.39,0,4,24,24
+227,2023-08-18,Lima,Tarjeta Crédito,Senior (51+),Call Center,1854.62,0,5,40,81
+228,2023-09-26,Lima,Cuenta Ahorros,Senior (51+),App Móvil,56160.64,0,4,40,55
+229,2023-06-24,La Libertad,Cuenta Corriente,Joven (18-30),Web,75790.03,0,5,28,99
+230,2023-05-02,Áncash,Tarjeta Crédito,Senior (51+),Cajero Automático,18113.82,0,3,19,96
+231,2024-09-06,Arequipa,Cuenta Corriente,Adulto (31-50),App Móvil,17402.21,1,2,27,24
+232,2023-08-30,Arequipa,Cuenta Corriente,Joven (18-30),Web,49490.88,1,3,38,88
+233,2023-11-28,Cusco,Cuenta Ahorros,Joven (18-30),App Móvil,77957.05,0,2,25,91
+234,2024-07-24,Arequipa,Hipotecario,Joven (18-30),Agencia,4888.43,0,2,31,117
+235,2024-12-27,Lima,Hipotecario,Senior (51+),Call Center,59909.7,0,3,33,80
+236,2024-07-26,Lima,Tarjeta Crédito,Adulto (31-50),App Móvil,3481.77,0,2,33,64
+237,2024-12-28,Áncash,Tarjeta Crédito,Joven (18-30),Web,42527.82,0,1,21,6
+238,2024-01-05,Cajamarca,Tarjeta Crédito,Senior (51+),Web,74113.72,0,3,40,107
+239,2023-06-18,Junín,Crédito Personal,Adulto (31-50),Cajero Automático,25380.32,1,2,36,110
+240,2023-07-13,Áncash,Depósito Plazo Fijo,Adulto (31-50),Agencia,12059.94,0,1,31,34
+241,2023-02-11,Lima,Tarjeta Crédito,Adulto (31-50),Cajero Automático,35433.27,1,5,32,59
+242,2023-12-24,Arequipa,Depósito Plazo Fijo,Senior (51+),Agencia,7667.51,1,2,11,96
+243,2023-08-06,Arequipa,Crédito Personal,Adulto (31-50),Call Center,46767.08,1,5,37,24
+244,2024-11-24,Arequipa,Cuenta Ahorros,Joven (18-30),Cajero Automático,7725.56,0,3,8,51
+245,2023-01-30,Lima,Cuenta Ahorros,Senior (51+),App Móvil,6668.85,1,4,30,81
+246,2023-02-14,Cajamarca,Hipotecario,Adulto (31-50),Web,52562.59,1,3,37,17
+247,2023-11-27,Lima,Cuenta Ahorros,Senior (51+),Web,63892.13,0,5,39,49
+248,2023-04-02,Lima,Crédito Personal,Joven (18-30),Cajero Automático,1836.86,0,4,26,37
+249,2024-05-17,Cusco,Depósito Plazo Fijo,Joven (18-30),Web,64127.81,0,3,39,17
+250,2023-07-24,Lima,Cuenta Ahorros,Senior (51+),Call Center,39271.92,1,4,18,73
+251,2024-09-20,La Libertad,Cuenta Ahorros,Adulto (31-50),Web,15071.2,0,1,3,66
+252,2024-05-22,Lima,Tarjeta Crédito,Adulto (31-50),App Móvil,42276.84,0,1,19,60
+253,2024-12-01,Arequipa,Tarjeta Crédito,Joven (18-30),App Móvil,72251.71,1,5,28,38
+254,2024-06-09,La Libertad,Hipotecario,Joven (18-30),Agencia,8789.05,0,1,30,85
+255,2023-03-25,Piura,Crédito Personal,Adulto (31-50),Call Center,61538.01,0,4,12,101
+256,2024-12-22,Lima,Tarjeta Crédito,Joven (18-30),Cajero Automático,23952.27,0,4,29,80
+257,2023-08-05,Ica,Crédito Personal,Senior (51+),App Móvil,14969.97,0,5,17,112
+258,2024-02-09,Cusco,Tarjeta Crédito,Adulto (31-50),Agencia,9510.93,0,4,30,89
+259,2024-05-13,Arequipa,Depósito Plazo Fijo,Senior (51+),Call Center,24363.44,0,5,24,89
+260,2023-03-31,Cusco,Depósito Plazo Fijo,Adulto (31-50),Web,10182.14,0,1,2,90
+261,2024-10-27,Cajamarca,Cuenta Ahorros,Joven (18-30),App Móvil,19494.06,1,5,13,12
+262,2023-01-23,Lima,Tarjeta Crédito,Joven (18-30),Cajero Automático,9493.41,1,4,32,61
+263,2023-10-29,Lima,Tarjeta Crédito,Adulto (31-50),App Móvil,45640.55,1,1,22,2
+264,2024-05-22,Lima,Depósito Plazo Fijo,Adulto (31-50),Cajero Automático,59018.85,0,5,19,5
+265,2024-11-25,Arequipa,Tarjeta Crédito,Adulto (31-50),Call Center,72424.84,1,2,4,68
+266,2023-10-02,Lima,Hipotecario,Joven (18-30),Agencia,71451.6,0,4,8,64
+267,2023-01-22,Cusco,Depósito Plazo Fijo,Joven (18-30),Cajero Automático,13074.41,0,4,23,57
+268,2024-09-08,Lima,Cuenta Corriente,Adulto (31-50),Web,68305.61,0,4,9,114
+269,2024-11-20,Lima,Depósito Plazo Fijo,Adulto (31-50),Cajero Automático,52269.51,0,4,11,80
+270,2023-05-13,Lima,Depósito Plazo Fijo,Adulto (31-50),Cajero Automático,14028.63,0,4,7,102
+271,2024-07-24,Arequipa,Tarjeta Crédito,Joven (18-30),App Móvil,3954.54,0,3,23,87
+272,2023-12-12,Lima,Hipotecario,Joven (18-30),Agencia,34563.51,0,1,36,29
+273,2024-07-24,Arequipa,Crédito Personal,Adulto (31-50),Agencia,21545.8,0,5,39,86
+274,2024-04-13,Lima,Cuenta Ahorros,Senior (51+),Cajero Automático,77019.24,0,1,40,79
+275,2024-06-03,Junín,Cuenta Ahorros,Senior (51+),Agencia,8611.8,0,2,24,21
+276,2024-05-25,Piura,Depósito Plazo Fijo,Adulto (31-50),Call Center,58657.64,0,3,22,105
+277,2023-01-07,Lima,Cuenta Corriente,Adulto (31-50),Cajero Automático,19776.22,0,3,19,65
+278,2024-01-05,Lima,Crédito Personal,Adulto (31-50),Cajero Automático,50429.34,0,5,27,101
+279,2024-04-14,Lima,Tarjeta Crédito,Adulto (31-50),Cajero Automático,76156.88,0,3,2,57
+280,2023-03-13,Lima,Cuenta Ahorros,Adulto (31-50),Call Center,6965.3,0,2,28,8
+281,2024-08-11,Lima,Cuenta Ahorros,Adulto (31-50),App Móvil,4813.22,0,5,19,54
+282,2023-11-18,Arequipa,Depósito Plazo Fijo,Adulto (31-50),Web,72756.62,0,3,34,79
+283,2024-07-11,Áncash,Depósito Plazo Fijo,Adulto (31-50),App Móvil,50023.9,0,4,23,114
+284,2023-11-05,Ica,Depósito Plazo Fijo,Adulto (31-50),App Móvil,6925.62,0,4,9,67
+285,2024-07-19,Cajamarca,Crédito Personal,Joven (18-30),Call Center,25117.74,0,2,2,4
+286,2023-11-08,Lambayeque,Hipotecario,Adulto (31-50),App Móvil,58175.44,1,1,4,108
+287,2023-02-18,Lima,Depósito Plazo Fijo,Adulto (31-50),Agencia,60573.48,1,4,20,74
+288,2024-08-18,Piura,Tarjeta Crédito,Joven (18-30),App Móvil,45334.66,1,5,39,30
+289,2024-11-19,Lima,Crédito Personal,Adulto (31-50),Call Center,11369.73,0,2,7,42
+290,2024-04-10,Arequipa,Cuenta Corriente,Senior (51+),Web,8019.43,0,4,6,12
+291,2023-03-21,Lima,Cuenta Corriente,Adulto (31-50),Cajero Automático,29669.68,0,5,36,67
+292,2024-03-26,Junín,Crédito Personal,Adulto (31-50),Cajero Automático,55183.63,1,4,11,19
+293,2024-12-22,Arequipa,Tarjeta Crédito,Adulto (31-50),App Móvil,41152.2,0,2,30,61
+294,2023-05-02,Lima,Cuenta Corriente,Senior (51+),Web,48207.7,0,1,24,74
+295,2023-11-09,Lima,Hipotecario,Joven (18-30),Web,79283.4,0,4,2,102
+296,2023-10-18,Lima,Hipotecario,Adulto (31-50),Web,17403.4,0,4,1,16
+297,2024-05-07,La Libertad,Cuenta Ahorros,Senior (51+),Cajero Automático,45930.12,0,3,25,61
+298,2024-05-31,Ica,Hipotecario,Joven (18-30),App Móvil,50989.53,0,4,10,111
+299,2024-02-24,Piura,Cuenta Ahorros,Adulto (31-50),Call Center,31101.36,1,3,35,6
+300,2023-06-19,Cajamarca,Tarjeta Crédito,Adulto (31-50),Agencia,56635.25,0,3,36,83
+301,2024-07-08,Lima,Hipotecario,Joven (18-30),Call Center,46233.08,0,5,34,25
+302,2024-11-05,Junín,Hipotecario,Senior (51+),Agencia,74907.31,0,1,18,101
+303,2024-03-30,Lima,Depósito Plazo Fijo,Senior (51+),Call Center,6954.91,0,3,26,76
+304,2024-02-29,Lima,Cuenta Ahorros,Joven (18-30),App Móvil,2119.74,0,4,17,12
+305,2023-05-28,Lima,Cuenta Ahorros,Adulto (31-50),Web,14776.98,0,2,20,53
+306,2023-07-05,Cusco,Cuenta Ahorros,Adulto (31-50),Web,2368.26,0,4,7,41
+307,2023-02-23,Lima,Crédito Personal,Joven (18-30),Agencia,16364.24,0,5,16,64
+308,2023-10-03,Arequipa,Hipotecario,Adulto (31-50),Agencia,5038.43,0,4,5,62
+309,2023-10-03,Lima,Depósito Plazo Fijo,Joven (18-30),Agencia,44415.21,0,1,16,98
+310,2024-04-01,La Libertad,Cuenta Corriente,Joven (18-30),Cajero Automático,6895.89,0,2,10,48
+311,2024-03-09,La Libertad,Cuenta Corriente,Adulto (31-50),Call Center,76915.9,0,1,1,105
+312,2023-01-01,Arequipa,Hipotecario,Joven (18-30),App Móvil,5001.97,1,3,39,33
+313,2024-08-22,Ica,Tarjeta Crédito,Senior (51+),App Móvil,67286.6,0,2,35,73
+314,2023-05-24,Lima,Cuenta Ahorros,Adulto (31-50),Agencia,58060.89,1,4,14,79
+315,2024-10-12,Arequipa,Crédito Personal,Senior (51+),Web,21056.57,0,4,18,32
+316,2024-09-05,Cusco,Crédito Personal,Joven (18-30),Cajero Automático,26410.89,1,2,1,78
+317,2024-07-23,Arequipa,Cuenta Ahorros,Adulto (31-50),Cajero Automático,71642.4,0,4,35,11
+318,2023-02-01,Junín,Depósito Plazo Fijo,Adulto (31-50),Call Center,71427.26,0,4,8,46
+319,2024-02-01,Cajamarca,Tarjeta Crédito,Senior (51+),Web,14339.49,0,1,8,60
+320,2023-01-21,Lima,Cuenta Corriente,Adulto (31-50),App Móvil,60722.0,0,3,13,12
+321,2023-08-28,Ica,Depósito Plazo Fijo,Joven (18-30),App Móvil,78413.51,1,1,18,64
+322,2023-07-20,Áncash,Depósito Plazo Fijo,Adulto (31-50),Agencia,78744.23,0,1,18,73
+323,2024-11-19,Arequipa,Cuenta Corriente,Adulto (31-50),Call Center,54654.21,0,1,38,17
+324,2023-08-22,Piura,Cuenta Corriente,Joven (18-30),Call Center,70504.05,0,3,13,109
+325,2023-09-16,Cusco,Depósito Plazo Fijo,Adulto (31-50),Call Center,54518.29,1,1,28,83
+326,2024-03-18,Cusco,Depósito Plazo Fijo,Joven (18-30),Web,67578.46,0,1,34,60
+327,2023-02-18,Arequipa,Hipotecario,Adulto (31-50),App Móvil,22379.06,0,4,21,1
+328,2023-01-26,Lima,Crédito Personal,Joven (18-30),Call Center,79223.12,0,4,5,118
+329,2024-10-03,Lima,Cuenta Corriente,Joven (18-30),Agencia,50098.52,0,4,2,76
+330,2023-04-21,Junín,Crédito Personal,Senior (51+),App Móvil,37991.41,1,1,22,67
+331,2024-03-25,Junín,Cuenta Ahorros,Adulto (31-50),Call Center,61175.07,0,5,8,11
+332,2023-05-11,Cajamarca,Cuenta Ahorros,Adulto (31-50),Agencia,5147.78,0,1,20,79
+333,2024-07-26,Cusco,Cuenta Ahorros,Joven (18-30),Agencia,4365.81,1,4,7,80
+334,2023-01-11,Junín,Cuenta Corriente,Senior (51+),Call Center,36382.22,0,4,40,80
+335,2024-04-09,Lima,Depósito Plazo Fijo,Senior (51+),Agencia,41473.59,0,1,7,2
+336,2024-08-09,La Libertad,Cuenta Ahorros,Adulto (31-50),App Móvil,10253.33,0,3,27,62
+337,2023-02-15,Piura,Tarjeta Crédito,Joven (18-30),App Móvil,5027.2,0,4,33,84
+338,2023-05-30,Junín,Crédito Personal,Adulto (31-50),Call Center,11963.24,0,3,19,48
+339,2023-02-28,Cajamarca,Hipotecario,Adulto (31-50),App Móvil,19143.51,0,5,4,55
+340,2023-03-12,Lima,Cuenta Corriente,Adulto (31-50),App Móvil,27455.84,0,4,39,89
+341,2024-09-22,Lima,Hipotecario,Adulto (31-50),Web,24110.6,0,1,30,113
+342,2024-10-16,Junín,Cuenta Ahorros,Adulto (31-50),Agencia,17997.4,0,5,14,31
+343,2023-07-30,Arequipa,Crédito Personal,Senior (51+),Cajero Automático,32144.94,1,1,24,2
+344,2023-10-25,Lima,Cuenta Ahorros,Adulto (31-50),App Móvil,35344.57,0,3,3,4
+345,2023-06-28,Lima,Crédito Personal,Joven (18-30),Web,27317.44,0,2,13,3
+346,2024-11-24,Lima,Crédito Personal,Senior (51+),Agencia,11152.03,0,1,22,120
+347,2024-11-07,Lima,Tarjeta Crédito,Joven (18-30),Web,13874.51,0,5,28,113
+348,2023-07-14,Piura,Cuenta Ahorros,Joven (18-30),App Móvil,15496.17,0,3,21,77
+349,2024-09-22,Arequipa,Depósito Plazo Fijo,Joven (18-30),Agencia,47068.6,1,3,10,42
+350,2024-06-04,Lima,Depósito Plazo Fijo,Adulto (31-50),App Móvil,77477.07,1,2,6,101
+351,2024-06-04,Arequipa,Depósito Plazo Fijo,Adulto (31-50),App Móvil,31171.64,1,5,24,64
+352,2024-06-22,Arequipa,Cuenta Corriente,Joven (18-30),Web,55621.87,0,4,31,35
+353,2024-10-27,La Libertad,Depósito Plazo Fijo,Senior (51+),Call Center,3121.04,0,2,29,111
+354,2024-08-08,Lima,Cuenta Corriente,Joven (18-30),Cajero Automático,12745.31,1,3,36,11
+355,2023-12-27,Lima,Cuenta Ahorros,Joven (18-30),Call Center,18568.17,0,5,40,44
+356,2024-05-24,Arequipa,Tarjeta Crédito,Adulto (31-50),Web,25498.23,0,2,29,30
+357,2023-10-29,Lima,Cuenta Ahorros,Adulto (31-50),Agencia,67439.75,0,1,18,119
+358,2024-07-13,Lima,Cuenta Ahorros,Joven (18-30),Agencia,16184.47,0,3,17,39
+359,2024-12-23,Piura,Depósito Plazo Fijo,Senior (51+),App Móvil,48401.92,0,5,17,2
+360,2024-02-20,Junín,Crédito Personal,Senior (51+),Cajero Automático,65784.53,0,1,31,84
+361,2023-08-21,Arequipa,Cuenta Corriente,Senior (51+),App Móvil,57922.2,0,2,34,76
+362,2023-12-15,Junín,Tarjeta Crédito,Adulto (31-50),Cajero Automático,63394.81,0,2,28,99
+363,2024-07-25,Áncash,Tarjeta Crédito,Joven (18-30),Cajero Automático,2602.31,0,2,20,95
+364,2023-08-19,Lima,Depósito Plazo Fijo,Senior (51+),Web,33647.96,0,4,35,39
+365,2023-05-23,Lima,Cuenta Ahorros,Adulto (31-50),Agencia,12464.56,1,3,37,81
+366,2024-01-26,Junín,Hipotecario,Adulto (31-50),Cajero Automático,16495.53,0,5,25,25
+367,2024-10-16,Arequipa,Crédito Personal,Adulto (31-50),Cajero Automático,71600.55,0,1,36,23
+368,2023-07-11,Lima,Depósito Plazo Fijo,Adulto (31-50),Agencia,16080.1,1,4,19,27
+369,2023-02-28,Lima,Depósito Plazo Fijo,Adulto (31-50),Cajero Automático,29618.45,0,3,27,51
+370,2024-05-04,Lima,Cuenta Ahorros,Joven (18-30),Cajero Automático,59502.79,0,2,9,112
+371,2023-06-12,Lima,Tarjeta Crédito,Senior (51+),Cajero Automático,48376.01,1,5,13,65
+372,2023-05-27,Piura,Tarjeta Crédito,Joven (18-30),Agencia,35769.38,1,5,16,68
+373,2024-04-18,Lima,Hipotecario,Senior (51+),Cajero Automático,46175.39,0,3,30,45
+374,2024-09-19,Piura,Depósito Plazo Fijo,Adulto (31-50),Cajero Automático,65909.68,1,4,16,23
+375,2024-11-05,Lambayeque,Depósito Plazo Fijo,Adulto (31-50),Cajero Automático,14838.86,0,4,3,31
+376,2023-10-26,Lambayeque,Cuenta Corriente,Joven (18-30),Call Center,53399.22,0,2,32,53
+377,2023-03-20,Cajamarca,Hipotecario,Joven (18-30),Web,60480.67,0,3,27,58
+378,2023-01-28,Lima,Cuenta Corriente,Adulto (31-50),Cajero Automático,6041.0,0,4,25,44
+379,2023-09-14,Piura,Cuenta Corriente,Adulto (31-50),Agencia,9351.68,1,3,30,63
+380,2024-12-31,Arequipa,Cuenta Ahorros,Adulto (31-50),App Móvil,76011.47,0,3,11,22
+381,2023-05-08,Ica,Hipotecario,Joven (18-30),Web,42865.38,0,1,1,87
+382,2023-02-05,Lima,Tarjeta Crédito,Adulto (31-50),App Móvil,71436.48,0,4,4,108
+383,2024-02-04,Cusco,Hipotecario,Adulto (31-50),Agencia,55289.67,0,5,1,7
+384,2023-09-02,Junín,Cuenta Corriente,Senior (51+),Web,16158.86,0,1,1,44
+385,2023-04-09,Ica,Depósito Plazo Fijo,Adulto (31-50),App Móvil,63794.55,1,2,11,6
+386,2024-07-29,Arequipa,Cuenta Ahorros,Senior (51+),Web,50217.56,0,5,26,55
+387,2023-06-27,Lima,Cuenta Corriente,Joven (18-30),Web,1396.57,0,1,25,28
+388,2024-10-27,Arequipa,Cuenta Ahorros,Adulto (31-50),Web,49987.97,0,2,27,39
+389,2024-12-30,Junín,Tarjeta Crédito,Senior (51+),Agencia,42987.29,1,5,11,33
+390,2024-11-25,Cajamarca,Hipotecario,Joven (18-30),Cajero Automático,73979.36,0,2,22,23
+391,2023-03-11,Cusco,Depósito Plazo Fijo,Joven (18-30),Cajero Automático,26941.4,0,5,29,49
+392,2024-12-22,Arequipa,Depósito Plazo Fijo,Joven (18-30),Call Center,79072.79,0,5,8,40
+393,2023-03-23,Lima,Tarjeta Crédito,Adulto (31-50),Call Center,4981.86,0,3,13,20
+394,2024-03-30,Lima,Depósito Plazo Fijo,Joven (18-30),Call Center,59192.6,0,3,21,83
+395,2024-10-25,Junín,Cuenta Ahorros,Adulto (31-50),Cajero Automático,65054.3,0,2,22,44
+396,2024-12-04,Lima,Hipotecario,Joven (18-30),App Móvil,55762.99,0,4,34,42
+397,2023-03-13,Lima,Depósito Plazo Fijo,Joven (18-30),Cajero Automático,76302.16,0,2,14,17
+398,2023-08-30,Lima,Hipotecario,Adulto (31-50),App Móvil,40692.48,0,4,20,22
+399,2023-09-12,Piura,Cuenta Corriente,Adulto (31-50),Call Center,24387.44,0,2,18,111
+400,2024-02-12,Junín,Cuenta Ahorros,Senior (51+),Web,30341.86,0,4,33,79
